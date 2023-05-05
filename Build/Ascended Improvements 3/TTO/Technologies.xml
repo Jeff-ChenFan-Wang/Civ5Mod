@@ -429,13 +429,27 @@
 		</Update>
 
 		<!-- Future Era -->
+		<Row>
+			<Type>TECH_ARTIFICIAL_INTELLIGENCE</Type>
+			<Cost>11638</Cost>
+			<Description>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE</Description>
+			<Civilopedia>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_TEXT</Civilopedia>
+			<Help>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_HELP</Help>
+			<Era>ERA_REAL_FUTURE</Era>
+			<Trade>true</Trade>
+			<GridX>17</GridX>
+			<GridY>7</GridY>
+			<Quote>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_QUOTE</Quote>
+			<PortraitIndex>9</PortraitIndex>
+			<IconAtlas>RFEMOD_ICON_ATLAS</IconAtlas>
+		</Row>
 		<Update>
 			<Where Type="TECH_NANOTECHNOLOGY"/>
 			<Set Cost="10100" GridX="17" GridY="2" Era="ERA_REAL_FUTURE"/>
 		</Update>
 		<Update>
 			<Where Type="TECH_NUCLEAR_FUSION"/>
-			<Set Cost="10100" GridX="17" GridY="7" Era="ERA_REAL_FUTURE"/>
+			<Set Cost="10100" GridX="17" GridY="9" Era="ERA_REAL_FUTURE"/>
 		</Update>
 		<Update>
 			<Where Type="TECH_FUTURE_TECH"/>
@@ -788,6 +802,26 @@
 			<TechType>TECH_PARTICLE_PHYSICS</TechType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ARTIFICIAL_INTELLIGENCE</TechType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ARTIFICIAL_INTELLIGENCE</TechType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ARTIFICIAL_INTELLIGENCE</TechType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ARTIFICIAL_INTELLIGENCE</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
 		</Row>
 	</Technology_Flavors>
 		
@@ -1252,6 +1286,14 @@
 		<!-- Future Era-->
 		<Delete TechType="TECH_NANOTECHNOLOGY"/>
 		<Row>
+			<TechType>TECH_ARTIFICIAL_INTELLIGENCE</TechType>
+			<PrereqTech>TECH_INTERNET</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ARTIFICIAL_INTELLIGENCE</TechType>
+			<PrereqTech>TECH_STEALTH</PrereqTech>
+		</Row>
+		<Row>
 			<TechType>TECH_NANOTECHNOLOGY</TechType>
 			<PrereqTech>TECH_GLOBALIZATION</PrereqTech>
 		</Row>
@@ -1260,10 +1302,6 @@
 			<PrereqTech>TECH_RENEWABLE_ENERGY</PrereqTech>
 		</Row>
 		<Delete TechType="TECH_NUCLEAR_FUSION"/>
-		<Row>
-			<TechType>TECH_NUCLEAR_FUSION</TechType>
-			<PrereqTech>TECH_STEALTH</PrereqTech>
-		</Row>
 		<Row>
 			<TechType>TECH_NUCLEAR_FUSION</TechType>
 			<PrereqTech>TECH_INTERNET</PrereqTech>
@@ -1280,6 +1318,10 @@
 		<Row>
 			<TechType>TECH_FUTURE_TECH</TechType>
 			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_FUTURE_TECH</TechType>
+			<PrereqTech>TECH_ARTIFICIAL_INTELLIGENCE</PrereqTech>
 		</Row>
 	</Technology_PrereqTechs>
 

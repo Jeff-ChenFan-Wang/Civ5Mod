@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/25/2014 12:14:30 PM -->
+<!--The Wes-->
+<GameData>
+	<Processes>
+		<Row>
+			<Type>PROCESS_FOOD</Type>
+			<Description>TXT_KEY_PROCESS_FOOD</Description>
+			<Help>TXT_KEY_PROCESS_FOOD_HELP</Help>
+			<Strategy>TXT_KEY_PROCESS_FOOD_STRATEGY</Strategy>
+			<TechPrereq>TECH_POTTERY</TechPrereq>
+			<IconAtlas>APPLE_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Processes>
+	<Process_ProductionYields>
+		<Row>
+			<ProcessType>PROCESS_FOOD</ProcessType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>900</Yield>
+		</Row>
+	</Process_ProductionYields>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>APPLE_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>Art/Apple_icon256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>APPLE_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Art/Apple_icon128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>APPLE_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>Art/Apple_icon64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>APPLE_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>Art/Apple_icon45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>APPLE_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>Art/Apple_icon80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROCESS_FOOD">
+			<Text>Growth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_FOOD_HELP">
+			<Text>Allows a city to convert 25% of [ICON_PRODUCTION] Production into [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_FOOD_STRATEGY">
+			<Text>Growth</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 7/17/2012 12:36:26 PM -->
+<!--Poor Tiles Tweak BlouBlou-->
+<!--
+Desert now Yield 1 Food instead of 'No Yield' (Only applied if the tile have no Base Yield, See Notes section)
+Trading post can be built on Snow (but not farms)
+Goody huts and barbarians camp can now spawn on Snow tile
 
+Farm can be built on Tundra Tiles (Remember, no changes were made to tundra base yield, only the farm improvement unlock.)
+The 'Fresh Water' concept has been extended and applied to Snow Tiles.
+
+Civilopedia is fully updated regarding thoses changes. (see screenshots)
+
+Having a Hill on a Snow tile will correctly remove the +1 Food and give the +2 Prod.
+Having a Hill on a Desert tile will correctly remove the +1 Food (+2 prod is already enabled in vanilla).
+The food increase to Desert wont be applied if the Tile is an Oasis or a Floodplain.
+-->
 <GameData>
 	<Terrain_Yields>
 		<Row>

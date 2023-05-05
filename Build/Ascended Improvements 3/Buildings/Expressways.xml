@@ -12,8 +12,8 @@
 		<Row>
 			<Type>BUILDING_EXPRESSWAY</Type>
 			<BuildingClass>BUILDINGCLASS_EXPRESSWAY</BuildingClass>
-			<Cost>950</Cost>
-			<GoldMaintenance>1</GoldMaintenance>
+			<Cost>850</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
 			<PrereqTech>TECH_COMBUSTION</PrereqTech>
 			<Help>TXT_KEY_BUILDING_EXPRESSWAY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_EXPRESSWAY</Description>
@@ -68,7 +68,7 @@
 		<Row>
 			<BuildingType>BUILDING_EXPRESSWAY</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>10</Yield>
+			<Yield>15</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_EXPRESSWAY</BuildingType>

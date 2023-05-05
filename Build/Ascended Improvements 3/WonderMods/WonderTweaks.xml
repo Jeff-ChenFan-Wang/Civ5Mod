@@ -7,12 +7,19 @@
 			<Where Type="BUILDING_MAUSOLEUM_HALICARNASSUS"/>
 			<Set GreatPersonExpendGold="50"/>
 		</Update>
+		
+		<!--Angkor wat culture acquire buffed from 25% to 50%-->
+		<Update>
+			<Where Type="BUILDING_ANGKOR_WAT"/>
+			<Set GlobalPlotCultureCostModifier="-50" GlobalPlotBuyCostModifier="-33"/>
+		</Update>
 		<!--Pyramid worker modifier tweak-->
 		<Update>
 			<Where Type="BUILDING_PYRAMID"/>
 			<Set WorkerSpeedModifier="20"/>
 		</Update>
 
+		<!--added specialist engineers-->
 		<Update>
 			<Where Type="BUILDING_IRONWORKS"/>
 			<Set SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="2"/>
@@ -22,12 +29,12 @@
 			<Where Type="BUILDING_NOTRE_DAME"/>
 			<Set SpecialistType="SPECIALIST_ENGINEER"/>
 		</Update>
-
+<!--pentagon is espionage reducer as well-->
 		<Update>
 			<Where Type="BUILDING_PENTAGON"/>
 			<Set Espionage="1" EspionageModifier="-25"/>
 		</Update>
-
+<!--Terracotta arnmy no longer gives isntant army, but increases unit buidling speed by 33%-->
 		<Update>
 			<Where Type="BUILDING_TERRACOTTA_ARMY"/>
 			<Set InstantMilitaryIncrease="0"/>
@@ -47,13 +54,13 @@
 				 DisplayPosition="0"
 				 NearbyMountainRequired="0"/>
 		</Update>
-
+		<!--heroic epic gives morale promo to any units built-->
 		<Update>
 			<Where Type="BUILDING_HEROIC_EPIC"/>
 			<Set TrainedFreePromotion=""
 				 FreePromotion="PROMOTION_MORALE"/>
 		</Update>
-
+		<!--buff from 10% to 15%-->
 		<Update>
 			<Where Type="BUILDING_CRISTO_REDENTOR"/>
 			<Set PolicyCostModifier="-15"/>
@@ -83,8 +90,9 @@
 		</Update>
 		<Update>
 			<Where BuildingType="BUILDING_TERRACOTTA_ARMY" YieldType="YIELD_CULTURE"/>
-			<Set Yield="3"/>
+			<Set Yield="2"/>
 		</Update>
+		<!--Artemis gives more food instead of archery unit prod mod-->
 		<Row>
 			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -187,6 +195,11 @@
 		<Update>
 			<Where Tag="TXT_KEY_WONDER_CRISTO_REDENTOR_HELP"/>
 			<Set Text="[ICON_CULTURE] Culture cost of adopting new Policies reduced by 15%."/>
+		</Update>
+
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_ANGKOR_WAT_HELP"/>
+			<Set Text="[ICON_CULTURE] Culture cost of acquiring new tiles reduced by 50% and [ICON_GOLD] Gold cost by 33% in all cities."/>
 		</Update>
 	</Language_en_US>
 </GameData>

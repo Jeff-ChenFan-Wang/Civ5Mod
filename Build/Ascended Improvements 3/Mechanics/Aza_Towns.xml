@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 2/21/2023 7:57:19 AM -->
 <GameData>
+<!-- Dynamic Towns
+Settlement Levels
+Village ~~ requires Trapping ~~ 1 Gold, +10% defense
+Town ~~ requires Guilds ~~ 2 Gold, 1 Production, +20% defense
+Large Town ~~ requires Banking ~~ 3 Gold, 2 Production, +30% defense
 
+Bigger Towns need better locations to grow. Good locations can be:
+Desirable ~~ Next to an improved Luxury
+Important ~~ Next to a Great Person improvement
+Historic ~~ Next to a Natural Wonder or Landmark
+Convenient ~~ Next to a waterway ~~ coast, river, lake, or oasis. Or with a road to the working City
+Bountiful ~~ On fertile terrain ~~ grassland, jungle, or flood plains. Or next to Bonus Food, like Wheat
+
+
+How Towns Grow
+After researching Guilds, a Village needs to grow for 8 turns to become a Town (on Standard speed). Villages grow every turn they are:
+worked by a City
+in a good location
+at least 2 tiles away from Towns ~~ ignoring Large Towns
+
+How Large Towns Grow
+After researching Banking, a Town needs to grow for 16 turns to become a Large Town (on Standard speed). Towns and promising Villages grow every turn they are:
+worked by a City
+in a great location, with TWO good qualities ~~ ignoring bountiful
+at least 3 tiles away from Large Towns and Cities
+
+Policy Changes
+Settlement Growth
+Complete these Policy Trees and unlock new ways to grow Large Towns:
+Suburbs ~~ Tradition ~~ Large Towns can grow adjacent to high population Cities ~~ (locked if you've finished Liberty)
+Burgs ~~ Liberty ~~ Large Towns can grow if they're only 2 tiles away from a City ~~ (locked if you've finished Tradition)
+Villas ~~ Exploration ~~ any tile next to at least 4 water tiles is a great location for a Large Town
+
+Bonus Yields
+Commerce Finisher ~~ +1 Gold from Towns, +2 Gold from Large Towns
+Rationalism ~~ Free Thought ~~ +1 Science from Towns, +2 Science from Large Towns
+Aesthetics ~~ Artistic Genius ~~ +2 Culture from Large Towns
+
+Unique Improvements
+Certain Unique Improvements enhance the location quality of adjacent tiles:
+Desirable ~~ Polder
+Important ~~ Feitoria
+Historic ~~ Chateau, Kasbah, Moai
+Bountiful ~~ Terrace Farm
+-->
 	<Improvements>
 		<Update>
 			<Where Type="IMPROVEMENT_TRADING_POST" />

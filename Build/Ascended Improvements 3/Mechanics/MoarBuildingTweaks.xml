@@ -42,16 +42,16 @@
 		<!--espionage changes-->
 		<Update>
 			<Where Type="BUILDING_CONSTABLE"/>
-			<Set EspionageModifier="-30"/>
+			<Set EspionageModifier="-33"/>
 		</Update>
 		<Update>
 			<Where Type="BUILDING_POLICE_STATION"/>
-			<Set EspionageModifier="-30"/>
+			<Set EspionageModifier="-33"/>
 		</Update>
 		<!-- bomb shelter-->
 		<Update>
 			<Where Type="BUILDING_BOMB_SHELTER"/>
-			<Set NukeModifier="-50"/>
+			<Set NukeModifier="-80"/>
 		</Update>
 
 		<Update>
@@ -114,11 +114,11 @@
 	<Language_en_US>
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_CONSTABLE_HELP"/>
-			<Set Text="Reduces enemy spy stealing rate by 30%."/>
+			<Set Text="Reduces enemy spy stealing rate by 33%."/>
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_POLICE_STATION_HELP"/>
-			<Set Text="Reduces enemy spy stealing rate by 30%.[NEWLINE][NEWLINE]City must have a Constabulary."/>
+			<Set Text="Reduces enemy spy stealing rate by 33%.[NEWLINE][NEWLINE]City must have a Constabulary."/>
 		</Update>
 
 		<Update>
@@ -141,11 +141,11 @@
 
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_BOMB_SHELTER_HELP"/>
-			<Set Text="Reduces population loss from nuclear attack by 50%."/>
+			<Set Text="Reduces population loss from nuclear attack by 80%."/>
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_BOMB_SHELTER_STRATEGY"/>
-			<Set Text="Bomb Shelters reduce population loss from a nuclear attack on this city by 50%. Duck and Cover!"/>
+			<Set Text="Bomb Shelters reduce population loss from a nuclear attack on this city by 80%. Duck and Cover!"/>
 		</Update>
 
 		<Update>

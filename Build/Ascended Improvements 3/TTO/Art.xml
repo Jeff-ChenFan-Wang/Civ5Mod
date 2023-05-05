@@ -1330,5 +1330,49 @@
 			<IconsPerRow>8</IconsPerRow>
 			<IconsPerColumn>3</IconsPerColumn>
 		</Row>
+
+
+		<Row>
+			<Atlas>RFEMOD_ICON_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>RFEmodIconAtlas256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>5</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>RFEMOD_ICON_ATLAS</Atlas>
+			<IconSize>214</IconSize>
+			<Filename>RFEmodIconAtlas214.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>5</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>RFEMOD_ICON_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>RFEmodIconAtlas128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>5</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>RFEMOD_ICON_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>RFEmodIconAtlas80.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>5</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>RFEMOD_ICON_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>RFEmodIconAtlas64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>5</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>RFEMOD_ICON_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>RFEmodIconAtlas45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>5</IconsPerColumn>
+		</Row>
 	</IconTextureAtlases>
 </GameData>

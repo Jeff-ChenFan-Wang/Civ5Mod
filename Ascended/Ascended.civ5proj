@@ -609,6 +609,7 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
     <Folder Include="Art\Motherland_Calls" />
     <Folder Include="Art\FLHC" />
     <Folder Include="Art\Dynamic_Towns" />
+    <Folder Include="Art\AiTechIconAt" />
     <Folder Include="Art\Tsukiji_Market" />
     <Folder Include="Art\Pikeman_Model\" />
     <Folder Include="Art\Special_Forces_Model\" />
@@ -669,6 +670,30 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
     <Content Include="ArtificialUnint\New_GlobalDiplomacyAIDefines.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\AiTechIconAt\RFEmodIconAtlas128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\AiTechIconAt\RFEmodIconAtlas214.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\AiTechIconAt\RFEmodIconAtlas256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\AiTechIconAt\RFEmodIconAtlas45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\AiTechIconAt\RFEmodIconAtlas64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\AiTechIconAt\RFEmodIconAtlas80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Art\Ancient_Spearman_Model\MidEastAtlalist.fxsxml">
       <SubType>Lua</SubType>
