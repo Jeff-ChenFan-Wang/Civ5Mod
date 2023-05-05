@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 26-Oct-14 2:13:09 -->
+<GameData>
+	<Projects>
+		<Update>
+			<Where Type="PROJECT_MANHATTAN_PROJECT"/>
+			<Set Cost="860"/>
+		</Update>
+		<Update>
+			<Where Type="PROJECT_APOLLO_PROGRAM"/>
+			<Set TechPrereq="TECH_SPACEFLIGHT" Cost="990"/>
+		</Update>
+	</Projects>
+</GameData>

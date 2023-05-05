@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="afdd9e6f-dc86-4466-a11b-6173cc82f7ca" version="3">
+  <Properties>
+    <Name>Ascended Improvements 3</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Read thoroughly</Teaser>
+    <Description>Add Chaos Civ
+AI improved slightly
+Great Generals Can Grant Charge Promotion
+Lumbermills can be on jg
+Great library nerf, yield 1 science instead of 3
+Harbor buff, +1 food to sea resources
+Alhambra nerfed to be stronger castle
+Armory changed: Instead of giving XP, all units within two tiles of a city w/ an armory gets +10% combat strength
+Barracks still gives XP, but now units adjacent to a city w/ barracks would heal even if it took an action
+Military academy buff gives 20XP, and Special promotion to units trained. 
+Observatory tweaked: can be built within two tiles of mountain, but gives +25% science instead of +50% 
+Mountains now workable. Monument gives +1 Culture, StoneWorks +2 Production, Aqueducts +1 food, Observatory +1 science
+No cap on barbarian XP
+Some buildings can now be upgraded for higher maintenance but increased yields
+Can build mills on jg, can clear jg for hammers
+Copper now allows mints
+City working distance increased from 3 to 5
+Forts/Citadels allow ships to pass through
+Scouts and warriors can select promotions from ancient ruins
+Unit XP promotions overhauled. It's a surprise
+Snow and desert tiles now yield 1 food if not a hill
+If a hill tile, snow yields +1 production
+Flood plains and Oasis food yields boosted by +1.
+Farms can now be constructed on tundras
+Granary buff now applies to bison
+All civs can build Kasbahs, morroco receive own UB to compensate
+Pontoon Bridge added, built by embarked workers, allows land units to traverse across 1 tile water gaps w/o embarking
+Survival rate of buildings in captured cities raised from 60% to 80%
+Survival rate of population in captured cities raised from 40% to 60%
+Colonists added: can build forts that culture bomb like citadel. Consumes Colonist 
+Starting settlers now have 4 moves instead of 2
+Battleship can upgrade to MissileCruiser
+Resources increased to compensate for TTO
+
+TechTree Overhaul:
+Infantry no longer comes right after Great War Infantry
+Atomic Bomb obsolete after Hydrogen Bomb
+Ramming Ironclad added, is upgrade for Privateer and Ironclad (now ranged) is upgrade for Frigate, and others
+Hydrogen Bomb, Fleet Carrier, Supercarrier, Missile Destroyer, Special Forces, Rocket Launcher, Modern Artillery, Modern SAM, and Stealth Helicopter units added
+Now they scale like all other eras
+Colosseum now a Wonder and Arena created to take its place; Tavern added; Bookstore replaces Zoo; Zoo moved; unrestricted Circus in Modern Era; Stadium moved 
+Most metal units require Iron/Aluminum. Most machines require Oil
+Steel Foundry added, Modern Era "Factory" which requires Iron
+Biofuel Refinery added, requires food resource nearby, +2 Oil
+Now Internet requires Computers, Nuclear Fusion requires Lasers, etc
+Some units and building have been moved to space things out
+All eras except Ancient now have 10 techs. Ancient still same length research point-wise
+Gatling Gun, Machine Gun, Bazooka, and new Rocket Launcher all have range of 2 but are frail and vulnerable to melee
+Ballistic Missile added (as strong as Guided Missile was), Guided Missile doubly strong
+Solar Plant and new Wind Farm combined are as strong as, but cost more than, Nuclear Plant. Can’t be built on or next to Tundra or Snow. Require Aluminum (just 1 total, not 1 each)
++1 embark speed in Modern, Atomic, and Information Eras so they are as fast as other modern ships (except the destroyers)
+Moved Caravans and Cargo Ship along w/ Sailing's trade route to Compass. Globalization now gives a trade route
+Moved Stock Exchange to Information Era, added Casino in its place and Race Track (requires 1 Horse)
+Added Grenadier unit and moved Gatling Gun 
+Quinquereme and Galley made available to all. Carthage has new UB Cothon
+Galleas moved to Renaissance. Ship stats adjusted accordingly
+Great Library and Statue of Zeus moved
+Oracle renamed Temple of Apollo
+Garden now a Botanical Garden w/ better art
+Public Park (2nd Garden) added
+Police Station moved
+Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, and Halberdier added.</Description>
+    <Authors>j3ff123y</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="DLL Various Mod Components" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="5ED089C9F55D2655F82143B5221939E2" import="0">ArtificialUnint/New_CIV5AICityStrategies.xml</File>
+    <File md5="9F278D89255FCD776FAA4FCB7065A488" import="0">ArtificialUnint/New_CIV5AIEconomicStrategies.xml</File>
+    <File md5="5CAD6559AC58C591DAF38F14EA159721" import="0">ArtificialUnint/New_CIV5AIGrandStrategies.xml</File>
+    <File md5="47423FF561710B9D6BAF1C023B97EB06" import="0">ArtificialUnint/New_CIV5AIMilitaryStrategies.xml</File>
+    <File md5="33DD94D2261378B2FCFB117C8AB735EE" import="0">ArtificialUnint/New_CIV5CitySpecializations.xml</File>
+    <File md5="EECF7BC6105AEFD7D8D9340B16D06C48" import="0">ArtificialUnint/New_CIV5MultiUnitFormations.xml</File>
+    <File md5="9A6C3FFC72E82B4A7F4BC1EB7D53151E" import="0">ArtificialUnint/New_CIV5TacticalMoves.xml</File>
+    <File md5="27EDDB2DC6CEBC06D1ACD1A370A55BE3" import="0">ArtificialUnint/New_CIV5Units.xml</File>
+    <File md5="4EE18E1B733661E33228DEE3167852E8" import="0">ArtificialUnint/New_GlobalAIDefines.xml</File>
+    <File md5="F8214D92DE9959C40AB7384276BB6A91" import="0">ArtificialUnint/New_GlobalDefines.xml</File>
+    <File md5="DF132907085BC792D2ACDC7E238BB18F" import="0">ArtificialUnint/New_GlobalDiplomacyAIDefines.xml</File>
+    <File md5="2BA8D28EA827A75A81E0686A9EA6AD55" import="1">Art/Ancient_Spearman_Model/MidEastAtlalist.fxsxml</File>
+    <File md5="3B9A9216BAAA5C919CA6440727FE66CF" import="1">Art/Ancient_Spearman_Model/MidEastAtlalist.gr2</File>
+    <File md5="F7961E7EA752D242D9492A15448BA009" import="1">Art/Ancient_Spearman_Model/MidEastAtlalist_diff.dds</File>
+    <File md5="0C759F1CED95795CCFBE40C6BD9A963C" import="1">Art/Ancient_Spearman_Model/no_gloss.dds</File>
+    <File md5="F9A05D0ACFB42F1AA553D88688242E91" import="1">Art/Atlases/TTOmodIconAtlas128.dds</File>
+    <File md5="4956EDF871988C6B739960A55B2265CE" import="1">Art/Atlases/TTOmodIconAtlas256.dds</File>
+    <File md5="041659C1CFB2734F8D78D78996946F06" import="1">Art/Atlases/TTOmodIconAtlas45.dds</File>
+    <File md5="360BEC39C560DFF204BC0815D10E5486" import="1">Art/Atlases/TTOmodIconAtlas64.dds</File>
+    <File md5="50596F1A877023F71208E0D5FF8E8C82" import="1">Art/Atlases/TTOmodIconAtlas80.dds</File>
+    <File md5="D0D36980318E4C87DE520DE0D23AD1F4" import="1">Art/Atlases/TTOmod_flag_atlas_32.dds</File>
+    <File md5="728C3326AFF366417F621E37D164B831" import="1">Art/Chaos_Map.dds</File>
+    <File md5="0DC4E953EA45030F9C5147411D438071" import="1">Art/China_icon128.dds</File>
+    <File md5="363F1AC7A407CDEC10BF366265A47883" import="1">Art/China_icon256.dds</File>
+    <File md5="198921179CAA29DBB3CADACD04F24DB1" import="1">Art/China_icon45.dds</File>
+    <File md5="58B543310541B186CA02C110B793A73B" import="1">Art/China_icon64.dds</File>
+    <File md5="E99FB3CE0F655674572B7556A12BAA6E" import="1">Art/China_icon80.dds</File>
+    <File md5="3685606369C7F97F8AFD01D6EF30F1B3" import="1">Art/ChosenAlphaAtlas32.dds</File>
+    <File md5="391EFA830715E1D1BA8105C99348E3F2" import="1">Art/Classical Horseman/hebrew_horseman.fxsxml</File>
+    <File md5="7E2D9522C2DED2C5623E1AA31E6DC9E7" import="1">Art/Classical Horseman/hebrew_horseman.gr2</File>
+    <File md5="A875BA1D839B5167A4BC7339707DF08B" import="1">Art/Classical Horseman/hebrew_horseman_diff.dds</File>
+    <File md5="53FD70C97A81728FF1161AC002A40FC5" import="1">Art/Classical Horseman/hebrew_horseman_sref.dds</File>
+    <File md5="DAB1CFA6F6423A53C271CC897B050C04" import="1">Art/Colosseum.dds</File>
+    <File md5="1BD39301C500962A098CB483EE11B7FC" import="1">Art/Diwali_128.dds</File>
+    <File md5="7379CA50D1A40C1A856F77B39C84E834" import="1">Art/Diwali_256.dds</File>
+    <File md5="1E04561279B9F91CA70F0AD6A59B2A9E" import="1">Art/Diwali_45.dds</File>
+    <File md5="AEA9C9DEA231AAF7C077279281940844" import="1">Art/Diwali_64.dds</File>
+    <File md5="835FD03619967004BAABCC4EB03FB8D8" import="1">Art/Diwali_80.dds</File>
+    <File md5="4C834460E977AE900DB2FCF762DBFCF7" import="1">Art/Dynamic_Towns/Aza_Towns_Art.xml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Dynamic_Towns/fx_triggers_pl_med_town.ftsxml</File>
+    <File md5="577EF72CBF5DE34C59A79AE2805AF0C0" import="1">Art/Dynamic_Towns/fx_triggers_pl_mod_town.ftsxml</File>
+    <File md5="8DEC9B2BDE545AF45AD31FC3CF5C3BC2" import="1">Art/Dynamic_Towns/hb_med_town1.fxsxml</File>
+    <File md5="B45DE9D3763C0F9F68582D88913B247F" import="1">Art/Dynamic_Towns/hb_med_town1.gr2</File>
+    <File md5="BFEC0C37A325803CFA7B0499F78C7057" import="1">Art/Dynamic_Towns/hb_med_town2.fxsxml</File>
+    <File md5="63E36B168FD4B22980D0829E4BB385C5" import="1">Art/Dynamic_Towns/hb_med_town2.gr2</File>
+    <File md5="7997A871CFB156FC9A08AD1ABBEA1200" import="1">Art/Dynamic_Towns/hb_med_town3.fxsxml</File>
+    <File md5="66997A1BD58282F4067E590C152BEC20" import="1">Art/Dynamic_Towns/hb_med_town3.gr2</File>
+    <File md5="3954D8985C018A3026137E4B9EA43E46" import="1">Art/Dynamic_Towns/hb_med_town4.fxsxml</File>
+    <File md5="ED5F71FECB627CB01845C6B3E1B0EEA8" import="1">Art/Dynamic_Towns/hb_med_town4.gr2</File>
+    <File md5="5214D033101EC4A72DA956659062D7D5" import="1">Art/Dynamic_Towns/hb_med_town_decal_d.dds</File>
+    <File md5="23859743BCF27B88E5FA82B45AA14BE4" import="1">Art/Dynamic_Towns/hb_med_town_decal_h.dds</File>
+    <File md5="902768BBCE5BF41B250F4CD7CEAA1631" import="1">Art/Dynamic_Towns/hb_mod_town1.fxsxml</File>
+    <File md5="5DB26391A57EA4969465B92D5309522D" import="1">Art/Dynamic_Towns/hb_mod_town1.gr2</File>
+    <File md5="7F60EA7B66C0835196D1ECB399B0E9AF" import="1">Art/Dynamic_Towns/hb_mod_town2.fxsxml</File>
+    <File md5="0BD89B3E86B1AED32C7DB3B72BD8376C" import="1">Art/Dynamic_Towns/hb_mod_town2.gr2</File>
+    <File md5="F2BFA7EAFC8D8BECDC97B3AF1087A011" import="1">Art/Dynamic_Towns/hb_mod_town3.fxsxml</File>
+    <File md5="F330376090D7B6F2917465429E62E18D" import="1">Art/Dynamic_Towns/hb_mod_town3.gr2</File>
+    <File md5="5CA30E03FE9FD73DFD38AB80F0735DC6" import="1">Art/Dynamic_Towns/hb_mod_town4.fxsxml</File>
+    <File md5="1ADDE54461302CD822251228F53B2445" import="1">Art/Dynamic_Towns/hb_mod_town4.gr2</File>
+    <File md5="9B1D9706CF5551105CD831255E92D548" import="1">Art/Dynamic_Towns/hb_mod_town_decal_d.dds</File>
+    <File md5="4CA134970FB9E12BF19F3B4498030B86" import="1">Art/Dynamic_Towns/hb_mod_town_decal_h.dds</File>
+    <File md5="EE3AED4B4A633878F898E82A5C678318" import="1">Art/Dynamic_Towns/med_town1.fxsxml</File>
+    <File md5="D270BB4B45D7422C823502CCF44EE81E" import="1">Art/Dynamic_Towns/med_town1.gr2</File>
+    <File md5="17D46685D5EAD5A34A30157D0DD348C9" import="1">Art/Dynamic_Towns/med_town2.fxsxml</File>
+    <File md5="B57594FC125E876601DF80E2A09AF477" import="1">Art/Dynamic_Towns/med_town2.gr2</File>
+    <File md5="A2C5C8CE05FCCB042AB0899D7C749750" import="1">Art/Dynamic_Towns/med_town3.fxsxml</File>
+    <File md5="5DAE4625CF27EECC2A7222CD181EF5C3" import="1">Art/Dynamic_Towns/med_town3.gr2</File>
+    <File md5="91883751B2604B12D997A3D1CE062213" import="1">Art/Dynamic_Towns/med_town4.fxsxml</File>
+    <File md5="7793E70757886C3024C25746DB6541BB" import="1">Art/Dynamic_Towns/med_town4.gr2</File>
+    <File md5="D718424195EDECBE1815C385150177BD" import="1">Art/Dynamic_Towns/med_town_decal_diff.dds</File>
+    <File md5="77BA3A06997A8B9E2F01B35E8BC91F36" import="1">Art/Dynamic_Towns/med_town_decal_h.dds</File>
+    <File md5="2C560780EC81A0194877863B133CECD2" import="1">Art/Dynamic_Towns/med_town_decal_s.dds</File>
+    <File md5="628DF29F9AE898BE18434C7187E2A050" import="1">Art/Dynamic_Towns/med_town_diff.dds</File>
+    <File md5="4E52B986919158B8EF6D355981B50A71" import="1">Art/Dynamic_Towns/med_town_sref.dds</File>
+    <File md5="AA6525167F2880B1B25A8DEE2CC76165" import="1">Art/Dynamic_Towns/mod_town1.fxsxml</File>
+    <File md5="E751979E7E52A604EA7784725196EDB7" import="1">Art/Dynamic_Towns/mod_town1.gr2</File>
+    <File md5="66918BD09A54E09647BD28387E08CC4A" import="1">Art/Dynamic_Towns/mod_town2.fxsxml</File>
+    <File md5="9038FF77933CDB7E274AA04240763EFB" import="1">Art/Dynamic_Towns/mod_town2.gr2</File>
+    <File md5="364339278C24B7D1D93AC3ED2197D652" import="1">Art/Dynamic_Towns/mod_town3.fxsxml</File>
+    <File md5="95C1FBA2ACC167F5699EFE30D16C9C5F" import="1">Art/Dynamic_Towns/mod_town3.gr2</File>
+    <File md5="3D1964968D4A3793DEB34A7774525D8C" import="1">Art/Dynamic_Towns/mod_town4.fxsxml</File>
+    <File md5="AF76552A0420C1C202CDC8A02D8215C8" import="1">Art/Dynamic_Towns/mod_town4.gr2</File>
+    <File md5="FDFDAF6A6CAC6FCA379EFA622EA2ACA2" import="1">Art/Dynamic_Towns/mod_town_decal_d.dds</File>
+    <File md5="943E528D220345A83CDE2AEB61A1D09E" import="1">Art/Dynamic_Towns/mod_town_decal_h.dds</File>
+    <File md5="3EC8353FC0570955963C14559403B83E" import="1">Art/Dynamic_Towns/mod_town_decal_s.dds</File>
+    <File md5="FFF1D0E923484CEED49C21B73D920F39" import="1">Art/Dynamic_Towns/mod_town_diff.dds</File>
+    <File md5="D1C172034F46DD95DB3E93BDD19C59FD" import="1">Art/Dynamic_Towns/mod_town_sref.dds</File>
+    <File md5="4DEADE23E6540FFB9D785623BB55CE46" import="1">Art/Dynamic_Towns/pl_med_town.dds</File>
+    <File md5="DA4FCEE11A154916BD26B4DEA1F10E28" import="1">Art/Dynamic_Towns/pl_med_town.gr2</File>
+    <File md5="44F380D0C92EB397B1DFD2088F596949" import="1">Art/Dynamic_Towns/pl_med_town1.fxsxml</File>
+    <File md5="5DD00C460AB457DE285E91EE4D1C4043" import="1">Art/Dynamic_Towns/pl_med_town1.gr2</File>
+    <File md5="5200F1C0D78FA49121B1CE5B1DFD47FB" import="1">Art/Dynamic_Towns/pl_med_town2.fxsxml</File>
+    <File md5="3C97A56AA934C57EC1AEFCBC3B63B53F" import="1">Art/Dynamic_Towns/pl_med_town2.gr2</File>
+    <File md5="DFD027A7E194D245BCC1722622C091EB" import="1">Art/Dynamic_Towns/pl_med_town3.fxsxml</File>
+    <File md5="6E06B0BFE2858A6C33BE9EA68B2CF17E" import="1">Art/Dynamic_Towns/pl_med_town3.gr2</File>
+    <File md5="EB85E5B11D7AC654C3CBC478B574CC6F" import="1">Art/Dynamic_Towns/pl_med_town4.fxsxml</File>
+    <File md5="FBD5A96E80B6DD0FD560A7EE845390EB" import="1">Art/Dynamic_Towns/pl_med_town4.gr2</File>
+    <File md5="302742E8A78FFCE9FA923CB9FE5AD979" import="1">Art/Dynamic_Towns/pl_med_town_decal_d.dds</File>
+    <File md5="B14DC354555E3761372D76F6A258F385" import="1">Art/Dynamic_Towns/pl_med_town_sref.dds</File>
+    <File md5="E99A43DEA212BBA8A7795F9402AF9ECA" import="1">Art/Dynamic_Towns/pl_mod_town1.fxsxml</File>
+    <File md5="971A32D6BDD3B83BEA82833D65748088" import="1">Art/Dynamic_Towns/pl_mod_town1.gr2</File>
+    <File md5="4AA966217E6746BE7F0EE13806126190" import="1">Art/Dynamic_Towns/pl_mod_town2.fxsxml</File>
+    <File md5="2731ADBB7A38E1AF0199F6F6BDC10A95" import="1">Art/Dynamic_Towns/pl_mod_town2.gr2</File>
+    <File md5="C5B8DD828EFEB74D228CD4A52E9747A6" import="1">Art/Dynamic_Towns/pl_mod_town3.fxsxml</File>
+    <File md5="A2572D79A94DA1D20418EBF734214D72" import="1">Art/Dynamic_Towns/pl_mod_town3.gr2</File>
+    <File md5="7C79A18D3DFC83E0BED7A6925C39889F" import="1">Art/Dynamic_Towns/pl_mod_town4.fxsxml</File>
+    <File md5="AB08DEBA037BB68E95BBA16F6FE04516" import="1">Art/Dynamic_Towns/pl_mod_town4.gr2</File>
+    <File md5="2E827FB56A989FECDE663D943662D89D" import="1">Art/Dynamic_Towns/pl_mod_town_decal_d.dds</File>
+    <File md5="30ADEC29EB03EB28568ABCD4EB004E4A" import="1">Art/Dynamic_Towns/pl_mod_town_diff.dds</File>
+    <File md5="63DBEA3C9A68ECE52947B3AFF733FF1C" import="1">Art/Enlightenment_UnitFlags_32.dds</File>
+    <File md5="FC73717BCE4036BD27A16EB1EBCA067D" import="1">Art/Enlightenment_Units_128.dds</File>
+    <File md5="2881564B179DE2F7E5618DF5B770D38C" import="1">Art/Enlightenment_Units_256.dds</File>
+    <File md5="BA8B12F6AEDF04DCF2A829DA8B2F5176" import="1">Art/Enlightenment_Units_45.dds</File>
+    <File md5="EAA3F0E0AAC8A626B2F1769969DCD3DE" import="1">Art/Enlightenment_Units_64.dds</File>
+    <File md5="A9CA566F3516B1F86C6C15118B64A568" import="1">Art/Enlightenment_Units_80.dds</File>
+    <File md5="A69D6922B0E902DB39342D5559D230F8" import="1">Art/ERA_Information.dds</File>
+    <File md5="FDD0F2922F3BD68898EC7F27BFCFFD36" import="1">Art/Explorer_UNITS_128.dds</File>
+    <File md5="97EFDAA68B8D047568304E741F374E97" import="1">Art/Explorer_UNITS_256.dds</File>
+    <File md5="804F1AF89DF91C3C9AB1BE4ED0C8E60A" import="1">Art/Explorer_UNITS_32.dds</File>
+    <File md5="81FBAC1EE94F9C11D1CF1C846B8F334B" import="1">Art/Explorer_UNITS_45.dds</File>
+    <File md5="E81B7BD33AAAEACEB92C55112F8CD104" import="1">Art/Explorer_UNITS_64.dds</File>
+    <File md5="16C5B06FFD02DB08C106EA7E8B61B47D" import="1">Art/Explorer_UNITS_80.dds</File>
+    <File md5="40F0D0B38FC019CCA67C2880BFFF7951" import="1">Art/FLHC/FLHC_ICON128.dds</File>
+    <File md5="DC53C6E23AF8804150DA950537AF73AD" import="1">Art/FLHC/FLHC_ICON256.dds</File>
+    <File md5="9B1AB3ECF3724353574081B45962B6D9" import="1">Art/FLHC/FLHC_ICON45.dds</File>
+    <File md5="E246F73994F0743D2119FD8F91B8B082" import="1">Art/FLHC/FLHC_ICON64.dds</File>
+    <File md5="8B26D5620F3B2309E951A7C00B0AC763" import="1">Art/FLHC/FLHC_ICON80.dds</File>
+    <File md5="D1AEDB61F025A5E987387685647181E7" import="1">Art/FLHC/FLHC_SPLASH.dds</File>
+    <File md5="556D0A1F10465239A046FE1814311143" import="1">Art/GalleyX_Model/battle_galley.fxsxml</File>
+    <File md5="3BD1569650935F56546B491B90602A79" import="1">Art/GalleyX_Model/battle_galley.gr2</File>
+    <File md5="8210733B5648035CB03C4CD9DEB34BDA" import="1">Art/GalleyX_Model/battle_galley_diff.dds</File>
+    <File md5="F06D76BC2F5DA72A55C038BD5C503883" import="1">Art/Grenadier_Model/Arquebusier.fxsxml</File>
+    <File md5="D1B6CCBA43C7807DA4A10491B80BAE1D" import="1">Art/Grenadier_Model/Arquebusier.gr2</File>
+    <File md5="CE8B9BB4E2DCE201397E67EC08D4AE1D" import="1">Art/Grenadier_Model/Arquebusier_diff.dds</File>
+    <File md5="1F2ABFFE6D4293BB97CB3EE7B95CB086" import="1">Art/Grenadier_Model/Arquebusier_sref.dds</File>
+    <File md5="3FC4BE0C9E43D8F88E1A269A7E689FF0" import="1">Art/Halberdier_Model/swissguard.fxsxml</File>
+    <File md5="8E1368B03124F9682CB3F9C6309BAD6A" import="1">Art/Halberdier_Model/swissguard.gr2</File>
+    <File md5="0B818CB995271D4F6C28068E6BF095D0" import="1">Art/Halberdier_Model/swissguard_diff.dds</File>
+    <File md5="0F4DDBF37BD4BB5E8971C446F548853D" import="1">Art/Halberdier_Model/swissguard_sref.dds</File>
+    <File md5="31C587165C3BA59D1743699E12F68DA6" import="1">Art/Hannibal_Diplo.dds</File>
+    <File md5="78364C8E41366BD603508C8085DB1A5B" import="1">Art/Horse_Archer_Model/elf_horse_archer.fxsxml</File>
+    <File md5="8D07CF1A79292208E04FCBCB81545452" import="1">Art/Horse_Archer_Model/elf_horse_archer.gr2</File>
+    <File md5="5152DC6EAB458F3EDDC1CA5B4E53CF73" import="1">Art/Horse_Archer_Model/elf_horse_archer_diff.dds</File>
+    <File md5="08477A4596954505D37DEE38B18B19DF" import="1">Art/IlluminaryAtlas128.dds</File>
+    <File md5="AB6062C067A7EB4F0F37804A78AE1B8F" import="1">Art/IlluminaryAtlas256.dds</File>
+    <File md5="ACF172F9E12CF97B0AB8AC4B8836F50D" import="1">Art/IlluminaryAtlas45.dds</File>
+    <File md5="151C4C7656F2FF02F8F563BB70137331" import="1">Art/IlluminaryAtlas64.dds</File>
+    <File md5="EFCA04305CE07D27C83D923442B1BF58" import="1">Art/ArchaonAtlas128.dds</File>
+    <File md5="1EB098673F56E33E7BD03CAE3525C77D" import="1">Art/ArchaonAtlas256.dds</File>
+    <File md5="E08F2840CAEACECEE65FF3F09FD40BA8" import="1">Art/ArchaonAtlas45.dds</File>
+    <File md5="D306A13DC33F1B68249C3793AF2995CD" import="1">Art/ArchaonAtlas64.dds</File>
+    <File md5="A9C064BEF8111ED4AA51D3D4D5592741" import="1">Art/ArchaonAtlas80.dds</File>
+    <File md5="6237390163C7738B5C2AADEBCA36EEC4" import="1">Art/JFD_AmericaRooseveltAtlas_128.dds</File>
+    <File md5="15037170DCCB5062E469B7077DCDF50C" import="1">Art/JFD_AmericaRooseveltAtlas_256.dds</File>
+    <File md5="4B05062C05B84081C58A02E66AD60775" import="1">Art/JFD_AmericaRooseveltAtlas_32.dds</File>
+    <File md5="588A2910C97778586248FD810424BFA7" import="1">Art/JFD_AmericaRooseveltAtlas_45.dds</File>
+    <File md5="A8F381316231F154F1ADF02FCD18E1F8" import="1">Art/JFD_AmericaRooseveltAtlas_64.dds</File>
+    <File md5="B0682804C00AA82CF6DAB7EF9DFF31A7" import="1">Art/JFD_AmericaRooseveltAtlas_80.dds</File>
+    <File md5="6D8520EF490CE37F87D448AFA61E9796" import="1">Art/JFD_BabylonHammurabiAtlas_128.dds</File>
+    <File md5="9F414697B82B1061D8E5245A04BCBAEA" import="1">Art/JFD_BabylonHammurabiAtlas_256.dds</File>
+    <File md5="35BC14A430505D9087CB66DD9F67EE10" import="1">Art/JFD_BabylonHammurabiAtlas_45.dds</File>
+    <File md5="47A56869DB8A4E14E89553FDFC3215BD" import="1">Art/JFD_BabylonHammurabiAtlas_64.dds</File>
+    <File md5="392A9AD6F9B0D44891E81A7F1E3E3F8B" import="1">Art/JFD_LithuaniaAtlas_128.dds</File>
+    <File md5="751A92CE5D0B31232A6002CF8F5188CF" import="1">Art/JFD_LithuaniaAtlas_256.dds</File>
+    <File md5="AC07886B2CE430C458E4789930FCD566" import="1">Art/JFD_LithuaniaAtlas_32.dds</File>
+    <File md5="CBA342D6D6CEE1EB8E9E3A3DB46E59B2" import="1">Art/JFD_LithuaniaAtlas_45.dds</File>
+    <File md5="E1E473C3D1E57AB5111C8F2A726BFB46" import="1">Art/JFD_LithuaniaAtlas_64.dds</File>
+    <File md5="09CD0338B5957F78449529CF0888C4EC" import="1">Art/JFD_LithuaniaAtlas_80.dds</File>
+    <File md5="FA45C2EA6B64DCF70AAF0762C8AEBD25" import="1">Art/JFD_MilanAtlas_128.dds</File>
+    <File md5="A149440CD15CC3F446525C725B2A213B" import="1">Art/JFD_MilanAtlas_256.dds</File>
+    <File md5="2A443AEB69E30B4F5AC4D325DF9F4661" import="1">Art/JFD_MilanAtlas_45.dds</File>
+    <File md5="F98F78E926F159681468062B0055C2E9" import="1">Art/JFD_MilanAtlas_64.dds</File>
+    <File md5="84B121ECA4E1591D79264E4FF9D116A9" import="1">Art/JFD_PolandLithuaniaAlphaAtlas_128.dds</File>
+    <File md5="F50787F6B1141503821E5C6D81053283" import="1">Art/JFD_PolandLithuaniaAlphaAtlas_16.dds</File>
+    <File md5="77D916709D8B5EA09F45B7AB98F1F997" import="1">Art/JFD_PolandLithuaniaAlphaAtlas_22.dds</File>
+    <File md5="63753A94E0C9ADAD753F2507684AB9D7" import="1">Art/JFD_PolandLithuaniaAlphaAtlas_24.dds</File>
+    <File md5="8FD3CC61B5C87AA94A86055E14C092C4" import="1">Art/JFD_PolandLithuaniaAlphaAtlas_32.dds</File>
+    <File md5="22E894345C6D5315057886B907AC13B4" import="1">Art/JFD_PolandLithuaniaAlphaAtlas_45.dds</File>
+    <File md5="B0FDF763EB94E74D8F8441FBAC4B9DB8" import="1">Art/JFD_PolandLithuaniaAlphaAtlas_48.dds</File>
+    <File md5="7097D736086357CAECA14F5775DAA628" import="1">Art/JFD_PolandLithuaniaAlphaAtlas_64.dds</File>
+    <File md5="60DF60B813773ED5D26590382DBDE8CB" import="1">Art/JFD_PolandLithuaniaAlphaAtlas_80.dds</File>
+    <File md5="0FAC6398E6B9B9063B5A592890FC2FBC" import="1">Art/JFD_PolandLithuaniaAtlas_128.dds</File>
+    <File md5="EFC47428E72197DE8664DF1D5A884B3D" import="1">Art/JFD_PolandLithuaniaAtlas_256.dds</File>
+    <File md5="98451DDFB9FC031BC43046C803DC4056" import="1">Art/JFD_PolandLithuaniaAtlas_32.dds</File>
+    <File md5="C7B1002F17B2E91696147851E7BF661B" import="1">Art/JFD_PolandLithuaniaAtlas_45.dds</File>
+    <File md5="D8F79485BC9EE2F2DDB94EE0515BD930" import="1">Art/JFD_PolandLithuaniaAtlas_64.dds</File>
+    <File md5="DFEB677734B1665DF345C8A55D57B595" import="1">Art/JFD_PolandLithuaniaAtlas_80.dds</File>
+    <File md5="6918AF22832C3818C5C49B12ABD078C9" import="1">Art/DOM_The_Emperor.dds</File>
+    <File md5="A09F9C08EEB404B4ED8DBF7B116D9328" import="1">Art/Maceman_Model/early_maceman.fxsxml</File>
+    <File md5="9DF10A87479992BA8DF1068056C63850" import="1">Art/Maceman_Model/early_maceman.gr2</File>
+    <File md5="A21CA5D90F0B66F463A6E4A775DD9CFB" import="1">Art/Maceman_Model/early_maceman_diff.dds</File>
+    <File md5="E4476F079C31A71151A675A38A89170F" import="1">Art/Maceman_Model/early_maceman_sref.dds</File>
+    <File md5="AE4CFBA4F2B0D1DEE56056054C395223" import="1">Art/MawPitAtlas128.dds</File>
+    <File md5="9EED2C0BC3BF7C662589048E3B619747" import="1">Art/MawPitAtlas256.dds</File>
+    <File md5="78E3B6C9A022F703B2347EF7A7795378" import="1">Art/MawPitAtlas45.dds</File>
+    <File md5="2A217DDAF72EE47B1D0C34B025DD942E" import="1">Art/MawPitAtlas64.dds</File>
+    <File md5="724DD6082E3B52EE66C59874ACFA0FA5" import="1">Art/Modern_Helicopter_Model/Tiger_diff(german).dds</File>
+    <File md5="D827BDFE22B39970863A9E49B8D66776" import="1">Art/Modern_Helicopter_Model/tiger_germany.fxsxml</File>
+    <File md5="612EF5D9B4469E114594996666942E65" import="1">Art/Modern_Helicopter_Model/Tiger_Germany.gr2</File>
+    <File md5="33881021B7D2B83112222067A095F3EA" import="1">Art/Modern_Helicopter_Model/Tiger_sref.dds</File>
+    <File md5="53C61D2FEAA5C4E6EF656080CFA8358C" import="1">Art/Modern_Transport_Model/fx_triggers_cargo_ship_late.ftsxml</File>
+    <File md5="F5B93D6121C34BB1C728071B45977CF9" import="1">Art/Motherland_Calls/MOTHERLAND_ICON128.dds</File>
+    <File md5="B2BB7DEB521A6035EB02435D190EA416" import="1">Art/Motherland_Calls/MOTHERLAND_ICON256.dds</File>
+    <File md5="AE60E84AFE1CE22779F8F08093FA91B2" import="1">Art/Motherland_Calls/MOTHERLAND_ICON45.dds</File>
+    <File md5="2EFA9C540A765B8031FE07EA06783112" import="1">Art/Motherland_Calls/MOTHERLAND_ICON64.dds</File>
+    <File md5="CAA46833599A8B14ECBADA10C07F5B31" import="1">Art/Motherland_Calls/MOTHERLAND_ICON80.dds</File>
+    <File md5="2931D091E6F4E1BFFB21B12C48F78194" import="1">Art/Motherland_Calls/MOTHERLAND_SPLASH.dds</File>
+    <File md5="104CD91FB15DD51318ACA6CC8F4D69F3" import="1">Art/Mounted Crossbowman_Model/fx_triggers_MtdCrossbow.ftsxml</File>
+    <File md5="786A6088F50247B639F032407D8766B1" import="1">Art/Mounted Crossbowman_Model/MtdCrossbow.fxsxml</File>
+    <File md5="B9429254F1094EFE6C36BD41A7C7A919" import="1">Art/Mounted Crossbowman_Model/MtdCrossbow.gr2</File>
+    <File md5="57F477ACDB0A892F1F1D92132AB25CFA" import="1">Art/Mounted Crossbowman_Model/MtdCrossbow_diff.dds</File>
+    <File md5="6C3F5FFF327B66039F4D81D63B991D9F" import="1">Art/Mounted Crossbowman_Model/MtdCrossbow_sref.dds</File>
+    <File md5="9D3FC35424D788E4AB0440A8AEE8737A" import="1">Art/PanAM_128.dds</File>
+    <File md5="9771E3897CF6A9565152116279D6E7BD" import="1">Art/PanAM_256.dds</File>
+    <File md5="5B44E48FFC0C095551B4539F8D6961E0" import="1">Art/PanAM_45.dds</File>
+    <File md5="F8CCDCD58097FFF801CD36FD0632655E" import="1">Art/PanAM_64.dds</File>
+    <File md5="BE18DCAF70B9F3D9D4348CA05BB7B90A" import="1">Art/PanAM_80.dds</File>
+    <File md5="127AF402155D3BBED441D89CC35D8756" import="1">Art/Pikeman_Model/true_pikeman.fxsxml</File>
+    <File md5="0222A688DB767E03C80D579770FA767D" import="1">Art/Pikeman_Model/true_pikeman.gr2</File>
+    <File md5="B1EF918E9BDE8877909CFBBD03931279" import="1">Art/Pikeman_Model/true_pikeman_diff.dds</File>
+    <File md5="D93107382406BC93F69CEACFE6679FBD" import="1">Art/Pikeman_Model/true_pikeman_sref.dds</File>
+    <File md5="8742CD41958F6B06B12514C1C717FCCD" import="1">Art/ChosenAtlas128.dds</File>
+    <File md5="E5FEFDF888F75EA3A7B2539271E6E293" import="1">Art/ChosenAtlas256.dds</File>
+    <File md5="3CF53C70631280EC27BCB13D8495603A" import="1">Art/ChosenAtlas45.dds</File>
+    <File md5="0A061085032F8146068477AB2D2EF7E4" import="1">Art/ChosenAtlas64.dds</File>
+    <File md5="D8914DFE7256A68DDF3F455DFD3FD857" import="1">Art/ChosenAtlas80.dds</File>
+    <File md5="3C1CB22AADA509AB09CA7C5753143810" import="1">Art/PromoIconAtlasx256.dds</File>
+    <File md5="9197C631ED303D2B50571428F6AE73DF" import="1">Art/PromoIconAtlasx32.dds</File>
+    <File md5="FC03341C63BD79B54D97F444431A9E89" import="1">Art/PromoIconAtlasx45.dds</File>
+    <File md5="AFB402C903F15496EA4911A70A5BA05E" import="1">Art/PromoIconAtlasx64.dds</File>
+    <File md5="4BD17ECFC77EC53A66616B159D392AC9" import="1">Art/Skryre_LabAtlas128.dds</File>
+    <File md5="CDE2F73B27352639CAED26FCF36B279A" import="1">Art/Skryre_LabAtlas256.dds</File>
+    <File md5="7E03BED5FF36D9AB4FCFFDF4A49B4075" import="1">Art/Skryre_LabAtlas45.dds</File>
+    <File md5="D1AFACC83B2C640B58C9DC26BFE3FEF2" import="1">Art/Skryre_LabAtlas64.dds</File>
+    <File md5="77CBEF3F8D44342FD7DA8F17E891C55A" import="1">Art/Smithsonian_128.dds</File>
+    <File md5="486C1576CD03ADA0D24761B4C5CE51FF" import="1">Art/Smithsonian_256.dds</File>
+    <File md5="23F041602F4436B0E3E90A50D16CF586" import="1">Art/Smithsonian_45.dds</File>
+    <File md5="E522BB06B7196C09FEB40271DCB42F53" import="1">Art/Smithsonian_64.dds</File>
+    <File md5="F7A58C870D5F87A984DEBD5929026416" import="1">Art/Smithsonian_80.dds</File>
+    <File md5="F384923C2E078E6C12985507B34F93AF" import="1">Art/Special_Forces_Model/US_Airborne.fxsxml</File>
+    <File md5="0831BF98A7F05466BC05E04C5A3F8CB7" import="1">Art/Special_Forces_Model/US_Airborne.gr2</File>
+    <File md5="D80FBB8C621158E3077085A3897B2EB3" import="1">Art/Special_Forces_Model/US_Airborne_diff.dds</File>
+    <File md5="D73F243F8D8597D95C247D7A19B3B00B" import="1">Art/Special_Forces_Model/US_Airborne_sref.dds</File>
+    <File md5="54E3FCED30FA1D6CCF7A10A87AE67E9F" import="1">Art/Strat_View_Icons/sv_Ballistic_Missile.dds</File>
+    <File md5="7D069120052400405A718380BC6A464E" import="1">Art/Strat_View_Icons/sv_Battering_Ram.dds</File>
+    <File md5="0E59DF857EDECDFB40AD2E44073B008C" import="1">Art/Strat_View_Icons/sv_Classic_Cavalry.dds</File>
+    <File md5="C3610031B5EF0358D12D39EA990BF084" import="1">Art/Strat_View_Icons/sv_Fleet_Carrier.dds</File>
+    <File md5="857416C6A4ADE55C8D3BBD9485755F71" import="1">Art/Strat_View_Icons/sv_Grenadier.dds</File>
+    <File md5="20D6CCA054E60B7213CBAE18723CF9C2" import="1">Art/Strat_View_Icons/sv_Halberdier.dds</File>
+    <File md5="D7820B917A3516A1E84C38251B696630" import="1">Art/Strat_View_Icons/sv_Horse_Archer.dds</File>
+    <File md5="68D6E19C51197734C5579B96CE3E027E" import="1">Art/Strat_View_Icons/sv_Hydrogen_Bomb.dds</File>
+    <File md5="B06C479F7A719DD3F80F9E3C5AC1BDC3" import="1">Art/Strat_View_Icons/sv_Maceman.dds</File>
+    <File md5="665D3974EB9A2CB77A8E7CFADC725870" import="1">Art/Strat_View_Icons/sv_Missile_Destroyer.dds</File>
+    <File md5="68F27B82421201882B500EF40B402B81" import="1">Art/Strat_View_Icons/sv_Modern_Artillery.dds</File>
+    <File md5="C7584308245E15048AD3594DF4CD21BB" import="1">Art/Strat_View_Icons/sv_Modern_Helicopter.dds</File>
+    <File md5="CCEA3E8AEAD22F48900B8DD273FE27E0" import="1">Art/Strat_View_Icons/sv_Modern_SAM.dds</File>
+    <File md5="7DA5BC9CD7D93C3AEA25EEFD2F69B947" import="1">Art/Strat_View_Icons/sv_Mounted_Crossbowman.dds</File>
+    <File md5="9CF981F0DC2E2CF1F09373B0A2E3BE7E" import="1">Art/Strat_View_Icons/sv_Phalanx.dds</File>
+    <File md5="88FB75D157C7E0798D06036136E666E6" import="1">Art/Strat_View_Icons/sv_Rocket_Launcher.dds</File>
+    <File md5="7494169EC23AE1C98F299396B583CB5C" import="1">Art/Strat_View_Icons/sv_Special_Forces.dds</File>
+    <File md5="8F856FA6B3CC506BF82273F463EC93A1" import="1">Art/Strat_View_Icons/sv_Supercarrier.dds</File>
+    <File md5="4F7359AB4E2A535B7BF58224E0760119" import="1">Art/Supercarrier_Model/USS_Nimitz.fxsxml</File>
+    <File md5="963A69CA8D59AB713514176AA624AA18" import="1">Art/Supercarrier_Model/USS_Nimitz.gr2</File>
+    <File md5="ED4A5AB326883371F14E49AA082574D5" import="1">Art/Supercarrier_Model/USS_Nimitz_diff.dds</File>
+    <File md5="2FF87861C6F97D3DE71A8148E98FD294" import="1">Art/Supercarrier_Model/USS_Nimitz_sref.dds</File>
+    <File md5="8ACDE8B42BC6D3F40F896E53D7E5CA89" import="1">Art/sv_pontoon_bridge.dds</File>
+    <File md5="AFF19DC758545A3C043587637DC5BEC1" import="1">Art/Tsukiji_Market/TSUKIJI_ICON128.dds</File>
+    <File md5="4D88F8CEF25F169B438947646084AAE0" import="1">Art/Tsukiji_Market/TSUKIJI_ICON256.dds</File>
+    <File md5="4443CE2C3A1E7C5B631CCEAEFFD65783" import="1">Art/Tsukiji_Market/TSUKIJI_ICON45.dds</File>
+    <File md5="F19BD2681ED747814A2A8136BA4552CE" import="1">Art/Tsukiji_Market/TSUKIJI_ICON64.dds</File>
+    <File md5="F411DB1B02522125AEA8C24DE476C843" import="1">Art/Tsukiji_Market/TSUKIJI_ICON80.dds</File>
+    <File md5="C8B7D238812D1EF49A5143247371ED09" import="1">Art/Tsukiji_Market/TSUKIJI_SPLASH.dds</File>
+    <File md5="941390F678356BBF62B9C73FA20B896A" import="1">Art/Zanbil_128.dds</File>
+    <File md5="0455018308E0C8850E9357A55D9DA163" import="1">Art/Zanbil_256.dds</File>
+    <File md5="3821E5FF27D33C5D3B4E611010AE945A" import="1">Art/Zanbil_45.dds</File>
+    <File md5="82EB815D87E4CC1F408EF430C1C8EFB6" import="1">Art/Zanbil_64.dds</File>
+    <File md5="0689C736E24C5A7CA0DE689F611292B9" import="1">Art/Zanbil_80.dds</File>
+    <File md5="B3882D2F51C04A55B5EC58977E9E769C" import="0">Buildings/ArbiterShrine.xml</File>
+    <File md5="2A75DE6C718EAEC8598EA83EE0B73B4F" import="0">Buildings/Cistern.xml</File>
+    <File md5="29A2EEDD63DC3DFE775255134AE0BDDF" import="0">Buildings/Expressways.xml</File>
+    <File md5="79F4FA7F9C21689DFDD6E96ECD971687" import="0">Buildings/PalaceUpdate.xml</File>
+    <File md5="678ECD7F42016B9C936C47E2816A6C29" import="0">Buildings/GreatLibraryNerf.xml</File>
+    <File md5="4A65DFA95EE97D24C07FB6433AAF7C9F" import="0">Buildings/HarborUpdate.xml</File>
+    <File md5="DAB0BF3D2FD69BD9BEF7242F79541AAD" import="0">Buildings/Herbalist.xml</File>
+    <File md5="5CFECE38A4E7464D12283DC30D0E8D01" import="0">Buildings/MilitaryBuildingsApplyAll.xml</File>
+    <File md5="C1B8042E4FFBC6EA87181B4529B0B120" import="0">Buildings/SpymasterGuild.xml</File>
+    <File md5="65101A7B578D83D5C1A1086CDD353CAA" import="0">Buildings/TempleGranary.xml</File>
+    <File md5="F164A27630D07A99073B29844ABCC10D" import="0">Civ/Archaon_Diplomacy.xml</File>
+    <File md5="F1F72DAAD8964F594599925CD6D00583" import="0">Civ/Archaon_Scene.xml</File>
+    <File md5="5F5C77105853BD39D7FCC0B4978E6FE7" import="0">Civ/Civ5Leader_Archaon.xml</File>
+    <File md5="F725CDFF9D2874A2C00E85D482D4ECCA" import="0">Civ/Civ_ChaosWarriors.xml</File>
+    <File md5="F78DE2624014AAE3A8ED0949F2DB5645" import="0">Civ/Trait.xml</File>
+    <File md5="B98F8D4435F3E3BF8E7A4F1691A9BC78" import="0">Lua/ActivateCustomDLLPlotEvents.xml</File>
+    <File md5="177BD601FB47E39FEC839BE51D287D5B" import="0">Lua/ArmoryPromotion.lua</File>
+    <File md5="6D388570F0E41A5CF726E6A3A3B53877" import="0">Lua/Aza_Towns.lua</File>
+    <File md5="9EB474DD1C41E4AE4C94A46F632D1D1A" import="0">Lua/Great Admiral Promotions.lua</File>
+    <File md5="FE9AD2B0312CDC307F7DF90A8205FA60" import="0">Lua/MAcademy.lua</File>
+    <File md5="0B33B19D9CBBE75DD74834309E82F3D8" import="0">Lua/Modern Transport Model for Embarked Units.lua</File>
+    <File md5="5343AD88BF9BD0CDDD298678EF382544" import="0">Lua/NewEraPopup.lua</File>
+    <File md5="28BD8C2D5D9FBA0B84852FF250F209E5" import="0">Lua/PlantingResources.lua</File>
+    <File md5="C978F7FC68916A6F78B63BBC81EC24B1" import="0">Lua/Remove Inherited Promotions.lua</File>
+    <File md5="0494354522C66DF079C04E2963B09B89" import="0">Lua/Solar Plant.lua</File>
+    <File md5="32C4C4C108F85C63D21130E86E58A8E8" import="0">Lua/Work Boat Promotion.lua</File>
+    <File md5="F7DE8D81BA16EEF2B7C39FBFB74AFD64" import="0">Lua/WorkableMountains.lua</File>
+    <File md5="635037395A9D2522F66279BED4B5EC84" import="0">Mechanics/Aza_Towns.xml</File>
+    <File md5="A4727FCADB5C848846D644D5A88EABC9" import="0">Mechanics/Barb - exp.xml</File>
+    <File md5="C40E0694913195A8B0CCCAB8DCE6642D" import="0">Mechanics/BattleshipsToCruisers.xml</File>
+    <File md5="D3D5A7CFAA3C268B33077ED990FC5883" import="0">Mechanics/BLD - Upgrades.xml</File>
+    <File md5="904FED29E6F5CC1D2E620EF25CC7FBFB" import="0">Mechanics/BuildFeatures.xml</File>
+    <File md5="84FA1A682C26D39460FA5C9315181D90" import="0">Mechanics/COP - mint.xml</File>
+    <File md5="98989AC43C42AFFB114E27C48DE77651" import="0">Mechanics/ExtraAutocracy.xml</File>
+    <File md5="BCA6DF1FD6742AF3E9C0DE757510556C" import="0">Mechanics/GlobalCityWorkingDistance.xml</File>
+    <File md5="309721F51752D8899BD3057B7C24B649" import="0">Mechanics/GlobalPassableForts.xml</File>
+    <File md5="E2A021EAE325AE9B87652054EE47E56E" import="0">Mechanics/KrakFix.xml</File>
+    <File md5="2EE633A94027A6D83728EC64C4B3AB24" import="0">Mechanics/LumberMillsInJg.xml</File>
+    <File md5="7351AF33BCE48682FFE4B4F13962BB32" import="0">Mechanics/MoarBuildingTweaks.xml</File>
+    <File md5="0742B196EBFE340E4EEC262B6065CE62" import="0">Mechanics/PARC - Data.xml</File>
+    <File md5="6D8C71F60ECF0463150F57554E816E45" import="0">Mechanics/PEP - INIT.xml</File>
+    <File md5="A572E6CB6B603F72E739304EFC164320" import="0">Mechanics/PTT - Terrains.xml</File>
+    <File md5="8A958768C88499D44973B0E658000550" import="0">Mechanics/ResourceMultiplierBuildings.xml</File>
+    <File md5="4712C3FBAC741F6B93D745CCD24F7A20" import="0">Mechanics/RGIB.xml</File>
+    <File md5="818C688F199C55E92B58DAD5611E9AA3" import="0">Mechanics/SpeedyStartingSettler.xml</File>
+    <File md5="32BE6DC264EAFF261CB23B300F358DBC" import="0">Mechanics/TKE - Data.xml</File>
+    <File md5="5A787A2D51808BC7056523162ED6F9C0" import="0">Mechanics/TPB - Data.xml</File>
+    <File md5="F3610A94189D5DD93EB2B33D7D12C9FF" import="0">Mechanics/WAR - CapCity.xml</File>
+    <File md5="4778BF649A9A645B44D0C8C3254DE2C7" import="0">Mechanics/WorkableMountains.xml</File>
+    <File md5="76362D58EAEA105DB8CDA06C0B476FDE" import="1">SQL/FasterAircraftAnimations.sql</File>
+    <File md5="B868C9184682BA72B4E3C4A71CFEFAD8" import="0">SQL/PromotionsAllSiegeUnitsIndirectFire.sql</File>
+    <File md5="99D12CF798F50685A7C60BB8FB9B50AB" import="0">SQL/Techtree Shifter.sql</File>
+    <File md5="B51A82481D5E00A3615B2528252A6CEB" import="0">Text/Buildings.xml</File>
+    <File md5="6C50A2304B0F40F0CAC2A8476DB3D7D7" import="0">Text/Misc.xml</File>
+    <File md5="6B2E61DEE62FA61B82B947624E0A55D1" import="0">Text/Policies and Beliefs.xml</File>
+    <File md5="935DCF455CC2E435E07AF119FFC581FF" import="0">Text/Promotions.xml</File>
+    <File md5="B0DAFF8FD51DC59F3C9B57B2F05BFB9A" import="0">Text/Technologies.xml</File>
+    <File md5="7937ABF4A29A3CB47A0EFB519CD7E0FE" import="0">Text/Units.xml</File>
+    <File md5="B0DC642EE3DACF6B7125B389F9030C8A" import="0">TTO/Art.xml</File>
+    <File md5="77162074A5197066687587B3A8F467CA" import="0">TTO/Buildings.xml</File>
+    <File md5="1D780A6FE1EC34131CA5827CDA177028" import="0">TTO/Eras.xml</File>
+    <File md5="A6B276D59EF28CFCF7D6D77428F6B623" import="0">TTO/Improvements.xml</File>
+    <File md5="FE7FBE55D3F7A6509E6CC916C2097277" import="0">TTO/Policies.xml</File>
+    <File md5="7B7D2740E8C7083B65E6C21944D6E903" import="0">TTO/Projects.xml</File>
+    <File md5="37A515645135EA93BC8B930455EEE51B" import="0">TTO/Promotions.xml</File>
+    <File md5="128A269D7F06AA1119D938E35D38C034" import="0">TTO/Resources.xml</File>
+    <File md5="FF0F55CF497DD702DAF4DD7A39D17670" import="0">TTO/Technologies.xml</File>
+    <File md5="C151E78015A5D42993FBECB882C96A0A" import="0">TTO/Traits.xml</File>
+    <File md5="6A4453A407ED20712270A3851975CA75" import="0">TTO/Units.xml</File>
+    <File md5="A58837B9C760BEB0371BBDB89EB42854" import="0">Units/BorderFort.xml</File>
+    <File md5="6026D428841A6101F3A299FE4A3C8AAE" import="0">Units/Colonists.xml</File>
+    <File md5="7A0223D539174B5B88FF1863D5D523B8" import="0">Units/GreatGeneralChange.xml</File>
+    <File md5="DD4E5A0614EC6EAF7B70F21C68D9FF4A" import="0">Units/NewPromotions.xml</File>
+    <File md5="3A5FD2159FE38BC9E33F9B02F5F18F75" import="0">Units/Zealots.xml</File>
+    <File md5="DD8B61FC94A9CED4AF1D56FE4FEF2EEA" import="0">WonderMods/CentralBank.xml</File>
+    <File md5="E5680DFF23F1782A725A594147A23F72" import="0">WonderMods/FLHC.xml</File>
+    <File md5="AB019A1A2003AC81F42C5ACD191F596B" import="0">WonderMods/Motherland.xml</File>
+    <File md5="F65E6DA57197830DABDD188C457A518F" import="0">WonderMods/Smithsonian.xml</File>
+    <File md5="DFB185C7A998E4B4D35DE104DA479D6E" import="0">WonderMods/ThreeGorges.xml</File>
+    <File md5="1802E0AD7C6638DD542534FA7FD4AAE2" import="0">WonderMods/GoldenTemple.xml</File>
+    <File md5="4CC891DDCB83836C9D42227EE0B032DF" import="0">WonderMods/MultipleWonders.xml</File>
+    <File md5="2FAB2F826A796C692FCEB7CA5912302D" import="0">WonderMods/Tsukiji.xml</File>
+    <File md5="74AA9809316EAFE20AD0093ABF8E183D" import="0">WonderMods/WonderTweaks.xml</File>
+    <File md5="88512E81257C05A5B8EDB118A4A023E9" import="0">WonderMods/WorldTradeCenter.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Buildings/ArbiterShrine.xml</UpdateDatabase>
+      <UpdateDatabase>Civ/Archaon_Diplomacy.xml</UpdateDatabase>
+      <UpdateDatabase>Civ/Archaon_Scene.xml</UpdateDatabase>
+      <UpdateDatabase>Civ/Civ_ChaosWarriors.xml</UpdateDatabase>
+      <UpdateDatabase>Civ/Civ5Leader_Archaon.xml</UpdateDatabase>
+      <UpdateDatabase>Civ/Trait.xml</UpdateDatabase>
+      <UpdateDatabase>TTO/Art.xml</UpdateDatabase>
+      <UpdateDatabase>TTO/Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>TTO/Eras.xml</UpdateDatabase>
+      <UpdateDatabase>TTO/Policies.xml</UpdateDatabase>
+      <UpdateDatabase>TTO/Projects.xml</UpdateDatabase>
+      <UpdateDatabase>TTO/Promotions.xml</UpdateDatabase>
+      <UpdateDatabase>TTO/Resources.xml</UpdateDatabase>
+      <UpdateDatabase>TTO/Technologies.xml</UpdateDatabase>
+      <UpdateDatabase>TTO/Traits.xml</UpdateDatabase>
+      <UpdateDatabase>TTO/Units.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/FasterAircraftAnimations.sql</UpdateDatabase>
+      <UpdateDatabase>Text/Buildings.xml</UpdateDatabase>
+      <UpdateDatabase>Text/Misc.xml</UpdateDatabase>
+      <UpdateDatabase>Text/Policies and Beliefs.xml</UpdateDatabase>
+      <UpdateDatabase>Text/Promotions.xml</UpdateDatabase>
+      <UpdateDatabase>Text/Technologies.xml</UpdateDatabase>
+      <UpdateDatabase>Text/Units.xml</UpdateDatabase>
+      <UpdateDatabase>Mechanics/PEP - INIT.xml</UpdateDatabase>
+      <UpdateDatabase>Mechanics/BLD - Upgrades.xml</UpdateDatabase>
+      <UpdateDatabase>Mechanics/COP - mint.xml</UpdateDatabase>
+      <UpdateDatabase>Mechanics/PARC - Data.xml</UpdateDatabase>
+      <UpdateDatabase>Mechanics/PTT - Terrains.xml</UpdateDatabase>
+      <UpdateDatabase>Mechanics/TKE - Data.xml</UpdateDatabase>
+      <UpdateDatabase>Mechanics/TPB - Data.xml</UpdateDatabase>
+      <UpdateDatabase>Mechanics/WAR - CapCity.xml</UpdateDatabase>
+      <UpdateDatabase>Buildings/TempleGranary.xml</UpdateDatabase>
+      <UpdateDatabase>Mechanics/GlobalCityWorkingDistance.xml</UpdateDatabase>
+      <UpdateDatabase>Mechanics/GlobalPassableForts.xml</UpdateDatabase>
+      <UpdateDatabase>Units/Zealots.xml</UpdateDatabase>
+      <UpdateDatabase>Mechanics/Barb - exp.xml</UpdateDatabase>
+      <UpdateDatabase>Buildings/HarborUpdate.xml</UpdateDatabase>
+      <UpdateDatabase>Mechanics/WorkableMountains.xml</UpdateDatabase>
+      <UpdateDatabase>Units/Colonists.xml</UpdateDatabase>
+      <UpdateDatabase>Units/BorderFort.xml</UpdateDatabase>
+      <UpdateDatabase>Buildings/GreatLibraryNerf.xml</UpdateDatabase>
+      <UpdateDatabase>Mechanics/RGIB.xml</UpdateDatabase>
+      <UpdateDatabase>Units/GreatGeneralChange.xml</UpdateDatabase>
+      <UpdateDatabase>Units/NewPromotions.xml</UpdateDatabase>
+      <UpdateDatabase>Buildings/MilitaryBuildingsApplyAll.xml</UpdateDatabase>
+      <UpdateDatabase>Mechanics/KrakFix.xml</UpdateDatabase>
+      <UpdateDatabase>Mechanics/LumberMillsInJg.xml</UpdateDatabase>
+      <UpdateDatabase>Mechanics/BattleshipsToCruisers.xml</UpdateDatabase>
+      <UpdateDatabase>ArtificialUnint/New_CIV5AICityStrategies.xml</UpdateDatabase>
+      <UpdateDatabase>ArtificialUnint/New_CIV5AIEconomicStrategies.xml</UpdateDatabase>
+      <UpdateDatabase>ArtificialUnint/New_CIV5AIGrandStrategies.xml</UpdateDatabase>
+      <UpdateDatabase>ArtificialUnint/New_CIV5AIMilitaryStrategies.xml</UpdateDatabase>
+      <UpdateDatabase>ArtificialUnint/New_CIV5CitySpecializations.xml</UpdateDatabase>
+      <UpdateDatabase>ArtificialUnint/New_CIV5MultiUnitFormations.xml</UpdateDatabase>
+      <UpdateDatabase>ArtificialUnint/New_CIV5TacticalMoves.xml</UpdateDatabase>
+      <UpdateDatabase>ArtificialUnint/New_CIV5Units.xml</UpdateDatabase>
+      <UpdateDatabase>ArtificialUnint/New_GlobalAIDefines.xml</UpdateDatabase>
+      <UpdateDatabase>ArtificialUnint/New_GlobalDefines.xml</UpdateDatabase>
+      <UpdateDatabase>ArtificialUnint/New_GlobalDiplomacyAIDefines.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/PromotionsAllSiegeUnitsIndirectFire.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/Techtree Shifter.sql</UpdateDatabase>
+      <UpdateDatabase>Mechanics/BuildFeatures.xml</UpdateDatabase>
+      <UpdateDatabase>Mechanics/SpeedyStartingSettler.xml</UpdateDatabase>
+      <UpdateDatabase>WonderMods/MultipleWonders.xml</UpdateDatabase>
+      <UpdateDatabase>WonderMods/WonderTweaks.xml</UpdateDatabase>
+      <UpdateDatabase>Mechanics/ResourceMultiplierBuildings.xml</UpdateDatabase>
+      <UpdateDatabase>TTO/Improvements.xml</UpdateDatabase>
+      <UpdateDatabase>Buildings/SpymasterGuild.xml</UpdateDatabase>
+      <UpdateDatabase>Buildings/Cistern.xml</UpdateDatabase>
+      <UpdateDatabase>Lua/ActivateCustomDLLPlotEvents.xml</UpdateDatabase>
+      <UpdateDatabase>WonderMods/CentralBank.xml</UpdateDatabase>
+      <UpdateDatabase>Mechanics/MoarBuildingTweaks.xml</UpdateDatabase>
+      <UpdateDatabase>Mechanics/ExtraAutocracy.xml</UpdateDatabase>
+      <UpdateDatabase>WonderMods/GoldenTemple.xml</UpdateDatabase>
+      <UpdateDatabase>Buildings/Herbalist.xml</UpdateDatabase>
+      <UpdateDatabase>Buildings/PalaceUpdate.xml</UpdateDatabase>
+      <UpdateDatabase>WonderMods/ThreeGorges.xml</UpdateDatabase>
+      <UpdateDatabase>WonderMods/Smithsonian.xml</UpdateDatabase>
+      <UpdateDatabase>Buildings/Expressways.xml</UpdateDatabase>
+      <UpdateDatabase>WonderMods/WorldTradeCenter.xml</UpdateDatabase>
+      <UpdateDatabase>WonderMods/Motherland.xml</UpdateDatabase>
+      <UpdateDatabase>WonderMods/Tsukiji.xml</UpdateDatabase>
+      <UpdateDatabase>WonderMods/FLHC.xml</UpdateDatabase>
+      <UpdateDatabase>Mechanics/Aza_Towns.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/WorkableMountains.lua">
+      <Name>WorkableMountains</Name>
+      <Description>WorkableMountains</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/ArmoryPromotion.lua">
+      <Name>ArmoryPromotion</Name>
+      <Description>ArmoryPromotion</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Great Admiral Promotions.lua">
+      <Name>GreatAdmiral</Name>
+      <Description>GreatAdmiral</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Solar Plant.lua">
+      <Name>SolarPlant</Name>
+      <Description>SolarPlant</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Work Boat Promotion.lua">
+      <Name>WorkBoat</Name>
+      <Description>WorkBoat</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/MAcademy.lua">
+      <Name>MAca</Name>
+      <Description>MAca</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/PlantingResources.lua">
+      <Name>PlantResources</Name>
+      <Description>PlantResources</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/Aza_Towns.lua">
+      <Name>GrowingTowns</Name>
+      <Description>GrowingTowns</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>

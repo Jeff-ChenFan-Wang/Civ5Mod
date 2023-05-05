@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/13/2018 3:47:04 AM -->
+<GameData>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_HARBOR</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HARBOR</BuildingType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HARBOR</BuildingType>
+			<ResourceType>RESOURCE_PEARLS</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HARBOR</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!--Carthaginian cothon harbor-->
+		<Row>
+			<BuildingType>BUILDING_CIRCULAR_HARBOR</BuildingType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CIRCULAR_HARBOR</BuildingType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CIRCULAR_HARBOR</BuildingType>
+			<ResourceType>RESOURCE_PEARLS</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CIRCULAR_HARBOR</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<Language_en_US>
+
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_HARBOR_HELP" />
+			<Set Text="Forms a naval [ICON_CONNECTED] City Connection with the capital city. [NEW_LINE] +50% to Sea Trade routes originating from this city. [NEW_LINE] +2 [ICON_GOLD] Gold when Sea trade routes connect to another civilization. [NEW_LINE] +1 [ICON_FOOD] Food to sea resources worked by this city." />
+		</Update>
+	</Language_en_US>
+</GameData>

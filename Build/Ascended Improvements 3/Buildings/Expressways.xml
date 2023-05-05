@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/21/2019 12:01:04 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_EXPRESSWAY</Type>
+			<DefaultBuilding>BUILDING_EXPRESSWAY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_EXPRESSWAY</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_EXPRESSWAY</Type>
+			<BuildingClass>BUILDINGCLASS_EXPRESSWAY</BuildingClass>
+			<Cost>950</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_COMBUSTION</PrereqTech>
+			<Help>TXT_KEY_BUILDING_EXPRESSWAY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_EXPRESSWAY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_EXPRESSWAY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_EXPRESSWAY_STRATEGY</Strategy>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<Happiness>1</Happiness>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<IconAtlas>EXPRESSWAY_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_EXPRESSWAY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>EXPRESSWAY_ICON_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>PanAM_256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>EXPRESSWAY_ICON_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>PanAM_128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>EXPRESSWAY_ICON_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>PanAM_64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>EXPRESSWAY_ICON_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>PanAM_45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_EXPRESSWAY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EXPRESSWAY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Language_en_US>
+		<!--iron refinery-->
+		<Row Tag="TXT_KEY_BUILDING_EXPRESSWAY">
+			<Text>Public Transport</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EXPRESSWAY_TEXT">
+			<Text>
+				Established public transport systems that allow for more efficient transportation and commerce.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EXPRESSWAY_STRATEGY">
+			<Text>
+				Established public transport systems that allow for more efficient transportation and commerce.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_EXPRESSWAY_HELP">
+			<Text>
+				Improved City [ICON_GOLD] Gold and [ICON_PRODUCTION] Production. 
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

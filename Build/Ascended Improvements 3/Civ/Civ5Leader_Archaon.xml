@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/15/2014 2:10:47 PM -->
+<GameData>
+	-<Leaders>
+		-<Row>
+			<Type>LEADER_ARCHAON</Type>
+			<Description>TXT_KEY_LEADER_ARCHAON</Description>
+			<Civilopedia>TXT_KEY_LEADER_ARCHAON_PEDIA</Civilopedia>
+			<CivilopediaTag>TXT_KEY_CIVILOPEDIA_LEADERS_ARCHAON</CivilopediaTag>
+			<ArtDefineTag>Archaon_Scene.xml</ArtDefineTag>
+			<VictoryCompetitiveness>9</VictoryCompetitiveness>
+			<WonderCompetitiveness>9</WonderCompetitiveness>
+			<MinorCivCompetitiveness>1</MinorCivCompetitiveness>
+			<Boldness>9</Boldness>
+			<DiploBalance>5</DiploBalance>
+			<WarmongerHate>1</WarmongerHate>
+			<WorkAgainstWillingness>5</WorkAgainstWillingness>
+			<WorkWithWillingness>3</WorkWithWillingness>
+			<DenounceWillingness>2</DenounceWillingness>
+			<DoFWillingness>3</DoFWillingness>
+			<Loyalty>2</Loyalty>
+			<Neediness>1</Neediness>
+			<Forgiveness>5</Forgiveness>
+			<Chattiness>4</Chattiness>
+			<Meanness>9</Meanness>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>LEADER_ARCHAON_ATLAS</IconAtlas>
+		</Row>
+	</Leaders>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>LEADER_ARCHAON_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>ART/ArchaonAtlas256.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ARCHAON_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>ART/ArchaonAtlas128.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ARCHAON_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ART/ArchaonAtlas64.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>LEADER_ARCHAON_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ART/ArchaonAtlas45.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+	-<Leader_MajorCivApproachBiases>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_WAR</MajorCivApproachType>
+			<Bias>7</Bias>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_HOSTILE</MajorCivApproachType>
+			<Bias>8</Bias>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_DECEPTIVE</MajorCivApproachType>
+			<Bias>2</Bias>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_GUARDED</MajorCivApproachType>
+			<Bias>4</Bias>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_AFRAID</MajorCivApproachType>
+			<Bias>1</Bias>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_FRIENDLY</MajorCivApproachType>
+			<Bias>2</Bias>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<MajorCivApproachType>MAJOR_CIV_APPROACH_NEUTRAL</MajorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+	</Leader_MajorCivApproachBiases>
+	-<Leader_MinorCivApproachBiases>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_IGNORE</MinorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_FRIENDLY</MinorCivApproachType>
+			<Bias>2</Bias>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_PROTECTIVE</MinorCivApproachType>
+			<Bias>1</Bias>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_CONQUEST</MinorCivApproachType>
+			<Bias>6</Bias>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<MinorCivApproachType>MINOR_CIV_APPROACH_BULLY</MinorCivApproachType>
+			<Bias>8</Bias>
+		</Row>
+	</Leader_MinorCivApproachBiases>
+	-<Leader_Flavors>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_INFRASTRUCTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_USE_NUKE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_ARCHAEOLOGY</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_I_TRADE_DESTINATION</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<FlavorType>FLAVOR_AIRLIFT</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+	</Leader_Flavors>
+	-<Leader_Traits>
+		-<Row>
+			<LeaderType>LEADER_ARCHAON</LeaderType>
+			<TraitType>TRAIT_GIFTS</TraitType>
+		</Row>
+	</Leader_Traits>
+	-<Language_en_US>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON">
+			<Text>Archaon</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_PEDIA">
+			-<Text>
+				
+			</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ARCHAON_FACT_1">
+			<Text>The Crown of Dominion</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ARCHAON_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ARCHAON_HEADING_2">
+			<Text>Origins</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ARCHAON_HEADING_3">
+			<Text>Quest for the Six Artefacts</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ARCHAON_HEADING_4">
+			<Text>Rivalry with Vardek Crom</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ARCHAON_HEADING_5">
+			<Text>The Storm of Chaos</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ARCHAON_LIVED">
+			<Text>Unknown - present</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ARCHAON_NAME">
+			<Text>Archaon</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ARCHAON_SUBTITLE">
+			<Text>the Everchosen</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ARCHAON_TEXT_1">
+			-<Text>
+				Archaon, the Everchosen and the Lord of the End Times, is the most powerful Chaos Lord ever to walk the world.  After a century-long quest to unite six of the most powerful artefacts forged by the dark powers of Chaos, he sought and received the favour of all four of the Dark Gods of Chaos, earning the rare title of "Everchosen".  He then led a massive army of Chaos Undivided in the biggest invasion of the Empire since the time of Sigmar - no mean feat, as the Chaos Gods are prideful and pernicious, and usually too busy vying with one another for supremacy to join their strength in common cause.  It took the combined efforts of the entire civilised world, the efforts of the world's greatest living mage, the surprise intervention of a vast Undead army and an unpredictable betrayal by one of Archaon's allies to stop him, but stopped he was.  His army was scattered at the siege of one of the Empire's greatest cities, Middenheim, and Archaon himself retreated back into the north.  Whether he still commands the favour of all four Dark Gods, or the Warriors of the Chaos Wastes, or if he is even still alive, are all unanswered questions of the highest import across the Empire, which is still rebuilding after his devastating rampage through its northern territories.
+			</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ARCHAON_TEXT_2">
+			-<Text>
+				According to rumours, the warlord now known as Archaon was once a zealous Templar of Sigmar, devoted to battling the menace of Chaos.  One day, perusing his temple's library, he came across a series of ancient manuscripts by Necrodomo the Insane.  These writings stated terrible things about the religion of Sigmar and the nature of Chaos, which would be dismissed as foolish blasphemy by a more faithful devotee of Sigmar but which seemed, to the Templar's open and inquiring mind, to contain more than a grain of truth.
+				[NEWLINE][NEWLINE]Screaming in rage, he called the gods liars and burned down the temple and the manuscripts.  Consumed by madness and rage, he hunted down and killed his entire family, adopted the name Archaon, and travelled north towards the Chaos Wastes.  There he offered himself to the Chaos Gods as a tool of destruction.
+			</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ARCHAON_TEXT_3">
+			-<Text>
+				His lifespan unnaturally extended by his new patrons, Archaon spent the next century seeking six legendary artefacts of Chaos: the Mark of Chaos, the Armour of Morkar, the Eye of Sheerian, Dorghar the Steed of the Apocalypse, the Slayer of Kings, and the Crown of Domination.  Each of these artefacts was powerful in itself, and any one would have made Archaon a powerful warlord, but to bring all six together he was fulfilling a prophecy that the one who did so would become the next "Everchosen", a title reserved for those rare individuals that can attract the favour of all four of the pernicious Chaos Gods.  
+				[NEWLINE][NEWLINE]Archaon stole Dorghar, a massive daemonic horse, from the Daemon Lord Agrammon at the Gates of Chaos.  He took the Slayer of Kings, a huge blade possessed by the raging soul of the Daemon U'zhul, from the dead hands of a mighty Dragon Ogre.  He recovered the long-lost Armour of Morkar, worn by the first Everchosen of Chaos, who fell in battle to Sigmar himself, after decades of searching.  He received the Mark of Chaos, which shows the bearer to be the Chosen of all four Chaos Gods, in a ritual at the Altar of Ultimate Darkness in Naggaroth.  He took the Eye of Sheerian, which grants the bearer prophetic and omniscient powers when mounted in the Crown of Domination, from the hoard of the Chaos Dragon Flamefang, and finally, Archaon found the Crown of Domination itself, a symbol of absolute authority over all life, in the First Shrine to Chaos at the Worlds Edge Mountains.  He fought and slayed a Bloodthirster, the most powerful of Khornate Daemons, to obtain it.  
+				[NEWLINE][NEWLINE]It was Be'lakor, the first Daemon Prince and Messenger of the Gods, who helped Archaon find the Crown, and who had once himself harboured hopes of being crowned the Everchosen of the Gods.  Instead he was compelled to bestow this honour upon Archaon in the names of his masters, and so it was that, seething with jealousy, Be'lakor crowned Archaon the Everchosen and Lord of the End Times.
+			</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ARCHAON_TEXT_4">
+			-<Text>
+				Vardek Crom was king of a mighty tribe of Kul, the infamous warband that produced Asavar Kul, who had led the last incusion of Chaos Undivided into the Empire in the year 2302.  Under Crom, the Kul had not only regained their former strength but expanded their dominion.  He ruled an enormous empire across the northern lands when, one day, he was told of a group of foreign Chaos Knights riding uninvited across his dominion.  He set off immediately and found that the knights were the famous Swords of Chaos, Archaon's bodyguard and his longest-serving, most loyal warriors.  Crom challenged Archaon, who rode with them, to a duel.  Archaon refused three times and instead sent members of the Swords, each of whom were killed by Crom.  Finally, Archaon dismounted and fought using only his shield.  When he eventually drew his sword, the legendary Slayer of Kings which is possessed by a Daemon, Crom was struck with awe.  He stopped struggling against Archaon and joined his warband.  From that day on, Archaon honoured Crom, known as the Conqueror, with the title of Herald, and dispatched him into the Chaos Wastes with the mission to unite the Kul and raise a mighty army for Archaon.  This he did, and on his journey he defeated the legendary Orc warboss Grimgor Ironhide in single combat.
+			</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ARCHAON_TEXT_5">
+			-<Text>
+				Archaon led a vast army of Chaos warbands, devoted to all of the Chaos Gods yet united under his banner, in an invasion of the Empire via its northern neighbour, Kislev.  Kislev was utterly overwhelemed, with its ruler Tsarina Katarina only surviving the sack of Praag by virtue of a desperate intervention by Garagrim Ironfist of the Dwarven hold of Karak Kadrin.  It was also in the course of these early battles that Archaon killed the Grand Theogonist and head of the Sigmarite faith, Volkmar the Grim, who had foolishly travelled from the Empire to challenge him.
+				[NEWLINE][NEWLINE]Archaon's objective was to sack and destroy the city of Middenheim, seat of the faith of Ulric, an ancient warrior-god second only to Sigmar in popularity across the Empire and said to have been worshipped by Sigmar himself.  Archaon sought to storm the Temple of Ulric and corrupt the Eternal Flame with his own essence, extinguishing it and ushering in the End Times.  It seemed he would surely achieve this goal, for no army sent against him could halt his advance as he swept through the Empire's northern provinces and laid siege to Middenheim.  Finally, Archaon's army met its match as a massive host of Men, Elves and Dwarfs, mustered by Emperor Karl Franz and led by the Emperor alongside Valten - a hero hailed by many as the reincarnation of Sigmar - came to relieve the besieged city.			
+				[NEWLINE][NEWLINE]The battle lasted for four days, with tremendous violence and bloodshed on all sides.  Archaon saw his Daemon allies banished from existence as the Elven archmage Teclis worked his legendary arts and King Louen Leoncoeur of Bretonnia held Be'lakor in single combat.  This was a significant blow, but Archaon was on the verge of inflicting a similar trauma upon the allied army when he struck Valten a mortal wound.  The battle might have gone a different way were it not for the Warrior Priest Luthor Huss and the Orc warboss Grimgor Ironhide - whose vast Greenskin army had previously opposed the allies alongside Archaon's forces - attacking Archaon within the space of a few seconds.  After suffering a blow from Huss that disoriented him and dislodged the Crown of Domination from his head, Archaon swatted the feeble man aside with a backhand strike, but was unprepared for the sudden and vicious betrayal of the Orc warboss just seconds later.  Grimgor knocked Archaon to the floor and put his axe, Gitsnik, to his throat, declaring himself to be "da best!".  His point proven, Grimgor quit the field along with his army, leaving Archaon's forces outnumbered by the allies and Archaon himself defeated in personal combat for the first time.  
+				[NEWLINE][NEWLINE]At some point between then and his army's eventual defeat, Archaon disappeared.  Leadership of most of his host fell to one of his Champions, Haargroth, the Blooded One, a Champion of Khorne.  Haargroth withdrew the army to the nearby village of Sokh, but Emperor Karl Franz, knowing his men couldn't defeat the superhuman Warriors of Chaos in hand-to-hand combat despite outnumbering them, declined to attack the village and instead levelled it with a massive artillery bombardment.  During the fighting on the next day, Count Mannfred von Carstein of Sylvania appeared at the head of a massive host of Undead, and fell upon the village slaughtering Chaos, humans, Elves and Dwarfs alike.  Von Carstein eventually withdrew his troops after threats by the resurrected Grand Theogonist Volkmar, but his intervention had broken the remnants of the Chaos army, and they fled back to the northlands in tatters.  Though most of the north of the Empire was in ruins and the armies of the civilised nations were much depleted, the Storm of Chaos, the biggest incursion of the dark armies since the time of Sigmar, had finally been defeated.
+				[NEWLINE][NEWLINE]Archaon is presumed killed by some but not all, and indeed he yet lives in the depths of the Chaos Wastes.  He still has the loyalty of his longest-serving warriors, the elite Swords of Chaos, but other factors affecting the threat he might still pose are unknown: whether he will ever be able to raise such an army again, and most importantly, whether he still enjoys the favour of all four of the Dark Gods.
+			</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ARCHAON_TITLES_1">
+			<Text>The Everchosen</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ARCHAON_TITLES_2">
+			<Text>Lord of the End Times</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ARCHAON_TITLES_3">
+			<Text>Herald of the Apocalypse</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ARCHAON_TITLES_4">
+			<Text>Chaos Incarnate</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ARCHAON_TITLES_5">
+			<Text>The Favoured Son of Chaos</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ARCHAON_TITLES_6">
+			<Text>The Anointed</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_ARCHAON_TITLES_7">
+			<Text>The Scourge of the World</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 05-Nov-14 11:54:09 -->
+<GameData>
+	<Eras>
+		<Row>
+			<Type>ERA_REAL_FUTURE</Type>
+			<Description>TXT_KEY_ERA_8</Description>
+			<ShortDescription>TXT_KEY_ERA_8_SHORT</ShortDescription>
+			<Abbreviation>TXT_KEY_ERA_8_ABBREV</Abbreviation>
+			<Strategy>TXT_KEY_ERA_REAL_FUTURE_STRATEGY</Strategy>
+			<ArtPrefix>FUTURE </ArtPrefix>
+			<NoGoodies>true</NoGoodies>
+			<NoBarbUnits>true</NoBarbUnits>
+			<NoReligion>true</NoReligion>
+			<ResearchAgreementCost>450</ResearchAgreementCost>
+			<EmbarkedUnitDefense>20</EmbarkedUnitDefense>
+			<StartingUnitMultiplier>3</StartingUnitMultiplier>
+			<StartingDefenseUnits>3</StartingDefenseUnits>
+			<StartingWorkerUnits>3</StartingWorkerUnits>
+			<StartingExploreUnits>2</StartingExploreUnits>
+			<StartingGold>400</StartingGold>
+			<StartingCulture>600</StartingCulture>
+			<FreePopulation>4</FreePopulation>
+			<LaterEraBuildingConstructMod>0</LaterEraBuildingConstructMod>
+			<StartPercent>80</StartPercent>
+			<BuildingMaintenancePercent>40</BuildingMaintenancePercent>
+			<GrowthPercent>50</GrowthPercent>
+			<TrainPercent>18</TrainPercent>
+			<ConstructPercent>21</ConstructPercent>
+			<CreatePercent>21</CreatePercent>
+			<ResearchPercent>5</ResearchPercent>
+			<BuildPercent>60</BuildPercent>
+			<ImprovementPercent>60</ImprovementPercent>
+			<GreatPeoplePercent>60</GreatPeoplePercent>
+			<CulturePercent>60</CulturePercent>
+			<TradeRouteFoodBonusTimes100>350</TradeRouteFoodBonusTimes100>
+			<TradeRouteProductionBonusTimes100>350</TradeRouteProductionBonusTimes100>
+			<EventChancePerTurn>10</EventChancePerTurn>
+			<SpiesGrantedForPlayer>1</SpiesGrantedForPlayer>
+			<SpiesGrantedForEveryone>0</SpiesGrantedForEveryone>
+			<FaithCostMultiplier>500</FaithCostMultiplier>
+			<DiploEmphasisReligion>0</DiploEmphasisReligion>
+			<DiploEmphasisLatePolicies>7</DiploEmphasisLatePolicies>
+			<LeaguePercent>100</LeaguePercent>
+			<WarmongerPercent>100</WarmongerPercent>
+			<SoundtrackSpace>40</SoundtrackSpace>
+			<FirstSoundtrackFirst>false</FirstSoundtrackFirst>
+			<CityBombardEffectTag>CITY_BOMBARD_LATE</CityBombardEffectTag>
+			<AudioUnitVictoryScript>AS2D_VICTORY_LATE</AudioUnitVictoryScript>
+			<AudioUnitDefeatScript>AS2D_LOSS_LATE</AudioUnitDefeatScript>
+		</Row>
+	</Eras>
+
+	<Era_NewEraVOs>
+		<Update>
+			<Where EraType="ERA_FUTURE" VOScript="AS2D_ERA_SPEECH_FUTURE_ERA02"/>
+			<Set VOScript="AS2D_ERA_SPEECH_FUTURE_ERA01"/>
+		</Update>
+		<Update>
+			<Where EraType="ERA_FUTURE" VOScript="AS2D_ERA_SPEECH_FUTURE_ERA03"/>
+			<Set VOScript="AS2D_ERA_SPEECH_FUTURE_ERA01"/>
+		</Update>
+		<Update>
+			<Where EraType="ERA_FUTURE" VOScript="AS2D_ERA_SPEECH_FUTURE_ERA04"/>
+			<Set VOScript="AS2D_ERA_SPEECH_FUTURE_ERA01"/>
+		</Update>
+		<Row>
+			<EraType>ERA_REAL_FUTURE</EraType>
+			<VOScript>AS2D_ERA_SPEECH_FUTURE_ERA02</VOScript>
+		</Row>
+		<Row>
+			<EraType>ERA_REAL_FUTURE</EraType>
+			<VOScript>AS2D_ERA_SPEECH_FUTURE_ERA03</VOScript>
+		</Row>
+		<Row>
+			<EraType>ERA_REAL_FUTURE</EraType>
+			<VOScript>AS2D_ERA_SPEECH_FUTURE_ERA04</VOScript>
+		</Row>
+	</Era_NewEraVOs>
+</GameData>
+
+<!--Future 1: For tomorrow belongs to the people who prepare for it today.-->
+<!--Future 2: The future is not what it used to be.-->
+<!--Future 3: I never think about the future; it comes soon enough.-->
+<!--Future 4: Welcome to the future.-->

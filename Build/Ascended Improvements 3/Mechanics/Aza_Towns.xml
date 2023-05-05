@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/21/2023 7:57:19 AM -->
+<GameData>
+
+	<Improvements>
+		<Update>
+			<Where Type="IMPROVEMENT_TRADING_POST" />
+			<Set>
+				<PillageGold>30</PillageGold>
+				<DefenseModifier>10</DefenseModifier>
+			</Set>
+		</Update>
+		<Row>
+			<Type>IMPROVEMENT_TOWN</Type>
+			<Description>TXT_KEY_IMPROVEMENT_TOWN</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_TOWN_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_TOWN</ArtDefineTag>
+			<PillageGold>65</PillageGold>
+			<DefenseModifier>20</DefenseModifier>
+			<BuildableOnResources>true</BuildableOnResources>
+			<PortraitIndex>32</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_LARGE_TOWN</Type>
+			<Description>TXT_KEY_IMPROVEMENT_LARGE_TOWN</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_LARGE_TOWN_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_LARGE_TOWN</ArtDefineTag>
+			<PillageGold>150</PillageGold>
+			<DefenseModifier>30</DefenseModifier>
+			<BuildableOnResources>true</BuildableOnResources>
+			<PortraitIndex>32</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+	</Improvements>
+
+	<!-- Prereq tech for Village (aka Trading Post) is now Trapping -->
+	<Builds>
+		<Update>
+			<Where Type="BUILD_TRADING_POST" />
+			<Set>
+				<PrereqTech>TECH_TRAPPING</PrereqTech>
+				<Time>600</Time>
+				<!-- default: 700 -->
+			</Set>
+		</Update>
+	</Builds>
+
+	<Improvement_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Improvement_Yields>
+
+	<Improvement_ValidTerrains>
+		<!-- Village (aka Trading Post) as is: Grass, Plains, Tundra, Desert -->
+
+		<!-- Town is valid on Grass, Plains, Tundra, Desert -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+
+		<!-- Large Town is valid on Grass, Plains, Tundra, Desert -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+	</Improvement_ValidTerrains>
+
+	<Improvement_ValidFeatures>
+		<!-- Village is already valid on Flood Plains, Forest, Jungle -->
+		<!-- Village (aka Trading Post) is now valid on Marsh -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+		</Row>
+
+		<!-- Town is valid on Flood Plains, Forest, Jungle, Marsh -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<FeatureType>FEATURE_MARSH</FeatureType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+		</Row>
+
+		<!-- Large Town is valid on Flood Plains, Forest, Jungle -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+		</Row>
+	</Improvement_ValidFeatures>
+
+	<Improvement_ResourceTypes>
+		<!-- Village is valid on Bonus Resources -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<ResourceType>RESOURCE_BISON</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+		</Row>
+
+		<!-- Town is valid on Bonus Resources -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<ResourceType>RESOURCE_BISON</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+		</Row>
+
+		<!-- Large Town is valid on Bonus Resources -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<ResourceType>RESOURCE_BISON</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+		</Row>
+	</Improvement_ResourceTypes>
+
+	<!-- Trading Post (aka Village): no +1 Gold from Economics -->
+	<Improvement_TechYieldChanges>
+		<Delete ImprovementType="IMPROVEMENT_TRADING_POST" TechType="TECH_ECONOMICS" />
+	</Improvement_TechYieldChanges>
+
+	<Policy_ImprovementYieldChanges>
+		<!-- Commerce finisher: +1 Gold from Towns instead of Villages (aka Trading Posts) -->
+		<Delete PolicyType="POLICY_COMMERCE_FINISHER" ImprovementType="IMPROVEMENT_TRADING_POST" YieldType="YIELD_GOLD" />
+		<Row>
+			<PolicyType>POLICY_COMMERCE_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!-- Commerce finisher: +2 Gold from Large Towns -->
+		<Row>
+			<PolicyType>POLICY_COMMERCE_FINISHER</PolicyType>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+
+		<!-- Free Thought (Rationalism): +1 Science from Towns instead of Trading Posts -->
+		<Delete PolicyType="POLICY_FREE_THOUGHT" ImprovementType="IMPROVEMENT_TRADING_POST" YieldType="YIELD_SCIENCE" />
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!-- Free Thought (Rationalism): +2 Science from Large Towns-->
+		<Row>
+			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<!-- Artistic Genius (Aesthetics): +2 Culture from Large Towns -->
+		<Row>
+			<PolicyType>POLICY_ARTISTIC_GENIUS</PolicyType>
+			<ImprovementType>IMPROVEMENT_LARGE_TOWN</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+
+	<!-- Technology Flavors -->
+	<Technology_Flavors>
+		<!-- Trapping -->
+		<Update>
+			<Where>
+				<TechType>TECH_TRAPPING</TechType>
+				<FlavorType>FLAVOR_GOLD</FlavorType>
+			</Where>
+			<Set Flavor="12" />
+		</Update>
+		<Update>
+			<Where>
+				<TechType>TECH_TRAPPING</TechType>
+				<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			</Where>
+			<Set Flavor="5" />
+		</Update>
+
+		<!-- Guilds -->
+		<Update>
+			<Where>
+				<TechType>TECH_GUILDS</TechType>
+				<FlavorType>FLAVOR_GOLD</FlavorType>
+			</Where>
+			<Set Flavor="20" />
+		</Update>
+		<Row>
+			<TechType>TECH_GUILDS</TechType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_GUILDS</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+
+		<!-- Banking -->
+		<Update>
+			<Where>
+				<TechType>TECH_BANKING</TechType>
+				<FlavorType>FLAVOR_GOLD</FlavorType>
+			</Where>
+			<Set Flavor="30" />
+		</Update>
+		<Update>
+			<Where>
+				<TechType>TECH_BANKING</TechType>
+				<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			</Where>
+			<Set Flavor="10" />
+		</Update>
+		<Row>
+			<TechType>TECH_BANKING</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_BANKING</TechType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Technology_Flavors>
+
+	<Language_en_US>
+		
+		<!-- Village -->
+		<Replace Tag="TXT_KEY_IMPROVEMENT_TRADING_POST">
+			<Text>Village</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_IMPROVEMENTS_TRADING_POST_TEXT">
+			<Text>Villages are small settlements where merchants and traders set up shop, sometimes only seasonally. Travelers and city folk come to purchase and trade food, weapons, whiskey, gold, and all of the other trappings of society. This trade generates [ICON_GOLD] Gold, and the buildings of the Village provide a [ICON_STRENGTH] +10% defensive bonus.[NEWLINE][NEWLINE]After researching Guilds, a Village will grow into a [LINK=IMPROVEMENT_TOWN]Town[/LINK] if it meets these criteria for 8 turns (on Standard speed):[NEWLINE][ICON_BULLET] worked by a City[NEWLINE][ICON_BULLET] not next to another Town (Large Towns are ok)[NEWLINE][ICON_BULLET] in a good location[NEWLINE][NEWLINE]A Good Location[NEWLINE]Has any of these qualities:[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]Desirable[ENDCOLOR]: Next to an improved Luxury. (Or next to a Dutch Polder.)[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]Important[ENDCOLOR]: Next to a Great Person improvement. (Or next to a Portuguese Feitoria.)[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]Historic[ENDCOLOR]: Next to a Natural Wonder or Landmark. (Or next to a French Chateau, Moroccan Kasbah, or Polynesian Moai.)[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]Convenient[ENDCOLOR]: Next to a waterway -- river, coast, lake, or oasis. Or next to a road going directly to the City where people work.[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]Bountiful[ENDCOLOR]: On fertile terrain -- grassland, jungle, or flood plains. Or next to an improved Bonus Food Resource, or wild Bananas. (Or next to a Terrace Farm.)</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_BUILD_TRADING_POST">
+			<Text>Build a Village</Text>
+		</Replace>
+
+		<!-- Town -->
+		<Row Tag="TXT_KEY_IMPROVEMENT_TOWN">
+			<Text>Town</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_TOWN_TEXT">
+			<Text>Towns are bustling settlements with a busy populace. Local trade generates [ICON_GOLD] Gold, local industries generate [ICON_PRODUCTION] Production, and the buildings of the Town provide a [ICON_STRENGTH] +20% defensive bonus.[NEWLINE][NEWLINE]After researching Banking, a Town will grow into a [LINK=IMPROVEMENT_LARGE_TOWN]Large Town[/LINK] if it meets these criteria for 16 turns (on Standard speed):[NEWLINE][ICON_BULLET] worked by a City[NEWLINE][ICON_BULLET] at least 3 tiles away from a City or another Large Town[NEWLINE][ICON_BULLET] in a great location[NEWLINE][NEWLINE]A Great Location[NEWLINE]Has any [COLOR_POSITIVE_TEXT]TWO[ENDCOLOR] of these qualities:[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]Desirable[ENDCOLOR]: Next to an improved Luxury. (Or next to a Dutch Polder.)[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]Important[ENDCOLOR]: Next to a Great Person improvement. (Or next to a Portuguese Feitoria.)[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]Historic[ENDCOLOR]: Next to a Natural Wonder or Landmark. (Or next to a French Chateau, Moroccan Kasbah, or Polynesian Moai.)[NEWLINE][ICON_BULLET] [COLOR_POSITIVE_TEXT]Convenient[ENDCOLOR]: Next to a waterway -- river, coast, lake, or oasis. Or next to a road going directly to the City where people work.[NEWLINE][NEWLINE]Note that a bountiful location will help sustain a Town, but won't help it grow into a Large Town.[NEWLINE][NEWLINE]Towns can lose population and eventually shrink back into Villages if they are pillaged, or if they aren't in a good location anymore.</Text>
+		</Row>
+
+		<!-- Large Town -->
+		<Row Tag="TXT_KEY_IMPROVEMENT_LARGE_TOWN">
+			<Text>Large Town</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_LARGE_TOWN_TEXT">
+			<Text>Large Towns are regional centers of commerce and industry. They generate significant [ICON_GOLD] Gold and [ICON_PRODUCTION] Production, and the buildings of the Large Town provide a [ICON_STRENGTH] +30% defensive bonus.[NEWLINE][NEWLINE]Large Towns can lose population and eventually shrink back into Towns if they are pillaged, or if they aren't in a great location anymore.</Text>
+		</Row>
+
+		<!-- Can build Villages at Trapping -->
+		<Replace Tag="TXT_KEY_TECH_TRAPPING_HELP">
+			<Text>Allows Workers to build [COLOR_POSITIVE_TEXT]Villages[ENDCOLOR], which increase the [ICON_GOLD] Gold output of map tiles, and may grow into Towns once Guilds is researched. Also allows Workers to construct [COLOR_POSITIVE_TEXT]Camps[ENDCOLOR] on sources of [ICON_RES_DEER] Deer, [ICON_RES_BISON] Bison, [ICON_RES_IVORY] Ivory, [ICON_RES_FUR] Fur, and [ICON_RES_TRUFFLES] Truffles.</Text>
+		</Replace>
+		<!-- Villages grow into Towns at Guilds -->
+		<Replace Tag="TXT_KEY_TECH_GUILDS_HELP">
+			<Text>Allows Villages worked by this city to begin growing into [COLOR_POSITIVE_TEXT]Towns[ENDCOLOR], providing more [ICON_GOLD] Gold and [ICON_PRODUCTION] Production. Also allows your cities to convert [ICON_PRODUCTION] Production into [ICON_GOLD] Gold instead of working on units or buildings.</Text>
+		</Replace>
+		<!-- Towns grow into Large Towns at Banking -->
+		<Replace Tag="TXT_KEY_TECH_BANKING_HELP">
+			<Text>Allows Towns in great locations to begin growing into [COLOR_POSITIVE_TEXT]Large Towns[ENDCOLOR], providing even more [ICON_GOLD] Gold and [ICON_PRODUCTION] Production. Also allows you to build the [COLOR_POSITIVE_TEXT]Bank[ENDCOLOR], which increases the [ICON_GOLD] Gold produced by a city, as well as the [COLOR_POSITIVE_TEXT]Constabulary[ENDCOLOR], which hinders spies' ability to steal your technology.</Text>
+		</Replace>
+
+		<!-- Tradition Policy Branch (finisher changed) -->
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_TRADITION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Tradition[ENDCOLOR] helps empires develop large cities.[NEWLINE][NEWLINE]Adopting Tradition greatly increases the rate of border expansion in cities and also grants 3 [ICON_CULTURE] Culture in the [ICON_CAPITAL] Capital. Unlocks building the Hanging Gardens.[NEWLINE][NEWLINE]Adopting all Policies in the Tradition tree will grant +15% [ICON_FOOD] Growth and a free Aqueduct in your first 4 cities. It also allows the purchase of Great Engineers with [ICON_PEACE] Faith starting in the Industrial Era.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Suburbs[ENDCOLOR][NEWLINE]After you complete Tradition: For every 14 [ICON_CITIZEN] Population in a City, a directly adjacent settlement can grow into a Large Town. This suburb can be near other Large Towns, and won't restrict other Large Towns from growing nearby. [ICON_LOCKED] [COLOR_NEGATIVE_TEXT]Locked[ENDCOLOR] if you've already completed Liberty.</Text>
+		</Replace>
+		<!-- Liberty Policy Branch (finisher changed) -->
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_LIBERTY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Liberty[ENDCOLOR] helps empires expand and settle many cities.[NEWLINE][NEWLINE]Adopting Liberty will provide 1 [ICON_CULTURE] Culture in every city. Unlocks building the Pyramids.[NEWLINE][NEWLINE]Adopting all policies in the Liberty tree will grant a free Great Person of your choice.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Burgs[ENDCOLOR][NEWLINE]After you complete Liberty: Large Towns can grow 2 tiles away from a City (usually 3 tiles is the minimum). [ICON_LOCKED] [COLOR_NEGATIVE_TEXT]Locked[ENDCOLOR] if you've already completed Tradition.</Text>
+		</Replace>
+		<!-- Commerce Policy tree (finisher changed) -->
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Commerce[ENDCOLOR] provides bonuses to empires focused on [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Adopting Commerce will boost [ICON_GOLD] Gold output in the [ICON_CAPITAL] Capital City by 25%. Unlocks building Big Ben.[NEWLINE][NEWLINE]Adopting all Policies in the Commerce tree will grant +1 [ICON_GOLD] Gold from every Town and +2 [ICON_GOLD] Gold from every Large Town. It also allows the purchase of Great Merchants with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
+		</Replace>
+		<!-- Exploration Policy tree (finisher changed) -->
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Exploration[ENDCOLOR] enhances your abilities to spread your empire over the seas.[NEWLINE][NEWLINE]Adopting Exploration gives +1 [ICON_ARROW_RIGHT] Movement for Naval Units, and +1 Sight for Naval Combat Units. Unlocks building the Louvre.[NEWLINE][NEWLINE]Adopting all Policies allows you to see Hidden Antiquity Sites. It also allows the purchase of Great Admirals with [ICON_PEACE] Faith starting in the Industrial Era.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Villas[ENDCOLOR][NEWLINE]After you complete Exploration: Any tile next to at least 4 water tiles is a great location for a Large Town.</Text>
+		</Replace>
+		<!-- Rationalism: Free Thought -->
+		<Replace Tag="TXT_KEY_POLICY_FREE_THOUGHT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Free Thought[ENDCOLOR][NEWLINE]+1 [ICON_RESEARCH] Science from Towns, +2 [ICON_RESEARCH] Science from Large Towns, and +17% [ICON_RESEARCH] Science from Universities.</Text>
+		</Replace>
+		<!-- Aesthetics: Artistic Genius -->
+		<Replace Tag="TXT_KEY_POLICY_ARTISTIC_GENIUS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Artistic Genius[ENDCOLOR][NEWLINE]A Great Artist appears. +2 [ICON_CULTURE] Culture from Large Towns.</Text>
+		</Replace>
+
+		<!-- Terrace Farm -->
+		<Replace Tag="TXT_KEY_CIV5_IMPROVEMENTS_TERRACE_FARM_HELP">
+			<Text>The Terrace Farm can only be built on hills and does not need a source of fresh water to do so. It will provide additional [ICON_FOOD] Food for each adjacent mountain. A tile next to a Terrace Farm is a [COLOR_POSITIVE_TEXT]bountiful[ENDCOLOR] location for a Town.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_IMPROVEMENTS_TERRACE_FARM_TEXT">
+			<Text>Terrace Farming developed in mountainous areas simultaneously around the world, including Bali, the Philippines, China and Peru. These skinny, stepped fields are cut into hill and mountain sides, preventing the run off of irrigation water and providing space for arable land, usually where none previously was possible. The Incas in particular were masters of terrace farming, and erected large, drystone walls to hold their terraces in place. After building the terrace's shape, the Incas then constructed systems of canals and aqueducts to provide the terraces with constant water, increasting the land's fertility. The ancient Incan's terracing techniques were so successful that modern Peruvian farmers still employ them in their farms today.[NEWLINE][NEWLINE]A tile adjacent to a Terrace Farm is a [COLOR_POSITIVE_TEXT]bountiful[ENDCOLOR] location for a Town.</Text>
+		</Replace>
+		<!-- Polder -->
+		<Replace Tag="TXT_KEY_CIV5_IMPROVEMENTS_POLDER_HELP">
+			<Text>A Polder can only be built on Flood Plains and Marsh. It boosts [ICON_FOOD] Food output by 3 immediately. It also provides +1 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold once Economics is researched. A tile next to a Polder is a [COLOR_POSITIVE_TEXT]desirable[ENDCOLOR] location for a Town.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_IMPROVEMENTS_POLDER_TEXT">
+			<Text>A polder is a low-lying tract enclosed by dikes with the water drained. In general, polder is land reclaimed from a lake or seabed, from flood plains, or from marshes. In time, the drained land subsides so that all polder is eventually below the surrounding water level. Because of this, water seeps into the drained area and must be pumped out or otherwise drained. The dikes are usually made of readily available materials, earth or sand; in modern times these barriers might be covered or completely composed of concrete. The drained land is extremely fertile and makes excellent pasturage or cropland.[NEWLINE][NEWLINE]The first polders of reclaimed land were constructed in the 11th century AD, although building embankments as barriers to water date back to the Romans. The Dutch have a long history of reclaiming marshes and fenland, and even the seabed, and possess half of the polder acreage in Europe. Although there are polders in other countries of Europe, and examples can be found in Asia and North America, Holland has some 3000 polders accounting for about 27 percent of the country's land. Amsterdam itself is built largely upon polder. As the Dutch homily states, "God made the world, but the Dutch made Holland."[NEWLINE][NEWLINE]Provides +3 [ICON_FOOD] Food. When Economics is researched, provides +1 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]A tile next to a Polder is a [COLOR_POSITIVE_TEXT]desirable[ENDCOLOR] location for a Town.</Text>
+		</Replace>
+		<!-- Feitoria -->
+		<Replace Tag="TXT_KEY_CIV5_IMPROVEMENTS_FEITORIA_HELP">
+			<Text>A Feitoria can only be built in a City-State's lands, on a coastal tile without a resource. It provides to you one copy of each Luxury Resource type that City-State has connected, regardless of your status with that City-State, but that copy cannot be traded. It also provides the same +50% defense bonus as a Fort. Can only be built by the Portuguese. A tile next to a Feitoria is an [COLOR_POSITIVE_TEXT]important[ENDCOLOR] location for a Town.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_IMPROVEMENTS_FEITORIA_TEXT">
+			<Text>The Feitoria - Portuguese for "Factory" - were trading posts established in foreign territories during the Middle Ages. A feitoria served simultaneously as marketplace, warehouse, settlement, and staging point for exploration. Often established with a grant from the Portuguese crown, these private enterprises repaid their debt through the buying and selling of goods on behalf of the crown and through collecting taxes on trade that passed through their gates. During the 15th and 16th centuries, a chain of over 50 feitoria were built along the coasts of west and east Africa, India, Malaya, China, and Japan. The feitoria allowed Portugal to dominate the Atlantic and Indian Ocean trade route for three centuries.[NEWLINE][NEWLINE]A Feitoria can only be built in a City-State's lands, on a coastal tile without a resource. It provides one copy of each Luxury Resource type that the City-State has connected, regardless of your status with that City-State, but that copy cannot be traded. It also provides the same +50% defense bonus as a Fort. Can only be built by the Portuguese.[NEWLINE][NEWLINE]A tile next to a Feitoria is an [COLOR_POSITIVE_TEXT]important[ENDCOLOR] location for a Town.</Text>
+		</Replace>
+		<!-- Chateau -->
+		<Replace Tag="TXT_KEY_CIV5_IMPROVEMENTS_CHATEAU_HELP">
+			<Text>A Chateau must be built adjacent to a Luxury resource. It may not be adjacent to another Chateau. It provides 2 [ICON_GOLD] Gold and 1 [ICON_CULTURE] Culture, and the same +50% defense bonus as a Fort. When Flight is researched it provides an additional 2 [ICON_CULTURE] Culture and 1 [ICON_GOLD] Gold. A tile next to a Chateau is a [COLOR_POSITIVE_TEXT]historic[ENDCOLOR] location for a Town.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_IMPROVEMENTS_CHATEAU_TEXT">
+			<Text>A chateau is a manor house or country home of gentry, usually without fortifications. In the Middle Ages, a chateau was largely self-sufficient, being supported by the lord's demesne (hereditary lands). In the 1600s, the wealthy and aristocratic French lords dotted the countryside with elegant, luxuriant, architecturally refined mansions such as the Chateau de Maisons. Today, the term chateau is loosely used; for instance, it is common for any winery or inn, no matter how humble, to prefix its name with "Chateau."[NEWLINE][NEWLINE]A Chateau must be built adjacent to a Luxury resource. It may not be adjacent to another Chateau. It provides one additional [ICON_GOLD] Gold and 2 [ICON_CULTURE] Culture. It also provides the same +50% defense bonus as a Fort. When Flight is researched its [ICON_CULTURE] Culture yield increases by 1 and its [ICON_GOLD] Gold output rises by 2. Must be built in French territory.[NEWLINE][NEWLINE]A tile next to a Chateau is a [COLOR_POSITIVE_TEXT]historic[ENDCOLOR] location for a Town.</Text>
+		</Replace>
+		<!-- Kasbah -->
+		<Replace Tag="TXT_KEY_CIV5_IMPROVEMENTS_KASBAH_HELP">
+			<Text>A Kasbah can only be built on a Desert tile in Moroccan territory. It provides one additional [ICON_FOOD] Food, [ICON_PRODUCTION] Production, and [ICON_GOLD] Gold. It also provides the same +50% defense bonus as a Fort. A tile next to a Kasbah is a [COLOR_POSITIVE_TEXT]historic[ENDCOLOR] location for a Town.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_IMPROVEMENTS_KASBAH_TEXT">
+			<Text>A Kasbah is a type of medina (a walled quarter in a city) found in the countryside, usually a small settlement on a hilltop or hillside. Originally the home for a tribal chieftain or important Islamic imam, the Kasbah is characterized by high-walled, windowless houses and narrow, winding streets. It is usually dominated by a single fortified tower. Kasbahs were common along the North African coast and Middle East until the 1900s. Building a Kasbah was a mark of wealth, influence and power for Moroccan and Algerian families of Arab descent.[NEWLINE][NEWLINE]A Kasbah can only be build on a desert tile. Provides +1 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production, and +1 [ICON_GOLD] Gold. Also provides the same +50% defense bonus as a Fort.[NEWLINE][NEWLINE]A tile next to a Kasbah is a [COLOR_POSITIVE_TEXT]historic[ENDCOLOR] location for a Town.</Text>
+		</Replace>
+		<!-- Moai -->
+		<Replace Tag="TXT_KEY_CIV5_IMPROVEMENTS_MOAI_HELP">
+			<Text>Moai can only be built on the coast. It provides [ICON_CULTURE] Culture, plus additional [ICON_CULTURE] Culture for each adjacent Moai. After the Flight technology is researched it also provides [ICON_GOLD] Gold. A tile next to a Moai is a [COLOR_POSITIVE_TEXT]historic[ENDCOLOR] location for a Town.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_CIV5_IMPROVEMENTS_MOAI_TEXT">
+			<Text>Perhaps better known as the "Easter Island Statues," the Moai are large, humanoid figures carved mostly from rocks like tuff. 887 of these statues dot Easter Island, and are believed to have been created sometime between 1250 and 1500 AD. Almost half still remain at the original quarry site, but the rest were transported and erected around the island's coastline. Easily recognizable by their large heads and elongated features, it is believed that they were individual depictions of deceased ancestors and powerful chiefs.[NEWLINE][NEWLINE]While most scholars agree on why and how the statues were created, the method of their transportation still remains a mystery. Weighing from 9 to 87 tons a piece, they would have required an amazing feat of engineering to move from quarry to final resting place.[NEWLINE][NEWLINE]In 1994, the Moai statues were given official protection on the UNESCO World Heritage site list.[NEWLINE][NEWLINE]Must be built on coastal land. A Moai provides +1 [ICON_CULTURE], and an additional +1 [ICON_CULTURE] Culture for each adjacent Moai. When Flight is researched, it also provides +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]A tile next to a Moai is a [COLOR_POSITIVE_TEXT]historic[ENDCOLOR] location for a Town.</Text>
+		</Replace>
+	</Language_en_US>
+
+</GameData>

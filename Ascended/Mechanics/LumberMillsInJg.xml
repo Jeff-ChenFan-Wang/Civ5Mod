@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/18/2014 4:17:11 AM -->
+<GameData>
+	<Improvement_ValidFeatures>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+		</Row>
+	</Improvement_ValidFeatures>
+</GameData>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 03-Nov-14 20:36:18 -->
+<GameData>
+	<Resources>
+		<Update>
+			<Where Type="RESOURCE_IRON"/>
+			<Set AIStopTradingEra="NULL"/>
+		</Update>
+		<Update>
+			<Where Type="RESOURCE_HORSE"/>
+			<Set AIStopTradingEra="NULL"/>
+		</Update>
+		<Update>
+			<Where Type="RESOURCE_OIL"/>
+			<Set TechReveal="TECH_DYNAMITE" TechCityTrade="TECH_DYNAMITE"/>
+		</Update>
+	</Resources>
+</GameData>

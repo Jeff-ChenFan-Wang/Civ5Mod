@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/15/2014 2:11:06 PM -->
+<GameData>
+	-<Civilizations>
+		-<Row>
+			<Type>CIVILIZATION_WARRIORS</Type>
+			<Description>TXT_KEY_CIV_WARRIORS_DESC</Description>
+			<Civilopedia/>
+			<CivilopediaTag>TXT_KEY_CIV5_WARRIORS</CivilopediaTag>
+			<Strategy/>
+			<Playable>1</Playable>
+			<AIPlayable>1</AIPlayable>
+			<ShortDescription>TXT_KEY_CIV_WARRIORS_SHORT_DESC</ShortDescription>
+			<Adjective>TXT_KEY_CIV_WARRIORS_ADJECTIVE</Adjective>
+			<DefaultPlayerColor>PLAYERCOLOR_WARRIORS</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_WARRIORS</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
+			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+			<ArtStylePrefix>ASIAN</ArtStylePrefix>
+			<DerivativeCiv/>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_WARRIORS_ATLAS</IconAtlas>
+			<AlphaIconAtlas>CIV_WARRIORS_ALPHA_ATLAS</AlphaIconAtlas>
+			<MapImage>Chaos_Map.dds</MapImage>
+			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_WARRIORS_TEXT</DawnOfManQuote>
+			<DawnOfManImage>DOM_The_Emperor.dds</DawnOfManImage>
+			<DawnOfManAudio></DawnOfManAudio>
+			<SoundtrackTag>Denmark</SoundtrackTag>
+		</Row>
+	</Civilizations>
+	-<IconTextureAtlases>
+		-<Row>
+			<Atlas>CIV_WARRIORS_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>ART/JFD_PolandLithuaniaAtlas_256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		-<Row>
+			<Atlas>CIV_WARRIORS_ATLAS</Atlas>
+			<IconSize>214</IconSize>
+			<Filename>ART/JFD_PolandLithuaniaAtlas_214.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		-<Row>
+			<Atlas>CIV_WARRIORS_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>ART/JFD_PolandLithuaniaAtlas_128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		-<Row>
+			<Atlas>CIV_WARRIORS_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>ART/JFD_PolandLithuaniaAtlas_80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		-<Row>
+			<Atlas>CIV_WARRIORS_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ART/JFD_PolandLithuaniaAtlas_64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		-<Row>
+			<Atlas>CIV_WARRIORS_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ART/ART/JFD_PolandLithuaniaAtlas_45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		-<Row>
+			<Atlas>CIV_WARRIORS_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>ART/JFD_PolandLithuaniaAtlas_32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		-<Row>
+			<Atlas>CIV_WARRIORS_ALPHA_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>ART/JFD_PolandLithuaniaAlphaAtlas_128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		-<Row>
+			<Atlas>CIV_WARRIORS_ALPHA_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ART/JFD_PolandLithuaniaAlphaAtlas_64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		-<Row>
+			<Atlas>CIV_WARRIORS_ALPHA_ATLAS</Atlas>
+			<IconSize>48</IconSize>
+			<Filename>ART/JFD_PolandLithuaniaAlpha_48.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		-<Row>
+			<Atlas>CIV_WARRIORS_ALPHA_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ART/JFD_PolandLithuaniaAlphaAtlas_45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		-<Row>
+			<Atlas>CIV_WARRIORS_ALPHA_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>ART/JFD_PolandLithuaniaAlphaAtlas_32.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		-<Row>
+			<Atlas>CIV_WARRIORS_ALPHA_ATLAS</Atlas>
+			<IconSize>24</IconSize>
+			<Filename>ART/JFD_PolandLithuaniaAlphaAtlas_24.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		-<Row>
+			<Atlas>CIV_WARRIORS_ALPHA_ATLAS</Atlas>
+			<IconSize>16</IconSize>
+			<Filename>ART/JFD_PolandLithuaniaAlphaAtlas_16.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+	
+	<Civilization_BuildingClassOverrides>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<BuildingType>BUILDING_ARBITER_SHRINE</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+			<BuildingType>BUILDING_SANGHELI_TRIBUTE</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<!-- Civilization_BuildingClassOverrides -->
+	
+	-<Civilization_CityNames>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WARRIORS_0</CityName>
+		</Row>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WARRIORS_1</CityName>
+		</Row>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WARRIORS_2</CityName>
+		</Row>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WARRIORS_3</CityName>
+		</Row>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WARRIORS_4</CityName>
+		</Row>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WARRIORS_5</CityName>
+		</Row>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WARRIORS_6</CityName>
+		</Row>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WARRIORS_7</CityName>
+		</Row>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WARRIORS_8</CityName>
+		</Row>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WARRIORS_9</CityName>
+		</Row>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WARRIORS_10</CityName>
+		</Row>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WARRIORS_11</CityName>
+		</Row>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WARRIORS_12</CityName>
+		</Row>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WARRIORS_13</CityName>
+		</Row>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<CityName>TXT_KEY_CITY_NAME_WARRIORS_14</CityName>
+		</Row>
+	</Civilization_CityNames>
+	<!-- Civilization_DisableTechs -->
+	-<Civilization_FreeBuildingClasses>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+	-<Civilization_FreeTechs>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<TechType>TECH_AGRICULTURE</TechType>
+		</Row>
+	</Civilization_FreeTechs>
+	-<Civilization_FreeUnits>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<UnitAIType>UNITAI_SETTLE</UnitAIType>
+			<Count>1</Count>
+		</Row>
+	</Civilization_FreeUnits>
+	-<Civilization_Leaders>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<LeaderheadType>LEADER_ARCHAON</LeaderheadType>
+		</Row>
+	</Civilization_Leaders>
+	-<Civilization_Religions>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<ReligionType>RELIGION_TENGRIISM</ReligionType>
+		</Row>
+	</Civilization_Religions>
+	-<Civilization_SpyNames>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_WARRIORS_0</SpyName>
+		</Row>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_WARRIORS_1</SpyName>
+		</Row>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_WARRIORS_2</SpyName>
+		</Row>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_WARRIORS_3</SpyName>
+		</Row>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_WARRIORS_4</SpyName>
+		</Row>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_WARRIORS_5</SpyName>
+		</Row>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_WARRIORS_6</SpyName>
+		</Row>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_WARRIORS_7</SpyName>
+		</Row>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_WARRIORS_8</SpyName>
+		</Row>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<SpyName>TXT_KEY_SPY_NAME_WARRIORS_9</SpyName>
+		</Row>
+	</Civilization_SpyNames>
+	<!---<Civilization_UnitClassOverrides>
+		-<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<UnitClassType>UNITCLASS_LONGSWORDSMAN</UnitClassType>
+			<UnitType>UNIT_ZEALOT</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>-->
+	<Civilization_Start_Along_Ocean>
+		<Row>
+			<CivilizationType>CIVILIZATION_WARRIORS</CivilizationType>
+			<StartAlongOcean>1</StartAlongOcean>
+		</Row>
+	</Civilization_Start_Along_Ocean>
+	
+	<!-- Civilization_Start_Region_Priority -->
+	<!-- Civilization_Start_Region_Avoid -->
+	<!-- Civilization_Start_Place_First_Along_Ocean -->
+	-<PlayerColors>
+		-<Row>
+			<Type>PLAYERCOLOR_WARRIORS</Type>
+			<PrimaryColor>COLOR_PLAYER_WARRIORS_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_WARRIORS_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+	-<Colors>
+		-<Row>
+			<Type>COLOR_PLAYER_WARRIORS_ICON</Type>
+			<Red>0.815</Red>
+			<Green>0.729</Green>
+			<Blue>0.309</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	-<Colors>
+		-<Row>
+			<Type>COLOR_PLAYER_WARRIORS_BACKGROUND</Type>
+			<Red>0.525</Red>
+			<Green>0.000</Green>
+			<Blue>0.109</Blue>
+			<Alpha>1.0</Alpha>
+		</Row>
+	</Colors>
+	-<Language_en_US>
+		-<Row Tag="TXT_KEY_CIV_WARRIORS_DESC">
+			<Text>Kaisen</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV5_WARRIORS_FACTOID_HEADING">
+			<Text>Kaisen</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV5_WARRIORS_FACTOID_TEXT">
+			-<Text>
+				Kaisenvirch strong
+			</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV5_WARRIORS_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV5_WARRIORS_HEADING_2">
+			<Text>The Realm of Kaisenvirch</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV5_WARRIORS_HEADING_3">
+			<Text>The Dark Gods</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV5_WARRIORS_HEADING_4">
+			<Text>The Old Ones' Paradise</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV5_WARRIORS_HEADING_5">
+			<Text>The Coming of Chaos</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV5_WARRIORS_HEADING_6">
+			<Text>War with the Elves</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV5_WARRIORS_HEADING_7">
+			<Text>Malekith</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV5_WARRIORS_HEADING_8">
+			<Text>Schemes of the Dark Gods</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV5_WARRIORS_HEADING_9">
+			<Text>The Storm of Chaos</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV5_WARRIORS_TEXT_1">
+			-<Text>
+				Cool beans. 
+			</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV5_WARRIORS_TEXT_2">
+			-<Text>
+				Though the stuff of Chaos leaks from the collapsed portals at both the north and south poles of the world, it is the north pole that has a contiguous land connection with much of the rest of the world, and so it is this pole to which most people are referring when they say "the Shadow of Chaos".  This cold, desolate realm has no exact border, but extends far into the lands of Naggaroth, Cathay, the Eastern Steppes and the so-called "Chaos Wastes" to the north of Kislev.  
+				[NEWLINE][NEWLINE]On the fringes of this realm, belligerent tribes of Chaos-tainted raiders ride across the snow and the tundra, plundering settlements just to survive.  Physically, the land is unremarkable but for its total hostility to life: nothing green grows, soil is black and dry, and cold, gritty snow clings permanently to broken rocks.  Days and nights are hard to tell apart as thick, roiling clouds fill the sky, smothering the light.  Further still towards the pole, the snow is thick, dark and unmoving, blasted chunks of rock and black, ravaged mountains chew up the landscape and claw at the sky, which is thick with the visible, boiling, tempestuous, multicoloured Winds of Magic.  The sky is rent by the howling screams of Daemons trying to break through from the Realm of Chaos, and the lands are haunted by tribes of fully-mutated Chaos Warriors, committed shock troops of the Dark Gods, physically fused to hulking suits of black Chaos armour.
+			</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV5_WARRIORS_TEXT_3">
+			-<Text>
+				Gods, Daemons and all purely magical entities inhabit a realm of pure energy and formless power that exists outside of space and time.  They respond to the thoughts and emotions of mortal creatures living in our world; such instincts, such transmissions across the synapses of mortal minds, give these other beings their awareness, their animation and their purpose.  These entities, if we may call them such, are but reflections of the subconscious minds of mortals - a mirror of the heaving turmoil that is the sum of mortal hope, despair, rage and pleasure.  The idea of gods gives them birth, and a measure of power for good and for evil, and the number of gods and magical spirits is as limitless as the number of distinct concepts in all of mortal imagination.  Some are minor things, quickly enslaved by the stronger entities of this other plane or even devoured by them, while others grow to become mighty.  All are creations of mortal vice and virtue, of mortal strength and frailty, and in this regard the fortunes of the other plane could be said to reflect the internal struggles of mortal conscience.  Of these entities however, four stand above the others in strength and influence; the four called the Dark Gods.  The Dark Gods are fuelled by the most common, intense and primal of emotions and thoughts; they were among the first entities to be born and have grown overwhelming in their power.  They command many hordes of minor daemons in their own image, and press mortals into their service through threats, boasts and promises of riches so tempting that none can resist.  Just as human thoughts are complex and interwoven, so too are the Dark Gods complex, often contradictory entities, composed of many concepts and nuanced layers of feeling, whose ways are not always logical or coherent.
+				[NEWLINE][NEWLINE]The first and oldest of these gods is Nurgle, the Lord of Decay.  His is the realm of disease, despair and entropy; hopelessness brought by the passing of time and fear of the inevitable loss that it brings sustains Nurgle.  It is he who unleashes famines and pestilence upon the world, and he to whom mortals turn in supplication when crops fail or young children fall feverish.  Thus he is sometimes portrayed as a kindly, almost jovial god, known as Father or Grandfather Nurgle.  His followers have accepted the futility of defying him, and instead embrace the inevitability of the onset of entropy and the delights of decay and disease.  Marked by festering sores, deadened nerves in gangrenous flesh, and heads clouded with fever, Nurgle's mortal Champions can endure wounds that would cripple others.  Those Champions to whom Nurgle chooses to reveal himself see a massive, bloated creature, festering with boils, poxes and surrounded by a thick cloud of flies.  His skin is rent and torn, and from his exposed guts spill the Nurgling - his spiteful mites - and behind his heaving mass is a trail of slime and pus.  His colours are bilious yellow, rotting green and necrotic black, and his number is nine.
+				[NEWLINE][NEWLINE]The second and most powerful is Khorne the Blood God, the Lord of Skulls and the God of Rage.  He is a perfectly angry, eternally raging god of bestial strength and merciless battle prowess who rewards bravery, might at arms and conquest.  In the few depictions of him that exist, he appears as an overly muscled, beast-headed creature, sitting on a massive brass throne atop a mound of skulls.  There are no temples to Khorne and few true ceremonies in his name, for he is the God of War and is worshipped on the battlefield.  He despises spellcasting, and magic in general, as craven weapons utilised by cowards who fear to fight an enemy face-to-face.  His Champions are gifted with outrageous strength, skill and fury, and believe that a day spent without a death in his name is a day wasted.  Their battle cry - "Blood for the Blood God!  Skulls for the Skull Throne!" - heralds the furious onslaught of Khorne's devoted, and a cathartic paroxysm of rageful slaughter.  His colours are blood red, brass and skull white, and his number is eight.
+				[NEWLINE][NEWLINE]Tzeentch, the Changer of the Ways, came next.  Change is his essence, as it is the essence of Chaos itself, and of the ever-mutating energy known to mortals as magic.  As the incarnation of change, Tzeentch is known everywhere as the Great Schemer, a subtle and near-omniscient manipulator of events.  He is the Puppet Master, pulling the strings of fate and writing the destiny of his followers and enemies alike.  Practitioners of magic, scholars and educated men - with a thirst for more knowledge and power - are thus the most vulnerable to Tzeentch's seductions.  To them, he appears most often as a cloud of light that constantly changes colour, and his daemons are gifted with eerie avian beaks, claws and multicoloured feathers.  In the Empire and across the kingdoms of Men, devotees of Tzeentch gather in secret covens in which they use every means to increase their reputation, seeking to prove their usefulness to their patron by becoming more influential pawns for his schemes.  Few followers of Tzeentch will attain the status of Champion, for the road is long and tortuous, but those who do are among the most powerful of all Champions of the Dark Gods, for they are blessed with magical powers far beyond the realistic ambitions of other mortals.  Tzeentch feeds on the primal emotion of hope, for hope stems from the possibility of change for the better.  Though all the Dark Gods are rivals, Tzeentch and Nurgle, representing the opposing realms of hope and despair respectively, are especially opposed to one another.  Tzeentch's colours are purple, blue, yellow and gold, and his number is seven.
+				[NEWLINE][NEWLINE]Last and youngest is Slaanesh, the Dark Prince of Chaos and the Lord of Pleasure.  He is fed by the primal emotions of pleasure and indulgence, the patron of all things beautiful and seductive.  He is the master of excess and creativity, and his domains are passion and the arts.  Though often referred to as masculine, Slaanesh transcends and amalgamates masculinity and femininity, and is portrayed as a half-male, half-female creature so impossibly beautiful that he is obviously not of the natural world; it is said that to look upon him is to forfeit your soul to his every whim.  Slaanesh's dark allure has corrupted many: the temptation of a faction of the Elves into his perverted worship is said to have partially caused the terrible division of that noble race, while secretive cults continue to thrive even within the greatest cities of the Old World.  Mortals who, in their pride or their lust, seek the loyalty or affection of their peers are especially vulnerable to Slaanesh's temptations, for these are within his power to give.  His devotees are politicians, aristocrats, socialites, hedonists and fans of the arts, while those that rise to become his Champions are majestic, charismatic leaders, quick of thought and wit.  They attract large warbands of devoted followers, and as Slaanesh's gifts multiply, their followers grow ever more dedicated to the Champion, feeling neither pain, nor fear, nor hardship as the desire to please their leader consumes them.  Slaanesh, as the lord of indulgence, luxury and pleasure, is the particular enemy of Khorne, whose primal brutality and love of destruction is offensive to any who love refinement and creativity as Slaanesh does.  Slaanesh's colours are pink, purple and black, and his number is six. 
+			</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV5_WARRIORS_TEXT_4">
+			-<Text>
+				Aeons ago, before the mortal races began recording history, the world was populated by giant beasts; lightning-clad Shaggoths, chasm-dwelling Marnocks and segmented Leviathans.  Greatest of all were the Dragons, then a race in the ascendant, with a developed society and many factions who vied with one another for supremacy much as the lesser races do now.  
+				[NEWLINE][NEWLINE]Then came the Old Ones, a mysterious and near-omnipotent race of spacefaring travellers.  They came upon the world and calculated - so say the Lizardmen, their servants to this day - that it would play a pivotal role in the destiny of the universe.  So it was they took to steering the planet's path toward goodness, and set about reshaping it in accordance with their Great Plan.  They also created portals at each of the planet's poles; these allowed the Old Ones to travel vast distances, linking the world to the rest of their interstellar empire.  There was one complication: such travel was possible because it went through the Realm of Chaos, a parallel dimension, the temporal and spatial limits of which are both zero and infinity.  This is the Realm described above, in which the Dark Gods take shape and the mutating power of magic exists in its raw form, and the Old Ones made a terrible mistake in utilising it.
+				[NEWLINE][NEWLINE]The Old Ones could also create life, and in the service of their ever-mysterious Great Plan, this they did.  The first were the Slann, a race of toad-like beings whose corpulent forms belied a mental power that could shatter mountains and fold reality.  The Slann were designed to serve the Old Ones and immensely powerful mages, the only creatures other than the Old Ones themselves who could even begin to comprehend the complexities of the Great Plan, and indeed this is their main preoccupation even today.  As the Slann were the agents of the Old Ones, so were the Lizardmen created to be menial servants of the Slann, and in time an earthly paradise was under construction by armies of hardy Saurus and dextrous Skins, under the supervision of the Slann, according to the Old Ones' designs.
+				[NEWLINE][NEWLINE]Not satisfied for reasons that are still not fully understood, and a central question in the Slanns' endless ponderings, the Old Ones created many more sentient species, including but not limited to the Elves, Dwarfs, Ogres, Halflings and Humans.  Yet the Old Ones continued to experiment, seeking to create the perfect life form according to their own inscrutable criteria.  Whatever their goals, the world was stable, and it must have seemed that there was no rush. 
+			</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV5_WARRIORS_TEXT_5">
+			-<Text>
+				This paradise was shattered when a critical mass was reached in the realm of spirit that lay beyond the Old Ones' gates.  The cause of this is another of the early world's great unanswered questions; perhaps the energies of this realm were excited by the tumultuous consciences of so many new, sentient creatures.  Whatever the cause, the consequence was the Great Cataclysm: a massive outpouring of raw Chaos energy from the Old Ones' two portals, which collapsed under the strain, being replaced by a vast, boiling sea of Chaos, where reality and the otherworld overlapped.  The force of the implosion shattered an entire continent and spat it into the sky - thus was born Morrslieb, the world's second moon, the moon of Chaos.  The Chaos energies were contained through the efforts of the eldest Slann, and only through the sacrifice of hundreds of their number was the total destruction of the world avoided.  Even so, a billion fiends burst from the pulsing wound that bisected the world.  Chaos had come.
+			</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV5_WARRIORS_TEXT_6">
+			-<Text>
+				As their star-portals collapsed, the Old Ones disappeared.  No one knows whether they fled or were destroyed, but they were creatures of order and life, and the Daemons of Chaos were anathema to them.  Chunks of Chaos-infused matter, known as warpstone, fell upon the world like rain in the wake of the Great Cataclysm, and the world's forests convulsed with rampant and unnatural growth as the taint of Chaos brought random mutation to formerly inert matter in a sick mockery of the Old Ones' careful process of creating life.  Man and beast were fused and became the violent race of Beastmen; the first of the vile ratmen, the Skaven, crawled out from their pestilential marshes; and the world's most horrific monsters - Cockatrices, Manticores, Chimeras and worse - were brought into being.
+				[NEWLINE][NEWLINE]The Lizardmen led the resistance of the Old Ones' child races.  In the jungles of Lustria, Slann Mage-Priests worked deadly spells, and commanded phalanxes of Saurus and gargantuan reptiles as they clashed with great titans made of brass and braying hordes of lesser Daemons.
+				[NEWLINE][NEWLINE]In their island home of Ulthuan, the Elves were also struggling against the Daemonic incursion.  A fragile race with no warrior tradition, and a refined culture whose only weapons were for hunting, the Elves looked certain to be overwhelmed.  Until Aenarion came, returning home after seeking battle across the length and breadth of the world.  He prayed to the Elven gods for strength and, hearing no answer, threw himself into the sacred fires of Asuryan in desperation.  He emerged unburned, proving his purity beyond doubt and becoming infused with the raw might of Asuryan the Creator.  With his new power and his uncommon battlefield expertise, the Elves won their first victories against the Daemons.  The momentum behind them grew, and Aenarion gathered a vast army supported by hundreds of Dragons, allies of the Elves since the dawn of that race.  The Daemons were driven back in disarray before their wrath.
+				[NEWLINE][NEWLINE]The Elves were saved from annihilation, but as creatures of the stuff of Chaos, Daemons can never be permanently killed by mortal blades.  When they fell upon the heartlands of Avelorn and killed Aenarion's consort, the Everqueen, along with their children, Aenarion swore to find a way to destroy them for good.  Against the advice of his friend, the Archmage Caledor, Aenarion drew the Sword of Khaine from its great black altar at the heart of the fabled Blighted Isle, at the north of Ulthuan.  This was unspeakable folly, for the weapon was not intended for mortal hands, and to draw it was eternal damnation.  
+				[NEWLINE][NEWLINE]In his rage, Aenarion cared not, and became all but invincible.  He scattered the armies of Chaos before him and was feared by all, both mortal and immortal, for he had become not only the avatar of Asuryan but also a conduit for the bloodlust of Khaine, the Bloody-Handed God, and held in some traditions to be an aspect of the Dark God Khorne.  This taint persisted not only in Aenarion but in all his progeny, and sowed the seed of corruption in the Elven race: such was the price for seizing the Sword of Khaine.
+			</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV5_WARRIORS_TEXT_7">
+			-<Text>
+				Years later, the now-King Aenarion rescued the mysterious seeress Morathi from a coven of Chaos worshippers and took her as a second wife.  She bore him a son, whom she named Malekith.  Meanwhile, rumours had begun to circulate of cruelty in Aenarion's court, especially with regard to his merciless persecution of those who defied him.  The Elves had no time to dwell on these, however, for Ulthuan was soon threatened by another daemonic invasion.
+				[NEWLINE][NEWLINE]Aenarion's friend Caledor Dragontamer, the greatest mage of the era, devised a plan to drain the gales of magic that raged from the maelstrom at the top of the world, to return them to the Realm of Chaos and inflict a lasting blow against the limitless tide of Daemons.  Caledor and his archmage acolytes set about repairing and strengthening Ulthuan's ancient network of magical standing stones in preparation for their great spell, and at the Battle of the Isle of the Dead, besieged by Daemon armies, the gambit was successful.  A great vortex drew the essence of Chaos from the world like poison from a wound.
+				[NEWLINE][NEWLINE]Aenarion, astride his loyal and noble Dragon Indraugnir, had been crucial in the defence of the mages as they cast his spell.  He slew four Greater Daemons of the Dark Gods - the most powerful of their kind - single-handedly in a battle no mortal should have been able to survive.  In the wake of Caledor's spell, exhausted and fatally wounded, he returned the Sword of Khaine to its altar on the Blighted Isle, and thereafter was never seen again.  Dwarfs, Lizardmen and humans breathed a sigh of relief as Daemons vanished into thin air, howling in rage, and so with the sacrifice of its greatest heroes, Ulthuan had bought the world a reprieve from the onslaught of Chaos.
+				[NEWLINE][NEWLINE]In the wake of Aenarion's death, his son Prince Malekith was passed over as the new Phoenix King in favour of the noble Bel Shanaar.  A seed of bitterness was planted in the young prince's otherwise virtuous heart - one that was subtly nurtured by his mother Morathi, who had not been a victim of the Chaos cult from which Aenarion believed he had rescued her, but rather its leader.  What followed is more properly recorded in the histories of the Elves, but in summary, Morathi used both natural and unnatural wiles to exaggerate every slight, real or imagined, against Malekith.  Mild resentment and wounded pride became bitter hatred, until Malekith attempted to seize the Phoenix Crown by force, undoing at a stroke all his noble deeds in service to his people.  He accused Bel Shanaar of Chaos worship and then killed him in the Shrine of Asuryan, before plunging into the flames as had his former liege and his own father before him, eager to receive Asuryan's blessing.  Instead the fire rejected him, inflicting him with horrible burns.
+				[NEWLINE][NEWLINE]Malekith fled to his home province of Nagarythe and summoned his followers, conspiring with Morathi to stoke the resentment of those who were still loyal to him or could be made so out of respect for his achievements.  Such was his political skill that soon a yawning schism looked set to divide the Elf race forever.  Civil War erupted across Ulthuan as the Elves divided into two factions: the High Elves who remained loyal to the Phoenix Crown, and the Dark Elves, loyal to Malekith.  The war raged for years and though Malekith won many victories, he was eventually brought to battle and defeated by the new Phoenix King, Caledor II, at the storm-wracked battle of Maledor.
+				[NEWLINE][NEWLINE]Malekith fled again and, driven by desperation, hatched two evil plots to bring Ulthuan to its knees.  He instructed his followers to attack Dwarven trading caravans, disguised as High Elves, creating a point of conflict between the two long-time allies that erupted into all-out war as the haughty Elves and unforgiving Dwarfs, believing themselves to be innocent and wronged respectively, refused to apologise.  Malekith's other ploy, however, was even more nefarious and unforgivable: he destabilised the cosmic vortex built by Caledor Dragontamer.  Driven by pride and desperation, he had made evil pacts with the Dark Gods, and their laughter was heard around the world as Malekith helped them return to it.  Another tidal wave of Chaos power spilled forth from Ulthuan, devastating the island and physically tearing Nagarythe from its shores.  This event is known as the Sundering, and any reconciliation between the Elf races has been impossible ever since.
+				</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV5_WARRIORS_TEXT_8">
+			-<Text>
+				Since the Sundering and the reintroduction of Chaos into the world, the stuff of Chaos has steadily leaked from the collapsed portals in the north and south poles.  Its influence can be felt by those who dwell in these regions, with notable victims being humans in the northern realm of Kislev and the so-called Chaos Wastes; the Chaos-tainted Dwarfs in the northern Worlds Edge Mountains and across the Great Skull Land; and the Dark Elves themselves, who founded their new kingdom of Naggaroth on the north-eastern continent after fleeing the destruction of Ulthuan.  Much like the tempestuous consciousnesses of humans, the power of Chaos ebbs and flows, but the Dark Gods are always scheming to grow their power.  They are most dangerous when they are united and they march under the eight-pointed star of Chaos Undivided, and it is only because such times are rare due to their nature as prideful creatures, as much interested in dominating one another as the lesser races, that the world has endured this long.
+				[NEWLINE][NEWLINE]The Dark Gods have attempted to expand their influence across the rest of the world in many ways.  Innumerable influential or powerful figures, heroes of their people, have been manipulated by the Dark Gods or seduced into worshipping them outright: Malekith was one of the most important, but since him there have been Dechala the Denied One, once a beautiful High Elf princess who sold her soul to Slaanesh; Festus the Leechlord, once one of the best doctors in the Empire who sold his soul to Nurgle to know the cure for all diseases he couldn't stop, now a deranged maniac who experiments with new diseases and unleashes them upon humanity; Haargroth the Blooded One, once a humble peasant boy who discovered the unsuspected depths of his rage when tested in combat, now a frenzied Champion of Khorne; and Egrimm von Horstmann, once a powerful Imperial wizard of the Light College who corrupted many of his brethren, now a fearsome sorceror and leader of the Cabal, the most powerful cult of Tzeentch in the world.
+				[NEWLINE][NEWLINE]Raids by Khornate Warriors, plagues unleashed by Nurgle-worshipping madmen and political coups orchestrated by Slaaneshi or Tzeentchian cults are a constant menace to the free peoples of the world, but every so often, the Chaos Gods set aside their differences and throw their combined strength at their enemies.  Such events are mercifully rare, and only occur when the gods are given a good reason: the rise of an Everchosen such as Archaon is such a reason, but it is not only Everchosen that are capable of securing the favour of all Chaos's many creations.  In 2302, the warlord Asavar Kul led a titanic host of Warriors, Daemons, monsters and Beastmen out of the north.  His army fell upon the realm of Kislev and laid siege to the ice-clad city of Praag.  Though a famously well-fortified city, Kul's host was vast, and commanded the energies of some of the most powerful Tzeentchian sorcerors alive at the time.  Kul's forces sacked the city, while his mages unleashed gales of magic so strong that the cowering citizens were fused with the walls of their own homes.  Soon Praag resembled something from the fever dreams of a dying lunatic; it has been a city of the damned ever since.
+				[NEWLINE][NEWLINE]Moving south, Kul's horde sacked several more fortresses and Dwarf holds until it fell upon the capital city of Kislev itself.  There began a bitter siege that took an horrendous toll on the city's defenders, but bought the Empire some time to muster its armies and retaliate.  Kul's incursion was eventually halted and repelled by a grand alliance of Dwarfs, Elves and Men, united by the now-legendary hero Magnus the Pious of Nuln, who was later crowned Emperor.  This was the last great invasion of Chaos Undivided for over two hundred years, and the Empire enjoyed a period of peace and prosperity.
+			</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV5_WARRIORS_TEXT_9">
+			-<Text>
+				Archaon was a mighty Chaos Warlord, comparable to Asavar Kul, Wulfrik the Wanderer or Vardek Crom until he succeeded in a century-long quest.  His goal was to acquire a number of legendary artifacts of Chaos that had belonged to bygone Everchosen - those rare Chaos Champions who had succeeded in gaining the highest favour of all four Dark Gods and uniting their forces behind their banners.  Each artifact was an heirloom of one or other of these gods and a mighty thing in its own right.  When he finally succeeded in acquiring the Crown of Domination - with the assistance of Be'laker, the first Dameon Prince and Messenger of the Gods - he finally won the right to be crowned the new Everchosen, and the Lord of the End Times.
+				[NEWLINE][NEWLINE]Having completed his quest, Archaon wasted little time in swelling his host from its already formidable size to hundreds of thousands of troops strong - it would be the largest Chaos army to have swept from the north since the time of Sigmar.  Instrumental in this was securing the allegiance of his erstwhile rival, Vardek Crom, who had succeeded the warlords of the Kul and restored that fearsome tribe to its former strength before Asavar Kul's invasion of Kislev some two hundred years previously.  With Crom's strength joined to his, Archaon named him his herald, and prepared to attack the Empire.
+				[NEWLINE][NEWLINE]The Storm of Chaos, as it came to be known, fell upon Kislev and the northern Empire - weakened after recent fighting in Albion - like a hammer on glass.  Kislev was overwhelmed, the Tsarina Katarin barely escaping another sacking of Praag with the aid of her old ally Ungrim Ironfist, the Slayer King of the Dwarven hold of Karak Kadrin.  As Archaon's horde rampaged through Kislev and invaded the northern provinces of the Empire, Emperor Karl Franz invited envoys from neighbouring kingdoms in the Old World, as well as representatives of the High Elves and the Dwarfs, to the so-called "Conclave of Light", held in the Imperial capital of Altdorf.  Karl Franz successfully negotiated for the support of the Kingdom of Bretonnia, the Dwarfs and the High Elves to help defend the Empire against Chaos Undivided.  
+				[NEWLINE][NEWLINE]Meanwhile, the rogue Warrior Priest and self-styled Prophet of Sigmar, Luthor Huss, had discovered a young man named Valten.  Valten, an unassuming blacksmith's son, had single-handedly defended his village from a horde of Beastmen, and bore a striking resemblance to Sigmar, the Empire's warrior-god, as described in the legends.  A confluence of other omens caused Huss to declare Valten the reincarnation of Sigmar, and travelled to Altdorf with a following of zealous Sigmarites to try and place him on the throne.  Karl Franz, a devout Sigmarite but also a pragmatist who feared the political upheaval that might result from ceding the Empire to Valten, gave him instead Sigmar's ancient Dwarf-forged hammer, Ghal Maraz, and agreed to share leadership of the Imperial army with Valten.  Together, Karl Franz and Valten led a massive host of Men, Dwarfs and Elves to Middenheim, where Archaon's host was besieging the city.
+				[NEWLINE][NEWLINE]The battle was cataclysmic, and lasted for four bloody days.  King Louen Leoncoeur of Bretonnia confronted Be'lakor himself in single combat, Garagrim Ironfist finally fulfilled his Slayer vow by dying in combat after being crushed by one of many giants he felled, the almighty Elven Archmage Teclis banished Be'lakor's Daemonic Legions back into the Realm of Chaos with many exhausting spells, and then there was the duel between Valten and Archaon.  Valten destroyed Archaon's steed and traded blows with Archaon on foot, before Archaon unleashed the power of U'zuhl, the Daemon that possessed his fearsome sword, the Slayer of Kings.  Unprepared for the sudden fury of U'zuhl's attack, Valten was impaled by the sword.  Furious, Luthor Huss charged at Archaon and struck off his helmet with a blow from his hammer, only for Archaon to send him flying through the air, shattering bones with a contemptuous flick.  Regaining his feet, Archaon was assaulted by yet another foe; Grimgor Ironhide, the ferocious Orc Warboss whose Greenskin army had until that moment fought alongside Archaon's host.  Grimgor prevailed against the tired and surprised Archaon, placing his axe Gitsnik against the Everchosen's throat before declaring himself to be "da best!".  His point proven, Grimgor quit the field along with his army.  Luthor Huss regained his feet and took Valten away to the safety of Middenheim.
+				[NEWLINE][NEWLINE]With Be'lakor's Daemons banished and the Orcs having deserted, Archaon's forces were now outnumbered by their foes, but still deadly.  After an extended artillery bombardment that kept the allied troops from having to engage the fearsome warriors in melee, their numbers were cut further, and eventually they were scattered and forced to withdraw.  For the first time in three months, the calls of war could not be heard, and the Storm of Chaos had been ended.  The victory had come at a terrible cost, however; much of Kislev and the north of the Empire is in ruins and recovery efforts continue to this day.  The armies of all the civilised nations are much diminished.  Though all known threats to the Dwarfs, Elves, Bretonnians and Empire have been seen away, they have seldom been so weak as they are now.
+				[NEWLINE][NEWLINE]As to Archaon, he yet lives in the depths of the Chaos Wastes, and he still has the loyalty of his longest-serving warriors, the elite Swords of Chaos.  Whether he will ever be able to raise such an army again as he did during the Storm of Chaos, and whether he still enjoys the favour of all four of the Dark Gods - whether he is still the Everchosen - is unknown.
+			</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV5_WARRIORS_TITLE">
+			<Text>Kaisen</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV_WARRIORS_SHORT_DESC">
+			<Text>Kaisen</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV_WARRIORS_ADJECTIVE">
+			<Text>Kaisen</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CIV5_DAWN_WARRIORS_TEXT">
+			<Text>
+				Lmao too lazy to write anything
+				[NEWLINE][NEWLINE]Figure it out as you go, shouldn't be that hard. 
+			</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CITY_NAME_WARRIORS_0">
+			<Text>Kaisenstolz Imperitas</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CITY_NAME_WARRIORS_1">
+			<Text>Bastion Stair</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CITY_NAME_WARRIORS_2">
+			<Text>Brass Keep</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CITY_NAME_WARRIORS_3">
+			<Text>Karak Dum</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CITY_NAME_WARRIORS_4">
+			<Text>Orak Dar</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CITY_NAME_WARRIORS_5">
+			<Text>Vazin Kor</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CITY_NAME_WARRIORS_6">
+			<Text>Vaz</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CITY_NAME_WARRIORS_7">
+			<Text>Kraka Drak</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CITY_NAME_WARRIORS_8">
+			<Text>Har Ganeth</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CITY_NAME_WARRIORS_9">
+			<Text>Naggarond</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CITY_NAME_WARRIORS_10">
+			<Text>Karak Vlag</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CITY_NAME_WARRIORS_11">
+			<Text>Uzkulak</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CITY_NAME_WARRIORS_12">
+			<Text>Hag Graef</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CITY_NAME_WARRIORS_13">
+			<Text>Clar Karond</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_CITY_NAME_WARRIORS_14">
+			<Text>Karond Kar</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_SPY_NAME_WARRIORS_0">
+			<Text>Kairos Fateweaver</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_SPY_NAME_WARRIORS_1">
+			<Text>Xirat'p</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_SPY_NAME_WARRIORS_2">
+			<Text>P'tarix</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_SPY_NAME_WARRIORS_3">
+			<Text>The Masque</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_SPY_NAME_WARRIORS_4">
+			<Text>Azazel, Prince of Damnation</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_SPY_NAME_WARRIORS_5">
+			<Text>Malagor, the Dark Omen</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_SPY_NAME_WARRIORS_6">
+			<Text>Vilitch the Curseling</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_SPY_NAME_WARRIORS_7">
+			<Text>Dechala, the Denied One</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		-<Row Tag="TXT_KEY_SPY_NAME_WARRIORS_8">
+			<Text>The Changeling</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_SPY_NAME_WARRIORS_9">
+			<Text>Epidemius</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,343 @@
+<trigger_system type="FGrannyTimedTriggerSystem">
+  <event_tracks>
+    <event_track ec="1160">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1800">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1580">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="2220">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1200">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1520">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="2160">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1620">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1400">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="2040">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1002">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1130">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1180">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1500">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1120">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1440">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1220">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1540">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="2180">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1000">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1640">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1100">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1420">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1040">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="2000">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1003">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1140">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="2100">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1560">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="2200">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1290">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1020">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1285">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1710">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1280">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1600">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1001">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1705">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="1700">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+    <event_track ec="2020">
+      <track id="1" name="Sound" />
+      <track id="2" name="Effect" />
+      <track id="3" name="Transfer" />
+      <track id="4" name="Action" />
+    </event_track>
+  </event_tracks>
+  <triggers>
+	  
+<!-- Attack Animations, original sound: AS3D_UNIT_MECHANIZED_INFANTRY_MECH_INF_CANNON -->  
+	  <trigger type="FTimedTriggerAction" id="136" time="0.705555558" duration="0" repeat="0" ec="1100" track="4" tier="0" action="1"/>
+	  <trigger type="FTimedTriggerEffect" id="137" time="0.687037051" duration="0" repeat="0" ec="1100" track="2" tier="0" event="ART_DEF_VEFFECT_TRANSPORT_CANNON_SMOKE" bone="Cargo_Ship"/>
+	  <trigger type="FTimedTriggerSound" id="138" time="0.6759262" duration="0" repeat="0" ec="1100" track="1" tier="-1" event="AS3D_UNIT_MECHANIZED_INFANTRY_MECH_INF_CANNON" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="139" time="0.6" duration="0" repeat="0" ec="1100" track="1" tier="-1" event="AS3D_UNIT_TANK_TANK_RECOIL" bone=""/>
+	  <trigger type="FTimedTriggerAction" id="140" time="0.705555558" duration="0" repeat="0" ec="1160" track="4" tier="0" action="1"/>
+	  <trigger type="FTimedTriggerEffect" id="141" time="0.687037051" duration="0" repeat="0" ec="1160" track="2" tier="0" event="ART_DEF_VEFFECT_TRANSPORT_CANNON_SMOKE" bone="Cargo_Ship"/>
+	  <trigger type="FTimedTriggerSound" id="142" time="0.572222233" duration="0" repeat="0" ec="1160" track="1" tier="-1" event="AS3D_UNIT_MECHANIZED_INFANTRY_MECH_INF_CANNON" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="143" time="0.6" duration="0" repeat="0" ec="1160" track="1" tier="-1" event="AS3D_UNIT_TANK_TANK_RECOIL" bone=""/>
+	  <trigger type="FTimedTriggerAction" id="145" time="0.705555558" duration="0" repeat="0" ec="1180" track="4" tier="0" action="1"/>
+	  <trigger type="FTimedTriggerEffect" id="146" time="0.687037051" duration="0" repeat="0" ec="1180" track="2" tier="0" event="ART_DEF_VEFFECT_TRANSPORT_CANNON_SMOKE" bone="Cargo_Ship"/>
+	  <trigger type="FTimedTriggerSound" id="147" time="0.572222233" duration="0" repeat="0" ec="1180" track="1" tier="-1" event="AS3D_UNIT_MECHANIZED_INFANTRY_MECH_INF_CANNON" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="148" time="0.6" duration="0" repeat="0" ec="1180" track="1" tier="-1" event="AS3D_UNIT_TANK_TANK_RECOIL" bone=""/>
+	  <trigger type="FTimedTriggerAction" id="149" time="0.705555558" duration="0" repeat="0" ec="2100" track="4" tier="0" action="1"/>
+	  <trigger type="FTimedTriggerEffect" id="150" time="0.58518517" duration="0" repeat="0" ec="2100" track="2" tier="0" event="ART_DEF_VEFFECT_TRANSPORT_CANNON_SMOKE" bone="Cargo_Ship"/>
+	  <trigger type="FTimedTriggerSound" id="151" time="0.572222233" duration="0" repeat="0" ec="2100" track="1" tier="-1" event="AS3D_UNIT_MECHANIZED_INFANTRY_MECH_INF_CANNON" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="152" time="0.6" duration="0" repeat="0" ec="2100" track="1" tier="-1" event="AS3D_UNIT_TANK_TANK_RECOIL" bone=""/>
+	  <trigger type="FTimedTriggerAction" id="153" time="0.705555558" duration="0" repeat="0" ec="2160" track="4" tier="0" action="1"/>
+	  <trigger type="FTimedTriggerEffect" id="154" time="0.58518517" duration="0" repeat="0" ec="2160" track="2" tier="0" event="ART_DEF_VEFFECT_TRANSPORT_CANNON_SMOKE" bone="Cargo_Ship"/>
+	  <trigger type="FTimedTriggerSound" id="155" time="0.572222233" duration="0" repeat="0" ec="2160" track="1" tier="-1" event="AS3D_UNIT_MECHANIZED_INFANTRY_MECH_INF_CANNON" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="156" time="0.6" duration="0" repeat="0" ec="2160" track="1" tier="-1" event="AS3D_UNIT_TANK_TANK_RECOIL" bone=""/>
+	  <trigger type="FTimedTriggerAction" id="157" time="0.705555558" duration="0" repeat="0" ec="2180" track="4" tier="0" action="1"/>
+	  <trigger type="FTimedTriggerEffect" id="158" time="0.58518517" duration="0" repeat="0" ec="2180" track="2" tier="0" event="ART_DEF_VEFFECT_TRANSPORT_CANNON_SMOKE" bone="Cargo_Ship"/>
+	  <trigger type="FTimedTriggerSound" id="159" time="0.572222233" duration="0" repeat="0" ec="2180" track="1" tier="-1" event="AS3D_UNIT_MECHANIZED_INFANTRY_MECH_INF_CANNON" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="160" time="0.6" duration="0" repeat="0" ec="2180" track="1" tier="-1" event="AS3D_UNIT_TANK_TANK_RECOIL" bone=""/>
+ 	  	     
+<!--
+	  <trigger type="FTimedTriggerEffect" id="2" time="0" duration="1.33333" repeat="0" ec="1100" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_LONG_01" bone="World_Center" />
+	  <trigger type="FTimedTriggerEffect" id="21" time="0" duration="1" repeat="0" ec="1120" track="2" event="ART_DEF_VEFFECT_WAKE_TRAIL_LG_01" bone="World_Center" />
+	  <trigger type="FTimedTriggerSound" id="81" time="0" duration="1" repeat="0" ec="1120" track="1" tier="-1" event="AS3D_UNIT_TRANSPORT_OCEAN_LOOP" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="32" time="0" duration="1" repeat="0" ec="1120" track="1" tier="-1" event="AS3D_UNIT_TRANSPORT_RUN" bone=""/>
+	  <trigger type="FTimedTriggerSound" id="123" time="0" duration="0.666667" repeat="0" ec="1120" track="1" event="AS3D_UNIT_CARRIER_BATTLESHIP_RUN" bone="" tier="-1" />
+	  <trigger type="FTimedTriggerSound" id="127" time="0" duration="0.67" repeat="0" ec="1120" track="1" event="AS3D_UNIT_CARRIER_OCEAN_LOOP" bone="" tier="-1" />
+	  <trigger type="FTimedTriggerSound" id="126" time="0.0240740739" duration="0" repeat="0" ec="1140" track="1" event="AS3D_UNIT_CARRIER_OCEAN_END" bone="" tier="-1" />
+	  <trigger type="FTimedTriggerSound" id="47" time="0.00486113" duration="0" repeat="0" ec="1140" track="1" event="AS3D_UNIT_CARRIER_BATTLESHIP_STOP" bone="" tier="-1" />-->
+
+<!-- Other Animations -->
+    <trigger type="FTimedTriggerEffect" id="28" time="0.283332855" duration="0" repeat="0" ec="2200" track="2" event="ART_DEF_PEFFECT_EXP_METAL_SHIP_DEATH_XSM_01" bone="Cargo_Ship" />
+    <trigger type="FTimedTriggerEffect" id="27" time="0.125926" duration="0" repeat="0" ec="2200" track="2" event="ART_DEF_PEFFECT_EXP_METAL_SHIP_DEATH_XSM_01" bone="Bone_Root" />
+    <trigger type="FTimedTriggerEffect" id="25" time="0.0666667" duration="0" repeat="0" ec="1200" track="2" event="ART_DEF_PEFFECT_EXP_METAL_SHIP_DEATH_XSM_01" bone="Bone_Root" />
+    <trigger type="FTimedTriggerEffect" id="26" time="0.192593" duration="0" repeat="0" ec="1200" track="2" event="ART_DEF_PEFFECT_EXP_METAL_SHIP_DEATH_XSM_01" bone="Cargo_Ship" />
+    <trigger type="FTimedTriggerEffect" id="31" time="0.468412" duration="1.6" repeat="0" ec="2200" track="2" event="ART_DEF_VEFFECT_BOAT_SINKING_LONG_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="30" time="0.438889" duration="1.5" repeat="0" ec="1200" track="2" event="ART_DEF_VEFFECT_BOAT_SINKING_LONG_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="13" time="0" duration="0.833333" repeat="0" ec="1500" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_LONG_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="19" time="0" duration="2.93333" repeat="0" ec="1001" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_LONG_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="5" time="0" duration="3" repeat="0" ec="1285" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_LONG_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="15" time="0" duration="5" repeat="0" ec="1540" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_LONG_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="20" time="0" duration="1.33333" repeat="0" ec="1800" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_LONG_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="6" time="0" duration="1" repeat="0" ec="1290" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_LONG_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="1" time="0" duration="3.33333" repeat="0" ec="1000" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_LONG_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="14" time="0" duration="3" repeat="0" ec="1520" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_LONG_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="17" time="0" duration="0.666667" repeat="0" ec="1580" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_LONG_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="9" time="0" duration="0.666667" repeat="0" ec="1640" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_LONG_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="18" time="0" duration="0.666667" repeat="0" ec="1020" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_LONG_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="8" time="0" duration="5" repeat="0" ec="1620" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_LONG_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="4" time="0" duration="0.5" repeat="0" ec="1280" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_LONG_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="12" time="0" duration="4" repeat="0" ec="1040" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_LONG_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="16" time="0" duration="0.666667" repeat="0" ec="1560" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_LONG_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="7" time="0" duration="0.666667" repeat="0" ec="1600" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_LONG_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="11" time="0.0148148" duration="0" repeat="0" ec="2200" track="2" event="ART_DEF_VEFFECT_TANK_DEATH_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="10" time="0" duration="0" repeat="0" ec="1200" track="2" event="ART_DEF_VEFFECT_TANK_DEATH_01" bone="World_Center" />
+    <trigger type="FTimedTriggerSound" id="125" time="0" duration="0.666667" repeat="0" ec="1400" track="1" event="AS3D_UNIT_CARRIER_BATTLESHIP_RUN" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="48" time="0.0037037" duration="0" repeat="0" ec="1440" track="1" event="AS3D_UNIT_CARRIER_BATTLESHIP_STOP" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="42" time="0.437755" duration="0" repeat="0" ec="1200" track="1" event="AS3D_UNIT_CARRIER_CARAVEL_SINK" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="46" time="0.469388" duration="0" repeat="0" ec="2200" track="1" event="AS3D_UNIT_CARRIER_CARAVEL_SINK" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="43" time="0.0122449" duration="0" repeat="0" ec="2200" track="1" event="AS3D_UNIT_CARRIER_EXPLODE" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="44" time="0.126531" duration="0" repeat="0" ec="2200" track="1" event="AS3D_UNIT_CARRIER_EXPLODE" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="41" time="0.191837" duration="0" repeat="0" ec="1200" track="1" event="AS3D_UNIT_CARRIER_EXPLODE" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="45" time="0.280612" duration="0" repeat="0" ec="2200" track="1" event="AS3D_UNIT_CARRIER_EXPLODE" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="39" time="0" duration="0" repeat="0" ec="1200" track="1" event="AS3D_UNIT_CARRIER_EXPLODE" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="40" time="0.0663265" duration="0" repeat="0" ec="1200" track="1" event="AS3D_UNIT_CARRIER_EXPLODE" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="49" time="0.0037037" duration="0" repeat="0" ec="1500" track="1" event="AS3D_UNIT_CARRIER_FORTIFY" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="124" time="0" duration="0" repeat="0" ec="1200" track="1" event="AS3D_UNIT_CARRIER_IMPACT_$(WEAPON)" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="52" time="0" duration="0" repeat="0" ec="2200" track="1" event="AS3D_UNIT_CARRIER_IMPACT_$(WEAPON)" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="133" time="0.0240740739" duration="0" repeat="0" ec="1440" track="1" event="AS3D_UNIT_CARRIER_OCEAN_END" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="132" time="0" duration="0" repeat="0" ec="1600" track="1" event="AS3D_UNIT_CARRIER_OCEAN_END" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="128" time="0" duration="0" repeat="0" ec="1280" track="1" event="AS3D_UNIT_CARRIER_OCEAN_END" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="51" time="0.00740741" duration="0" repeat="0" ec="1800" track="1" event="AS3D_UNIT_CARRIER_OCEAN_END" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="50" time="0.0185185" duration="0" repeat="0" ec="1500" track="1" event="AS3D_UNIT_CARRIER_OCEAN_END" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="130" time="0" duration="0.67" repeat="0" ec="1400" track="1" event="AS3D_UNIT_CARRIER_OCEAN_LOOP" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="134" time="0.02037037" duration="0" repeat="0" ec="1600" track="1" event="AS3D_UNIT_CARRIER_TANK_TURRET_MOVE_A" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="131" time="0.5740741" duration="0" repeat="0" ec="1200" track="1" event="AS3D_UNIT_CARRIER_UNDERWATER" bone="" tier="-1" />
+    <trigger type="FTimedTriggerSound" id="135" time="0.5981482" duration="0" repeat="0" ec="2200" track="1" event="AS3D_UNIT_CARRIER_UNDERWATER" bone="" tier="-1" />
+    <trigger type="FTimedTriggerEffect" id="1" time="0" duration="0" repeat="0" ec="1200" track="2" event="ART_DEF_PEFFECT_EXP_METAL_SHIP_DEATH_SM_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="2" time="0.00740741" duration="0" repeat="0" ec="2200" track="2" event="ART_DEF_PEFFECT_EXP_METAL_SHIP_DEATH_SM_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="10" time="0.155556" duration="0.833333" repeat="0" ec="1200" track="2" event="ART_DEF_VEFFECT_BOAT_SINKING_LG_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="13" time="0.281481" duration="1.06667" repeat="0" ec="2200" track="2" event="ART_DEF_VEFFECT_BOAT_SINKING_MD_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="5" time="0" duration="0.833333" repeat="0" ec="1500" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_LONG_SM_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="6" time="0" duration="0.5" repeat="0" ec="1280" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_LONG_SM_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="7" time="0" duration="3" repeat="0" ec="1285" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_LONG_SM_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="8" time="0" duration="1" repeat="0" ec="1290" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_LONG_SM_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="3" time="0" duration="3.33333" repeat="0" ec="1000" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_LONG_SM_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="4" time="0" duration="3" repeat="0" ec="1520" track="2" event="ART_DEF_VEFFECT_IDLE_WATER_WAKE_LONG_SM_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="9" time="0" duration="1" repeat="0" ec="1400" track="2" event="ART_DEF_VEFFECT_WAKE_TRAIL_LG_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="11" time="0" duration="0" repeat="0" ec="1200" track="2" event="ART_DEF_VEFFECT_WATER_DEATH_MD_01" bone="World_Center" />
+    <trigger type="FTimedTriggerEffect" id="12" time="0" duration="0" repeat="0" ec="2200" track="2" event="ART_DEF_VEFFECT_WATER_DEATH_MD_01" bone="World_Center" />
+  </triggers>
+</trigger_system>

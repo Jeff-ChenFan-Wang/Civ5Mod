@@ -1,0 +1,1334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 24-Oct-14 18:40:40 -->
+<GameData>
+	<ArtDefine_UnitInfos>
+		<!-- Transports and Cargo Ships -->
+		<Row>
+			<Type>ART_DEF_UNIT_MODERN_TRANSPORT</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>TwoBigGuns</Formation>
+			<!-- Note: Galley, Galleon, and regular Transport are unchanged here. Change formation now that it's a single ship? -->
+		</Row>
+		<Update>
+			<Where Type="ART_DEF_UNIT_CARGO_SHIP"/>
+			<Set Formation="ThreeInLine"/>
+		</Update>
+		<Update>
+			<Where Type="ART_DEF_UNIT_CARGO_SHIP_RENAISSANCE"/>
+			<Set Formation="ThreeInLine"/>
+		</Update>
+		<!--Uses Transport model-->
+		<Row>
+			<Type>ART_DEF_UNIT_CARGO_SHIP_LATE</Type> 
+			<DamageStates>1</DamageStates>
+			<Formation>ThreeInLine</Formation>
+		</Row>
+		<Update>
+			<Where Type="ART_DEF_UNIT_CARGO_SHIP_POSTMODERN"/>
+			<Set Formation="ThreeInLine"/>
+		</Update>
+		<!--Uses Cargo Ship Postmodern model-->
+		<Row>
+			<Type>ART_DEF_UNIT_CARGO_SHIP_FUTURE</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>ThreeInLine</Formation>
+		</Row>
+
+		<!-- Main Units -->
+		<Row>
+			<Type>ART_DEF_UNIT_MACEMAN</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>DefaultMelee</Formation>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_BATTERING_RAM</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>TwoBigGuns</Formation>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_ANCIENT_SPEARMAN</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>DefaultMelee</Formation>
+		</Row>
+		<Update>
+			<Where Type="ART_DEF_UNIT_TRIREME"/>
+			<Set Formation="Vehicle"/>
+		</Update>
+		<Update>
+			<Where Type="ART_DEF_UNIT_U_CARTHAGE_QUINQUEREME"/>
+			<Set Formation="Vehicle"/>
+		</Update>
+		<Row>
+			<Type>ART_DEF_UNIT_HORSE_ARCHER</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>DefaultCavalry</Formation>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_CLASSIC_CAVALRY</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>DefaultCavalry</Formation>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_GALLEYX</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>TwoBigGuns</Formation>
+		</Row>
+		<Update>
+			<Where Type="ART_DEF_UNIT_U_BYZANTIUM_DROMON"/>
+			<Set Formation="TwoBigGuns"/>
+		</Update>
+		<Row>
+			<Type>ART_DEF_UNIT_MOUNTED_CROSSBOWMAN</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>DefaultCavalry</Formation>
+		</Row>
+		<Update>
+			<Where Type="ART_DEF_UNIT_CARAVEL"/>
+			<Set Formation="TwoBigGuns"/>
+		</Update>
+		<Update>
+			<Where Type="ART_DEF_UNIT_U_PORTUGUESE_CARRACK"/>
+			<Set Formation="TwoBigGuns"/>
+		</Update>
+		<Update>
+			<Where Type="ART_DEF_UNIT_GALLEASS"/>
+			<Set Formation="TwoBigGuns"/>
+		</Update>
+		<Update>
+			<Where Type="ART_DEF_UNIT_U_VENETIAN_GALLEASS"/>
+			<Set Formation="TwoBigGuns"/>
+		</Update>
+		<Update>
+			<Where Type="ART_DEF_UNIT_FRIGATE"/>
+			<Set Formation="TwoBigGuns"/>
+		</Update>
+		<Update>
+			<Where Type="ART_DEF_UNIT_U_ENGLISH_SHIPOFTHELINE"/>
+			<Set Formation="TwoBigGuns"/>
+		</Update>
+		<Update>
+			<Where Type="ART_DEF_UNIT_XP_PRIVATEER"/>
+			<Set Formation="TwoBigGuns"/>
+		</Update>
+		<Update>
+			<Where Type="ART_DEF_UNIT_U_DUTCH_SEA_BEGGARS"/>
+			<Set Formation="TwoBigGuns"/>
+		</Update>
+		<Row>
+			<Type>ART_DEF_UNIT_GRENADIER</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>HonorableGunpowder</Formation>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_HALBERDIER</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>Pikeman</Formation>
+		</Row>
+		<Update>
+			<Where Type="ART_DEF_UNIT_CARAVAN_POSTMODERN"/>
+			<Set Type="ART_DEF_UNIT_CARAVAN_MODERN"/>
+		</Update>
+		<Row>
+			<Type>ART_DEF_UNIT_BALLISTIC_MISSILE</Type>
+			<DamageStates>1</DamageStates>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_HYDROGEN_BOMB</Type>
+			<DamageStates>1</DamageStates>
+		</Row>
+		<Update>
+			<Where Type="ART_DEF_UNIT_HELICOPTER_GUNSHIP"/>
+			<Set Formation="TwoBigGuns"/>
+		</Update>
+		<Row>
+			<Type>ART_DEF_UNIT_DESTROYER_SMALL</Type>
+			<DamageStates>3</DamageStates>
+			<Formation></Formation>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_CARRIER_SMALL</Type>
+			<DamageStates>3</DamageStates>
+			<Formation></Formation>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_SUPERCARRIER</Type>
+			<DamageStates>3</DamageStates>
+			<Formation></Formation>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_MISSILE_DESTROYER</Type>
+			<DamageStates>3</DamageStates>
+			<Formation></Formation>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_SPECIAL_FORCES</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>EarlyGreatArtist</Formation>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_ROCKET_LAUNCHER</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>ThreeBigGuns</Formation>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_MODERN_SAM</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>Vehicle</Formation>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_MODERN_ARTILLERY</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>TwoBigGuns</Formation>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_MODERN_HELICOPTER</Type>
+			<DamageStates>1</DamageStates>
+			<Formation>TwoBigGuns</Formation>
+		</Row>
+	</ArtDefine_UnitInfos>
+
+	<ArtDefine_UnitInfoMemberInfos>
+		<!-- Transports and Cargo Ships -->
+		<Update>
+			<Where UnitInfoType="ART_DEF_UNIT_GALLEY"/>
+			<Set NumMembers="1"/>
+		</Update>
+		<Update>
+			<Where UnitInfoType="ART_DEF_UNIT_U_POLYNESIAN_WAR_CANOE"/>
+			<Set NumMembers="1"/>
+		</Update>
+		<Update>
+			<Where UnitInfoType="ART_DEF_UNIT_U_DANISH_LONGBOAT"/>
+			<Set NumMembers="1"/>
+		</Update>
+		<Update>
+			<Where UnitInfoType="ART_DEF_UNIT_GALLEON"/>
+			<Set NumMembers="1"/>
+		</Update>
+		<Update>
+			<Where UnitInfoType="ART_DEF_UNIT_TRANSPORT"/>
+			<Set NumMembers="1"/>
+		</Update>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_MODERN_TRANSPORT</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_MODERN_TRANSPORT</UnitMemberInfoType>
+			<NumMembers>1</NumMembers>
+		</Row>
+		<Update>
+			<Where UnitInfoType="ART_DEF_UNIT_CARGO_SHIP"/>
+			<Set NumMembers="2"/>
+		</Update>
+		<Update>
+			<Where UnitInfoType="ART_DEF_UNIT_CARGO_SHIP_RENAISSANCE"/>
+			<Set NumMembers="2"/>
+		</Update>
+		<!-- Out of temporal order, in case the member's name needs to be changed first -->
+		<Update>
+			<Where UnitInfoType="ART_DEF_UNIT_CARGO_SHIP_POSTMODERN"/>
+			<Set UnitMemberInfoType="ART_DEF_UNIT_MEMBER_CARGO_SHIP_POSTMODERN" NumMembers="2"/>
+		</Update>
+		<!-- Member not "LATE" because CARGO_SHIP_POSTMODERN already uses it for its member... -->
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_CARGO_SHIP_LATE</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_CARGO_SHIP_LATE</UnitMemberInfoType>
+			<NumMembers>2</NumMembers>
+		</Row>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_CARGO_SHIP_FUTURE</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_CARGO_SHIP_FUTURE</UnitMemberInfoType>
+			<NumMembers>2</NumMembers>
+		</Row>
+		<Update>
+			<Where UnitInfoType="ART_DEF_UNIT_CARAVAN_POSTMODERN"/>
+			<Set UnitInfoType="ART_DEF_UNIT_CARAVAN_MODERN"/>
+		</Update>
+
+		<!-- Main Units -->
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_MACEMAN</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_MACEMAN</UnitMemberInfoType>
+			<NumMembers>12</NumMembers>
+		</Row>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_BATTERING_RAM</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_BATTERING_RAM</UnitMemberInfoType>
+			<NumMembers>2</NumMembers>
+		</Row>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_ANCIENT_SPEARMAN</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_ANCIENT_SPEARMAN</UnitMemberInfoType>
+			<NumMembers>12</NumMembers>
+		</Row>
+		<Update>
+			<Where UnitInfoType="ART_DEF_UNIT_TRIREME"/>
+			<Set NumMembers="3"/>
+		</Update>
+		<Update>
+			<Where UnitInfoType="ART_DEF_UNIT_U_CARTHAGE_QUINQUEREME"/>
+			<Set NumMembers="3"/>
+		</Update>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_HORSE_ARCHER</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_HORSE_ARCHER</UnitMemberInfoType>
+			<NumMembers>5</NumMembers>
+		</Row>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_CLASSIC_CAVALRY</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_CLASSIC_CAVALRY</UnitMemberInfoType>
+			<NumMembers>5</NumMembers>
+		</Row>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_GALLEYX</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_GALLEYX</UnitMemberInfoType>
+			<NumMembers>2</NumMembers>
+		</Row>
+		<Update>
+			<Where UnitInfoType="ART_DEF_UNIT_U_BYZANTIUM_DROMON"/>
+			<Set NumMembers="2"/>
+		</Update>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_MOUNTED_CROSSBOWMAN</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_MOUNTED_CROSSBOWMAN</UnitMemberInfoType>
+			<NumMembers>5</NumMembers>
+		</Row>
+		<Update>
+			<Where UnitInfoType="ART_DEF_UNIT_CARAVEL"/>
+			<Set NumMembers="2"/>
+		</Update>
+		<Update>
+			<Where UnitInfoType="ART_DEF_UNIT_U_PORTUGUESE_CARRACK"/>
+			<Set NumMembers="2"/>
+		</Update>
+		<Update>
+			<Where UnitInfoType="ART_DEF_UNIT_GALLEASS"/>
+			<Set NumMembers="2"/>
+		</Update>
+		<Update>
+			<Where UnitInfoType="ART_DEF_UNIT_U_VENETIAN_GALLEASS"/>
+			<Set NumMembers="2"/>
+		</Update>
+		<!--
+		<Update>
+			<Where UnitInfoType="ART_DEF_UNIT_FRIGATE"/>
+			<Set NumMembers="2"/>
+		</Update>
+		<Update>
+			<Where UnitInfoType="ART_DEF_UNIT_U_ENGLISH_SHIPOFTHELINE"/>
+			<Set NumMembers="2"/>
+		</Update>
+		<Update>
+			<Where UnitInfoType="ART_DEF_UNIT_XP_PRIVATEER"/>
+			<Set NumMembers="2"/>
+		</Update>
+		<Update>
+			<Where UnitInfoType="ART_DEF_UNIT_U_DUTCH_SEA_BEGGARS"/>
+			<Set NumMembers="2"/>
+		</Update>-->
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_GRENADIER</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_GRENADIER</UnitMemberInfoType>
+			<NumMembers>12</NumMembers>
+		</Row>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_HALBERDIER</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_HALBERDIER</UnitMemberInfoType>
+			<NumMembers>12</NumMembers>
+		</Row>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_BALLISTIC_MISSILE</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_BALLISTIC_MISSILE</UnitMemberInfoType>
+			<NumMembers>1</NumMembers>
+		</Row>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_HYDROGEN_BOMB</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_HYDROGEN_BOMB</UnitMemberInfoType>
+			<NumMembers>1</NumMembers>
+		</Row>
+		<Update>
+			<Where UnitInfoType="ART_DEF_UNIT_HELICOPTER_GUNSHIP"/>
+			<Set NumMembers="2"/>
+		</Update>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_DESTROYER_SMALL</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_DESTROYER_SMALL</UnitMemberInfoType>
+			<NumMembers>1</NumMembers>
+		</Row>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_CARRIER_SMALL</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_CARRIER_SMALL</UnitMemberInfoType>
+			<NumMembers>1</NumMembers>
+		</Row>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_SUPERCARRIER</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_SUPERCARRIER</UnitMemberInfoType>
+			<NumMembers>1</NumMembers>
+		</Row>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_MISSILE_DESTROYER</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_MISSILE_DESTROYER</UnitMemberInfoType>
+			<NumMembers>1</NumMembers>
+		</Row>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_SPECIAL_FORCES</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_SPECIAL_FORCES</UnitMemberInfoType>
+			<NumMembers>6</NumMembers>
+		</Row>
+		<Update>
+			<Where UnitInfoType="ART_DEF_UNIT_DESTROYER"/>
+			<Set NumMembers="1"/>
+		</Update>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_ROCKET_LAUNCHER</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_ROCKET_LAUNCHER</UnitMemberInfoType>
+			<NumMembers>3</NumMembers>
+		</Row>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_MODERN_SAM</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_MODERN_SAM</UnitMemberInfoType>
+			<NumMembers>3</NumMembers>
+		</Row>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_MODERN_ARTILLERY</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_MODERN_ARTILLERY</UnitMemberInfoType>
+			<NumMembers>2</NumMembers>
+		</Row>
+		<Row>
+			<UnitInfoType>ART_DEF_UNIT_MODERN_HELICOPTER</UnitInfoType>
+			<UnitMemberInfoType>ART_DEF_UNIT_MEMBER_MODERN_HELICOPTER</UnitMemberInfoType>
+			<NumMembers>2</NumMembers>
+		</Row>
+	</ArtDefine_UnitInfoMemberInfos>
+
+	<ArtDefine_UnitMemberInfos>
+		<!-- Transports and Cargo Ships -->
+		<!-- 0.140000000596046 unmodded -->
+		<Update>
+			<Where Type="ART_DEF_UNIT_MEMBER_GALLEY"/>
+			<Set Scale="0.16"/>
+		</Update>
+		<!-- 0.12 unmodded -->
+		<Update>
+			<Where Type="ART_DEF_UNIT_MEMBER_GALLEON"/>
+			<Set Scale="0.15"/>
+		</Update>
+		<!-- Atomic/Info transport, 0.8 unmodded -->
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_MODERN_TRANSPORT</Type>
+			<Scale>0.06</Scale>
+			<Domain>Sea</Domain>
+			<Model>Cargo_Ship_Late.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+		<!-- Original: 0.159999996423721 -->
+		<Update>
+			<Where Type="ART_DEF_UNIT_MEMBER_CARGO_SHIP"/>
+			<Set Scale="0.14"/>
+		</Update>
+		<!-- For Renaissance one, 0.14 unmodded -->
+		<Update>
+			<Where Type="ART_DEF_UNIT_MEMBER_CARGO_SHIP_MID"/> 
+			<Set Scale="0.12"/>
+		</Update>
+		<!-- Out of temporal order, in case the member's name needs to be changed first -->
+		<!-- For Atomic one, 0.08 unmodded -->
+		<Update>
+			<Where Type="ART_DEF_UNIT_MEMBER_CARGO_SHIP_LATE"/>
+			<Set Type="ART_DEF_UNIT_MEMBER_CARGO_SHIP_POSTMODERN" Scale="0.04" 
+				 MaterialTypeTag="METAL" MaterialTypeSoundOverrideTag="METALLRG"/>
+		</Update>
+		<!-- For Industrial one, 0.11 unmodded -->
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_CARGO_SHIP_LATE</Type>
+			<Scale>0.07</Scale>
+			<Domain>Sea</Domain>
+			<Model>Assets/Units/Transport/Transport.fxsxml</Model>
+			<MaterialTypeTag>WOOD</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>WOODLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+		<!-- For Information one, 0.08 unmodded -->
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_CARGO_SHIP_FUTURE</Type>
+			<Scale>0.04</Scale>
+			<Domain>Sea</Domain>
+			<Model>Cargo_Ship_Late.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+		
+		<!-- Main Units -->
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_MACEMAN</Type>
+			<Scale>0.140000000596046</Scale>
+			<Model>early_maceman.fxsxml</Model>
+			<MaterialTypeTag>ARMOR</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>ARMOR</MaterialTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_BATTERING_RAM</Type>
+			<Scale>0.1</Scale>
+			<Model>U_Huns_Battering_Ram.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALSM</MaterialTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_ANCIENT_SPEARMAN</Type>
+			<Scale>0.140000000596046</Scale>
+			<Model>MidEastAtlalist.fxsxml</Model>
+			<MaterialTypeTag>CLOTH</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>FLESH</MaterialTypeSoundOverrideTag>
+		</Row>
+		<!-- Original: 0.0750000029802322 -->
+		<Update>
+			<Where Type="ART_DEF_UNIT_MEMBER_TRIREME"/>
+			<Set Scale="0.07"/>
+		</Update>
+		<!-- Original: 0.0750000029802322 -->
+		<Update>
+			<Where Type="ART_DEF_UNIT_MEMBER_U_CARTHAGE_QUINQUEREME"/>
+			<Set Scale="0.06"/>
+		</Update>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_HORSE_ARCHER</Type>
+			<Scale>0.119999997317791</Scale>
+			<Model>elf_horse_archer.fxsxml</Model>
+			<MaterialTypeTag>CLOTH</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>FLESH</MaterialTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_CLASSIC_CAVALRY</Type>
+			<Scale>0.119999997317791</Scale>
+			<Model>hebrew_horseman.fxsxml</Model>
+			<MaterialTypeTag>CLOTH</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>FLESH</MaterialTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_GALLEYX</Type>
+			<Scale>0.09</Scale>
+			<Domain>Sea</Domain>
+			<Model>Art/GalleyX_Model/battle_galley.fxsxml</Model>
+			<MaterialTypeTag>WOOD</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>WOODLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_MOUNTED_CROSSBOWMAN</Type>
+			<Scale>0.119999997317791</Scale>
+			<Model>MtdCrossbow.fxsxml</Model>
+			<MaterialTypeTag>CLOTH</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>FLESH</MaterialTypeSoundOverrideTag>
+		</Row>
+		<Update>
+			<Where Type="ART_DEF_UNIT_MEMBER_PIKEMAN"/>
+			<Set Model="Art/Pikeman_Model/true_pikeman.fxsxml"/>
+		</Update>
+		<!-- Original: 0.140000000596046 -->
+		<Update>
+			<Where Type="ART_DEF_UNIT_MEMBER_CARAVEL"/>
+			<Set Scale="0.12"/> 
+		</Update>
+		<Update>
+			<Where Type="ART_DEF_UNIT_MEMBER_GALLEASS"/>
+			<Set Scale="0.13"/>
+		</Update>
+		<Update>
+			<Where Type="ART_DEF_UNIT_MEMBER_U_VENETIAN_GALLEASS"/>
+			<Set Scale="0.13"/>
+		</Update>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_GRENADIER</Type>
+			<Scale>0.140000000596046</Scale>
+			<Model>Art/Grenadier_Model/Arquebusier.fxsxml</Model>
+			<MaterialTypeTag>CLOTH</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>FLESH</MaterialTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_HALBERDIER</Type>
+			<Scale>0.140000000596046</Scale>
+			<Model>Art/Halberdier_Model/swissguard.fxsxml</Model>
+			<MaterialTypeTag>ARMOR</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>ARMOR</MaterialTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_BALLISTIC_MISSILE</Type>
+			<Scale>0.140000000596046</Scale>
+			<Domain>Air</Domain>
+			<Model>Assets/Units/GuidedMissile/GuidedMissile.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALRG</MaterialTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_HYDROGEN_BOMB</Type>
+			<Scale>0.0700000002980232</Scale>
+			<Domain>Air</Domain>
+			<Model>Assets/Units/AtomicBomb/AtomicBomb.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+		<Update>
+			<Where Type="ART_DEF_UNIT_MEMBER_HELICOPTERGUNSHIP"/>
+			<Set Scale="0.08"/>
+		</Update>
+		<Update>
+			<Where Type="ART_DEF_UNIT_MEMBER_BATTLESHIP"/>
+			<Set Scale="0.0799999982118607"/>
+		</Update>
+		<Update>
+			<!-- Bigger Carrier, used by Fleet Carrier -->
+			<Where Type="ART_DEF_UNIT_MEMBER_CARRIER"/>
+			<Set Scale="0.09"/>
+		</Update>
+		<Update>
+			<!--Smaller Missile Cruiser, used by Missile Destroyer-->
+			<Where Type="ART_DEF_UNIT_MEMBER_DESTROYER"/>
+			<Set Scale="0.0799999982118607" Model="Assets/Units/MissileCruiser/MissileCruiser.fxsxml"/>
+		</Update>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_DESTROYER_SMALL</Type>
+			<Scale>0.11</Scale>
+			<!--0.0900000035762787-->
+			<Domain>Sea</Domain>
+			<Model>Assets/Units/Destroyer/Destroyer.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_CARRIER_SMALL</Type>
+			<Scale>0.075</Scale>
+			<Domain>Sea</Domain>
+			<Model>Assets/Units/Carrier/Carrier.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_SUPERCARRIER</Type>
+			<Scale>0.11</Scale>
+			<!--0.119999997317791-->
+			<Domain>Sea</Domain>
+			<Model>Art/Supercarrier/USS_Nimitz.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_MISSILE_DESTROYER</Type>
+			<Scale>0.09</Scale>
+			<!--0799999982118607-->
+			<Domain>Sea</Domain>
+			<Model>Assets/Units/MissileCruiser/MissileCruiser.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+		<Update>
+			<Where Type="ART_DEF_UNIT_MEMBER_NUCLEARSUBMARINE"/>
+			<Set Scale="0.08"/>
+			<!-- 0.100000001490116 -->
+		</Update>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_SPECIAL_FORCES</Type>
+			<Scale>0.14</Scale>
+			<Model>Art/Special_Forces_Model/US_Airborne.fxsxml</Model>
+			<MaterialTypeTag>CLOTH</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>FLESH</MaterialTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_ROCKET_LAUNCHER</Type>
+			<Scale>0.119999997317791</Scale>
+			<Model>Bazooka_Infantry.fxsxml</Model>
+			<MaterialTypeTag>CLOTH</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>FLESH</MaterialTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_MODERN_SAM</Type>
+			<Scale>0.109999999403954</Scale>
+			<Model>Assets/Units/MobileSAM/MobileSAM.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLSM</MaterialTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_MODERN_ARTILLERY</Type>
+			<Scale>0.0900000035762787</Scale>
+			<Model>Assets/Units/RocketArtillery/RocketArtillery.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLSM</MaterialTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<Type>ART_DEF_UNIT_MEMBER_MODERN_HELICOPTER</Type>
+			<Scale>0.08</Scale>
+			<Domain>Hover</Domain>
+			<Model>Art/Modern_Helicopter_Model/Tiger_Germany.fxsxml</Model>
+			<MaterialTypeTag>METAL</MaterialTypeTag>
+			<MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberInfos>
+
+	<ArtDefine_UnitMemberCombats>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MACEMAN</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady Walk AttackCharge</EnableActions>
+			<ShortMoveRadius>12.0</ShortMoveRadius>
+			<ShortMoveRate>0.349999994039536</ShortMoveRate>
+			<TargetHeight>8.0</TargetHeight>
+			<HasRefaceAfterCombat>1</HasRefaceAfterCombat>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_BATTERING_RAM</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady Walk AttackCharge</EnableActions>
+			<MoveRadius>7.0</MoveRadius>
+			<RangedAttackRadius>72.0</RangedAttackRadius>
+			<TargetHeight>12.0</TargetHeight>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasStationaryMelee>1</HasStationaryMelee>
+			<HasRefaceAfterCombat>1</HasRefaceAfterCombat>
+			<ReformBeforeCombat>1</ReformBeforeCombat>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_ANCIENT_SPEARMAN</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady Walk AttackCharge</EnableActions>
+			<ShortMoveRadius>12.0</ShortMoveRadius>
+			<ShortMoveRate>0.349999994039536</ShortMoveRate>
+			<TargetHeight>8.0</TargetHeight>
+			<HasRefaceAfterCombat>1</HasRefaceAfterCombat>
+			<ReformBeforeCombat>1</ReformBeforeCombat>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_HORSE_ARCHER</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady Walk</EnableActions>
+			<ShortMoveRadius>24.0</ShortMoveRadius>
+			<ShortMoveRate>0.349999994039536</ShortMoveRate>
+			<TurnRateMin>0.5</TurnRateMin>
+			<TurnRateMax>0.75</TurnRateMax>
+			<TurnFacingRateMin>15.0</TurnFacingRateMin>
+			<TurnFacingRateMax>20.0</TurnFacingRateMax>
+			<TargetHeight>12.0</TargetHeight>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLongRangedAttack>1</HasLongRangedAttack>
+			<HasStationaryMelee>1</HasStationaryMelee>
+			<HasRefaceAfterCombat>1</HasRefaceAfterCombat>
+			<ReformBeforeCombat>1</ReformBeforeCombat>
+			<OnlyTurnInMovementActions>1</OnlyTurnInMovementActions>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_CLASSIC_CAVALRY</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady Walk</EnableActions>
+			<ShortMoveRadius>24.0</ShortMoveRadius>
+			<ShortMoveRate>0.349999994039536</ShortMoveRate>
+			<TurnRateMin>0.5</TurnRateMin>
+			<TurnRateMax>0.75</TurnRateMax>
+			<TurnFacingRateMin>15.0</TurnFacingRateMin>
+			<TurnFacingRateMax>20.0</TurnFacingRateMax>
+			<TargetHeight>12.0</TargetHeight>
+			<HasStationaryMelee>1</HasStationaryMelee>
+			<HasRefaceAfterCombat>1</HasRefaceAfterCombat>
+			<ReformBeforeCombat>2</ReformBeforeCombat>
+			<OnlyTurnInMovementActions>1</OnlyTurnInMovementActions>
+			<RushAttackFormation>DefaultCavalry</RushAttackFormation>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_GALLEYX</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady AttackSurfaceToAir</EnableActions>
+			<DisableActions></DisableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLongRangedAttack>1</HasLongRangedAttack>
+			<HasLeftRightAttack>1</HasLeftRightAttack>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+			<HasIndependentWeaponFacing>1</HasIndependentWeaponFacing>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MOUNTED_CROSSBOWMAN</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady Walk</EnableActions>
+			<ShortMoveRadius>24.0</ShortMoveRadius>
+			<ShortMoveRate>0.349999994039536</ShortMoveRate>
+			<TurnRateMin>0.5</TurnRateMin>
+			<TurnRateMax>0.75</TurnRateMax>
+			<TurnFacingRateMin>15.0</TurnFacingRateMin>
+			<TurnFacingRateMax>20.0</TurnFacingRateMax>
+			<TargetHeight>12.0</TargetHeight>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLongRangedAttack>1</HasLongRangedAttack>
+			<HasStationaryMelee>1</HasStationaryMelee>
+			<HasRefaceAfterCombat>1</HasRefaceAfterCombat>
+			<ReformBeforeCombat>1</ReformBeforeCombat>
+			<OnlyTurnInMovementActions>1</OnlyTurnInMovementActions>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_GRENADIER</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady Walk AttackCharge</EnableActions>
+			<ShortMoveRadius>12.0</ShortMoveRadius>
+			<ShortMoveRate>0.349999994039536</ShortMoveRate>
+			<TargetHeight>8</TargetHeight>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLongRangedAttack></HasLongRangedAttack>
+			<HasRefaceAfterCombat>1</HasRefaceAfterCombat>
+			<ReformBeforeCombat>1</ReformBeforeCombat>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_HALBERDIER</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady Walk AttackCharge</EnableActions>
+			<ShortMoveRadius>12.0</ShortMoveRadius>
+			<ShortMoveRate>0.349999994039536</ShortMoveRate>
+			<TargetHeight>8</TargetHeight>
+			<HasRefaceAfterCombat>1</HasRefaceAfterCombat>
+			<ReformBeforeCombat>1</ReformBeforeCombat>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MODERN_TRANSPORT</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady AttackSurfaceToAir</EnableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLeftRightAttack>1</HasLeftRightAttack>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+			<HasIndependentWeaponFacing>1</HasIndependentWeaponFacing>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_BALLISTIC_MISSILE</UnitMemberType>
+			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
+			<AttackRadius>64.0</AttackRadius>
+			<MoveRate>3.59999990463257</MoveRate>
+			<TurnRateMin>0.5</TurnRateMin>
+			<TurnRateMax>1.5</TurnRateMax>
+			<PitchRateMin>1.0</PitchRateMin>
+			<PitchRateMax>3.0</PitchRateMax>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+			<HasCollisionAttack>1</HasCollisionAttack>
+			<AttackAltitude>45.0</AttackAltitude>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_HYDROGEN_BOMB</UnitMemberType>
+			<EnableActions>Idle Attack Bombard Death Run</EnableActions>
+			<AttackRadius>64.0</AttackRadius>
+			<MoveRate>1.5</MoveRate>
+			<TurnRateMin>0.150000005960464</TurnRateMin>
+			<TurnRateMax>0.349999994039536</TurnRateMax>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_DESTROYER_SMALL</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady AttackSurfaceToAir</EnableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLeftRightAttack>1</HasLeftRightAttack>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+			<HasIndependentWeaponFacing>1</HasIndependentWeaponFacing>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_CARRIER_SMALL</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady AttackSurfaceToAir</EnableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLeftRightAttack>1</HasLeftRightAttack>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+			<HasIndependentWeaponFacing>1</HasIndependentWeaponFacing>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SUPERCARRIER</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady AttackSurfaceToAir</EnableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLeftRightAttack>1</HasLeftRightAttack>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+			<HasIndependentWeaponFacing>1</HasIndependentWeaponFacing>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MISSILE_DESTROYER</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady AttackSurfaceToAir</EnableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLeftRightAttack>1</HasLeftRightAttack>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+			<HasIndependentWeaponFacing>1</HasIndependentWeaponFacing>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SPECIAL_FORCES</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady Walk AttackCharge</EnableActions>
+			<ShortMoveRadius>12.0</ShortMoveRadius>
+			<ShortMoveRate>0.35</ShortMoveRate>
+			<TargetHeight>8.0</TargetHeight>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasRefaceAfterCombat>1</HasRefaceAfterCombat>
+			<ReformBeforeCombat>1</ReformBeforeCombat>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_ROCKET_LAUNCHER</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady</EnableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLongRangedAttack>1</HasLongRangedAttack>
+			<HasStationaryMelee>1</HasStationaryMelee>
+			<HasRefaceAfterCombat>1</HasRefaceAfterCombat>
+			<HasOpponentTracking>1</HasOpponentTracking>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MODERN_SAM</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady</EnableActions>
+			<RangedAttackRadius>265.0</RangedAttackRadius>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLongRangedAttack>1</HasLongRangedAttack>
+			<HasStationaryMelee>1</HasStationaryMelee>
+			<HasRefaceAfterCombat>0</HasRefaceAfterCombat>
+			<HasIndependentWeaponFacing>1</HasIndependentWeaponFacing>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MODERN_ARTILLERY</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady</EnableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasLongRangedAttack>1</HasLongRangedAttack>
+			<HasStationaryMelee>1</HasStationaryMelee>
+			<HasRefaceAfterCombat>1</HasRefaceAfterCombat>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MODERN_HELICOPTER</UnitMemberType>
+			<EnableActions>Idle Attack RunCharge AttackCity Bombard Death BombardDefend Run Fortify CombatReady</EnableActions>
+			<HasShortRangedAttack>1</HasShortRangedAttack>
+			<HasRefaceAfterCombat>1</HasRefaceAfterCombat>
+		</Row>
+	</ArtDefine_UnitMemberCombats>
+
+	<ArtDefine_UnitMemberCombatWeapons>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MACEMAN</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<WeaponTypeTag>METAL</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>SWORD</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MACEMAN</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>10.0</VisKillStrengthMin>
+			<VisKillStrengthMax>20.0</VisKillStrengthMax>
+			<WeaponTypeTag>FLAMING_ARROW</WeaponTypeTag>
+			<MissTargetSlopRadius>10.0</MissTargetSlopRadius>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_BATTERING_RAM</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_ANCIENT_SPEARMAN</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<WeaponTypeTag>METAL</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>SPEAR</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_ANCIENT_SPEARMAN</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>10.0</VisKillStrengthMin>
+			<VisKillStrengthMax>20.0</VisKillStrengthMax>
+			<WeaponTypeTag>FLAMING_ARROW</WeaponTypeTag>
+			<MissTargetSlopRadius>10.0</MissTargetSlopRadius>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_HORSE_ARCHER</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<WeaponTypeTag>ARROW</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>ARROW</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_HORSE_ARCHER</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>10.0</VisKillStrengthMin>
+			<VisKillStrengthMax>20.0</VisKillStrengthMax>
+			<WeaponTypeTag>FLAMING_ARROW</WeaponTypeTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_CLASSIC_CAVALRY</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<WeaponTypeTag>METAL</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>SWORD</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_CLASSIC_CAVALRY</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>10.0</VisKillStrengthMin>
+			<VisKillStrengthMax>20.0</VisKillStrengthMax>
+			<WeaponTypeTag>FLAMING_ARROW</WeaponTypeTag>
+			<MissTargetSlopRadius>10.0</MissTargetSlopRadius>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_GALLEYX</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>10.0</VisKillStrengthMin>
+			<VisKillStrengthMax>20.0</VisKillStrengthMax>
+			<WeaponTypeTag>ARROW</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>ARROW</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MOUNTED_CROSSBOWMAN</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<WeaponTypeTag>ARROW</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>ARROW</WeaponTypeSoundOverrideTag>
+			<MissTargetSlopRadius>10.0</MissTargetSlopRadius>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MOUNTED_CROSSBOWMAN</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>10.0</VisKillStrengthMin>
+			<VisKillStrengthMax>20.0</VisKillStrengthMax>
+			<WeaponTypeTag>FLAMING_ARROW</WeaponTypeTag>
+			<MissTargetSlopRadius>10.0</MissTargetSlopRadius>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_GRENADIER</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<WeaponTypeTag>BULLET</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLET</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_HALBERDIER</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<WeaponTypeTag>METAL</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>SPEAR</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_HALBERDIER</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>10.0</VisKillStrengthMin>
+			<VisKillStrengthMax>20.0</VisKillStrengthMax>
+			<WeaponTypeTag>FLAMING_ARROW</WeaponTypeTag>
+			<MissTargetSlopRadius>10.0</MissTargetSlopRadius>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MODERN_TRANSPORT</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25.0</VisKillStrengthMin>
+			<VisKillStrengthMax>50.0</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_CANNON_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION20POUND</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_BALLISTIC_MISSILE</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>100.0</VisKillStrengthMin>
+			<VisKillStrengthMax>100.0</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_GUIDED_MISSILE_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_HYDROGEN_BOMB</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>50.0</VisKillStrengthMin>
+			<VisKillStrengthMax>75.0</VisKillStrengthMax>
+			<ProjectileSpeed>0.800000011920929</ProjectileSpeed>
+			<ProjectileChildEffectScale>0.3</ProjectileChildEffectScale>
+			<AreaDamageDelay>0.5</AreaDamageDelay>
+			<WaitForEffectCompletion>1</WaitForEffectCompletion>
+			<TargetGround>1</TargetGround>
+			<IsDropped>1</IsDropped>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION1TON</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_DESTROYER_SMALL</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25</VisKillStrengthMin>
+			<VisKillStrengthMax>50</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_ARTILLERY_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_CARRIER_SMALL</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25</VisKillStrengthMin>
+			<VisKillStrengthMax>50</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_ARTILLERY_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION1TON</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_CARRIER_SMALL</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25</VisKillStrengthMin>
+			<VisKillStrengthMax>50</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_ARTILLERY_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MISSILE_DESTROYER</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25</VisKillStrengthMin>
+			<VisKillStrengthMax>50</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_ARTILLERY_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION200POUND</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MISSILE_DESTROYER</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25</VisKillStrengthMin>
+			<VisKillStrengthMax>50</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_ARTILLERY_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SUPERCARRIER</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25</VisKillStrengthMin>
+			<VisKillStrengthMax>50</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_ARTILLERY_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION1TON</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SUPERCARRIER</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25</VisKillStrengthMin>
+			<VisKillStrengthMax>50</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_ARTILLERY_IMPACT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_SPECIAL_FORCES</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<WeaponTypeTag>BULLET</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLET</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_ROCKET_LAUNCHER</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<ID>ART_DEF_VEFFECT_MECH_ROCKET_PROJECTILE</ID>
+			<VisKillStrengthMin>25.0</VisKillStrengthMin>
+			<VisKillStrengthMax>50.0</VisKillStrengthMax>
+			<ProjectileSpeed>3.5</ProjectileSpeed>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION20POUND</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MODERN_SAM</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25.0</VisKillStrengthMin>
+			<VisKillStrengthMax>50.0</VisKillStrengthMax>
+			<ProjectileSpeed>2.5</ProjectileSpeed>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION20POUND</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MODERN_SAM</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>10.0</VisKillStrengthMin>
+			<VisKillStrengthMax>20.0</VisKillStrengthMax>
+			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MODERN_ARTILLERY</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>25.0</VisKillStrengthMin>
+			<VisKillStrengthMax>50.0</VisKillStrengthMax>
+			<ProjectileSpeed>4.5</ProjectileSpeed>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION20POUND</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MODERN_ARTILLERY</UnitMemberType>
+			<Index>1</Index>
+			<SubIndex>0</SubIndex>
+			<ProjectileSpeed>4.5</ProjectileSpeed>
+			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MODERN_HELICOPTER</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>0</SubIndex>
+			<VisKillStrengthMin>1.0</VisKillStrengthMin>
+			<VisKillStrengthMax>1.0</VisKillStrengthMax>
+			<HitEffect>ART_DEF_VEFFECT_GUNSHIP_MACHINE_GUN_HIT_$(TERRAIN)</HitEffect>
+			<WeaponTypeTag>BULLETHC</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>BULLETHC</WeaponTypeSoundOverrideTag>
+		</Row>
+		<Row>
+			<UnitMemberType>ART_DEF_UNIT_MEMBER_MODERN_HELICOPTER</UnitMemberType>
+			<Index>0</Index>
+			<SubIndex>1</SubIndex>
+			<ID>PROJECTILE</ID>
+			<VisKillStrengthMin>10.0</VisKillStrengthMin>
+			<VisKillStrengthMax>15.0</VisKillStrengthMax>
+			<ProjectileSpeed>4.0</ProjectileSpeed>
+			<WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+			<WeaponTypeSoundOverrideTag>EXPLOSION20POUND</WeaponTypeSoundOverrideTag>
+		</Row>
+	</ArtDefine_UnitMemberCombatWeapons>
+
+	<ArtDefine_StrategicView>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_MACEMAN</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>SV_Maceman.dds</Asset>
+		</Row>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_BATTERING_RAM</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>SV_Battering_Ram.dds</Asset>
+		</Row>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_HORSE_ARCHER</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>SV_Horse_Archer.dds</Asset>
+		</Row>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_CLASSIC_CAVALRY</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>SV_Classic_Cavalry.dds</Asset>
+		</Row>
+		<Update>
+			<Where StrategicViewType="ART_DEF_UNIT_SPEARMAN"/>
+			<Set Asset="SV_Phalanx.dds"/>
+		</Update>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_GALLEYX</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>SV_Galley.dds</Asset>
+		</Row>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_MOUNTED_CROSSBOWMAN</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>SV_Mounted_Crossbowman.dds</Asset>
+		</Row>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_GRENADIER</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>Art/Strat_View_Icons/sv_Grenadier.dds</Asset>
+		</Row>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_HALBERDIER</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>SV_Halberdier.dds</Asset>
+		</Row>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_DESTROYER_SMALL</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>SV_Destroyer.dds</Asset>
+		</Row>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_CARRIER_SMALL</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>SV_Carrier.dds</Asset>
+		</Row>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_MISSILE_DESTROYER</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>SV_Destroyer.dds</Asset>
+		</Row>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_BALLISTIC_MISSILE</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>Art/Strat_View_Icons/sv_Ballistic_Missile.dds</Asset>
+		</Row>
+		<Update>
+			<Where StrategicViewType="ART_DEF_UNIT_DESTROYER"/>
+			<Set Asset="Art/Strat_View_Icons/sv_Missile_Destroyer.dds"/>
+		</Update>
+		<Update>
+			<Where StrategicViewType="ART_DEF_UNIT_CARRIER"/>
+			<Set Asset="Art/Strat_View_Icons/sv_Fleet_Carrier.dds"/>
+		</Update>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_SUPERCARRIER</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>Art/Strat_View_Icons/sv_Supercarrier.dds</Asset>
+		</Row>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_SPECIAL_FORCES</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>Art/Strat_View_Icons/sv_Special_Forces.dds</Asset>
+		</Row>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_ROCKET_LAUNCHER</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>Art/Strat_View_Icons/sv_Rocket_Launcher.dds</Asset>
+		</Row>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_MODERN_SAM</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>Art/Strat_View_Icons/sv_Modern_SAM.dds</Asset>
+		</Row>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_MODERN_ARTILLERY</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>Art/Strat_View_Icons/sv_Modern_Artillery.dds</Asset>
+		</Row>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_MODERN_HELICOPTER</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>Art/Strat_View_Icons/sv_Modern_Helicopter.dds</Asset>
+		</Row>
+		<Row>
+			<StrategicViewType>ART_DEF_UNIT_HYDROGEN_BOMB</StrategicViewType>
+			<TileType>Unit</TileType>
+			<Asset>Art/Strat_View_Icons/sv_Hydrogen_Bomb.dds</Asset>
+		</Row>
+	</ArtDefine_StrategicView>
+	
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>TTOMOD_ICON_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>TTOmodIconAtlas256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>6</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>TTOMOD_ICON_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>TTOmodIconAtlas128.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>6</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>TTOMOD_ICON_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>TTOmodIconAtlas80.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>6</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>TTOMOD_ICON_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>TTOmodIconAtlas64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>6</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>TTOMOD_ICON_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>TTOmodIconAtlas45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>6</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>TTOMOD_FLAG_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>TTOmod_flag_atlas_32.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>3</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

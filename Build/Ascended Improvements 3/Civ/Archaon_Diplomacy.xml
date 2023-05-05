@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/15/2014 2:11:32 PM -->
+<GameData>
+
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_ARCHAON">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_ARCHAON_FIRSTGREETING_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ARCHAON">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_ARCHAON_DEFEATED_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ARCHAON">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ARCHAON_GREETING_POLITE_HELLO_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ARCHAON">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ARCHAON_GREETING_NEUTRAL_HELLO_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ARCHAON">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ARCHAON_GREETING_HOSTILE_HELLO_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ARCHAON">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_ARCHAON_HOSTILE_AGGRESSIVE_MILITARY_WARNING_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ARCHAON">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_LEADER_ARCHAON_EXPANSION_SERIOUS_WARNING_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ARCHAON">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_ARCHAON_RESPONSE_REQUEST_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ARCHAON">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_ARCHAON_LUXURY_TRADE_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ARCHAON">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_ARCHAON_OPEN_BORDERS_EXCHANGE_%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ARCHAON">
+			<ResponseType></ResponseType>
+			<Response></Response>
+		</Row>
+	</Diplomacy_Responses>
+
+	-<Language_en_US>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_AGREE_SHORT_1">
+			<Text>Very well.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_AGREE_SHORT_2">
+			<Text>That is acceptable.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_AGREE_SHORT_3">
+			<Text>Agreed.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_AGREE_SHORT_4">
+			<Text>It is agreed.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_AGREE_SHORT_5">
+			<Text>Good, for now.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_AGREE_SHORT_6">
+			<Text>Acceptable.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_AGREE_SHORT_7">
+			<Text>Fine.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_ATTACKED_1">
+			<Text>You wish to hasten your demise?  Splendid.  Bring your lambs to my slaughter!</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_ATTACKED_2">
+			<Text>Indeed?  Khorne delights in reckless courage.  Come, then!  Give your people's blood to the Blood God!</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_ATTACKED_3">
+			<Text>Ahaha... you know, faced with the certainty of death, I have seen some men run away, others toward it.  Clearly, you are of the latter type.  I have often wondered: who is wise and who is the fool?  When my blade is at your throat, favour me with your thoughts on the question.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_ATTACKED_4">
+			<Text>Ah, so you run towards death, abandoning hope that does not exist, embracing the end that is inevitable.  Pay no heed to your peers: this is wisdom.  I shall make it quick.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_DECLAREWAR_1">
+			<Text>Your time has come.  You are next.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_DECLAREWAR_2">
+			<Text>I come to destroy you and your false gods.  Your cities will burn, and your memory shall be obliterated!</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_DECLAREWAR_3">
+			<Text>I bring the End Times to your weakling empire.  I will slaughter every last one of your people, and place your head on a spike to gaze over your desolate lands for eternity.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_DEFEATED_1">
+			<Text>Impossible!  How is the will of Chaos defeated?!</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_DEFEATED_2">
+			<Text>The will of the Dark Gods is undone!  How has this come to pass?  What ARE you?!</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_DEFEATED_3">
+			<Text>I have failed the Ruinous Powers.  My warriors abandon me, and I leave the field in disgrace.  Enjoy your victory, but know this: I SHALL return, and have my revenge!</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_DEFEATED_4">
+			<Text>Hahaha... fool.  You may have defeated me, but you cannot stop the triumph of Chaos.  You merely delay the inevitable.  Another Everchosen shall rise!</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_DEMANDTRIBUTE_ANGRY">
+			<Text>Hand it over, maggot, and I might let you see another sunrise.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_DEMANDTRIBUTE_HAPPY">
+			<Text>Give this to me, and I promise to kill you last.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_DEMANDTRIBUTE_NEUTRAL">
+			<Text>This.  Or else.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_DISAGREE_SHORT_1">
+			<Text>No.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_DISAGREE_SHORT_2">
+			<Text>No, you fool.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_DISAGREE_SHORT_3">
+			<Text>No, you weakling.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_DISAGREE_SHORT_4">
+			<Text>Absurd.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_DISAGREE_SHORT_5">
+			<Text>No.  Get out of my sight.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_DISAGREE_SHORT_6">
+			<Text>Ridiculous.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_DISAGREE_SHORT_7">
+			<Text>Laughable.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_DISAGREE_SHORT_8">
+			<Text>Shut your idiot mouth.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_FIRSTGREETING_1">
+			<Text>Know this, mortal: any arrangement we might strike will only delay thy inevitable death at my hands, for I am Archaon, Lord of the End Times.  Understanding this, what wouldst thou wish of me?</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_FIRSTGREETING_2">
+			<Text>Bend thy knee, for thou art in the presence of Archaon, Everchosen of the Chaos Gods.  A stay of execution is the most I will promise thee; for this, do bargain, and delay the end of thy days.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_FIRSTGREETING_3">
+			<Text>Fear me, mortal, for I am the Anointed, the Favoured Son of Chaos, the Scourge of the World.  The armies of the gods rally behind me, and it is by my will and by my sword that your weakling nation shall fall.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_GOODBYE_1">
+			<Text>Leave.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_GOODBYE_2">
+			<Text>Get out.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_GOODBYE_3">
+			<Text>Go away.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_GOODBYE_4">
+			<Text>Get out of my sight.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_GOODBYE_5">
+			<Text>Away with you.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_GREETING_1">
+			<Text>Come to grovel?</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_GREETING_2">
+			<Text>Come to beg for something?</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_GREETING_3">
+			<Text>Get on your knees when you speak to me.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_GREETING_4">
+			<Text>What?</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_GREETING_5">
+			<Text>Get on with it then go.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_GREETING_6">
+			<Text>Bend thy knee.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_LETSHEARIT_1">
+			<Text>Spit it out.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_LETSHEARIT_2">
+			<Text>What do you want?</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_LETSHEARIT_3">
+			<Text>Why are you here?</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_LETSHEARIT_4">
+			<Text>Explain why you're wasting my time.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_LETSHEARIT_5">
+			<Text>Yes?</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_LETSHEARIT_6">
+			<Text>You may speak.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_LETSHEARIT_7">
+			<Text>What?</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_LETSHEARIT_8">
+			<Text>Get on with it.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_LOSEWAR_1">
+			<Text>I will conquer others for a time, but this isn't over.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_LOSEWAR_2">
+			<Text>You are stronger than you look.  I congratulate you on winning a temporary respite.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_QUOTE_1">
+			<Text>Fear me mortals, for I am the Anointed, the favoured Son of Chaos, the Scourge of the World.  The armies of the gods rally behind me, and it is by my will and by my sword that your weakling nations shall fall.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_QUOTE_2">
+			<Text>Sigmar was a weakling, and his Empire founded on falsehood.  I shall destroy him and his false gods.  The city of Ulric will burn and the memory of the upstart king shall be obliterated!</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRADE_NEEDMORE_ANGRY_1">
+			<Text>For this insult, I shall strangle you with your own intenstines.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRADE_NEEDMORE_ANGRY_2">
+			<Text>Your nerve disgusts me.  Your death shall be slow and painful.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRADE_NEEDMORE_ANGRY_3">
+			<Text>How dare you.  I shall disembowel your family while you watch, and then choke you with the eyeballs that witnessed their gruesome deaths.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRADE_NEEDMORE_HAPPY_1">
+			<Text>A better offer might buy my indulgence for a short while.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRADE_NEEDMORE_HAPPY_2">
+			<Text>I might consider an improved offer.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRADE_NEEDMORE_HAPPY_3">
+			<Text>You shall give me more, and perhaps I shall turn my might on another for a time.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRADE_NEEDMORE_NEUTRAL_1">
+			<Text>No.  Do better, and perhaps I shall kill someone else first.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRADE_NEEDMORE_NEUTRAL_2">
+			<Text>This proposal is unequal, and you insult me by pretending otherwise.  This is how I choose my next victim.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRADE_NEEDMORE_NEUTRAL_3">
+			<Text>No.  Improve your proposal or die.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRADE_NEEDMORE_NEUTRAL_4">
+			<Text>No.  Grovel more.  Beg more.  Offer more.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRADE_NO_ANGRY">
+			<Text>My pat</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRADE_NO_HAPPY">
+			<Text>I decline.  Stop testing my patience.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRADE_NO_NEUTRAL">
+			<Text>Not interested. </Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRADE_YES_ANGRY">
+			<Text>Hmph.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRADE_YES_HAPPY">
+			<Text>Good... good.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRADE_YES_NEUTRAL">
+			<Text>Very well.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRADEREQUEST_ANGRY">
+			<Text>You can give it to me willingly and die later, or I can take it and kill you now.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRADEREQUEST_HAPPY">
+			<Text>This exchange will buy my indulgence for a short time.  I trust you are wise enough to appreciate this offer.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRADEREQUEST_NEUTRAL">
+			<Text>This exchange will buy my indulgence for a short time.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRIBUTE_NO_ANGRY">
+			<Text>You DARE make demands of me?!  For this, I will flay your family alive while you watch, make rope from their skin, and with it, tie your limbs to charging horses!</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRIBUTE_NO_HAPPY">
+			<Text>You presume too much.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRIBUTE_NO_NEUTRAL">
+			<Text>It is not for you to make requests of the Son of Chaos.  For this, I will boil you alive.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRIBUTE_YES_ANGRY">
+			<Text>Here.  Choke on it.  Soon, I'll take it back from your dead hands.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRIBUTE_YES_HAPPY">
+			<Text>A reward for your obedience thus far is not inappropriate, I suppose.  I caution you not to push your luck.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_TRIBUTE_YES_NEUTRAL">
+			<Text>Fine.  I'll just take it back when I'm not preoccupied.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_WARBLUFF_1">
+			<Text>Very well, craven.  Your time will come, but on my terms.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_WARBLUFF_2">
+			<Text>Coward.  Destroying you will clearly be even less enjoyable, or challenging, than I had thought.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_WARBLUFF_3">
+			<Text>Coward.  You disgust me.  Return to your cities and await the liberation my blade will bring from your wretched existence.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_WINWAR_1">
+			<Text>Your weakling troops fall beneath my blade.  Do you not see?  I cannot be stopped, only postponed.</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_LEADER_ARCHAON_WINWAR_2">
+			<Text>The Gods are sated with your blood - for now.  Rejoice, for I appoint a later time for your death.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ARCHAON_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>I see your armies gather, but I see fear in your eyes.  Let us dispense with the foreplay and commence with the slaughter!  Find your courage!  Come and DIE!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_ARCHAON_EXPANSION_SERIOUS_WARNING_1">
+			<Text>Burning your cities is time-consuming, and my dominion requires land to feed itself.  You will cease your expansion immediately, abandon all hope of defiance, and accept your death at my hands.</Text>
+		</Row>
+	</Language_en_US>
+	
+</GameData>

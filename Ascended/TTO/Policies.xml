@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 13-Nov-14 1:28:48 -->
+<GameData>
+	<Policies>
+		<Update>
+			<Where Type="POLICY_ARISTOCRACY"/>
+			<Set HappinessPerXPopulation="5"/>
+		</Update>
+		<Update>
+			<Where Type="POLICY_MONARCHY"/>
+			<Set CapitalUnhappinessMod="-100"/>
+		</Update>
+		<Update>
+			<Where Type="POLICY_MERITOCRACY"/>
+			<Set UnhappinessMod="-10" HappinessPerTradeRoute="200"/>
+		</Update>
+		<Update>
+			<Where Type="POLICY_CULT_PERSONALITY"/>
+			<Set HalfSpecialistUnhappiness="true"/>
+		</Update>
+		
+	</Policies>
+	<Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_MERCANTILISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CASINO</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<!--
+		<Row>
+			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_INTERNET_CAFE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>-->
+	</Policy_BuildingClassYieldChanges>
+
+	<Policy_BuildingClassHappiness>
+		<Row>
+			<PolicyType>POLICY_CAPITALISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CASINO</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_STEEL_FOUNDRY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+			<!--
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HYDROPONIC_FARM</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ACADEMY_SCIENCES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SUPERCOMPUTER</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ACADEMY_SCIENCES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PHYSICS_LAB</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>-->
+	</Policy_BuildingClassHappiness>
+
+	<Policy_BuildingClassProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_WORKERS_FACULTIES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_STEEL_FOUNDRY</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row><!--
+		<Row>
+			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_INTERNET_CAFE</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>-->
+	</Policy_BuildingClassProductionModifiers>
+</GameData>

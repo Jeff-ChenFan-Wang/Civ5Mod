@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/11/2023 3:38:36 PM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_MOTHERLAND</Type>
+			<BuildingClass>BUILDINGCLASS_MOTHERLAND</BuildingClass>
+			<Description>TXT_KEY_BUILDING_MOTHERLAND1</Description>
+			<Help>TXT_KEY_WONDER_MOTHERLAND_HELP1</Help>
+			<Civilopedia>TXT_KEY_WONDER_MOTHERLAND_PEDIA1</Civilopedia>
+			<Quote>TXT_KEY_WONDER_MOTHERLAND_QUOTE1</Quote>
+			<Cost>1250</Cost>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+			<MaxStartEra>ERA_FUTURE</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<SpecialistExtraCulture>1</SpecialistExtraCulture>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<NeverCapture>1</NeverCapture>
+			<ConquestProb>0</ConquestProb>
+			<IconAtlas>BW_ATLAS_MOTHERLAND</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>MOTHERLAND_SPLASH.dds</WonderSplashImage>
+			<WonderSplashAnchor>C,B</WonderSplashAnchor>
+			<WonderSplashAudio>NONE</WonderSplashAudio>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_MOTHERLAND</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_MOTHERLAND</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOTHERLAND</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_MOTHERLAND</Type>
+			<DefaultBuilding>BUILDING_MOTHERLAND</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MOTHERLAND</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MOTHERLAND</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MOTHERLAND</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_MOTHERLAND1">
+			<Text>The Motherland Calls</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_HELP1">
+			<Text>+1 [ICON_CULTURE] Culture from Specialists in every city. Contains 1 slot for a Great Work of Writing.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_QUOTE1">
+			<Text>
+				[NEWLINE]"One of the hallmarks of a great nation is its ability to rise to its feet after a fall."[NEWLINE] - Vasily Osipovich Klyuchevsky [NEWLINE]
+			</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_PEDIA1">
+			<Text>The Motherland Calls is an enormous statue located near the city of Volograd, in Russia. It was constructed in 1967 to commemorate the fallen Soviet soldiers that took place in the Battle of Stalingrad during World War 2. At the time of construction, it was declared as the tallest statue in the world, at 91 metres to the tip of the sword. Despite the larger statues, the nature of the posture of the statue required significantly more engineering techniques, with the large 33-metre sword rising well above the main body. Pressed concrete and wire ropes were used to achieve the shape. [NEWLINE][NEWLINE] On the path leading up the hill towards the statue are two hundred stairs, each one representing one day of the Battle of Stalingrad.</Text>
+		</Row>
+	</Language_en_US>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>BW_ATLAS_MOTHERLAND</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>MOTHERLAND_ICON256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_MOTHERLAND</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>MOTHERLAND_ICON128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_MOTHERLAND</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>MOTHERLAND_ICON64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_MOTHERLAND</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>MOTHERLAND_ICON80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_MOTHERLAND</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>MOTHERLAND_ICON45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>
+

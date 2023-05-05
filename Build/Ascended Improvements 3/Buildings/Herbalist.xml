@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/21/2019 12:01:04 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_HERBALIST</Type>
+			<DefaultBuilding>BUILDING_HERBALIST</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_HERBALIST</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_HERBALIST</Type>
+			<BuildingClass>BUILDINGCLASS_HERBALIST</BuildingClass>
+			<Cost>120</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_HERBALIST_HELP</Help>
+			<Description>TXT_KEY_BUILDING_HERBALIST</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HERBALIST_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_HERBALIST_STRATEGY</Strategy>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>33</ConquestProb>
+			<HurryCostModifier>10</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>17</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_HERBALIST</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_HERBALIST</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Building_YieldModifiers>
+		
+		<Row>
+			<BuildingType>BUILDING_HERBALIST</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HERBALIST</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	
+	</Building_YieldModifiers>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_HERBALIST">
+			<Text>Herbalist Guild</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HERBALIST_TEXT">
+			<Text>
+				Guild dedicated to gathering, growing, and studying remedies to heal the population.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HERBALIST_STRATEGY">
+			<Text>
+				The Herbalist guilds helps your city grow as well as bolster your science by studying a variety of herbs and remedies.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HERBALIST_HELP">
+			<Text>
+				+5% [ICON_FOOD] Food and +5% [ICON_RESEARCH] Science in this city.
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

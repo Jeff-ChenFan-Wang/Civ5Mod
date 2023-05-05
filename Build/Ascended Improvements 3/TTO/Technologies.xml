@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 21-Oct-14 11:28:15 -->
+<GameData>
+	<Technologies>
+		<!-- Ancient Era-->
+		<Update>
+			<Where Type="TECH_POTTERY"/>
+			<Set Cost="20"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_TRAPPING"/>
+			<Set Cost="20" GridX="1" GridY="3"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_ANIMAL_HUSBANDRY"/>
+			<Set Cost="20" InternationalTradeRoutesChange="0"/> <!-- For Testing MapVisible="true" -->
+		</Update>
+		<Update>
+			<Where Type="TECH_ARCHERY"/>
+			<Set Cost="20"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_MINING"/>
+			<Set Cost="20"/>
+		</Update>
+		<Row>
+			<Type>TECH_REAL_HORSEBACK_RIDING</Type>
+			<Cost>32</Cost>
+			<Description>TXT_KEY_TECH_HORSEBACK_RIDING_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_HORSEBACK_RIDING_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_REAL_HORSEBACK_RIDING_HELP</Help>
+			<Era>ERA_ANCIENT</Era>
+			<Trade>true</Trade>
+			<GridX>2</GridX>
+			<GridY>3</GridY>
+			<Quote>TXT_KEY_TECH_REAL_HORSEBACK_RIDING_QUOTE</Quote>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>TECH_ATLAS_1</IconAtlas>
+			<AudioIntro>AS2D_TECH_HORSEBACK_RIDING</AudioIntro>
+			<AudioIntroHeader>AS2D_HEADING_TECH_HORSEBACK_RIDING</AudioIntroHeader>
+			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
+		</Row>
+		<Row>
+			<Type>TECH_LUMBERING</Type>
+			<Cost>32</Cost>
+			<Description>TXT_KEY_TECH_LUMBERING_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_LUMBERING_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_LUMBERING_HELP</Help>
+			<Era>ERA_ANCIENT</Era>
+			<Trade>true</Trade>
+			<GridX>1</GridX>
+			<GridY>5</GridY>
+			<Quote>TXT_KEY_TECH_LUMBERING_QUOTE</Quote>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>TTOMOD_ICON_ATLAS</IconAtlas>
+		</Row>
+		<Update>
+			<Where Type="TECH_CALENDAR"/>
+			<Set Cost="32"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_MATHEMATICS"/>
+			<Set GridX="1" Era="ERA_ANCIENT" Cost="32"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_MASONRY"/>
+			<Set Cost="32"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_SAILING"/>
+			<Set GridY="1" InternationalTradeRoutesChange="0" AllowsEmbarking="1"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_WRITING"/>
+			<Set GridY="3"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_THE_WHEEL"/>
+			<Set GridY="5"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_BRONZE_WORKING"/>
+			<Set GridY="8"/>
+		</Update>
+
+		<!-- Classical Era-->
+		<Update>
+			<Where Type="TECH_OPTICS"/>
+			<Set Cost="105" AllowsEmbarking="0"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_PHILOSOPHY"/>
+			<Set Cost="105" GridX="3" GridY="2"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_HORSEBACK_RIDING"/>
+			<Set Description="TXT_KEY_TECH_CAVALRY_TACTICS_TITLE" Civilopedia="TXT_KEY_TECH_CAVALRY_TACTICS_DESC" AudioIntro="NULL" AudioIntroHeader="NULL" IconAtlas="TTOMOD_ICON_ATLAS" PortraitIndex="1"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_CONSTRUCTION"/>
+			<Set GridY="6"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_IRON_WORKING"/>
+			<Set Cost="105" GridX="3" GridY="8"/>
+		</Update>
+		<Row>
+			<Type>TECH_CODEX</Type>
+			<Cost>175</Cost>
+			<Description>TXT_KEY_TECH_CODEX_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_CODEX_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_CODEX_HELP</Help>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GridX>4</GridX>
+			<GridY>1</GridY>
+			<Quote>TXT_KEY_TECH_CODEX_QUOTE</Quote>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>TTOMOD_ICON_ATLAS</IconAtlas>
+			<InternationalTradeRoutesChange>1</InternationalTradeRoutesChange>
+		</Row>
+		<Update>
+			<Where Type="TECH_DRAMA"/>
+			<Set GridY="3"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_CURRENCY"/>
+			<Set GridY="5"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_ENGINEERING"/>
+			<Set InternationalTradeRoutesChange="0"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_METAL_CASTING"/>
+			<Set Cost="175" GridX="4" GridY="9" Era="ERA_CLASSICAL"/>
+		</Update>
+
+		<!-- Medieval Era-->
+		<Update>
+			<Where Type="TECH_CIVIL_SERVICE"/>
+			<Set GridY="0" Cost="300"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_THEOLOGY"/>
+			<Set GridY="2" Cost="300"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_GUILDS"/>
+			<Set Cost="290"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_CHIVALRY"/>
+			<Set Cost="300" GridX="5" GridY="4" DefensivePactTradingAllowed="0"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_STEEL"/>
+			<Set Cost="290" GridX="5" GridY="8"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_COMPASS"/>
+			<Set Cost="500" GridY="1" EmbarkedMoveChange="1"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_EDUCATION"/>
+			<Set GridY="3" Cost="500"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_PHYSICS"/>
+			<Set GridY="5" DefensivePactTradingAllowed="1" Cost="500"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_MACHINERY"/>
+			<Set Cost="500"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_METALLURGY"/>
+			<Set Cost="500" GridX="6" GridY="9" Era="ERA_MEDIEVAL"/>
+		</Update>
+		
+		<!-- Renaissance Era-->
+		<Update>
+			<Where Type="TECH_ACOUSTICS"/>
+			<Set GridY="0" Cost="800"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_ASTRONOMY"/>
+			<Set GridY="2" EmbarkedMoveChange="0" Cost="800"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_BANKING"/>
+			<Set GridY="4" InternationalTradeRoutesChange="0" AllowsWorldCongress="true" Cost="800"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_PRINTING_PRESS"/>
+			<Set GridY="6" AllowsWorldCongress="false" Cost="800"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_GUNPOWDER" Cost="800"/>
+			<Set GridY="8"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_ARCHITECTURE"/>
+			<Set GridY="1"  Cost="1200"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_NAVIGATION"/>
+			<Set GridY="3" InternationalTradeRoutesChange="1" EmbarkedMoveChange="1" Cost="1200"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_ECONOMICS"/>
+			<Set Cost="1200"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_CHEMISTRY"/>
+			<Set GridY="7" Cost="1200"/>
+		</Update>
+		<Row>
+			<Type>TECH_MIXED_FORMATIONS</Type>
+			<Cost>1200</Cost>
+			<Description>TXT_KEY_TECH_MIXED_FORMATIONS_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_MIXED_FORMATIONS_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_MIXED_FORMATIONS_HELP</Help>
+			<Era>ERA_RENAISSANCE</Era>
+			<Trade>true</Trade>
+			<GridX>8</GridX>
+			<GridY>9</GridY>
+			<Quote>TXT_KEY_TECH_MIXED_FORMATIONS_QUOTE</Quote>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>TTOMOD_ICON_ATLAS</IconAtlas>
+		</Row>
+		
+		<!-- Industrial Era-->
+		<Update>
+			<Where Type="TECH_ARCHAEOLOGY"/>
+			<Set GridY="0" Cost="1650"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_SCIENTIFIC_THEORY"/>
+			<Set GridY="2" Cost="1700"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_INDUSTRIALIZATION"/>
+			<Set GridY="4" Cost="1700"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_RIFLING"/>
+			<Set GridY="6" Cost="1700"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_MILITARY_SCIENCE"/>
+			<Set GridY="8" Cost="1700"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_FERTILIZER"/>
+			<Set Cost="2500" GridX="10" />
+		</Update>
+		<Update>
+			<Where Type="TECH_BIOLOGY"/>
+			<Set InternationalTradeRoutesChange="0" Cost="2500"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_ELECTRICITY"/>
+			<Set GridY="3" Cost="2500"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_STEAM_POWER"/>
+			<Set InternationalTradeRoutesChange="1" Cost="2500"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_DYNAMITE"/>
+			<Set GridY="7" Cost="2500"/>
+		</Update>
+
+		<!-- Modern Era-->
+		<Update>
+			<Where Type="TECH_REFRIGERATION"/>
+			<Set GridY="0" Cost="4200"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_RADIO"/>
+			<Set Cost="4200"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_REPLACEABLE_PARTS"/>
+			<Set GridY="4" Cost="4200"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_RAILROAD"/>
+			<Set GridY="6" InternationalTradeRoutesChange="0"  Cost="4150"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_FLIGHT"/>
+			<Set GridY="8"  Cost="4200"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_PENICILIN"/>
+			<Set Cost="4400" Era="ERA_MODERN" GridX="12" InternationalTradeRoutesChange="0"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_ELECTRONICS"/>
+			<Set GridY="3" InternationalTradeRoutesChange="1" EmbarkedMoveChange="1"  Cost="4400"/>
+		</Update>
+		<Row>
+			<Type>TECH_SONAR</Type>
+			<Cost>4400</Cost>
+			<Description>TXT_KEY_TECH_SONAR_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_SONAR_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_SONAR_HELP</Help>
+			<Era>ERA_MODERN</Era>
+			<Trade>true</Trade>
+			<GridX>12</GridX>
+			<GridY>7</GridY>
+			<Quote>TXT_KEY_TECH_SONAR_QUOTE</Quote>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>TTOMOD_ICON_ATLAS</IconAtlas>
+		</Row>
+		<Update>
+			<Where Type="TECH_BALLISTICS"/>
+			<Set GridY="5"  Cost="4400"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_COMBUSTION"/>
+			<Set GridY="9"  Cost="4400"/>
+		</Update>
+		
+		<!-- Atomic Era-->
+		<Update>
+			<Where Type="TECH_PLASTIC"/>
+			<Set Cost="5300" Era="ERA_POSTMODERN" GridX="13" GridY="0"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_ATOMIC_THEORY"/>
+			<Set GridY="2" Cost="5300"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_ROCKETRY"/>
+			<Set Cost="5300" GridX="13" GridY="4"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_COMBINED_ARMS"/>
+			<Set GridY="6" Cost="5300"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_RADAR"/>
+			<Set GridY="8" Cost="5300"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_ECOLOGY"/>
+			<Set Cost="6700"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_NUCLEAR_FISSION"/>
+			<Set GridY="3" AudioIntro="NULL" Cost="6700"/>
+		</Update>
+		<Row>
+			<Type>TECH_SPACEFLIGHT</Type>
+			<Cost>6700</Cost>
+			<Description>TXT_KEY_TECH_SPACEFLIGHT_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_SPACEFLIGHT_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_SPACEFLIGHT_HELP</Help>
+			<Era>ERA_POSTMODERN</Era>
+			<Trade>true</Trade>
+			<GridX>14</GridX>
+			<GridY>5</GridY>
+			<Quote>TXT_KEY_TECH_SPACEFLIGHT_QUOTE</Quote>
+			<PortraitIndex>5</PortraitIndex>
+			<IconAtlas>TTOMOD_ICON_ATLAS</IconAtlas>
+		</Row>
+		<Update>
+			<Where Type="TECH_TELECOM"/>
+			<Set Cost="6700" Era="ERA_POSTMODERN" GridX="14" GridY="7"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_COMPUTERS"/>
+			<Set GridY="9" InternationalTradeRoutesChange="1" Cost="6700"/>
+		</Update>
+
+		<!-- Information Era-->
+		<Update>
+			<Where Type="TECH_ROBOTICS"/>
+			<Set GridY="0"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_ADVANCED_BALLISTICS"/>
+			<Set GridY="2"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_MOBILE_TACTICS"/>
+			<Set GridY="4"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_SATELLITES"/>
+			<Set GridY="6"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_LASERS"/>
+			<Set GridY="8"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_GLOBALIZATION"/>
+			<Set GridY="1" InternationalTradeRoutesChange="1"/>
+		</Update>
+		<Row>
+			<Type>TECH_RENEWABLE_ENERGY</Type>
+			<Cost>8800</Cost>
+			<Description>TXT_KEY_TECH_RENEWABLE_ENERGY_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_RENEWABLE_ENERGY_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_RENEWABLE_ENERGY_HELP</Help>
+			<Era>ERA_FUTURE</Era>
+			<Trade>true</Trade>
+			<GridX>16</GridX>
+			<GridY>3</GridY>
+			<Quote>TXT_KEY_TECH_RENEWABLE_ENERGY_QUOTE</Quote>
+			<PortraitIndex>6</PortraitIndex>
+			<IconAtlas>TTOMOD_ICON_ATLAS</IconAtlas>
+		</Row>
+		<Update>
+			<Where Type="TECH_STEALTH"/>
+			<Set GridY="5" EmbarkedMoveChange="1"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_INTERNET"/>
+			<Set GridY="7"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_PARTICLE_PHYSICS"/>
+			<Set GridY="9"/>
+		</Update>
+
+		<!-- Future Era -->
+		<Update>
+			<Where Type="TECH_NANOTECHNOLOGY"/>
+			<Set Cost="10100" GridX="17" GridY="2" Era="ERA_REAL_FUTURE"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_NUCLEAR_FUSION"/>
+			<Set Cost="10100" GridX="17" GridY="7" Era="ERA_REAL_FUTURE"/>
+		</Update>
+		<Update>
+			<Where Type="TECH_FUTURE_TECH"/>
+			<Set Cost="11600" GridX="18" Era="ERA_REAL_FUTURE" AudioIntro="NULL"/>
+		</Update>
+		
+		<!-- For speedy testing 
+		<Update>
+			<Where Trade="true"/>
+			<Set Cost="1"/>
+		</Update>-->
+	</Technologies>
+
+	<Technology_Flavors>
+		<!-- Ancient Era-->
+		<Row>
+			<TechType>TECH_REAL_HORSEBACK_RIDING</TechType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_REAL_HORSEBACK_RIDING</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_LUMBERING</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_LUMBERING</TechType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Update>
+			<Where TechType="TECH_THE_WHEEL" FlavorType="FLAVOR_INFRASTRUCTURE"/>
+			<Set TechType="TECH_ANIMAL_HUSBANDRY"/>
+		</Update>
+		<Row>
+			<TechType>TECH_THE_WHEEL</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Delete TechType="TECH_WRITING" FlavorType="FLAVOR_WONDER"/>
+
+		<!-- Classical Era-->
+		<Update>
+			<Where TechType="TECH_MATHEMATICS" FlavorType="FLAVOR_RANGED"/>
+			<Set TechType="TECH_CURRENCY"/>
+		</Update>
+		<Update>
+			<Where TechType="TECH_MATHEMATICS" FlavorType="FLAVOR_OFFENSE"/>
+			<Set TechType="TECH_CURRENCY"/>
+		</Update>
+		
+		<!-- Medieval Era-->
+		<Update>
+			<Where TechType="TECH_MACHINERY" FlavorType="FLAVOR_RANGED"/>
+			<Set TechType="TECH_METAL_CASTING"/>
+		</Update>
+
+		<!-- Renaissance Era-->
+		<Update>
+			<Where TechType="TECH_METALLURGY" FlavorType="FLAVOR_OFFENSE"/>
+			<Set TechType="TECH_BANKING"/>
+		</Update>
+		<Update>
+			<Where TechType="TECH_METALLURGY" FlavorType="FLAVOR_MOBILE"/>
+			<Set TechType="TECH_BANKING"/>
+		</Update>
+		<Update>
+			<Where TechType="TECH_ECONOMICS" FlavorType="FLAVOR_PRODUCTION"/>
+			<Set TechType="TECH_BANKING"/>
+		</Update>
+		<Row>
+			<TechType>TECH_GUNPOWDER</TechType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_MIXED_FORMATIONS</TechType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		
+		<!-- Industrial Era-->
+		<Delete TechType="TECH_ARCHAEOLOGY" FlavorType="FLAVOR_WONDER"/>
+		<Delete TechType="TECH_BIOLOGY"/>
+		<Row>
+			<TechType>TECH_INDUSTRIALIZATION</TechType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_BIOLOGY</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_BIOLOGY</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Update>
+			<Where TechType="TECH_DYNAMITE" FlavorType="FLAVOR_OFFENSE"/>
+			<Set Flavor="25"/>
+		</Update>
+		<Update>
+			<Where TechType="TECH_DYNAMITE" FlavorType="FLAVOR_DEFENSE"/>
+			<Set Flavor="10"/>
+		</Update>
+		<Row>
+			<TechType>TECH_DYNAMITE</TechType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_DYNAMITE</TechType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_DYNAMITE</TechType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_DYNAMITE</TechType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		
+		<!-- Modern Era-->
+		<Update>
+			<Where TechType="TECH_BALLISTICS" FlavorType="FLAVOR_RANGED"/>
+			<Set TechType="TECH_REPLACEABLE_PARTS"/>
+		</Update>
+		<Delete TechType="TECH_COMBUSTION" FlavorType="FLAVOR_NAVAL"/>
+		<Row>
+			<TechType>TECH_COMBUSTION</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Delete TechType="TECH_REFRIGERATION" FlavorType="FLAVOR_NAVAL_TILE_IMPROVEMENT"/>
+		<Row>
+			<TechType>TECH_RAILROAD</TechType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Delete TechType="TECH_PENICILIN"/>
+		<Row>
+			<TechType>TECH_PENICILIN</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PENICILIN</TechType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PENICILIN</TechType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PENICILIN</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ELECTRONICS</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_SONAR</TechType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_SONAR</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_SONAR</TechType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_SONAR</TechType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		
+		<!-- Atomic Era-->
+		<Delete TechType="TECH_PLASTIC"/>
+		<Row>
+			<TechType>TECH_PLASTIC</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PLASTIC</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PLASTIC</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PLASTIC</TechType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Delete TechType="TECH_ATOMIC_THEORY" FlavorType="FLAVOR_OFFENSE"/>
+		<Row>
+			<TechType>TECH_ROCKETRY</TechType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ROCKETRY</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ROCKETRY</TechType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ECOLOGY</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ECOLOGY</TechType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ECOLOGY</TechType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Delete TechType="TECH_ECOLOGY" FlavorType="FLAVOR_PRODUCTION"/>
+
+		<!-- Information Era-->
+		<Row>
+			<TechType>TECH_MOBILE_TACTICS</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_MOBILE_TACTICS</TechType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ADVANCED_BALLISTICS</TechType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_SATELLITES</TechType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_SATELLITES</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_ROBOTICS</TechType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_LASERS</TechType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_RENEWABLE_ENERGY</TechType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_RENEWABLE_ENERGY</TechType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_RENEWABLE_ENERGY</TechType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_RENEWABLE_ENERGY</TechType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>		
+		<Row>
+			<TechType>TECH_GLOBALIZATION</TechType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_GLOBALIZATION</TechType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_INTERNET</TechType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_INTERNET</TechType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PARTICLE_PHYSICS</TechType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PARTICLE_PHYSICS</TechType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PARTICLE_PHYSICS</TechType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PARTICLE_PHYSICS</TechType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<TechType>TECH_PARTICLE_PHYSICS</TechType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+	</Technology_Flavors>
+		
+	<Technology_PrereqTechs>
+		<!-- Ancient Era-->
+		<Delete TechType="TECH_TRAPPING"/>
+		<Row>
+			<TechType>TECH_TRAPPING</TechType>
+			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_CALENDAR</TechType>
+			<PrereqTech>TECH_TRAPPING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_WRITING</TechType>
+			<PrereqTech>TECH_TRAPPING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_REAL_HORSEBACK_RIDING</TechType>
+			<PrereqTech>TECH_TRAPPING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_REAL_HORSEBACK_RIDING</TechType>
+			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_LUMBERING</TechType>
+			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_LUMBERING</TechType>
+			<PrereqTech>TECH_ARCHERY</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_MATHEMATICS"/>
+		<Row>
+			<TechType>TECH_MATHEMATICS</TechType>
+			<PrereqTech>TECH_ARCHERY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_MATHEMATICS</TechType>
+			<PrereqTech>TECH_MINING</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_SAILING"/>
+		<Row>
+			<TechType>TECH_SAILING</TechType>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_WRITING"/>
+		<Row>
+			<TechType>TECH_WRITING</TechType>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_WRITING</TechType>
+			<PrereqTech>TECH_REAL_HORSEBACK_RIDING</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_THE_WHEEL"/>
+		<Row>
+			<TechType>TECH_THE_WHEEL</TechType>
+			<PrereqTech>TECH_REAL_HORSEBACK_RIDING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_THE_WHEEL</TechType>
+			<PrereqTech>TECH_LUMBERING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_THE_WHEEL</TechType>
+			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_BRONZE_WORKING"/>
+		<Row>
+			<TechType>TECH_BRONZE_WORKING</TechType>
+			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_BRONZE_WORKING</TechType>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+		</Row>
+		
+		<!-- Classical Era-->
+		<Update>
+			<Where TechType="TECH_HORSEBACK_RIDING" PrereqTech="TECH_TRAPPING"/>
+			<Set PrereqTech="TECH_WRITING"/>
+		</Update>
+		<Update>
+			<Where TechType="TECH_IRON_WORKING" PrereqTech="TECH_CONSTRUCTION"/>
+			<Set PrereqTech="TECH_BRONZE_WORKING"/>
+		</Update>
+		<Row>
+			<TechType>TECH_CODEX</TechType>
+			<PrereqTech>TECH_OPTICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_CODEX</TechType>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+		</Row>
+		<Update>
+			<Where TechType="TECH_DRAMA" PrereqTech="TECH_WRITING"/>
+			<Set PrereqTech="TECH_PHILOSOPHY"/>
+		</Update>
+		<Row>
+			<TechType>TECH_DRAMA</TechType>
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_CURRENCY"/>
+		<Row>
+			<TechType>TECH_CURRENCY</TechType>
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_CURRENCY</TechType>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_ENGINEERING"/>
+		<Row>
+			<TechType>TECH_ENGINEERING</TechType>
+			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ENGINEERING</TechType>
+			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_METAL_CASTING" PrereqTech="TECH_ENGINEERING"/>
+		
+		<!-- Medieval Era-->
+		<Delete TechType="TECH_CIVIL_SERVICE"/>
+		<Row>
+			<TechType>TECH_CIVIL_SERVICE</TechType>
+			<PrereqTech>TECH_CODEX</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_THEOLOGY"/>
+		<Row>
+			<TechType>TECH_THEOLOGY</TechType>
+			<PrereqTech>TECH_CODEX</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_THEOLOGY</TechType>
+			<PrereqTech>TECH_DRAMA</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_CHIVALRY"/>
+		<Row>
+			<TechType>TECH_CHIVALRY</TechType>
+			<PrereqTech>TECH_DRAMA</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_CHIVALRY</TechType>
+			<PrereqTech>TECH_CURRENCY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_GUILDS</TechType>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_STEEL"/>
+		<Row>
+			<TechType>TECH_STEEL</TechType>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_STEEL</TechType>
+			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
+		</Row>
+		<Update>
+			<Where TechType="TECH_EDUCATION" PrereqTech="TECH_CIVIL_SERVICE"/>
+			<Set PrereqTech="TECH_CHIVALRY"/>
+		</Update>
+		<Delete TechType="TECH_PHYSICS"/>
+		<Row>
+			<TechType>TECH_PHYSICS</TechType>
+			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_PHYSICS</TechType>
+			<PrereqTech>TECH_GUILDS</PrereqTech>
+		</Row>
+		<Update>
+			<Where TechType="TECH_MACHINERY" PrereqTech="TECH_ENGINEERING"/>
+			<Set PrereqTech="TECH_STEEL"/>
+		</Update>
+		<Update>
+			<Where TechType="TECH_COMPASS" PrereqTech="TECH_OPTICS"/>
+			<Set PrereqTech="TECH_CIVIL_SERVICE"/>
+		</Update>
+		<Delete TechType="TECH_METALLURGY"/>
+		<Row>
+			<TechType>TECH_METALLURGY</TechType>
+			<PrereqTech>TECH_STEEL</PrereqTech>
+		</Row>
+		
+		<!-- Renaissance Era-->
+		<Delete TechType="TECH_ACOUSTICS" PrereqTech="TECH_EDUCATION"/>
+		<Row>
+			<TechType>TECH_ACOUSTICS</TechType>
+			<PrereqTech>TECH_COMPASS</PrereqTech>
+		</Row>
+		<Update>
+			<Where TechType="TECH_BANKING" PrereqTech="TECH_CHIVALRY"/>
+			<Set PrereqTech="TECH_PHYSICS"/>
+		</Update>
+		<Delete TechType="TECH_PRINTING_PRESS"/>
+		<Row>
+			<TechType>TECH_PRINTING_PRESS</TechType>
+			<PrereqTech>TECH_PHYSICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_PRINTING_PRESS</TechType>
+			<PrereqTech>TECH_MACHINERY</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_GUNPOWDER"/>
+		<Row>
+			<TechType>TECH_GUNPOWDER</TechType>
+			<PrereqTech>TECH_MACHINERY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_GUNPOWDER</TechType>
+			<PrereqTech>TECH_METALLURGY</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_ARCHITECTURE" PrereqTech="TECH_BANKING"/>
+		<Row>
+			<TechType>TECH_ARCHITECTURE</TechType>
+			<PrereqTech>TECH_ASTRONOMY</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_NAVIGATION"/>
+		<Row>
+			<TechType>TECH_NAVIGATION</TechType>
+			<PrereqTech>TECH_ASTRONOMY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_NAVIGATION</TechType>
+			<PrereqTech>TECH_BANKING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_CHEMISTRY</TechType>
+			<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_MIXED_FORMATIONS</TechType>
+			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
+		</Row>
+		
+		<!-- Industrial Era-->
+		<Delete TechType="TECH_ARCHAEOLOGY" PrereqTech="TECH_NAVIGATION"/>
+		<Delete TechType="TECH_SCIENTIFIC_THEORY"/>
+		<Row>
+			<TechType>TECH_SCIENTIFIC_THEORY</TechType>
+			<PrereqTech>TECH_NAVIGATION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_SCIENTIFIC_THEORY</TechType>
+			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_INDUSTRIALIZATION</TechType>
+			<PrereqTech>TECH_NAVIGATION</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_RIFLING"/>
+		<Row>
+			<TechType>TECH_RIFLING</TechType>
+			<PrereqTech>TECH_ECONOMICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_RIFLING</TechType>
+			<PrereqTech>TECH_CHEMISTRY</PrereqTech>
+		</Row>
+		<Update>
+			<Where TechType="TECH_MILITARY_SCIENCE" PrereqTech="TECH_METALLURGY"/>
+			<Set PrereqTech="TECH_MIXED_FORMATIONS"/>
+		</Update>
+		<Row>
+			<TechType>TECH_ELECTRICITY</TechType>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_STEAM_POWER" PrereqTech="TECH_SCIENTIFIC_THEORY"/>
+		<Delete TechType="TECH_DYNAMITE"/>
+		<Row>
+			<TechType>TECH_DYNAMITE</TechType>
+			<PrereqTech>TECH_RIFLING</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_DYNAMITE</TechType>
+			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_FERTILIZER"/>
+		<Row>
+			<TechType>TECH_FERTILIZER</TechType>
+			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
+		</Row>
+				
+		<!-- Modern Era-->
+		<Delete TechType="TECH_REFRIGERATION" PrereqTech="TECH_ELECTRICITY"/>
+		<Row>
+			<TechType>TECH_RADIO</TechType>
+			<PrereqTech>TECH_BIOLOGY</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_FLIGHT"/>
+		<Row>
+			<TechType>TECH_FLIGHT</TechType>
+			<PrereqTech>TECH_DYNAMITE</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_FLIGHT</TechType>
+			<PrereqTech>TECH_FERTILIZER</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_PLASTIC"/>
+		<Delete TechType="TECH_PENICILIN"/>
+		<Row>
+			<TechType>TECH_PENICILIN</TechType>
+			<PrereqTech>TECH_REFRIGERATION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_PENICILIN</TechType>
+			<PrereqTech>TECH_RADIO</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_PLASTIC</TechType>
+			<PrereqTech>TECH_PENICILIN</PrereqTech>
+		</Row>
+		<Update>
+			<Where TechType="TECH_ELECTRONICS" PrereqTech="TECH_FLIGHT"/>
+			<Set PrereqTech="TECH_RADIO"/>
+		</Update>
+		<Update>
+			<Where TechType="TECH_BALLISTICS" PrereqTech="TECH_FLIGHT"/>
+			<Set PrereqTech="TECH_REPLACEABLE_PARTS"/>
+		</Update>
+		<Row>
+			<TechType>TECH_SONAR</TechType>
+			<PrereqTech>TECH_RAILROAD</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_SONAR</TechType>
+			<PrereqTech>TECH_FLIGHT</PrereqTech>
+		</Row>
+		<Update>
+			<Where TechType="TECH_COMBUSTION" PrereqTech="TECH_RAILROAD"/>
+			<Set PrereqTech="TECH_FLIGHT"/>
+		</Update>
+
+		<!-- Atomic Era-->
+		<Update>
+			<Where TechType="TECH_ATOMIC_THEORY" PrereqTech="TECH_PLASTIC"/>
+			<Set PrereqTech="TECH_PENICILIN"/>
+		</Update>
+		<Update>
+			<Where TechType="TECH_NUCLEAR_FISSION" PrereqTech="TECH_RADAR"/>
+			<Set PrereqTech="TECH_ROCKETRY"/>
+		</Update>
+		<Delete TechType="TECH_ROCKETRY"/>
+		<Row>
+			<TechType>TECH_ROCKETRY</TechType>
+			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ROCKETRY</TechType>
+			<PrereqTech>TECH_BALLISTICS</PrereqTech>
+		</Row>
+		<Update>
+			<Where TechType="TECH_RADAR" PrereqTech="TECH_ELECTRONICS"/>
+			<Set PrereqTech="TECH_COMBUSTION"/>
+		</Update>
+		<Update>
+			<Where TechType="TECH_RADAR" PrereqTech="TECH_BALLISTICS"/>
+			<Set PrereqTech="TECH_SONAR"/>
+		</Update>
+		<Update>
+			<Where TechType="TECH_COMBINED_ARMS" PrereqTech="TECH_COMBUSTION"/>
+			<Set PrereqTech="TECH_SONAR"/>
+		</Update>
+		<Update>
+			<Where TechType="TECH_ECOLOGY" PrereqTech="TECH_PENICILIN"/>
+			<Set PrereqTech="TECH_PLASTIC"/>
+		</Update>
+		<Row>
+			<TechType>TECH_SPACEFLIGHT</TechType>
+			<PrereqTech>TECH_ROCKETRY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_SPACEFLIGHT</TechType>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+		</Row>
+		<Update>
+			<Where TechType="TECH_TELECOM"/>
+			<Set PrereqTech="TECH_RADAR"/>
+		</Update>
+		<Row>
+			<TechType>TECH_TELECOM</TechType>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_COMPUTERS" PrereqTech="TECH_COMBINED_ARMS"/>
+		
+		<!-- Information Era-->
+		<Delete TechType="TECH_ROBOTICS"/>
+		<Row>
+			<TechType>TECH_ROBOTICS</TechType>
+			<PrereqTech>TECH_ECOLOGY</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_ADVANCED_BALLISTICS"/>
+		<Row>
+			<TechType>TECH_ADVANCED_BALLISTICS</TechType>
+			<PrereqTech>TECH_ECOLOGY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ADVANCED_BALLISTICS</TechType>
+			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
+		</Row>
+		<Update>
+			<Where TechType="TECH_MOBILE_TACTICS" PrereqTech="TECH_ECOLOGY"/>
+			<Set PrereqTech="TECH_SPACEFLIGHT"/>
+		</Update>
+		<Update>
+			<Where TechType="TECH_SATELLITES"/>
+			<Set PrereqTech="TECH_SPACEFLIGHT"/>
+		</Update>
+		<Row>
+			<TechType>TECH_SATELLITES</TechType>
+			<PrereqTech>TECH_TELECOM</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_LASERS</TechType>
+			<PrereqTech>TECH_TELECOM</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_GLOBALIZATION"/>
+		<Row>
+			<TechType>TECH_GLOBALIZATION</TechType>
+			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_GLOBALIZATION</TechType>
+			<PrereqTech>TECH_ROBOTICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_RENEWABLE_ENERGY</TechType>
+			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_RENEWABLE_ENERGY</TechType>
+			<PrereqTech>TECH_MOBILE_TACTICS</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_STEALTH"/>
+		<Row>
+			<TechType>TECH_STEALTH</TechType>
+			<PrereqTech>TECH_MOBILE_TACTICS</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_STEALTH</TechType>
+			<PrereqTech>TECH_SATELLITES</PrereqTech>
+		</Row>
+		<Update>
+			<Where TechType="TECH_INTERNET"/>
+			<Set PrereqTech="TECH_SATELLITES"/>
+		</Update>
+		<Row>
+			<TechType>TECH_INTERNET</TechType>
+			<PrereqTech>TECH_LASERS</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_PARTICLE_PHYSICS"/>
+		<Row>
+			<TechType>TECH_PARTICLE_PHYSICS</TechType>
+			<PrereqTech>TECH_LASERS</PrereqTech>
+		</Row>
+		
+		<!-- Future Era-->
+		<Delete TechType="TECH_NANOTECHNOLOGY"/>
+		<Row>
+			<TechType>TECH_NANOTECHNOLOGY</TechType>
+			<PrereqTech>TECH_GLOBALIZATION</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_NANOTECHNOLOGY</TechType>
+			<PrereqTech>TECH_RENEWABLE_ENERGY</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_NUCLEAR_FUSION"/>
+		<Row>
+			<TechType>TECH_NUCLEAR_FUSION</TechType>
+			<PrereqTech>TECH_STEALTH</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_NUCLEAR_FUSION</TechType>
+			<PrereqTech>TECH_INTERNET</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_NUCLEAR_FUSION</TechType>
+			<PrereqTech>TECH_PARTICLE_PHYSICS</PrereqTech>
+		</Row>
+		<Delete TechType="TECH_FUTURE_TECH"/>
+		<Row>
+			<TechType>TECH_FUTURE_TECH</TechType>
+			<PrereqTech>TECH_NANOTECHNOLOGY</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_FUTURE_TECH</TechType>
+			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
+		</Row>
+	</Technology_PrereqTechs>
+
+	<Technology_TradeRouteDomainExtraRange>
+		<Update>
+			<Where TechType="TECH_COMPASS"/>
+			<Set TechType="TECH_ASTRONOMY"/>
+		</Update>
+	</Technology_TradeRouteDomainExtraRange>
+</GameData>

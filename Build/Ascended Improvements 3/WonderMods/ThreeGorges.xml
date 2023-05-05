@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/21/2019 12:01:04 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_THREE_GORGES</Type>
+			<DefaultBuilding>BUILDING_THREE_GORGES</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_THREE_GORGES</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_THREE_GORGES</Type>
+			<BuildingClass>BUILDINGCLASS_THREE_GORGES</BuildingClass>
+			<Cost>1250</Cost>
+			<NukeImmune>1</NukeImmune>
+			<NeverCapture>1</NeverCapture>
+			<PrereqTech>TECH_ECOLOGY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_THREE_GORGES_HELP</Help>
+			<Description>TXT_KEY_BUILDING_THREE_GORGES</Description>
+			<Civilopedia>TXT_KEY_BUILDING_THREE_GORGES_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_THREE_GORGES_STRATEGY</Strategy>
+			<FreeBuildingThisCity>BUILDINGCLASS_HYDRO_PLANT</FreeBuildingThisCity>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<River>true</River>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<ConquestProb>0</ConquestProb>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<WonderSplashAnchor>R,T</WonderSplashAnchor>
+			<PortraitIndex>28</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_THREE_GORGES</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_THREE_GORGES</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_THREE_GORGES</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HYDRO_PLANT</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_THREE_GORGES</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_GlobalYieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_THREE_GORGES</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_GlobalYieldModifiers>
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_THREE_GORGES">
+			<Text>Three Gorges Dam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_THREE_GORGES_TEXT">
+			<Text>
+				Built across the Yangtze River in the Hubei province of China, the Three Gorges Dam is the largest Hydroelectic powerstation on Earth, in terms of maximum capacity. Construction began in December 1994, and was completed on July 4, 2012, with the exception of the boat lift, which is not excpected to be complete until 2014. The dam has 32 main generators, each with an individual output of 700 mW, combining with other smaller generators for a combined total output of 22,500 mW, an ammount which would be able to power 6,750,000 homes every hour. Following the completion of the reservoir in 2003, the flooding of the area upstream from the dam resulted in the loss of several archaeological and cultural sites in the area, which resulted in harsh criticism from global agencies.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_THREE_GORGES_STRATEGY">
+			<Text>
+				The Three Gorges Dam is a powerful building for when your empire has multiple cities near rivers, building it grants the technical expertise to upgrade all Hydro Plants in your empire.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_THREE_GORGES_HELP">
+			<Text>
+				+10% [ICON_PRODUCTION] Production in all Cities, provides a free Hydro Plant in the city in which it is built, and +1 [ICON_PRODUCTION] Production from each Hydro Plant. City must be built on a river.
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

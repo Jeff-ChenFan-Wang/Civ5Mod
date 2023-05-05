@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/21/2019 12:01:04 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_SMITHSONIAN</Type>
+			<DefaultBuilding>BUILDING_SMITHSONIAN</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SMITHSONIAN</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_SMITHSONIAN</Type>
+			<BuildingClass>BUILDINGCLASS_SMITHSONIAN</BuildingClass>
+			<Cost>850</Cost>
+			<NukeImmune>1</NukeImmune>
+			<NeverCapture>1</NeverCapture>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<GreatWorkCount>4</GreatWorkCount>
+			<PrereqTech>TECH_BIOLOGY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_SMITHSONIAN_HELP</Help>
+			<Description>TXT_KEY_BUILDING_SMITHSONIAN</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SMITHSONIAN_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_SMITHSONIAN_STRATEGY</Strategy>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<IconAtlas>SMITHSONIAN_ATLAS</IconAtlas>
+			<WonderSplashAnchor>R,T</WonderSplashAnchor>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_SMITHSONIAN</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMITHSONIAN</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_SMITHSONIAN</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_SMITHSONIAN</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_SMITHSONIAN</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMITHSONIAN</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>SMITHSONIAN_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>SMITHSONIAN_256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SMITHSONIAN_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>SMITHSONIAN_128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SMITHSONIAN_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>SMITHSONIAN_64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>SMITHSONIAN_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>SMITHSONIAN_45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_SMITHSONIAN">
+			<Text>Smithsonian Museum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMITHSONIAN_TEXT">
+			<Text>
+				The Smithsonian is a grand national museum that allows its citizens to experience the pinnacle of its the nation's achievements in the arts and sciences.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMITHSONIAN_STRATEGY">
+			<Text>
+				The Smithsonian provides bonuses to a nation's arts and sciences, giving the nation an edge in overall progression.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SMITHSONIAN_HELP">
+			<Text>
+				City must have a Museum to be built.
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

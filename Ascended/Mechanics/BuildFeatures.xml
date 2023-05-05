@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/18/2012 2:00:48 PM -->
+<GameData>
+	<BuildFeatures>
+		<Update>
+			<Where BuildType="BUILD_REMOVE_JUNGLE"/>
+			<Set Production="20"/>
+		</Update>
+	</BuildFeatures>
+
+</GameData>

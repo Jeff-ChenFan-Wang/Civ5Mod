@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/17/2019 4:17:39 PM -->
+<GameData>
+	<Policies>
+		<Row>
+			<Type>POLICY_PERFECT_CITY</Type>
+			<Description>TXT_KEY_POLICY_PERFECT_CITY</Description>
+			<Civilopedia>TXT_KEY_POLICY_PERFECT_CITY_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_PERFECT_CITY_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_AUTOCRACY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<Level>3</Level>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS_EXP2</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS_EXP2</IconAtlasAchieved>
+		</Row>
+	</Policies>
+	<Policy_CapitalYieldChanges>
+		<Row>
+			<PolicyType>POLICY_PERFECT_CITY</PolicyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>20</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PERFECT_CITY</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Policy_CapitalYieldChanges>
+	<Policy_Flavors>
+		<Row>
+			<PolicyType>POLICY_PERFECT_CITY</PolicyType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+	</Policy_Flavors>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_PERFECT_CITY">
+			<Text>Perfect Capital</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_PERFECT_CITY_HELP">
+			<Text>
+				+15 [ICON_PRODUCTION] Production and +3 [ICON_CULTURE] Culture in the Capital.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_PERFECT_CITY_TEXT">
+			<Text>
+				To create the perfect capital that all other cities should be modeled after.
+			</Text>
+		</Row>
+		
+	</Language_en_US>
+</GameData>

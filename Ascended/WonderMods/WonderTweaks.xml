@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/15/2018 4:00:42 PM -->
+<GameData>
+	<Buildings>
+		<!-- Mausoleum Great person gold tweak-->
+		<Update>
+			<Where Type="BUILDING_MAUSOLEUM_HALICARNASSUS"/>
+			<Set GreatPersonExpendGold="50"/>
+		</Update>
+		
+		<!--Angkor wat culture acquire buffed from 25% to 50%-->
+		<Update>
+			<Where Type="BUILDING_ANGKOR_WAT"/>
+			<Set GlobalPlotCultureCostModifier="-50" GlobalPlotBuyCostModifier="-33"/>
+		</Update>
+		<!--Pyramid worker modifier tweak-->
+		<Update>
+			<Where Type="BUILDING_PYRAMID"/>
+			<Set WorkerSpeedModifier="20"/>
+		</Update>
+
+		<!--added specialist engineers-->
+		<Update>
+			<Where Type="BUILDING_IRONWORKS"/>
+			<Set SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="2"/>
+		</Update>
+
+		<Update>
+			<Where Type="BUILDING_NOTRE_DAME"/>
+			<Set SpecialistType="SPECIALIST_ENGINEER"/>
+		</Update>
+<!--pentagon is espionage reducer as well-->
+		<Update>
+			<Where Type="BUILDING_PENTAGON"/>
+			<Set Espionage="1" EspionageModifier="-25"/>
+		</Update>
+<!--Terracotta arnmy no longer gives isntant army, but increases unit buidling speed by 33%-->
+		<Update>
+			<Where Type="BUILDING_TERRACOTTA_ARMY"/>
+			<Set InstantMilitaryIncrease="0"/>
+		</Update>
+		
+		<!--Mountain wonders mod-->
+		<Update>
+			<Where Type="BUILDING_MACHU_PICHU"/>
+			<Set ArtDefineTag="ART_DEF_BUILDING_FORGE" 
+				 DisplayPosition="0"
+				 NearbyMountainRequired="0"/>
+		</Update>
+
+		<Update>
+			<Where Type="BUILDING_NEUSCHWANSTEIN"/>
+			<Set ArtDefineTag="ART_DEF_BUILDING_FORGE"
+				 DisplayPosition="0"
+				 NearbyMountainRequired="0"/>
+		</Update>
+		<!--heroic epic gives morale promo to any units built-->
+		<Update>
+			<Where Type="BUILDING_HEROIC_EPIC"/>
+			<Set TrainedFreePromotion=""
+				 FreePromotion="PROMOTION_MORALE"/>
+		</Update>
+		<!--buff from 10% to 15%-->
+		<Update>
+			<Where Type="BUILDING_CRISTO_REDENTOR"/>
+			<Set PolicyCostModifier="-15"/>
+		</Update>
+	</Buildings>
+	<Building_FreeUnits>
+		<!--Pyramid workers tweak-->
+		<Update>
+			<Where BuildingType="BUILDING_PYRAMID" UnitType="UNIT_WORKER"/>
+			<Set NumUnits ="1"/>
+		</Update>
+
+		<Update>
+			<Where BuildingType="BUILDING_BOROBUDUR" UnitType="UNIT_MISSIONARY"/>
+			<Set NumUnits ="2"/>
+		</Update>
+	</Building_FreeUnits>
+	<Building_YieldChanges>
+		<!-- Stonehenge faith and culture change-->
+		<Update>
+			<Where BuildingType ="BUILDING_STONEHENGE" YieldType="YIELD_FAITH"/>
+			<Set Yield ="3"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_HANGING_GARDEN" YieldType="YIELD_FOOD"/>
+			<Set Yield="5"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_TERRACOTTA_ARMY" YieldType="YIELD_CULTURE"/>
+			<Set Yield="2"/>
+		</Update>
+		<!--Artemis gives more food instead of archery unit prod mod-->
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Building_ClassesNeededInCity>
+		<!-- Remove barracks requirement for heroic epic-->
+		<Delete BuildingType="BUILDING_HEROIC_EPIC"/>
+	</Building_ClassesNeededInCity>
+	
+	<Building_PrereqBuildingClasses>
+		<Delete BuildingType="BUILDING_HEROIC_EPIC"/>
+	</Building_PrereqBuildingClasses>
+	
+	<Building_UnitCombatProductionModifiers>
+		<Delete BuildingType ="BUILDING_TEMPLE_ARTEMIS"/>
+	</Building_UnitCombatProductionModifiers>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>15</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Building_DomainProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Modifier>33</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Modifier>33</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Modifier>33</Modifier>
+		</Row>
+	</Building_DomainProductionModifiers>
+	
+	<Building_Flavors>
+		<Update>
+			<Where BuildingType="BUILDING_TEMPLE_ARTEMIS" FlavorType="FLAVOR_GROWTH"/>
+			<Set Flavor="50"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_TEMPLE_ARTEMIS" FlavorType="FLAVOR_RANGED"/>
+			<Set Flavor="0"/>
+		</Update>
+
+		<Update>
+			<Where BuildingType="BUILDING_PYRAMID" FlavorType="FLAVOR_TILE_IMPROVEMENT"/>
+			<Set Flavor="50"/>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_PYRAMID" FlavorType="FLAVOR_PRODUCTION"/>
+			<Set Flavor="10"/>
+		</Update>
+
+		<Update>
+			<Where BuildingType="BUILDING_GREAT_LIBRARY" FlavorType="FLAVOR_SCIENCE"/>
+			<Set Flavor="80"/>
+		</Update>
+
+		<Update>
+			<Where BuildingType="BUILDING_HANGING_GARDEN" FlavorType="FLAVOR_GROWTH"/>
+			<Set Flavor="45"/>
+		</Update>
+	</Building_Flavors>
+
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_MAUSOLEUM_HALICARNASSUS_HELP"/>
+			<Set Text="Gain 50 [ICON_GOLD] Gold each time a Great Person is expended. Each source of [ICON_RES_MARBLE] Marble or [ICON_RES_STONE] Stone worked by this City produces +2 [ICON_GOLD] Gold."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_PYRAMIDS_HELP"/>
+			<Set Text="Requires Liberty. Tile improvement construction speed increased by 20% and a Worker appear near the City."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_HEROIC_EPIC_HELP"/>
+			<Set Text ="All newly-trained non-air Units in this City receive the [COLOR_POSITIVE_TEXT]Morale[ENDCOLOR] Promotion, improving [ICON_STRENGTH] combat strength by 15%. Contains 1 slot for a Great Work of Writing."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_TEMPLE_ARTEMIS_HELP"/>
+			<Set Text="+10% [ICON_FOOD] Growth in all cities."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_TERRA_COTTA_ARMY_HELP"/>
+			<Set Text="Increases all unit [ICON_PRODUCTION] production by +33%"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_HANGING_GARDEN_HELP"/>
+			<Set Text="Requires Tradition. Provides a free Garden in the city in which it is built. +15% [ICON_FOOD] Food in city built. "/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_CRISTO_REDENTOR_HELP"/>
+			<Set Text="[ICON_CULTURE] Culture cost of adopting new Policies reduced by 15%."/>
+		</Update>
+
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_ANGKOR_WAT_HELP"/>
+			<Set Text="[ICON_CULTURE] Culture cost of acquiring new tiles reduced by 50% and [ICON_GOLD] Gold cost by 33% in all cities."/>
+		</Update>
+	</Language_en_US>
+</GameData>

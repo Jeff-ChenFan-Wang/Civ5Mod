@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/13/2012 11:12:12 PM -->
+<GameData>
+<Language_en_US>
+	<Update>
+		<Where Tag="TXT_KEY_BUILDING_MINT_HELP" />
+		<Set Text="Each source of [ICON_RES_GOLD] Gold, [ICON_RES_SILVER] Silver and [ICON_RES_COPPER] Copper worked by this City produces +2 [ICON_GOLD] Gold. [ICON_RES_IRON] Iron produces +1 [ICON_GOLD] Gold. [NEWLINE][NEWLINE]City must have at least one of these resources mined nearby. " />
+	</Update>
+</Language_en_US>
+	<Building_LocalResourceOrs>
+		<Row>
+			<BuildingType>BUILDING_MINT</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MINT</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+	</Building_LocalResourceOrs>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_MINT</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MINT</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+</GameData>
+
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12-Nov-14 22:42:20 -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_II">
+			<Text>2 Extra Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_II_HELP">
+			<Text>2 Extra Movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_II_PEDIA">
+			<Text>2 Extra Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_III">
+			<Text>3 Extra Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_III_HELP">
+			<Text>3 Extra Movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_III_PEDIA">
+			<Text>3 Extra Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_IV">
+			<Text>4 Extra Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_IV_HELP">
+			<Text>4 Extra Movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_IV_PEDIA">
+			<Text>4 Extra Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_V">
+			<Text>5 Extra Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_V_HELP">
+			<Text>5 Extra Movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_V_PEDIA">
+			<Text>5 Extra Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_VI">
+			<Text>6 Extra Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_VI_HELP">
+			<Text>6 Extra Movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_VI_PEDIA">
+			<Text>6 Extra Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_VIII">
+			<Text>8 Extra Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_VIII_HELP">
+			<Text>8 Extra Movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_VIII_PEDIA">
+			<Text>8 Extra Movement</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

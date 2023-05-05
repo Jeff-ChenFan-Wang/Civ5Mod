@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 22-Oct-14 3:40:36 -->
+<GameData>
+	<Language_en_US>
+		<!-- Ancient Era -->
+		<Row Tag="TXT_KEY_UNIT_BATTERING_RAM">
+			<Text>Battering Ram</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BATTERING_RAM_HELP">
+			<Text>First siege unit of the game. Good at melee attacks against cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BATTERING_RAM_STRATEGY">
+			<Text>The Battering Ram is a siege weapon, good at knocking down the defenses of a city. It has the Cover I promotion to keep it safe from ranged units; attack it with melee units to defeat it.</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HUN_BATTERING_RAM"/>
+			<Set Text="Gatecrasher"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_HUN_BATTERING_RAM"/>
+			<Set Text="Siege unit deadly at melee attacks versus cities. Only the Huns may build it. This unit has a greater bonus against cities than the Battering Ram, which it replaces."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HUN_BATTERING_RAM_STRATEGY"/>
+			<Set Text="Gatecrashers are a Hunnic unique unit replacing the Battering Ram. They have a greater bonus against cities than the Battering Ram. They still have the Cover I promotion to keep them safe from ranged units; attack them with melee units to defeat them."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_ASSYRIAN_SIEGE_TOWER"/>
+			<Set Text="Powerful melee siege unit which grants a city attack bonus to nearby units when next to an enemy city. May only be built by the Assyrians. This unit also has greater vision than the Battering Ram, which it replaces."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER_STRATEGY"/>
+			<Set Text="Siege Towers are an Assyrian unique unit replacing the Battering Ram. This melee siege unit must move next to an enemy city to be effective, but once it has, it is devastating. It not only has a powerful city attack of its own, but also confers a bonus to any of your nearby units also attacking the city. Complement a Siege Tower with melee or ranged units, and make sure it reaches its target before getting killed, and cities will fall much more quickly. It also has a vision bonus instead of a penalty, unlike the Battering Ram."/>
+		</Update>
+		<Row Tag="TXT_KEY_UNIT_MACEMAN">
+			<Text>Maceman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MACEMAN_HELP">
+			<Text>Stronger than the Warrior.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MACEMAN_STRATEGY">
+			<Text>The Maceman is a powerful standard melee unit during the Ancient Era, stronger than the Warrior. They are very useful when attacking early-era cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MACEMAN_TEXT">
+			<Text>Macemen are lightly armored warriors that wield large metal maces. A mace is a blunt weapon, a type of club or virge that uses a heavy head on the end of a handle to deliver powerful blows. A mace typically consists of a strong, heavy, wooden or metal shaft, often reinforced with metal, featuring a head made of stone, copper, bronze, iron, or steel.[NEWLINE][NEWLINE]The head of a military mace can be shaped with flanges or knobs to allow greater penetration of plate armour. The length of maces can vary considerably. The maces of foot soldiers were usually quite short (two or three feet, or seventy to ninety centimetres). The maces of cavalrymen were longer and thus better suited for blows delivered from horseback. Two-handed maces could be even larger.[NEWLINE][NEWLINE]Maces are rarely used today for actual combat, but a large number of government bodies, universities and other institutions have ceremonial maces and continue to display them as symbols of authority. They are often paraded in academic, parliamentary or civic rituals and processions.[NEWLINE][NEWLINE]The mace was developed during the Upper Paleolithic from the simple club, by adding sharp spikes of flint or obsidian.[NEWLINE][NEWLINE]In Europe, an elaborately carved ceremonial flint mace head was one of the artifacts discovered in excavations of theNeolithic mound of Knowth in Ireland, and Bronze Age archaeology cites numerous finds of perforated mace heads.[NEWLINE][NEWLINE]In ancient Ukraine, stone mace heads were first used nearly eight millennia ago. The others known were disc maces with oddly formed stones mounted perpendicularly to their handle. The Narmer Palette shows a king swinging a mace. See the articles on the Narmer Macehead and the Scorpion Macehead for examples of decorated maces inscribed with the names of kings.[NEWLINE][NEWLINE]The problem with early maces was that their stone heads shattered easily and it was difficult to fix the head to the wooden handle reliably. The Egyptians attempted to give them a disk shape in the predynastic period (about 3850–3650 B.C.) in order to increase their impact and even provide some cutting capabilities, but this seems to have been a short-lived improvement.[NEWLINE][NEWLINE]A rounded pear form of mace head known as a "piriform" replaced the disc mace in the Naqada II period of pre-dynastic Upper Egypt (3600–3250 B.C.) and was used throughout the Naqada III period (3250-3100 B.C.). Similar mace heads were also used in Mesopotamia around 2450–1900 B.C. The Assyrians used maces probably about nineteenth century B.C. and in their campaigns; the maces were usually made of stone or marble and furnished with gold or other metals, but were rarely used in battle unless fighting heavily armoured infantry.[NEWLINE][NEWLINE]An important, later development in mace heads was the use of metal for their composition. With the advent of copper mace heads, they no longer shattered and a better fit could be made to the wooden club by giving the eye of the mace head the shape of a cone and using a tapered handle.[NEWLINE][NEWLINE]The Shardanas or warriors from Sardinia who fought for Ramses II against the Hittities were armed with maces consisting of wooden sticks with bronze heads. Many bronze statuettes of the times show Sardinian warriors carrying swords, bows and original maces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ANCIENT_SPEARMAN">
+			<Text>Spearman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ANCIENT_SPEARMAN_HELP">
+			<Text>Ancient-Era Unit which specializes in defeating Mounted Units, like the Horseman or Chariot Archer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ANCIENT_SPEARMAN_STRATEGY">
+			<Text>The Spearman is the first melee unit specialized in fighting Mounted Units like the Horseman or Chariot Archer. It is slightly weaker than the Maceman against other Units though. Use them to cut defend against Mounted Units or cut off their escape and move in for the kill.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ANCIENT_SPEARMAN_TEXT">
+			<Text>The earliest spears were doubtless straight pieces of wood with crudely-sharpened ends; these would quickly break or become dull with service. The spear didn't become a reliable weapon until some early innovator discovered that he could harden the tip by lightly charring it over a fire. Eventually stone tips were employed, then of course metal. Spears are fairly simple weapons to learn, and they can be produced rapidly and cheaply, so they tend to be the backbone of early civilizations' armies.</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_WORK_BOAT_STRATEGY"/>
+			<Set Text="This unit can only be constructed in coastal cities. Use work boats to improve water resources - fish, whales, oil, etc. The work boat is consumed when it constructs the improvement. Work boats can not enter ocean hexes until the Industrial Era, when they also gain two moves. Work boats cannot engage in combat."/>
+		</Update>
+
+		<!-- Classical Era -->
+		<Row Tag="TXT_KEY_UNIT_CLASSIC_CAVALRY">
+			<Text>Cavalry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CLASSIC_CAVALRY_HELP">
+			<Text>A fast Mounted Unit highly effective on flat ground. Weak to Phalanxes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CLASSIC_CAVALRY_STRATEGY">
+			<Text>The Cavalry is a stronger version of the Horseman. It still combines speed with a powerful melee attack. The Cavalry can move after attacking. As a mounted unit, the Cavalry remains vulnerable to attacks from Phalanxes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CLASSIC_CAVALRY_TEXT">
+			<Text>Cavalry (from French cavalerie, cf. cheval 'horse') or horsemen were soldiers or warriors who fought mounted on horseback. Cavalry were historically the most mobile of the combat arms. An individual soldier in the cavalry is known by a number of designations such as cavalryman, horseman, dragoon, or trooper.[NEWLINE][NEWLINE]The designation of cavalry was not usually given to any military force that used other animals, such as camels, mules or elephants. Infantry who moved on horseback, but dismounted to fight on foot, were known in the 17th and early 18th centuries as dragoons, a class of mounted infantry which later evolved into cavalry proper while retaining their historic title.[NEWLINE][NEWLINE]From earliest times cavalry had the advantage of improved mobility, making it an instrument which multiplied the fighting value of even the smallest forces, allowing them to outflank and avoid, to surprise and overpower, to retreat and escape according to the requirements of the moment.[NEWLINE][NEWLINE]A man fighting from horseback also had the advantages of greater height, speed, and inertial mass over an opponent on foot. Another element of horse mounted warfare is the psychological impact a mounted soldier can inflict on an opponent.[NEWLINE][NEWLINE]The speed, mobility and shock value of the cavalry was greatly appreciated and exploited in armed forces in the Ancient and Middle Ages; some forces were mostly cavalry, particularly in nomadic societies of Asia, notably the Mongol armies. In Europe cavalry became increasingly armoured (heavy), and eventually became known for the mounted knights. During the 17th century cavalry in Europe lost most of its armor, ineffective against the muskets and cannon which were coming into use, and by the mid-19th century armor had mainly fallen into disuse, although some regiments retained a small thickened cuirass that offered protection against lances and sabres and some protection against shot.</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_COMPANION_CAVALRY"/>
+			<Set Text="Fast and powerful Classical-Era Mounted Unit. Weak to Phalanxes. Only the Greeks may build it. This Unit is faster, has a higher [ICON_STRENGTH] Combat Strength and helps produce Great Generals more quickly than the Cavalry which it replaces."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GREEK_COMPANIONCAVALRY_STRATEGY"/>
+			<Set Text="Companion Cavalry are Greek unique units, replacing the Cavalry. Companion Cavalry are faster and more powerful than the Cavalry unit, making them the most dangerous cavalry units until the arrival of the Knight. Companion Cavalry help generate Great Generals more rapidly than other units. In addition, they can move after attacking. Companion Cavalry are mounted, and still vulnerable to Phalanxes."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_BYZANTINE_CATAPHRACT"/>
+			<Set Text="Fast and powerful early game Mounted Unit. Weak to Phalanxes. Only the Byzantines may build it. This Unit has a higher [ICON_STRENGTH] Combat Strength, defends better, and attacks cities more effectively than the Cavalry which it replaces."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_BYZANTINE_CATAPHRACT_STRATEGY"/>
+			<Set Text="The Cataphract is a Byzantine unique unit, replacing the Cavalry. Cataphracts are slower but more powerful than the Cavalry unit, making them one of the most dangerous Mounted Units until the arrival of the Knight. They can move after attacking. They are able to gain defensive bonuses, unlike the Cavalry. Also their penalty for attacking cities is not as severe. Cataphracts are mounted, and still vulnerable to Phalanxes."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_CARTHAGINIAN_FOREST_ELEPHANT"/>
+			<Set Text="Powerful early game Mounted Unit. Weak to Phalanxes. Only the Carthaginians may build it. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Cavalry which it replaces and strikes fear into nearby enemy units. Helps produce Great Generals more quickly."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_CARTHAGINIAN_FOREST_ELEPHANT_STRATEGY"/>
+			<Set Text="The African Forest Elephant is a Carthaginian unique unit, replacing the Cavalry. The Carthaginian Elephants are slower but more powerful than the Cavalry. They can move after attacking. They also strike fear into nearby enemy units, giving them all a negative combat modifier. Success in combat with an Elephant has an increased chance of generating Great Generals. They are vulnerable to Phalanxes."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_SWORDSMAN_STRATEGY"/>
+			<Set Text="The Swordsman is a powerful standard melee unit during the Classical Era, stronger than the Maceman. They are very useful when attacking early-era cities."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_CELT_PICTISH_WARRIOR"/>
+			<Set Text="Only the Celts may build this unit. It has a combat bonus outside of friendly territory and can pillage enemy improvements at no additional movement cost. Also, earns 50% of opponents' strength as [ICON_PEACE] Faith for kills, although it is weaker than the Swordsman, which it replaces."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_CELT_PICTISH_WARRIOR_STRATEGY"/>
+			<Set Text="The Pictish Warrior is the Celt unique unit, replacing the Swordsman, though it is weaker. Perfectly suited for early rushes, a Pictish Warrior can lay waste to an opponents' lands, quickly pillaging and moving within the same turn. Additionally, they earn [ICON_PEACE] Faith for each unit they kill, constantly advancing your religious goals while at war. Also, unlike the Swordsman, it does not require Iron to build."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_CARTHAGINIAN_QUINQUEREME"/>
+			<Set Text="Classical Era Naval Unit used to wrest control of the seas through melee attacks on naval units and cities."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_CARTHAGINIAN_QUINQUEREME_STRATEGY"/>
+			<Set Text="The Quinquereme is a stronger version of the Trireme, with increased Combat Strength. Like the Trireme it is a melee attack unit, engaging units at sea or cities at close range (it has no ranged attack). The Quinquereme cannot enter Deep Ocean tiles outside of the city borders."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_CARTHAGINIAN_QUINQUEREME_TEXT"/>
+			<Set Text="One of the many ship designs utilized famously, but not exclusively, by Carthage and Rome, the heavily-armed quinquereme was among the most well known. These vessels took their name from the use of five rowers for each of the vertically aligned oars that were set in columns running down the sides of the ship. The quinquereme, an improvement on the simpler trireme and quadrireme designs, was invented by Dionysius I of Syracuse in 399 BC as part of a major naval armament program directed against the Carthaginians. During most of the 4th century, the &quot;fives&quot; were the heaviest type of warship, and often used as flagships of fleets composed of triremes and quadriremes. Although exact numbers are unknown, these heavy ships are thought to have carried several hundred men, both crew and soldiers alike. The quinqueremes of Carthage were known to be of the high quality construction and aided them well against the Romans."/>
+		</Update>
+		<Row Tag="TXT_KEY_UNIT_HORSE_ARCHER">
+			<Text>Horse Archer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HORSE_ARCHER_HELP">
+			<Text>A fast Ranged Unit highly effective on flat ground. Weak to Phalanxes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HORSE_ARCHER_STRATEGY">
+			<Text>Raiders are fast ranged units, highly effective on flat ground. They are as powerful as the Composite Bowman but can move twice the distance. Unlike their predecessor they are not as severely slowed by rough terrain. As a mounted unit, the Horse Archer is vulnerable to Phalanxes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HORSE_ARCHER_TEXT">
+			<Text>A horse archer, horsed archer, or mounted archer is a cavalryman armed with a bow, able to shoot while riding from horseback.Archery has occasionally been used from the backs of other riding animals. In large open areas, it was a highly successful technique for hunting, for protecting the herds, and for war. It was a defining characteristic of the Eurasian nomads during antiquity and the medieval period, including Iranian peoples (Scythians, Sarmatians, Sassanids) and Indians in antiquity, and by the Mongols and theTurkic peoples during the Middle Ages. By the expansion of these peoples, the practice also spread to Eastern Europe (via the Sarmatians and the Huns), to Mesopotamia, and to East Asia. In East Asia, horse archery came to be particularly honoured in thesamurai tradition of Japan, where mounted archery is called Yabusame.[NEWLINE][NEWLINE]Mounted archery developed separately among the peoples of the South American pampas and the North American prairies; theComanches were especially skilled.[NEWLINE][NEWLINE]Mounted archery first developed during the Iron Age, gradually replacing the Bronze Age chariot.[NEWLINE][NEWLINE]The earliest depictions of mounted archers are found in artwork of the Neo-Assyrian Empire of about the 9th century BC and reflects the incursions of the early Iranian peoples. Early horse archery, depicted on the Assyrian carvings, involved two riders, one controlling both horses while the second shot.[NEWLINE][NEWLINE]Skirmishing requires vast areas of free space to run, manoeuvre and flee, and if the terrain is close, light horse archers can be charged and defeated easily. Light horse archers are also very vulnerable to foot archers and crossbowmen, who are smaller targets and can outshoot horsemen. Large armies very seldom relied solely on skirmishing mounted archers, but there are many examples of victories in which horse archers played a leading part. The Roman general Crassus led a large army, with inadequate cavalry and missile troops, to catastrophe against Parthian horse archers and cataphracts at the Battle of Carrhae. The Persian king Darius the Great led a campaign against the mounted Scythians, who refused to engage in pitched battle; Darius conquered and occupied land but lost enough troops and supplies that he was compelled to retreat. Darius, however, kept the lands he had conquered.[NEWLINE][NEWLINE]According to the Greek historian Herodotus, the Persian general Mardonius used mounted archers to attack and harass his opponents during the Battle of Plataea, which was won by the Greeks. Philip of Macedon scored an epic victory against the Scythians residing north of the Danube, killing their king, Ateas, and causing their kingdom to fall apart thereafter. Alexander the Great defeated Scythians/Sakas in 329 BC at the Battle of Jaxartes,at the Syr Darya river. Later on, Alexander himself used mounted archers recruited among the Scythians and Dahae, during the Greek invasion of India.[NEWLINE][NEWLINE]Another example of combined troops winning against armies mostly of mounted archers is the highly successful Han campaign against the mounted Xiongnu nomads. Well-led Roman troops managed to score crushing defeats against the Parthians, including the Roman–Parthian War of 161–66 and Trajan's war against Parthia, they even sacked the Parthian capital on three occasions.[NEWLINE][NEWLINE]Heavy horse archers first appeared in the Assyrian army in the 7th century BC after abandoning chariot warfare and formed a link between light skirmishing cavalrymen and heavy cataphract cavalry. The heavy horse archers usually had mail or lamellar armour and helmets, and sometimes even their horses were armoured. Heavy horse archers, instead of skirmishing and hit-and-run tactics, formed in disciplined formations and units, sometimes intermixed with lancers as in Byzantine and Turkish armies, and shot as volleys instead of shooting as individuals. The usual tactic was to first shoot five or six volleys at the enemy to weaken him and to disorganise them, and then charge. Heavy horse archers often carried spears or lances for close combat, or formed mixed units with lancers. The Mongol armies and others included both heavy and light horse archers.[NEWLINE][NEWLINE]Heavy horse archers could usually outshoot their light counterparts, and wearing armour, could stand their shooting. The Russian druzhina cavalry developed as a countermeasure to the Tatar light troops. Likewise, the Turkish timariots and qapikulu were often as heavily armoured as Western knights, and could stand the Hungarian, Albanian and Mongol horse archers.</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HUN_HORSE_ARCHER"/>
+			<Set Text="Raider"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_HUN_HORSE_ARCHER"/>
+			<Set Text="A fast Ranged Unit used for hit-and-run attacks. Only the Huns may build it. Weak to Phalanxes."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HUN_HORSE_ARCHER_STRATEGY"/>
+			<Set Text="Raiders are fast ranged units, deadly on open terrain. They are slightly stronger in defense than the Horse Archer, which they replace. They also start with the Accuracy I promotion. As a mounted unit, the Raider is vulnerable to Phalanxes. Unlike the Horse Archer, the Raider does not require Horses."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_SPEARMAN"/>
+			<Set Text="Phalanx"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_SPEARMAN"/>
+			<Set Text="Classical-Era Unit which specializes in defeating Mounted Units, like the Cavalry or Horse Archer."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_SPEARMAN_STRATEGY"/>
+			<Set Text="The Phalanx is the Classical-Era unit specialized in fighting Mounted Units like the Cavalry or Horse Archer. It is weaker than the Swordsman against other Units though. Use them to cut defend against Mounted Units or cut off their escape and move in for the kill."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_ANTIQUITY_SPEARMAN_TEXT"/>
+			<Set Text="The phalanx was a rectangular mass military formation, usually composed entirely of heavy infantry armed with spears, pikes, sarissas, or similar weapons. The term is particularly (and originally) used to describe the use of this formation in Ancient Greek warfare, although the ancient Greek writers used it to also describe any massed infantry formation, regardless of its equipment, as does Arrian in his Array against the Alans when he refers to his legions. In Greek texts, the phalanx may be deployed for battle, on the march, even camped, thus describing the mass of infantry or cavalry that would deploy in line during battle. They marched forward as one entity. The word phalanx is derived from the Greek word phalangos, meaning finger.[NEWLINE][NEWLINE]The term itself, as used today, does not refer to a distinctive military unit or division (e.g., the Roman legion or the contemporary Western-type battalion), but to the general formation of an army's troops. Thus a phalanx does not have a standard combat strength or composition but includes the total number of infantry, which is or will be deployed in action in a single phalanx formation.[NEWLINE][NEWLINE]Many spear-armed troops historically fought in what might be termed phalanx-like formations. The word has come into use in common English to describe &quot;a group of people standing, or moving forward closely together&quot;; c.f. &quot;a phalanx of police&quot;.[NEWLINE][NEWLINE]This article focuses on the use of the military phalanx formation in Ancient Greece, the Hellenistic world, and other ancient states heavily influenced by Greek civilization.[NEWLINE][NEWLINE]The earliest known depiction of a phalanx-like formation occurs in a Sumerian stele from the 25th century BC. Here the troops seem to have been equipped with spears, helmets, and large shields covering the whole body. Ancient Egyptian infantry were known to have employed similar formations. The first usage of the term phalanx comes from Homer's, used to describe hoplites fighting in an organized battle line. Homer used the term to differentiate the formation-based combat from the individual duels so often found in his poems.[NEWLINE][NEWLINE]Historians have not arrived at a consensus about the relationship between the Greek formation and these predecessors of the hoplites. The principles of shield wall and spear hedge were almost universally known among the armies of major civilizations throughout history, and so the similarities may be related to convergent evolution instead of diffusion.[NEWLINE][NEWLINE]Traditionally, historians date the origin of the hoplite phalanx of ancient Greece to the 8th century BC in Sparta, but this is under revision. It is perhaps more likely that the formation was devised in the 7th century BC after the introduction of the aspis by the city of Argos, which would have made the formation possible. This is further evidenced by the Chigi vase, dated to 650 BC, identifying hoplites armed with aspis, spear and panoply.[NEWLINE][NEWLINE]Another possible theory as to the birth of Greek phalanx warfare stems from the idea that some of the basic aspects of the phalanx were present in earlier times yet were not fully developed due to the lack of appropriate technology. Two of the basic strategies seen in earlier warfare include the principle of cohesion and the use of large groups of soldiers. This would suggest that the Greek phalanx was rather the culmination and perfection of a slowly developed idea that originated many years earlier. As weaponry and armour advanced through the years in different city-states, the phalanx became complex and effective."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_HOPLITE"/>
+			<Set Text="Classical-Era Unit which specializes in defeating Mounted Units. Only the Greeks may build it. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Phalanx which it replaces."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_IMMORTAL"/>
+			<Set Text="Classical-Era Unit which specializes in defeating Mounted Units. Only the Persians may build it. This Unit has a higher [ICON_STRENGTH] Combat Strength and heals more quickly than the Phalanx, which it replaces."/>
+		</Update>
+
+		<!-- Medieval Era -->
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_DENMARK_BERSERKER_HELP"/>
+			<Set Text="Strong, front-line land Unit of the Medieval Era that specializes in attacks from the sea. Only Denmark may build it. Replaces the Longswordsman, but is cheaper to build."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_DENMARK_BERSERKER_STRATEGY"/>
+			<Set Text="The Berserker is one of two Danish Unique Units, replacing the Longswordsman. This Unit has +1 Movement [ICON_MOVES] compared to the Longswordsman and possesses the Amphibious promotion, allowing it to attack onto land from a Coast tile with no penalty. It is also cheaper to build allowing faster production of them."/>
+		</Update>
+		<Row Tag="TXT_KEY_UNIT_MOUNTED_CROSSBOWMAN">
+			<Text>Mounted Crossbowman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MOUNTED_CROSSBOWMAN_HELP">
+			<Text>A fast Ranged Unit highly effective on flat ground, but weak against Pikemen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MOUNTED_CROSSBOWMAN_STRATEGY">
+			<Text>Mounted Crossbowmen are fast ranged units, deadly on open terrain. They are as powerful as Crossbowmen and can move twice the distance. However, Mounted Crossbowmen suffer a movement penalty when entering Forest, Jungle or Hill hexes (unless roads have been constructed in them). As a mounted unit, the Mounted Crossbowman is vulnerable to Pikemen.</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_CAMEL_ARCHER"/>
+			<Set Text="Fast Medieval ranged Unit, weak to Pikemen. Only the Arabians may build it. It is a ranged unit, unlike the Knight which it replaces."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_ARABIAN_CAMELARCHER_STRATEGY"/>
+			<Set Text="The Camel Archer is the Arabian unique unit, replacing the Knight. The Camel Archer is a powerful ranged attack unit, allowing it to do damage to enemies 2 hexes away. It can move after combat. The Camel Archer is less powerful than the Knight in melee combat. As a mounted unit, the Camel Archer is vulnerable to Pikemen attack."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_MONGOLIA_KESHIK_HELP"/>
+			<Set Text="This Mongolian Unique Unit replaces the Mounted Crossbowman. It possesses increased movement rate, and earns promotions 50% faster. Unit battles also contribute double the amount of points towards earning a Great General. Weak to Pikemen."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_MONGOLIAN_KESHIK_STRATEGY"/>
+			<Set Text="The Keshik is a unique replacement for the Mounted Crossbowman, available to the Mongols.  Keshiks possess an increased movement rate (5 points total), allowing it to perform hit and run attacks remarkably effectively. If this wasn't enough, the Keshik also acquires promotions at double the rate of other units, and contributes twice the amount of points towards earning Great Generals. These mounted warriors singlehandedly afford Genghis control of the open plains, though they are vulnerable to Pikemen."/>
+		</Update>
+		<Row Tag="TXT_KEY_UNIT_GALLEY_HELP">
+			<Text>Medieval Era Naval Unit used to wrest control of the seas through melee attacks on naval units and cities.</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GALLEY_STRATEGY"/>
+			<Set Text="The Galley is stronger than the Quinquereme, with increased Combat Strength. Like the Quinquereme it is a melee attack unit, engaging units at sea or cities at close range (it has no ranged attack). The Galley cannot enter Deep Water tiles outside of the city borders."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GALLEY_PEDIA"/>
+			<Set Text="A galley is a type of ship that is propelled mainly by rowing. The galley is characterized by its long, slender hull, shallow draft and low clearance between sea and railing. Virtually all types of galleys had sails that could be used in favorable winds, but human strength was always the primary method of propulsion. This allowed galleys freedom to move independently of winds and currents, and with great precision. The galley originated among the seafaring civilizations around the Mediterranean Sea in the early first millennium BC and remained in use in various forms until the early 19th century in warfare, trade and piracy.[NEWLINE][NEWLINE]Galleys were the warships used by the early Mediterranean naval powers, including the Greeks, Phoenicians and Romans. They remained the dominant types of vessels used for war and piracy in the Mediterranean Sea until the last decades of 16th century. As warships, galleys carried various types of weapons throughout their long existence, including ram, catapults and cannons, but also relied on their large crews to overpower enemy vessels in boarding actions. They were the first ships to effectively use heavy cannons as anti-ship weapons. As highly efficient gun platforms they forced changes in the design of medieval seaside fortresses as well as refinement of sailing warships.[NEWLINE][NEWLINE]The zenith of galley usage in warfare came in the late 16th century with battles like that at Lepanto in 1571, one of the largest naval battles ever fought. By the 17th century, however, sailing ships and hybrid ships like the xebec displaced galleys in naval warfare. They were the most common warships in the Atlantic Ocean during the Medieval Era, and later saw limited use in the Caribbean, the Philippines and the Indian Ocean in the Industrial Era, mostly as patrol craft to combat pirates. From the mid-16th century galleys were in intermittent use in the Baltic Sea, with its short distances and extensive archipelagoes. There was a minor revival of galley warfare in the 18th century in the wars between Russia, Sweden and Denmark."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_BYZANTINE_DROMON"/>
+			<Set Text="Dominant Medieval Era Naval Unit used to own the seas with its ranged attack. Only the Byzantines may build it."/>
+		</Update>
+
+		<!-- Renaissance Era -->
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_CARAVEL_STRATEGY"/>
+			<Set Text="The Caravel is a Renaissance-era Naval Melee unit, stronger and faster than a Galley, and it can enter Deep Ocean hexes. The Caravel has a huge sight radius, making it the eyes and ears of the mid-game navy. This sight bonus is lost if the Caravel is upgraded to a Ramming Ironclad."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_LANCER"/>
+			<Set Text="Powerful Renaissance Mounted Unit, weak to Halberdiers."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_LANCER_STRATEGY"/>
+			<Set Text="The Lancer is the Renaissance horse unit that comes between the Knight and the Cavalry unit. It is faster and more powerful than the Knight. However, the Lancer is strictly an offensive weapon; it gets a combat penalty when defending and attacking cities."/>
+		</Update>
+		<Row Tag="TXT_KEY_UNIT_GRENADIER">
+			<Text>Grenadier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GRENADIER_HELP">
+			<Text>Renaissance ranged infantry Unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GRENADIER_STRATEGY">
+			<Text>The Grenadier is more powerful than the Crossbowman unit. As a Ranged unit it can deal significant damage to other Renaissance Era units up to two hexes away, but it is vulnerable to melee attack. Put Grenadiers in your city for defense, and guard them with melee units when on the move.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GRENADIER_TEXT">
+			<Text>A grenadier was originally a specialized soldier, first established as a distinct role in the mid-to-late 17th century, for the throwing of grenades and sometimes assault operations. At that time grenadiers were chosen from the strongest and largest soldiers. By the 18th century, the throwing of grenades was no longer relevant, but grenadiers were still chosen for being the most physically powerful soldiers and would lead assaults in the field of battle.[NEWLINE][NEWLINE]The first grenades were small iron spheres filled with gunpowder fused with a length of slow-match, roughly the size of a cricket ball or a baseball. The grenadiers had to be tall and strong enough to hurl these heavy objects far enough so as not to harm themselves or their comrades, and disciplined enough to stand at the forefront of the fight, light the fuse and throw at the appropriate moment to minimize the ability of an enemy to throw the grenade back. Understandably, such requirements led to grenadiers being regarded as an elite fighting force.[NEWLINE][NEWLINE]The concept of throwing grenades may go back to the Ming Dynasty, when Chinese soldiers on the Great Wall were reported to be using this weapon. The earliest references to these grenade-throwing soldiers in Western armies come from Austria and Spain. References also appear in England during the English Civil War. However, it was King Louis XIV of France who made the grenadier an official type of soldier and company during his army reforms late in the 17th century. According to René Chartrand, Lt. Col. Jean Martinet introduced the idea of having men detailed to throw grenades in the Régiment du Roi in 1667. In May 1677 the English Army ordered that two soldiers of every Guards Regiment were to be trained as grenadiers; in April 1678 it was ordered that a company of grenadiers be added to the senior eight regiments of foot of the army.[NEWLINE][NEWLINE]Certain countries such as France and Argentina established units of Horse Grenadiers and for a time the British Army had Horse Grenadier Guards. Like their infantry grenadier counterparts, these horse-mounted soldiers were chosen for their size and strength, but they didn't actually throw grenades; by this time the term had changed to mean an elite group of soldiers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HALBERDIER">
+			<Text>Halberdier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HALBERDIER_HELP">
+			<Text>Specialized in defeating Mounted Units, such as the Lancer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HALBERDIER_STRATEGY">
+			<Text>The Halberdier is a more powerful Pikeman. It receives a bonus when fighting against mounted units, which makes it pretty much the only unit that can hope to stand up against a rampaging Lancer. A Halberdier fortified in defensive terrain is a Lancer's worst nightmare.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HALBERDIER_TEXT">
+			<Text>A halberdier is someone trained in using a halberd, which developed from the pike.[NEWLINE][NEWLINE]A halberd (also called halbard, halbert or Swiss voulge) is a two-handed pole weapon that came to prominent use during the 14th and 15th centuries. The word halberd may come from the German words Halm (staff), and Barte (axe). In modern-day German, the weapon is called a Hellebarde. The halberd consists of an axe blade topped with a spike mounted on a long shaft. It always has a hook or thorn on the back side of the axe blade for grappling mounted combatants. It is very similar to certain forms of the voulge in design and usage. The halberd was usually 1.5 to 1.8 metres (5 to 6 feet) long.[NEWLINE][NEWLINE]The halberd was inexpensive to produce and very versatile in battle. As the halberd was eventually refined, its point was more fully developed to allow it to better deal with spears and pikes (also able to push back approaching horsemen), as was the hook opposite the axe head, which could be used to pull horsemen to the ground. Expert halberdiers were as deadly as any other weapon masters. A Swisspeasant used a halberd to kill Charles the Bold, the Duke of Burgundy—decisively ending the Burgundian Wars, literally in a single stroke. Researchers suspect that a halberd or a bill sliced through the back of King Richard III's skull at the battle of Bosworth.[NEWLINE][NEWLINE]The halberd was the primary weapon of the early Swiss armies in the 14th and early 15th centuries. Later, the Swiss added the pike to better repel knightly attacks and roll over enemy infantry formations, with the halberd, hand-and-a-half sword, or the dagger known as the Schweizerdolch used for closer combat. The German Landsknechte, who imitated Swiss warfare methods, also used the pike, supplemented by the halberd—but their side arm of choice was a short sword called the Katzbalger.[NEWLINE][NEWLINE]As long as pikemen fought other pikemen, the halberd remained a useful supplemental weapon for push of pike, but when their position became more defensive, to protect the slow-loading arquebusiers and matchlock musketeers from sudden attacks by cavalry, the percentage of halberdiers in the pike units steadily decreased. The halberd all but disappeared as a rank-and-file weapon in these formations by the middle of the sixteenth century.[NEWLINE][NEWLINE]The halberd has been used as a court bodyguard weapon for centuries, and is still the ceremonial weapon of the Swiss Guard in the Vatican and the Spanish Royal Halberd Guards. The halberd was one of the polearms sometimes carried by lower-ranking officers in European infantry units in the 16th through 18th centuries. In the British army, sergeants continued to carry halberds until 1793, when they were replaced by pikes with cross bars. The 18th century halberd had, however, become simply a symbol of rank with no sharpened edge and insufficient strength to use as a weapon. It did, however, ensure that infantrymen drawn up in ranks stood correctly aligned with each other.</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_SPAIN_TERCIO_HELP"/>
+			<Set Text="Specialized in countering Mounted Units. Only Spain may build it. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Halberdier which it replaces."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_SPAIN_TERCIO_STRATEGY"/>
+			<Set Text="The Tercio is one of two Spanish Unique Units, replacing the Musketman. This Unit is stronger in combat than the Musketman and fights at double-strength against mounted units. The Tercio is more expensive to build however."/>
+		</Update>
+		
+		<!-- Industrial Era -->
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_GATLINGGUN"/>
+			<Set Text="Industrial Era ranged unit."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_CAVALRY"/>
+			<Set Text="Rifle Cavalry"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_CAVALRY"/>
+			<Set Text="Industrial-Era Mounted Unit, weak to Riflemen."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_CAVALRY_STRATEGY"/>
+			<Set Text="The Rifle Cavalry mounted units are devastating against ranged and siege weapons, but less effective against other mounted units. Use them to destroy Gatling Guns or Rifled Cannons, or take enemy Civilian Units, and then break through the enemy's lines with their ability to move after attacking. Rifle Cavalry are quite vulnerable to the Riflemen with their bayonets."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_RUSSIAN_COSSACK"/>
+			<Set Text="Industrial-Era Mounted Unit, weak to Riflemen.[NEWLINE][NEWLINE]Only the Russians may build it. This Unit has a combat bonus when fighting enemies that have already taken damage."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_RUSSIAN_COSSACK_STRATEGY"/>
+			<Set Text="The Cossack is a Russian unique unit, replacing the Rifle Cavalry. Cossack units get a strong combat bonus when battling damaged units. This makes Cossacks exceptionally strong at counter-attacking - let the enemy chew up the front-line peasants, then tear the weakened foe apart with a Cossack charge! However, the Cossack are vulnerable to the Riflemen with their bayonets."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_AUSTRIAN_HUSSAR"/>
+			<Set Text="A fast Mounted Unit used for scouting and hit-and-run attacks. Especially deadly with flank attacks. Only the Austrians may build it. Weak to Riflemen."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_AUSTRIAN_HUSSAR_STRATEGY"/>
+			<Set Text="Hussars are great scouts and flank attackers. They are slightly faster than Rifle Cavalry which they replace. They start with Promotions that give them +1 Sight and increases their bonus when making a Flank Attack by 50%. Hussars are vulnerable to the Riflemen with their bayonets."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_BERBER_CAVALRY"/>
+			<Set Text="Mounted unit that specializes in Desert warfare and protecting Moroccan lands. Receives combat bonuses when fighting both in Desert tiles and Moroccan territory. May only be built by Morocco. Weak to Riflemen."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_BERBER_CAVALRY_STRATEGY"/>
+			<Set Text="This mounted unit replaces Rifle Cavalry and is a fierce warrior in the deserts of Morocco. Receives combat bonuses for both fighting in a Desert tile or fighting in Moroccan territory (these bonuses do stack). Berber Cavalry are vulnerable to the Riflemen with their bayonets."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_SHOSHONE_COMANCHE_RIDERS"/>
+			<Set Text="Mounted unit that specializes in quick attacks. May only be built by the Shoshone. Weak to Riflemen."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_SHOSHONE_COMANCHE_RIDERS_STRATEGY"/>
+			<Set Text="The Comanche Riders replaces the Rifle Cavalry, and only the Shoshone may build it. Cheaper and faster than the base unit. Comanche Riders are vulnerable to the Riflemen with their bayonets."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_IRONCLAD"/>
+			<Set Text="Ramming Ironclad"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_IRONCLAD"/>
+			<Set Text="More powerful than Privateers, these Units pay for their strength by being slower in deep water tiles."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_IRONCLAD_STRATEGY"/>
+			<Set Text="Ramming Ironclads are melee steam-powered warships. They are harder to kill than any sailing vessel, and their Ranged Combat strength is higher. However Ramming Ironclads are slow in deep water hexes."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_IRONCLAD_TEXT"/>
+			<Set Text="From the 1860s to the 1880s many naval designers believed that the development of the ironclad meant that the ram was again the most important weapon in naval warfare. With steam power freeing ships from the wind, and armor making them invulnerable to shellfire, the ram seemed to offer the opportunity to strike a decisive blow. The scant damage inflicted by the guns of Monitor and Virginia at Battle of Hampton Roads and the spectacular but lucky success of the Austrian flagship SMS Erzherzog Ferdinand Max sinking the Italian Re d'Italia at Lissa gave strength to the ramming craze. From the early 1870s to early 1880s most British naval officers thought that guns were about to be replaced as the main naval armament by the ram. Those who noted the tiny number of ships that had actually been sunk by ramming struggled to be heard.[NEWLINE][NEWLINE]The revival of ramming had a significant effect on naval tactics. Since the 17th century the predominant tactic of naval warfare had been the line of battle, where a fleet formed a long line to give it the best fire from its broadside guns. This tactic was totally unsuited to ramming, and the ram threw fleet tactics into disarray. The question of how an ironclad fleet should deploy in battle to make best use of the ram was never tested in battle, and if it had been, combat might have shown that rams could only be used against ships which were already stopped dead in the water. The ram finally fell out of favour in the 1880s, as the same effect could be achieved with a torpedo, with less vulnerability to quick-firing guns."/>
+		</Update>
+		<Row Tag="TXT_KEY_UNIT_RANGED_IRONCLAD">
+			<Text>Ironclad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_RANGED_IRONCLAD">
+			<Text>More powerful than Frigates, these Units pay for their strength by being slower in deep water tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_RANGED_IRONCLAD_STRATEGY">
+			<Text>Ironclads are ranged steam-powered warships. They are harder to kill than any sailing vessel, and their Ranged Combat strength is higher. However Ironclads are slow in deep water hexes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UNITS_RANGED_IRONCLAD_TEXT">
+			<Text>Although visionaries had been dreaming of machine-powered armored vessels as far back as Leonardo da Vinci, ironclads first saw widespread use in the American Civil War in the mid 19th century. The first true ironclad battle was in the American Civil War in 1862, between the Union's Monitor and the Confederacy's Virginia (also known as the "Merrimac"). The battle raged on for four hours, with both vessels' cannon hammering away at each other to little effect, and the fight pretty much ended in a draw. However, the effect of the battle on the world was profound. In a single morning of inconclusive fighting these ponderous and clumsy vessels - able to move against the wind and mostly impervious to the cannon of the day - made every nation's navy obsolete.</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_GATLINGGUN_STRATEGY"/>
+			<Set Text="The Gatling Gun is more powerful than the Crossbowman. As a Ranged unit it can deal significant damage to other Industrial Era units up to two hexes away, but it is vulnerable to melee attack. Put Gatling Guns in your city for defense, and guard them with melee units when on the move."/>
+		</Update>
+		<Row Tag="TXT_KEY_UNIT_RIFLED_CANNONX">
+			<Text>Rifled Cannon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_RIFLED_CANNONX_HELP">
+			<Text>Powerful Industrial Era Siege Unit, good at reducing the defenses of enemy Cities. Must set up prior to firing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_RIFLED_CANNONX_STRATEGY">
+			<Text>The Rifled Cannon is an improvement of the Cannon siege unit, which continues to be devastating against cities. Like other siege units, the Rifled Cannon must spend 1 mp to set up before it can attack. Rifled Cannons cannot see as far as other units, and should be protected with melee units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_RIFLED_CANNONX_TEXT">
+			<Text>Rifling adds grooves to the inside of the barrel of a cannon to improve the range and accuracy of the piece, at the cost of increased expense to manufacture and the need for a longer barrel. Although various makes of rifled artillery were supplied to the Civil War armies, the most famous is the Parrott Rifle, used by both sides in different sizes, from the common 10-pounders for field use up to the emplaced 300-pounders in fortifications.</Text>
+		</Row>
+		
+		<!-- Modern Era -->
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_MACHINE_GUN"/>
+			<Set Text="Modern Era ranged unit."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_MACHINE_GUN_STRATEGY"/>
+			<Set Text="The Machine Gun is more powerful than the Gatling Gun. As a Ranged unit it can deal significant damage to other Modern Era units up to two hexes away, but it is vulnerable to melee attack. Put Machine Guns in your city for defense, and guard them with melee units when on the move."/>
+		</Update>
+		<Row Tag="TXT_KEY_UNIT_WW2_ARTILLERY">
+			<Text>WW2 Artillery Name</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_WW2_ARTILLERY">
+			<Text>WW2 Artillery Help</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_WW2_ARTILLERY_STRATEGY">
+			<Text>WW2 Artillery Strategy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_INDUSTRIAL_WW2_ARTILLERY_TEXT">
+			<Text>WW2 Artillery Text</Text>
+		</Row>
+		
+		<!-- Atomic Era -->
+		<Row Tag="TXT_KEY_UNIT_BALLISTIC_MISSILE">
+			<Text>Ballistic Missile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_BALLISTIC_MISSILE">
+			<Text>A cheap Unit that may be used once to damage enemy Units or Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BALLISTIC_MISSILE_STRATEGY">
+			<Text>The Ballistic Missile is a one-shot unit which is destroyed when it attacks an enemy target. The Ballistic Missile may be based in a player-owned friendly city. They may move from base to base or attack an enemy unit or city with their range of "8". See the rules on Missiles for more information.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BALLISTIC_MISSILE_TEXT">
+			<Text>A ballistic missile is a missile (rocket) that follows a ballistic flightpath with the objective of delivering one or more warheads to a predetermined target. A ballistic missile is only guided during relatively brief periods of flight, and its trajectory is largely unpowered and governed by gravity (and air resistance if in the atmosphere). This contrasts to a cruise missile (guided missile) which is aerodynamically guided in powered flight. Long range Intercontinental Ballistic Missiles (ICBM) are launched at a steep, sub-orbital trajectory and spend most of their flight out of the atmosphere. Shorter range ballistic missiles stay within the Earth's atmosphere.[NEWLINE][NEWLINE]The V-2 (German: Vergeltungswaffe 2, "Retribution Weapon 2"), technical name Aggregat-4 (A4), was the world's first long-range ballistic missile. The liquid-propellant rocket was developed during the Second World War in Germany as a "vengeance weapon", designed to attack Allied cities as a form of retaliation for the ever-increasing Allied bombings against German cities. The V-2 rocket was also the first man-made object to enter the fringes of space. Beginning in September 1944, over 3,000 V-2s were launched by the German Wehrmacht against Allied targets during the war, mostly London and later Antwerp and Liège. The attacks resulted in the deaths of an estimated 9,000 civilians and military personnel, while 12,000 forced laborers and concentration camp prisoners were killed producing the weapons.</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_BAZOOKA"/>
+			<Set Text="Atomic Era ranged unit."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_BAZOOKA_STRATEGY"/>
+			<Set Text="The Bazooka is more powerful than the Machine Gun. As a Ranged unit it can deal significant damage to other Atomic Era units up to two hexes away, but it is vulnerable to melee attack. Put Bazookas in your city for defense, and guard them with melee units when on the move."/>
+		</Update>
+		<Row Tag="TXT_KEY_UNIT_HYDROGEN_BOMB">
+			<Text>Hydrogen Bomb</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_HYDROGEN_BOMB">
+			<Text>Unleash nuclear destruction upon your foes. Does great damage to Cities and damages any Unit caught in the blast radius. May be stationed on Aircraft Carriers.[NEWLINE][NEWLINE]Requires Manhattan Project and two Uranium resources.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HYDROGEN_BOMB_STRATEGY">
+			<Text>A Hydrogen Bomb is an extremely powerful unit. The Hydrogen Bomb can be based in a player-owned city or aboard a carrier. It can move from base to base or attack a target within its range of 20 tiles. When it detonates, a Hydrogen Bomb will damage or possibly destroy units, and cities will be severely damaged, within its blast radius of 2 tiles. It is automatically destroyed when it attacks. See the rules on Nuclear Weapons for more details.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_HYDROGEN_BOMB_TEXT">
+			<Text>A thermonuclear weapon is a nuclear weapon that uses the energy from a primary nuclear fission reaction to compress and ignite a secondary nuclear fusion reaction. The result is greatly increased explosive power when compared to single-stage fission weapons. It is colloquially referred to as a hydrogen bomb or H-bomb because it employs hydrogen fusion. The fission stage in such weapons is required to cause the fusion that occurs in thermonuclear weapons.[NEWLINE][NEWLINE]The concept of the thermonuclear weapon was first developed and used in 1952 and has since been employed by most of the world's nuclear weapons. The modern design of all thermonuclear weapons in the United States is known as the Teller-Ulam configuration for its two chief contributors, Edward Teller and Stanislaw Ulam, who developed it in 1951 for the United States, with certain concepts developed with the contribution of John von Neumann. The first test of a hydrogen bomb prototype was the "Ivy Mike" nuclear test in 1952, conducted by the United States. The first ready-to-use thermonuclear bomb "RDS-6s" ("Joe 4") was tested on August 12, 1953, in the Soviet Union. Similar devices were developed by the United Kingdom, China, and France, though no specific code names are known for their designs.</Text>
+		</Row>
+		
+		<!-- Information Era -->
+		<Row Tag="TXT_KEY_UNIT_SPECIAL_FORCES">
+			<Text>Special Forces</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SPECIAL_FORCES">
+			<Text>Information Era Unit specialized in embarking and invading across the sea and paradroping behind enemy lines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SPECIAL_FORCES_STRATEGY">
+			<Text>The Special Forces is more expensive and somewhat weaker than Mechanized Infantry; however, it has enhanced sight and attack strength when embarked at sea and it can parachute up to 9 tiles away (when starting in friendly territory). This allows the Special Forces to literally jump over enemy positions and destroy road networks, pillage vital resources and so forth, wrecking havoc behind his lines. The Special Forces is at great risk when on such missions, so make sure the target is worth it!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SPECIAL_FORCES_TEXT">
+			<Text>Special forces, or special operations forces are military units trained to perform unconventional missions. Special forces, as they would now be recognised, emerged in the early 20th century, with a significant growth in the field during the Second World War. Depending on the country, special forces may perform some of the following specializations: airborne operations, counter-insurgency, "counter-terrorism" , covert ops, direct action, hostage rescue, high-value targets/manhunting, intelligence operations, mobility operations, and unconventional warfare. The term Special Forces in the US refers to the US Army's forces while the term Special Operation Forces refers to all units. In Russian speaking countries special forces are typically called Spetsnaz, an acronym for "special purpose."</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_NUCLEAR_MISSILE"/>
+			<Set Text="Nuclear ICBM"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_NUCLEAR_MISSILE_STRATEGY"/>
+			<Set Text="The Nuclear ICBM (Intercontinental Ballistic Missile) is the missile version of a Hydrogen Bomb, which is an upgraded version of the Atomic Bomb. The Nuclear ICBM can be based in any city you own or aboard a Nuclear Submarine or Missile Cruiser. It can move from base to base or attack a target within its range of 30. When it detonates, a Nuclear ICBM will damage (and possibly destroy) cities and destroy all units within its blast radius of 2 tiles. It is automatically destroyed when it attacks. See the rules on Nuclear Weapons for more details."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIVILOPEDIA_UNITS_MODERN_NUCLEARMISSLE_TEXT"/>
+			<Set Text="Nuclear ICBMs (Intercontinental Ballistic Missiles) carry one or more warheads containing thermonuclear bombs (hydrogen bombs), each capable of destroying a city. Capable of carrying their deadly payload halfway around the world, nuclear ICBMs are the single deadliest and most terrible weapons ever created. At present there are no practical defenses against nuclear missiles: once launched, barring a miracle, the target city is dead. In addition to the immediate destruction caused by the huge explosion, nuclear explosions poison the land, sea and air for generations to come. Errant wind can carry the deadly nuclear fallout for miles, poisoning the land and killing people across a continent. It is fairly insane to use them on an enemy that one shares a planet with, unless it is to forestall that enemy from using them on oneself."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_DESTROYER"/>
+			<Set Text="The Destroyer is a fast ship, highly effective at recon, and specialized at hunting down submarines and intercepting aircraft. Fights as a naval melee unit."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_DESTROYER_STRATEGY"/>
+			<Set Text="The Destroyer is a fast naval melee attack unit designed to hunt down submarines and to provide anti-aircraft support. It often operates as an escort to embarked units, Battleships and Carriers when in range of enemy planes and subs.  It is quick, having a good chance to withdraw to the rear before an enemy naval melee attack can occur."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_CARRIER"/>
+			<Set Text="Initially carries up to 2 Aircraft; capacity may be boosted through promotions."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_CARRIER_STRATEGY"/>
+			<Set Text="The Carrier is a specialized vessel which carries fighter airplanes, bombers (but not stealth bombers), and atomic bombs. The Carrier itself is unable to attack, but the aircraft it carries make it the most powerful offensive weapon afloat of its era. Defensively, however, the Carrier is weak and should be escorted by Destroyers and Submarines."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_BATTLESHIP"/>
+			<Set Text="Most powerful Naval Unit of its era, able to ward off enemy aircraft and hunt down enemy Submarines. Can hold 3 Missiles."/>
+		</Update>
+		<!-- Battleship Strategy didn't need an update -->
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_HELP_MISSILE_CRUISER"/>
+			<Set Text="Most powerful Naval Unit of its era, able to ward off enemy aircraft and hunt down enemy Submarines. Can hold 3 Missiles."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_UNIT_MISSILE_CRUISER_STRATEGY"/>
+			<Set Text="Fast and tough, the Missile Cruiser is a modern warship which carries a mean Ranged Combat punch. It is pretty good at intercepting enemy aircraft and hunting submarines, though not as good as the specialized Missile Destroyer. Most importantly, the Missile Cruiser can carry Missiles, allowing you to carry these deadly weapons right up to the enemy shore. Missile Cruisers combined with Supercarriers, Missile Destroyers, Nuclear Submarines make a fiendishly powerful armada."/>
+		</Update>
+		<Row Tag="TXT_KEY_UNIT_FLEET_CARRIER">
+			<Text>Fleet Carrier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FLEET_CARRIER_HELP">
+			<Text>Initially carries up to 2 Aircraft; capacity may be boosted through promotions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FLEET_CARRIER_STRATEGY">
+			<Text>The Fleet Carrier is a specialized vessel which carries fighter airplanes, bombers (but not stealth bombers), and Hydrogen Bombs. The Fleet Carrier itself is unable to attack, but the aircraft it carries make it the most powerful offensive weapon afloat of its era. Defensively, however, the Fleet Carrier is weak and should be escorted by destroyers or submarines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_FLEET_CARRIER_TEXT">
+			<Text>A fleet carrier is an aircraft carrier designed to operate with the main fleet of a nation's navy. The term was developed during World War II, to distinguish it from the escort carrier and other lesser types. Fleet carriers include supercarriers and light carriers (light fleet carriers), as well as standard fleet carriers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SUPERCARRIER">
+			<Text>Supercarrier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SUPERCARRIER_HELP">
+			<Text>Initially carries up to 4 Aircraft; capacity may be boosted through promotions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SUPERCARRIER_STRATEGY">
+			<Text>The Supercarrier is a specialized vessel which carries fighter airplanes, bombers (but not stealth bombers), and Hydrogen Bombs. The Supercarrier itself is unable to attack, but the aircraft it carries make it the most powerful offensive weapon afloat of its era. Defensively, however, the Supercarrier is weak and should be escorted by destroyers or submarines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_SUPERCARRIER_TEXT">
+			<Text>Supercarrier is an unofficial descriptive term for the largest type of aircraft carrier, typically those displacing over 70,000 tons (64,000 metric tons). Supercarriers are the largest warships ever built, larger than the largest battleship class laid down by any country. The largest, such as those in the US Navy are nuclear powered.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MISSILE_DESTROYER">
+			<Text>Missile Destroyer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MISSILE_DESTROYER_HELP">
+			<Text>The Missile Destroyer is a fast ship, highly effective at recon, and specialized at hunting down submarines and intercepting aircraft. Fights as a naval melee unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MISSILE_DESTROYER_STRATEGY">
+			<Text>The Missile Destroyer is a fast naval melee attack unit designed to hunt down submarines and to provide anti-aircraft support. It often operates as an escort to embarked units, Battleships and Carriers when in range of enemy planes and subs.  It is quick, having a good chance to withdraw to the rear before an enemy naval melee attack can occur.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_MISSILE_DESTROYER_TEXT">
+			<Text>A Missile Destroyer is a larger, tougher Destroyer capable of carrying missiles. Like the Destroyer, but more so, it is specialized at hunting submarines and intercepting aircraft attempting to attack the larger ships it often escorts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ROCKET_LAUNCHER">
+			<Text>Rocket Launcher</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ROCKET_LAUNCHER">
+			<Text>Information Era ranged unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ROCKET_LAUNCHER_STRATEGY">
+			<Text>The Rocket Launcher is more powerful than the Bazooka. As a Ranged unit it can deal significant damage to other Information Era units up to two hexes away, but it is vulnerable to melee attack. Put Rocket Launchers in your city for defense, and guard them with melee units when on the move.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ROCKET_LAUNCHER_TEXT">
+			<Text>The earliest rocket launchers documented in imperial China fired fire arrows with launchers constructed of wood, basketry, and bamboo tubes. The rocket launchers divided the fire arrows with frames meant to keep the arrows separated, and were capable of firing multiple arrow rockets at once. Textual evidence and illustrations of various early rocket launchers are found in the 11th century Southern Song Dynasty text Wujing Zongyao. The Wujing Zongyao describes the "long serpent" rocket launcher, a rocket launcher constructed of wood and carried with a wheelbarrow, and the "hundred tiger" rocket launcher, a rocket launcher made of wood and capable of firing 320 rocket arrows. The text also describes a portable rocket arrow carrier consisting of a sling and a bamboo tube. Rockets were introduced to western warfare during the Napoleonic Wars; the Congreve rocket was a British weapon devised by Sir William Congreve in 1804 after experiencing Indian rockets at the Siege of Seringapatam (1799). Congreve rockets were launched from an iron trough about 18 inches (45 centimetres) in length, called a "chamber". These chambers could be fixed to the ground for horizontal launching, secured to a folding copper tripod for high angle fire or mounted on frames on carts or the decks of warships.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MODERN_HELICOPTER">
+			<Text>Stealth Helicopter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MODERN_HELICOPTER">
+			<Text>Unit specialized in fighting tanks. It is capable of hovering over mountains.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MODERN_HELICOPTER_STRATEGY">
+			<Text>The Stealth Helicopter is a deadly air unit that in most respects acts like any ground unit, except that it cannot capture cities. Its movement of 6 makes it extremely quick, and it can move over all terrain types including mountains as if they were clear, but it must embark to cross water. Stealth Helicopters receive a hefty combat bonus when fighting tanks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_UNITS_MODERN_HELICOPTER_TEXT">
+			<Text>Stealth helicopters are helicopters that incorporate stealth technology to avoid detection. In recent years, designs for blades have emerged that can significantly reduce noise, which is a major issue for clandestine use of helicopters.[NEWLINE][NEWLINE]Several helicopters, such as the HAL Light Combat Helicopter and Eurocopter Tiger, are said to feature presence-reduction measures or 'stealth'. The use of advanced composite materials on the airframe has commonly resulted in reductions in an aircraft's radar cross-section (RCS). In the case of the Eurocopter Tiger, measures were taken to produce minimal visual, radar, infra-red and acoustic signatures to improve battlefield survivability. HAL's Light Combat Helicopter is reported to feature a digital camouflage system.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MODERN_ARTILLERY">
+			<Text>Modern Artillery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MODERN_ARTILLERY">
+			<Text>Fast Siege Unit of the late-game. Unlike other Siege Units, it does not need to set up prior to firing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MODERN_ARTILLERY_STRATEGY">
+			<Text>Modern Artillery is an even more powerful siege weapon than its Rocket Artillery predecessor, far superior to the standard artillery. Rocket Artillery does not need to set up before firing, making it much quicker than earlier guns. Although the Rocket Artillery's sight range is limited, it can use indirect fire to attack targets it cannot see (as long as other friendly units can see them). Like all artillery it is vulnerable to infantry or armor attack, and should be defended by appropriate units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_MODERN_ARTILLERY_TEXT">
+			<Text>Throughout most of history, artillery have used chemical explosives to propel inert shells toward their targets. Rocket artillery, on the other hand, shoots rocket shells that provide their own propellant. This allows for artillery tubes that are much smaller and lighter than traditional artillery, making for fast, mobile artillery vehicles that still pack a serious wallop. The more advanced artillery systems may contain guidance systems, allowing the projectiles to correct their course in mid-flight.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MODERN_SAM">
+			<Text>Modern SAM</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MODERN_SAM">
+			<Text>Will intercept enemy aircraft which try to bomb nearby Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MODERN_SAM_STRATEGY">
+			<Text>Modern SAM (surface-to-air missile) units provide an advancing army with anti-air defense. Modern SAM units can intercept and shoot at enemy aircraft bombing targets within 2 hexes (but only one unit per turn). These units are fairly vulnerable to non-air attack and should be accompanied by infantry or armor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_MODERN_SAM_TEXT">
+			<Text>As helicopters developed into more efficient killing machines, the infantry in turn developed weapons designed to combat the growing menace - not to mention the danger posed by jet fighters. Modern "SAMs" (surface-to-air missiles) are fast, light, and contain radar, allowing them to "lock on" to enemy aircraft and fly into them, exploding violently and doing all sorts of probably lethal damage to the fragile planes and choppers. In response more stealthy vehicles have been created and also better missile-jamming technology has been employed. Still, SAM launchers make it hot indeed for enemy aircraft, providing good protection to fellow ground-pounders from the airborne menace.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

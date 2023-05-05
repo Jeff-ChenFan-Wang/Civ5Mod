@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 03-Nov-14 20:41:01 -->
+<GameData>
+	<Builds>
+		<Update>
+			<Where Type="BUILD_REMOVE_FOREST"/>
+			<Set PrereqTech="TECH_LUMBERING"/>
+		</Update>
+		<Update>
+			<Where Type="BUILD_LUMBERMILL"/>
+			<Set PrereqTech="TECH_LUMBERING"/>
+		</Update>
+		<Update>
+			<Where Type="BUILD_REMOVE_JUNGLE"/>
+			<Set PrereqTech="TECH_LUMBERING"/>
+		</Update>
+		<Update>
+			<Where Type="BUILD_FORT"/>
+			<Set PrereqTech="TECH_IRON_WORKING"/>
+		</Update>
+		<Update>
+			<Where Type="BUILD_WELL"/>
+			<Set PrereqTech="TECH_DYNAMITE"/>
+		</Update>
+		<Update>
+			<Where Type="BUILD_OFFSHORE_PLATFORM"/>
+			<Set PrereqTech="TECH_COMBUSTION"/>
+		</Update>
+	</Builds>
+	<BuildFeatures>
+		<Update>
+			<Where BuildType="BUILD_REMOVE_FOREST" FeatureType="FEATURE_FOREST"/>
+			<Set PrereqTech="TECH_LUMBERING"/>
+		</Update>
+		<Update>
+			<Where BuildType="BUILD_REMOVE_JUNGLE" FeatureType="FEATURE_JUNGLE"/>
+			<Set PrereqTech="TECH_LUMBERING"/>
+		</Update>
+	</BuildFeatures>
+	<Improvement_TechYieldChanges>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_ACADEMY"/>
+			<Set TechType="TECH_ROCKETRY"/>
+		</Update>
+	</Improvement_TechYieldChanges>
+
+	<Improvement_TechYieldChanges>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_LUMBERMILL"/>
+			<Set TechType="TECH_BIOLOGY"/>
+		</Update>
+	</Improvement_TechYieldChanges>
+</GameData>

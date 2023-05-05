@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 23-May-15 23:01:25 -->
+<GameData>
+	<Language_en_US>
+		<!-- Ancient Era -->
+		<Row Tag="TXT_KEY_BUILDING_BREWERY">
+			<Text>Brewery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BREWERY_HELP">
+			<Text>The Brewery increases the [ICON_HAPPINESS_1] Happiness of a civilization. It cannot provide more [ICON_HAPPINESS_1] Happiness than there are [ICON_CITIZEN] Citizens in a city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BREWERY_STRATEGY">
+			<Text>A Brewery increases the [ICON_HAPPINESS_1] Happiness of your empire, but it cannot provide more happiness than there are [ICON_CITIZEN] Citizens in the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BREWERY_TEXT">
+			<Text>
+				A Brewery is building dedicated to the brewing of beer. Brewing is the production of beer by steeping a starch source (commonly cereal grains, the most popular of which is barley) in water and fermenting the resulting sweet liquid with yeast. Besides in a commercial brewery, it may be done at home by a homebrewer, or by a variety of traditional methods such as communally by the indigenous peoples in Brazil when making cauim.[NEWLINE][NEWLINE]The basic ingredients of beer are water and a fermentable starch source such as malted barley. Most beer is fermented with a brewer's yeast and flavoured with hops. Less widely used starch sources include millet, sorghum and cassava. Secondary sources, such as corn, rice, or sugar, may also be used, sometimes to reduce cost, or to add a feature, such as adding wheat to aid in retaining the foamy head of the beer.[NEWLINE][NEWLINE]Brewing has taken place since around the 6th millennium BC, and archaeological evidence suggests that emerging civilizations including ancient Egypt and Mesopotamia brewed beer. Descriptions of various beer recipes can be found in cuneiform (the oldest known writing) from ancient Mesopotamia. In Mesopotamia the brewer's craft was the only profession which derived social sanction and divine protection from female deities/goddesses, specifically: Ninkasi, who covered the production of beer, Siris, who was used in a metonymic way to refer to beer, and Siduri, who covered the enjoyment of beer.[NEWLINE][NEWLINE]Ale produced before the Industrial Revolution continued to be made and sold on a domestic scale, although by the 7th century AD beer was also being produced and sold by European monasteries. During the Industrial Revolution, the production of beer moved from artisanal manufacture to industrial manufacture, and domestic manufacture ceased to be significant by the end of the 19th century. The development of hydrometers and thermometers changed brewing by allowing the brewer more control of the process, and greater knowledge of the results.[NEWLINE][NEWLINE]Today, the brewing industry is a global business, consisting of several dominant multinational companies and many thousands of smaller producers ranging from brewpubs toregional breweries. More than 133 billion litres (35 billion gallons) are sold per year—producing total global revenues of $294.5 billion (£147.7 billion) in 2006.
+			</Text>
+		</Row>
+		<!-- Classical Era -->
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_ORACLE"/>
+			<Set Text="Temple of Apollo"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_ORACLE_DESC"/>
+			<Set Text="In ancient Greek religion, an oracle was a priest or priestess through whom the gods spoke in response to questions. The oracle interpreted dreams, the actions of entranced persons, and physical signs found in the entrails of sacrificed animals. The most famous oracle, a priestess known as the Pythia, resided in the Temple of Apollo at Delphi, located on the slopes of Mount Parnassus. It is also known as the Temple of Delphi, though it was not the only one in the city. The Pythia would, for a fee, make public predictions of the future.  Greeks, Romans, and others consulted this oracle for centuries about public policy and private matters. These ecstatic pronouncements became infamous for their ambiguity."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_FORGE_HELP"/>
+			<Set Text="+15% [ICON_PRODUCTION] Production when building Melee Units.[NEWLINE][NEWLINE]Each source of [ICON_RES_IRON] Iron worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a mined source of Iron nearby."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_FORGE_STRATEGY"/>
+			<Set Text="The Forge can only be constructed in a city with an improved source of [ICON_RES_IRON] Iron nearby. It increases the speed at which the city produces melee units."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_AMPHITHEATER"/>
+			<Set Text="Theatre"/>
+		</Update>
+		<Delete Tag="TXT_KEY_BUILDING_AMPHITHEATER_STRATEGY"/>
+		<Row Tag="TXT_KEY_BUILDING_AMPHITHEATER_STRATEGY">
+			<Text>The Theatre increases the [ICON_CULTURE] Culture of a city, speeding the growth of the city's territory and the civilization's acquisition of Social Policies. The city must contain a Monument (or a Stele) before the Theatre can be constructed.</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_BUILDINGS_AMPHITHEATER_TEXT"/>
+			<Set Text="The Greeks invented theatre as it is known in the West today. The original theatres were open-air venues often constructed on the side of a hill. The audience sat on benches cut into the hill, while the performers worked on an open stage at the foot of the hill. Over time the stages moved indoors (especially in locations with risks of lots of inclement weather). A modern theatre still has a stage and seats for the audience, but it also includes sophisticated sound and lighting equipment, an orchestra pit, and an extensive backstage area for props and scenery. Still, an ancient theatre-goer would not be totally surprised by anything found within a modern theatre (except possibly the cost of the food and drinks sold during intermission)."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_CIRCUS_MAXIMUS_HELP"/>
+			<Set Text="Must have built an Arena in all Cities. The cost goes up the more cities there are in the empire."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_CIRCUS_MAXIMUS_STRATEGY"/>
+			<Set Text="This National Wonder increases [ICON_HAPPINESS_1] Happiness in the empire by 5. It also provides +1 [ICON_CULTURE] Culture. A civilization must have an Arena in all cities before it can construct a Circus Maximus."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_THEATRE"/>
+			<Set Text="Arena"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_THEATRE_HELP"/>
+			<Set Text="The Arena increases the [ICON_HAPPINESS_1] Happiness of a civilization. It cannot provide more [ICON_HAPPINESS_1] Happiness than there are [ICON_CITIZEN] Citizens in a city. City must have a Brewery"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_THEATRE_STRATEGY"/>
+			<Set Text="A Arena increases the [ICON_HAPPINESS_1] Happiness of your empire, but it cannot provide more happiness than there are [ICON_CITIZEN] Citizens in the city. The city must possess a Brewery before the Arena can be constructed."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_THEATRE_PEDIA"/>
+			<Set Text="An arena is an enclosed area, often circular or oval-shaped, designed to showcase gladiatorial or sporting events. Dangerous animals, such as lions, were sometimes used as combatants, victims, or executioners. The word derives from Latin harena, a particularly fine/smooth sand used to absorb blood in ancient arenas like the Colosseum in Rome. It is composed of a large open space surrounded on most or all sides by tiered seating for spectators. The key feature of an arena is that the event space is the lowest point, allowing for maximum visibility. Arenas are usually designed to accommodate a large number of spectators."/>
+		</Update>
+		<Row Tag="TXT_KEY_BUILDING_COLOSSEUM_HELP">
+			<Text>Provides a large amount of empire-wide [ICON_HAPPINESS_1] happiness.</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_CIV5_BUILDINGS_COLISEUM_TEXT"/>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_COLISEUM_TEXT">
+			<Text>The Colosseum or Coliseum, also known as the Flavian Amphitheatre, is an elliptical amphitheatre in the centre of the city of Rome, Italy. Built of concrete and stone, it was the largest amphitheatre of the Roman Empire, and is considered one of the greatest works of Roman architecture and engineering. It is the largest amphitheatre in the world.[NEWLINE][NEWLINE]The Colosseum is situated just east of the Roman Forum. Construction began under the emperor Vespasian in 70 AD, and was completed in 80 AD under his successor and heir Titus. Further modifications were made during the reign of Domitian (81–96). These three emperors are known as the Flavian dynasty, and the amphitheatre was named in Latin for its association with their family name (Flavius).[NEWLINE][NEWLINE]The Colosseum could hold, it is estimated, between 50,000 and 80,000 spectators, and was used for gladiatorial contests and public spectacles such as mock sea battles, animal hunts, executions, re-enactments of famous battles, and dramas based on Classical mythology. The building ceased to be used for entertainment in the early medieval era. It was later reused for such purposes as housing, workshops, quarters for a religious order, a fortress, a quarry, and a Christian shrine.[NEWLINE][NEWLINE]Although in the 21st century it stays partially ruined because of damage caused by devastating earthquakes and stone-robbers, the Colosseum is an iconic symbol of Imperial Rome. It is one of Rome's most popular tourist attractions and has close connections with the Roman Catholic Church, as each Good Friday the Pope leads a torchlit "Way of the Cross" procession that starts in the area around the Colosseum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_COLOSSEUM_QUOTE">
+			<Text>[NEWLINE]"Hail Caesar! We who are about to die salute you!"[NEWLINE] - Suetonius[NEWLINE]</Text>
+		</Row>
+
+		<!-- Medieval Era -->
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_GARDEN"/>
+			<Set Text="Botanical Garden"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_GARDEN_HELP"/>
+			<Set Text="+20% [ICON_GREAT_PEOPLE] Great People generation in this City.[NEWLINE][NEWLINE]City must be built next to a River or Lake."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_GARDEN_STRATEGY"/>
+			<Set Text="The Botanical Garden increases the speed at which [ICON_GREAT_PEOPLE] Great People are generated in the city by 25%. Botanical Gardens can be constructed only in cities next to a river or lake."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_BUILDINGS_GARDEN_TEXT"/>
+			<Set Text="A botanical garden is a garden dedicated to the collection, cultivation and display of a wide range of plants labelled with their botanical names. It may contain specialist plant collections such as cacti and succulent plants, herb gardens, plants from particular parts of the world, and so on; there may be greenhouses, shadehouses, again with special collections such as tropical plants, alpine plants, or other exotic plants. Visitor services at a botanical garden might include tours, educational displays, art exhibitions, book rooms, open-air theatrical and musical performances, and other entertainment.[NEWLINE][NEWLINE]Botanical gardens are often run by universities or other scientific research organizations, and often have associated herbaria and research programmes in plant taxonomy or some other aspect of botanical science. In principle, their role is to maintain documented collections of living plants for the purposes of scientific research, conservation, display, and education, although this will depend on the resources available and the special interests pursued at each particular garden.[NEWLINE][NEWLINE]The origin of modern botanical gardens can be traced to European medieval medicinal gardens known as physic gardens, the first of these being founded during the Italian Renaissance in the 16th century. This early concern with medicinal plants changed in the 17th century to an interest in the new plant imports from explorations outside Europe as botany gradually established its independence from medicine. In the 18th century, systems of nomenclature and classification were devised by botanists working in the herbaria and universities associated with the gardens, these systems often being displayed in the gardens as educational &quot;order beds&quot;. With the rapid rise of European imperialism in the late 18th century, botanic gardens were established in the tropics, and economic botany became a focus with the hub at the Royal Botanic Gardens, Kew, near London.[NEWLINE][NEWLINE]Over the years, botanical gardens, as cultural and scientific organisations, have responded to the interests of botany and horticulture. Nowadays, most botanical gardens display a mix of the themes mentioned and more; having a strong connection with the general public, there is the opportunity to provide visitors with information relating to the environmental issues being faced at the start of the 21st century, especially those relating to plant conservation and sustainability."/>
+		</Update>
+		<Row Tag="TXT_KEY_BUILDING_TAVERN">
+			<Text>Tavern</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TAVERN_HELP">
+			<Text>The Tavern increases the [ICON_HAPPINESS_1] Happiness of a civilization. It cannot provide more [ICON_HAPPINESS_1] Happiness than there are [ICON_CITIZEN] Citizens in a city. City must have an Arena.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TAVERN_STRATEGY">
+			<Text>A Tavern increases the [ICON_HAPPINESS_1] Happiness of your empire, but it cannot provide more happiness than there are [ICON_CITIZEN] Citizens in the city. The city must possess an Arena before the Tavern can be constructed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TAVERN_TEXT">
+			<Text>A tavern is a place of business where people gather to drink alcoholic beverages and be served food, and in some cases, where travelers receive lodging. Music and dancing was common in some taverns. The word derives from the Latin "taberna" whose original meaning was a "shed", "workshop", or "stall". Until the late 18th century, the only places in France for common people to eat out were inns and taverns, which eventually lead to the first restaurants.[NEWLINE][NEWLINE]In the English language, a tavern was once an establishment which served wine while an inn served beer and ale. Over time, the words "tavern" and "inn" became synonymous. In England, inns started to be referred to as "public houses" or "pubs" for short and the term became standard for all drinking houses, such that "tavern" is no longer in use. Another distinction in some places was that an inn was a tavern which has a license to put up guests as lodgers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CIRCULAR_HARBOR">
+			<Text>Cothon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CIRCULAR_HARBOR_HELP">
+			<Text>Forms a [ICON_CONNECTED] City Connection with the [ICON_CAPITAL] Capital over water (if they're not already [ICON_CONNECTED] connected by land). Sea trade routes originating from this city have a 50% increase in range and produce an additional 1 [ICON_GOLD] Gold when connecting to another civilization. +1 [ICON_PRODUCTION] Production from Sea Resources worked by this City. +30% [ICON_PRODUCTION] Production when building Naval Units.[NEWLINE][NEWLINE]City must be built on the coast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CIRCULAR_HARBOR_STRATEGY">
+			<Text>The Cothon is the Carthaginian unique building, replacing the Harbor. It improves the range and [ICON_GOLD] Gold yield of sea trade routes. It allows "water city connections" (see rules) between cities. The Cothon also increases the [ICON_PRODUCTION] Production output of an improved sea resource and the speed at which the city produces naval units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CIRCULAR_HARBOR_TEXT">
+			<Text>A cothon (from a Greek word meaning "drinking vessel") is an artificial, protected inner harbor such as that in Carthage during the Punic Wars c.200 BC. Cothons were generally only found in the Phoenician world. Other examples were found in Motya, Sicily, from the 6th century BC, which performed an uncertain purpose-- although it has been suggested this cothon might even have been closable and drainable to form a dry dock--Mahdia, Tunisia, from the 7th century BC, and one from Kition, Cyprus.[NEWLINE][NEWLINE]The cothon at Carthage was divided into a rectangular merchant harbor followed by an inner protected harbor reserved for military use only. This inner harbor was circular and surrounded by an outer ring of structures divided into a series of docking bays for ship maintenance, along with an island structure at its center that also housed navy ships. Each individual docking bay featured a raised slipway. Above the raised docking bays was a second level consisting of warehouses where oars and rigging were kept along with supplies such as wood and canvas. On the island structure there existed a raised "cabin" where the admiral in command could observe the whole harbor along with the surrounding sea. Altogether the inner docking complex could house up to 220 ships. The entire harbor was protected by an outer wall and the main entrance could be closed off with iron chains.</Text>
+		</Row>
+
+		<!-- Renaissance Era -->
+		<Row Tag="TXT_KEY_BUILDING_BOOKSTORE">
+			<Text>Bookstore</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BOOKSTORE_HELP">
+			<Text>The Bookstore increases the [ICON_HAPPINESS_1] Happiness of a civilization. It cannot provide more [ICON_HAPPINESS_1] Happiness than there are [ICON_CITIZEN] Citizens in a city. City must have a Colosseum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BOOKSTORE_STRATEGY">
+			<Text>A Bookstore increases the [ICON_HAPPINESS_1] Happiness of your empire, but it cannot provide more happiness than there are [ICON_CITIZEN] Citizens in the city. The city must possess a Colosseum before the Bookstore can be constructed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BOOKSTORE_TEXT">
+			<Text>The founding of libraries in 300 BC stimulated the energies of the Athenian booksellers. In Rome, toward the end of the republic, it became the fashion to have a library, and Roman booksellers carried on a flourishing trade. The high degree of learning and scholarship in the medieval Islamic world led to the development of bookshops, copyists, and book dealers across the entire Muslim world. The spread of Christianity naturally created a great demand for copies of the Gospels, other sacred books, and later on for missals and other devotional volumes for both church and private use. The modern system of bookselling dates from soon after the introduction of printing. In the course of the 16th and 17th centuries the Low Countries for a time became the chief centre of the bookselling world. Modern book selling has changed dramatically with the advent of the computer.</Text>
+		</Row>
+
+		<!-- Industrial Era -->
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_FACTORY_HELP"/>
+			<Set Text="Requires 1 [ICON_RES_COAL] Coal.[NEWLINE][NEWLINE]City must have a Windmill."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_FACTORY_STRATEGY"/>
+			<Set Text="The Factory is an Industrial-era building which greatly increases a city's [ICON_PRODUCTION] Production. The city must already possess a Windmill. 1 [ICON_RES_COAL] Coal is consumed when a Factory is created."/>
+		</Update>
+		<Row Tag="TXT_KEY_BUILDING_ZOO">
+			<Text>Zoo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ZOO_HELP">
+			<Text>The Zoo increases the [ICON_HAPPINESS_1] Happiness of a civilization. It cannot provide more [ICON_HAPPINESS_1] Happiness than there are [ICON_CITIZEN] Citizens in a city. City must have a Bookstore.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ZOO_STRATEGY">
+			<Text>A Zoo increases the [ICON_HAPPINESS_1] Happiness of your empire, but it cannot provide more happiness than there are [ICON_CITIZEN] Citizens in the city. The city must possess a Bookstore before the Zoo can be constructed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ZOO_TEXT">
+			<Text>The oldest known zoological menagerie has been excavated at Hierakonpolis and dates to c. 3500 BC; the oldest existing zoo, the Tiergarten Schoenbrunn in Vienna, evolved from the exotic animal collection maintained by the Habsburg dynasty and was opened to the public in 1765 AD. Until the early 19th century, the function of the zoo was often to symbolize royal power, like King Louis XIV's menagerie at Versailles. The modern zoo that emerged in the early 19th century at London, Paris and Dublin, was focused on providing educational exhibits to the public for entertainment and inspiration.The abbreviation "zoo" was first used of the London Zoological Gardens, which opened for scientific study in 1828 and to the public in 1857. There were also known as Zoological Parks or Gardens.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CASINO">
+			<Text>Casino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CASINO_HELP">
+			<Text>City must have a Bank.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CASINO_STRATEGY">
+			<Text>The Casino is an Industrial-era building which increases the city's output of [ICON_GOLD] Gold. A city must possess a Bank, Satrap's Court, or Hanse before a Casino may be constructed. Trade routes other players make to a city with a Casino will generate an extra 1 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 1 [ICON_GOLD] Gold for the trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CASINO_TEXT">
+			<Text>A casino is a facility which houses and accommodates certain types of gambling activities. Casinos are most commonly built near or combined with hotels, restaurants, retail shopping, cruise ships or other tourist attractions. There is much debate over whether or not the social and economic consequences of casino gambling outweigh the initial revenue that may be generated. Some casinos are also known for hosting live entertainment events, such as stand-up comedy, concerts, and sporting events.[NEWLINE][NEWLINE]The precise origin of gambling is unknown. It is generally believed that gambling in some form or another has been seen in almost every society in history. From the Ancient Greeks and Romans to Napoleon's France and Elizabethan England, much of history is filled with stories of entertainment based on games of chance.[NEWLINE][NEWLINE]The first known European gambling house, not called a casino although meeting the modern definition, was the Ridotto, established in Venice, Italy in 1638 to provide controlled gambling during the carnival season. It was closed in 1770 as the city government perceived it to impoverish the local gentry.[NEWLINE][NEWLINE]In American history, early gambling establishments were known as saloons. The creation and importance of saloons was greatly influenced by four major cities; New Orleans, St. Louis, Chicago and San Francisco. It was in the saloons that travelers could find people to talk to, drink with, and often gamble with. During the early 20th century in America, gambling became outlawed and banned by state legislation and social reformers of the time. However, in 1931, gambling was legalized throughout the state of Nevada. America's first legalized casinos were set up in those places. In 1978 New Jersey allowed gambling in Atlantic City, now America's second largest gambling city.</Text>
+		</Row>
+
+		<!-- Modern Era -->
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_CIRCUS_HELP"/>
+			<Set Text="The Circus increases the [ICON_HAPPINESS_1] Happiness of a civilization. It cannot provide more [ICON_HAPPINESS_1] Happiness than there are [ICON_CITIZEN] Citizens in a city."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_CIRCUS_STRATEGY"/>
+			<Set Text="A Circus increases the [ICON_HAPPINESS_1] Happiness of your empire, but it cannot provide more happiness than there are [ICON_CITIZEN] Citizens in the city."/>
+		</Update>
+		<Row Tag="TXT_KEY_BUILDING_STEEL_FOUNDRY">
+			<Text>Steel Foundry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STEEL_FOUNDRY_HELP">
+			<Text>Requires 1 [ICON_RES_IRON] Iron.[NEWLINE][NEWLINE]City must have a Windmill.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STEEL_FOUNDRY_STRATEGY">
+			<Text>The Steel Foundry is a Modern Era building which greatly inscreases a city's [ICON_PRODUCTION] Production. The city must already possess a Windmill. 1 [ICON_RES_IRON] Iron are consumed when a Steel Foundry is created.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_STEEL_FOUNDRY_TEXT">
+			<Text>A steel foundry is a factory that produces steel castings. Steel must first be made from iron by reprocessing it to reduce the carbon to the correct amount, at which point other elements can be added. At the foundry, steel is cast into shapes by melting it into a liquid, pouring the metal in a mold, and removing the mold material or casting after the metal has solidified as it cools. In this process, parts of desired shapes and sizes can be formed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RACE_TRACK">
+			<Text>Race Track</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RACE_TRACK_HELP">
+			<Text>Requires 2 [ICON_RES_HORSE] Horses.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RACE_TRACK_STRATEGY">
+			<Text>The Race Track is an Modern-Era building which increases the city's output of [ICON_GOLD] Gold. 2 [ICON_RES_HORSE] Horses, which are otherwise no longer useful, are consumed when a Race Track is created.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RACE_TRACK_TEXT">
+			<Text>Race tracks are where horse racing takes place. It is an equestrian sport, involving two or more jockeys riding horses over a set distance for competition. It is one of the most ancient of all sports and its basic premise - to identify which of two or more horses is the fastest over a set course or distance - has remained unchanged since the earliest times.[NEWLINE][NEWLINE]Horse races vary widely in format. Often, countries have developed their own particular horse racing traditions. Variations include restricting races to particular breeds, running over obstacles, running over different distances, running on different track surfaces and running in different gaits.[NEWLINE][NEWLINE]While horses are sometimes raced purely for sport, a major part of horse racing's interest and economic importance lies in the gambling associated with it, an activity that in 2008 generated a world-wide market worth around $115 billion.</Text>
+		</Row>
+
+		<!-- Atomic Era -->
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_MEDICAL_LAB_HELP"/>
+			<Set Text="20% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born (effect stacks with Aqueduct).[NEWLINE][NEWLINE]City must have a Hospital."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_MEDICAL_LAB_STRATEGY"/>
+			<Set Text="The Medical Lab is a late-game building which decreases the amount of [ICON_FOOD] Food a city needs to increase in size by 20%. The city needs to have a Hospital in order to construct the Medical Lab."/>
+		</Update>
+		<Row Tag="TXT_KEY_BUILDING_PUBLIC_PARK">
+			<Text>Public Park</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PUBLIC_PARK_HELP">
+			<Text>+20% [ICON_GREAT_PEOPLE] Great People generation in this City.[NEWLINE][NEWLINE]City must be built next to a River or Lake. City must have a Botanical Garden.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PUBLIC_PARK_STRATEGY">
+			<Text>The Public Park increases the speed at which [ICON_GREAT_PEOPLE] Great People are generated in the city by 25%. Public ParkS can be constructed only in cities next to a river or lake.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PUBLIC_PARK_TEXT">
+			<Text>A public park is an open grassy area, often with trees and ponds, where people may relax and enjoy a little nature without having to leave the city. They may also include a variety of decorative plants and some contain, or are connected to, botanical gardens. All sorts of events may be held here, such as music or art festivals, weddings, trade shows, sporting activities, etc. They are also famous spots for writers to hone their craft. Public parks have inspired and moved people for centuries.[NEWLINE][NEWLINE]The earliest purpose built public park, although financed privately, was Princes Park in the Liverpool suburb of Toxteth. This was laid out to the designs of Joseph Paxton from 1842 and opened in 1843. The land on which the park was built was purchased by Richard Vaughan Yates, an iron merchant and philanthropist, in 1841 for £50,000. The creation of Princes Park showed great foresight and introduced a number of highly influential ideas. First and foremost was the provision of open space for the benefit of townspeople and local residents within an area that was being rapidly built up. Secondly it took the concept of the designed landscape as a setting for the suburban domicile, an idea pioneered by John Nash at Regent's Park, and re-fashioned it for the provincial town in a most original way. Nash's remodelling of St James's Park from 1827 and the sequence of processional routes he created to link The Mall with Regent's Park completely transformed the appearance of London's West End. With the establishment of Princes Park in 1842, Joseph Paxton did something similar for the benefit of a provincial town, albeit one of international stature by virtue of its flourishing mercantile contingent. Liverpool had a burgeoning presence on the scene of global maritime trade before 1800 and during the Victorian era its wealth rivalled that of London itself.[NEWLINE][NEWLINE]The form and layout of Paxton's ornamental grounds, structured about an informal lake within the confines of a serpentine carriageway, put in place the essential elements of his much imitated design for Birkenhead Park. The latter was commenced in 1843 with the help of public finance and deployed the ideas he pioneered at Princes Park on a more expansive scale. Frederick Law Olmsted visited Birkenhead Park in 1850 and praised its qualities. Indeed Paxton is widely credited as having been one of the principal influences on Olmsted and Calvert's design for New York's Central Park of 1857.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BIOFUEL_REFINERY">
+			<Text>Biofuel Refinery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BIOFUEL_REFINERY_HELP">
+			<Text>City must have an improved source of [ICON_RES_WHEAT] Wheat, [ICON_RES_SUGAR] Sugar, [ICON_RES_BANANA] Bananas, or [ICON_RES_CITRUS] Citrus nearby.[NEWLINE][NEWLINE]Consumes 1 [ICON_FOOD] Food and provides 1 [ICON_RES_OIL] Oil.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BIOFUEL_REFINERY_STRATEGY">
+			<Text>The Biofuel Refinery can only be constructed in a city with an improved source of [ICON_RES_WHEAT] Wheat, [ICON_RES_SUGAR] Sugar, [ICON_RES_BANANA] Bananas, or [ICON_RES_CITRUS] Citrus nearby. Each Biofuel Refinery consumes 1 [ICON_FOOD] Food and provides 1 [ICON_RES_OIL] Oil.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BIOFUEL_REFINERY_TEXT">
+			<Text>A biofuel refinery, or biorefinery, is a facility that integrates biomass conversion processes and equipment to produce fuels, power, heat, and value-added chemicals from biomass. The biorefinery concept is analogous to today's petroleum refinery, which produce multiple fuels and products from petroleum. Biorefining is defined as the sustainable processing of biomass into a spectrum of bio-based products (food, feed, chemicals, materials) and bioenergy (biofuels, power and/or heat). By producing multiple products, a biorefinery takes advantage of the various components in biomass and their intermediates therefore maximizing the value derived from the biomass feedstock. A biorefinery could, for example, produce one or several low-volume, but high-value, chemical or nutraceutical products and a low-value, but high-volume liquid transportation fuel such as biodiesel or bioethanol (see also alcohol fuel). Future biorefineries may play a major role in producing chemicals and materials that are traditionally produced from petroleum.</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_RECYCLING_CENTER_HELP"/>
+			<Set Text="Provides 2 [ICON_RES_ALUMINUM] Aluminum. Maximum of 10 of these buildings in your empire."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_RECYCLING_CENTER_STRATEGY"/>
+			<Set Text="Each Recycling Center provides 2 [ICON_RES_ALUMINUM] Aluminum. You may only have a maximum of 10 of these buildings in your empire."/>
+		</Update><!--
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_RECYCLING_CENTER_HELP"/>
+			<Set Text="City must have an improved source of [ICON_RES_ALUMINUM] Aluminum nearby.[NEWLINE][NEWLINE]Provides 2 [ICON_RES_ALUMINUM] Aluminum."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_RECYCLING_CENTER_STRATEGY"/>
+			<Set Text="The Recycling Center can only be constructed in a city with an improved source of [ICON_RES_ALUMINUM] Aluminum nearby. Provides 2 [ICON_RES_ALUMINUM] Aluminum."/>
+		</Update>-->
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_NUCLEAR_PLANT_HELP"/>
+			<Set Text="Requires 1 [ICON_RES_URANIUM] Uranium.[NEWLINE][NEWLINE]City must have a Steel Foundry. Mutually exclusive with Solar Plant."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_NUCLEAR_PLANT_STRATEGY"/>
+			<Set Text="The Nuclear Plant significantly increases the productivity in a city. A Nuclear Plant requires one [ICON_RES_URANIUM] Uranium resource to be constructed. The city must possess a Steel Foundry before it can be constructed. Mutually exclusive with Solar Plant."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_BUILDINGS_STOCK_EXCHANGE_STRATEGY"/>
+			<Set Text="The Stock Exchange is an Atomic-era building which increases the output of [ICON_GOLD] Gold in a city. The city must possess a Casino before the Stock Exchange can be constructed. Trade routes other players make to a city with a Stock Exchange will generate an extra 1 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 1 [ICON_GOLD] Gold for the trade route."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_STOCK_EXCHANGE_HELP"/>
+			<Set Text="City must have a Casino."/>
+		</Update>
+		<Row Tag="TXT_KEY_BUILDING_SUPERCOMPUTER">
+			<Text>Supercomputer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SUPERCOMPUTER_HELP">
+			<Text>City must have a Research Lab.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SUPERCOMPUTER_STRATEGY">
+			<Text>The Supercomputer increases the [ICON_RESEARCH] Science output of the city, speeding up the civ's acquisition of new technology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SUPERCOMPUTER_TEXT">
+			<Text>A supercomputer is a computer with a high-level computational capacity compared to a general-purpose computer.[NEWLINE][NEWLINE]Supercomputers were introduced in the 1960s, made initially, and for decades primarily, by Seymour Cray at Control Data Corporation, Cray Research and subsequent companies bearing his name or monogram. While the supercomputers of the 1970s used only a few processors, in the 1990s machines with thousands of processors began to appear and, by the end of the 20th century, massively parallel supercomputers with tens of thousands of "off-the-shelf" processors were the norm.[NEWLINE][NEWLINE]Supercomputers play an important role in the field of computational science, and are used for a wide range of computationally intensive tasks in various fields, including quantum mechanics, weather forecasting, climate research, oil and gas exploration, molecular modeling (computing the structures and properties of chemical compounds, biologicalmacromolecules, polymers, and crystals), and physical simulations (such as simulations of the early moments of the universe, airplane and spacecraft aerodynamics, the detonation of nuclear weapons, and nuclear fusion). Throughout their history, they have been essential in the field of cryptanalysis.</Text>
+		</Row>
+
+		<!-- Information Era -->
+		<Row Tag="TXT_KEY_BUILDING_ELECTRONICS_STORE">
+			<Text>Electronics Store</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ELECTRONICS_STORE_HELP">
+			<Text>The Electronics Store increases the [ICON_HAPPINESS_1] Happiness of a civilization. It cannot provide more [ICON_HAPPINESS_1] Happiness than there are [ICON_CITIZEN] Citizens in a city. City must have a Stadium.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ELECTRONICS_STORE_STRATEGY">
+			<Text>An Electronics Store increases the [ICON_HAPPINESS_1] Happiness of your empire, but it cannot provide more happiness than there are [ICON_CITIZEN] Citizens in the city. The city must possess a Stadium before the Electronics Store can be constructed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ELECTRONICS_STORE_TEXT">
+			<Text>The electronics industry, especially meaning consumer electronics, emerged in the 20th century and has now become a global industry worth billions of dollars. Contemporary society uses all manner of electronic devices built in automated or semi-automated factories operated by the industry. Products are assembled from integrated circuits, principally by photolithography of printed circuit boards.[NEWLINE][NEWLINE]The size of the industry and the use of toxic materials, as well as the difficulty of recycling has led to a series of problems with electronic waste. International regulation and environmental legislation has been developed in an attempt to address the issues.[NEWLINE][NEWLINE]The electric power industry began in the 19th century and this led to the development of all manner of inventions. Gramaphones were an early invention and this was followed byradio transmitters and receivers and televisions. The first digital computers were built in the 1940s with a slow development in technology and total sales. In the 1990s thepersonal computer became popular. A large part of the electronics industry is now involved with digital technology.[NEWLINE][NEWLINE]The industry now employs large numbers of electronics engineers and electronics technicians to design, develop, test, manufacture, install, and repair electrical and electronic equipment such as communication equipment, medical monitoring devices, navigational equipment, and computers.</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_SPACESHIP_FACTORY_HELP"/>
+			<Set Text="+50% [ICON_PRODUCTION] Production when building Spacehisp Parts. Requires 1 [ICON_RES_ALUMINUM] Aluminum.[NEWLINE][NEWLINE]City must have a Steel Foundry."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_SPACESHIP_FACTORY_STRATEGY"/>
+			<Set Text="A Spaceship Factory increases the speed at which a city contructs psaceship parts. 1 [ICON_RES_ALUMINUM] Aluminum is consumed when a Spaceship Factory is created. The city must possess a Steel Foundry before it can be constructed."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_SOLAR_PLANT_HELP"/>
+			<Set Text="Requires 1 [ICON_RES_ALUMINUM] Aluminum.[NEWLINE][NEWLINE]City must not be built on or next to Snow or Tundra.[NEWLINE][NEWLINE]City must have a Steel Foundry. Mutually exclusive with Nuclear Plant."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_SOLAR_PLANT_STRATEGY"/>
+			<Set Text="A Solar Plant is a late-game building which increases [ICON_PRODUCTION] Production in a city. The city must not be constructed on or adjacent to a Snow or Desert tile in order to build the Solar Plant. 1 [ICON_RES_ALUMINUM] Aluminum is consumed when a Solar Plant is created. The city must possess a Steel Foundry before it can be constructed. Mutually exclusive with Nuclear Plant."/>
+		</Update>
+		<Row Tag="TXT_KEY_BUILDING_WIND_FARM">
+			<Text>Wind Farm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WIND_FARM_HELP">
+			<Text>Requires 1 [ICON_RES_ALUMINUM] Aluminum.[NEWLINE][NEWLINE]City must have a Steel Foundry.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WIND_FARM_STRATEGY">
+			<Text>A Wind Farm is a late-game building which increases [ICON_PRODUCTION] Production in a city. 1 [ICON_RES_ALUMINUM] Aluminum is consumed when a Solar Plant is created. The city must possess a Steel Foundry before it can be constructed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_WIND_FARM_TEXT">
+			<Text>A wind farm or wind park is a group of wind turbines in the same location used to produce energy. A large wind farm may consist of several hundred individual wind turbines and cover an extended area of hundreds of square miles, but the land between the turbines may be used for agricultural or other purposes. A wind farm can also be located offshore.[NEWLINE][NEWLINE]Many of the largest operational onshore wind farms are located in the United States and China. For example, the Gansu Wind Farm in China has a capacity of over 5,000 MW of power with a goal of 20,000 MW by 2020. The Alta Wind Energy Center in California, United States is the largest onshore wind farm outside of China, with a capacity of 1,020 MW. As of April 2013, the 630 MW London Array in the UK is the largest offshore wind farm in the world, followed by the 504 MW Greater Gabbard wind farm in the UK.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HYDROPONIC_FARM">
+			<Text>Hydroponic Farm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HYDROPONIC_FARM_HELP">
+			<Text>+1 [ICON_FOOD] to all mountain, snow, and tundra tiles worked. City must have a Medical Lab.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HYDROPONIC_FARM_STRATEGY">
+			<Text>A Hydroponic Farm is a late-game building which increases [ICON_FOOD] Food in a city, more so on mountain tiles. The city must possess a Medical Lab before it can be constructed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HYDROPONIC_FARM_TEXT">
+			<Text>Hydroponics is a subset of hydroculture and is a method of growing plants using mineral nutrient solutions, in water, without soil. Hydroponics saves water; it uses as little as 1⁄20 the amount as a regular farm to produce the same amount of food. The water table can be impacted by the water use and run-off of chemicals from farms, but hydroponics may minimize impact as well as having the advantage that water use and water returns are easier to measure. This can save the farmer money by allowing reduced water use and the ability to measure consequences to the land around a farm.[NEWLINE][NEWLINE]The environment in a hydroponics greenhouse is tightly controlled for maximum efficiency. With this growers can make ultra-premium foods anywhere in the world, regardless of temperature and growing seasons. Growers monitor the temperature, humidity, and pH level constantly. With pest problems reduced, and nutrients constantly fed to the roots, productivity in hydroponics is high, although plant growth can be limited by the low levels of carbon dioxide in the atmosphere, or limited light exposure. To increase yield further, some sealed greenhouses inject carbon dioxide into their environment to help growth, add lights to lengthen the day, or control vegetative growth, etc.[NEWLINE][NEWLINE]The earliest published work on growing terrestrial plants without soil was the 1627 book Sylva Sylvarum by Francis Bacon, printed a year after his death. Water culture became a popular research technique after that. In 1699, John Woodward published his water culture experiments with spearmint. He found that plants in less-pure water sources grew better than plants in distilled water. By 1842, a list of nine elements believed to be essential to plant growth had been compiled, and the discoveries of the German botanists Julius von Sachs and Wilhelm Knop, in the years 1859-65, resulted in a development of the technique of soilless cultivation. Growth of terrestrial plants without soil in mineral nutrient solutions was called solution culture. It quickly became a standard research and teaching technique and is still widely used today. Solution culture is now considered a type of hydroponics where there is no inert medium.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INTERNET_CAFE">
+			<Text>Internet Cafe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INTERNET_CAFE_HELP">
+			<Text>City must have a Broadcast Tower.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INTERNET_CAFE_STRATEGY">
+			<Text>The Internet Cafe is a late-game building that increases [ICON_CULTURE] Culture output of the city. The city must possess a Broadcast Tower before the Internet Cafe can be constructed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INTERNET_CAFE_TEXT">
+			<Text>An Internet café also known as Coffee net or Café net is a place which provides Internet access to the public, usually for a fee. These businesses usually provide snacks and drinks, hence the café in the name. The fee for using a computer is usually charged as a time-based rate.[NEWLINE][NEWLINE]The first online café in South Korea called Electronic Café opened in front of Hongik University in March 1988 in Seoul. It had two 16bit computers connected to Online service networks through telephone lines. Online service users’ offline meetings were held in the Electronic Café, which served as a place that connected online and offline activities.[NEWLINE][NEWLINE]Internet cafés are located worldwide, and many people use them when traveling to access webmail and instant messaging services to keep in touch with family and friends. Apart from travelers, in many developing countries Internet cafés are the primary form of Internet access for citizens as a shared-access model is more affordable than personal ownership of equipment and/or software. A variation on the Internet café business model is the LAN gaming center, used for multiplayer gaming. These cafés have several computer stations connected to a LAN. The connected computers are custom-assembled for gameplay, supporting popular multiplayer games. This is reducing the need for video arcades and arcade games, many of which are being closed down or merged into Internet cafés. The use of Internet cafés for multiplayer gaming is particularly popular in certain areas of Asia like India, China, Taiwan, Hong Kong, South Korea and thePhilippines. In some countries, since practically all LAN gaming centers also offer Internet access, the terms net cafe and LAN gaming center have become interchangeable. Again, this shared-access model is more affordable than personal ownership of equipment and/or software, especially since games often require high end and expensive PCs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ECOMMERCE">
+			<Text>E-Commerce Business</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ECOMMERCE_HELP">
+			<Text>City must have a Stock Exchange.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ECOMMERCE_STRATEGY">
+			<Text>An E-Commerce Business is an Information-era building which increases the city's output of [ICON_GOLD] Gold. A city must possess a Stock Exchange before an E-Commerce Business may be constructed. Trade routes other players make to a city with an E-Commerce Business will generate an extra 1 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 1 [ICON_GOLD] Gold for the trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ECOMMERCE_TEXT">
+			<Text>Electronic commerce, commonly written as e-commerce, is the trading or facilitation of trading in products or services using computer networks, such as the Internet. Electronic commerce draws on technologies such as mobile commerce, electronic funds transfer, supply chain management, Internet marketing, online transaction processing, electronic data interchange, inventory management systems, and automated data collection systems. Modern electronic commerce typically uses the World Wide Web for at least one part of the transaction's life cycle, although it may also use other technologies such as e-mail.[NEWLINE][NEWLINE]In 2010, the United Kingdom had the biggest e-commerce market in the world when measured by the amount spent per capita. As of 2013, the Czech Republic was the European country where ecommerce delivers the biggest contribution to the enterprises´ total revenue. Almost a quarter (24%) of the country’s total turnover is generated via the online channel.[NEWLINE][NEWLINE]Among emerging economies, China's e-commerce presence continues to expand every year. With 384 million internet users, China's online shopping sales rose to $36.6 billion in 2009 and one of the reasons behind the huge growth had been the improved trust level for shoppers. The Chinese retailers have been able to help consumers feel more comfortable shopping online. E-commerce transactions between China and other countries increased 32% to $375.8 billion in 2012 and accounted for 9.6% of China's total international trade  In 2013, Alibaba had an e-commerce market share of 80% in China.[NEWLINE][NEWLINE]For traditional businesses, one research stated that information technology and cross-border e-commerce is a good opportunity for the rapid development and growth of enterprises. Many companies have invested enormous volume of investment in mobile applications. There is no limit of time and space, there are more opportunities to reach out to customers around the world, and to cut down unnecessary intermediate links, thereby reducing the cost price, and can benefit from one on one large customer data analysis, to achieve a high degree of personal customization strategic plan, in order to fully enhance the core competitiveness of the products in company.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PHYSICS_LAB">
+			<Text>Physics Lab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PHYSICS_LAB_HELP">
+			<Text>City must have a Supercomputer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PHYSICS_LAB_STRATEGY">
+			<Text>The Physics Lab increases the [ICON_RESEARCH] Science output of the city, speeding up the civ's acquisition of new technology. The city must possess a Research Lab before the Physics Lab can be constructed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PHYSICS_LAB_TEXT">
+			<Text>A physics lab is a research center dedicated to physics experiments, usually of the applied physics variety. Applied physics is physics which is intended for a particular technological or practical use. It is usually considered as a bridge or a connection between physics and engineering.[NEWLINE][NEWLINE]"Applied" is distinguished from "pure" by a subtle combination of factors such as the motivation and attitude of researchers and the nature of the relationship to the technology or science that may be affected by the work.[3] It usually differs from engineering in that an applied physicist may not be designing something in particular, but rather is using physics or conducting physics research with the aim of developing new technologies or solving an engineering problem. This approach is similar to that of applied mathematics. In other words, applied physics is rooted in the fundamental truths and basic concepts of the physical sciences but is concerned with the utilization of these scientific principles in practical devices and systems.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SUPERCOLLIDER">
+			<Text>Supercollider</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SUPERCOLLIDER_HELP">
+			<Text>Must have built a Physics Lab in all cities. The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SUPERCOLLIDER_STRATEGY">
+			<Text>This National Wonder increases [ICON_RESEARCH] Science in the empire by 10. It also provides +1 [ICON_CULTURE] Culture. A civilization must have a Physics Lab in all cities before it can construct a Supercollider.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SUPERCOLLIDER_TEXT">
+			<Text>A supercollider is very large collider, which is a type of particle accelerator involving directed beams of particles. Colliders may either be ring accelerators or linear accelerators, and may collide a single beam of particles against a stationary target or two beams head-on. Colliders are used as a research tool in particle physics by accelerating particles to very high kinetic energy and letting them impact other particles. Analysis of the byproducts of these collisions gives scientists good evidence of the structure of the subatomic world and the laws of nature governing it. These may become apparent only at high energies and for tiny periods of time, and therefore may be hard or impossible to study in other ways.[NEWLINE][NEWLINE]The first electron-positron colliders were built in late 1950's-early 1960's in Italy, at the Istituto Nazionale di Fisica Nucleare in Frascati near Rome. Around the same time, in the early 1960s, the VEP-1 electron-electron collider was independently developed and built in the Soviet Institute of Nuclear Physics.[NEWLINE][NEWLINE]In 1966, work began on the Intersecting Storage Rings at CERN, and in 1971, this collider was operational. The ISR was a pair of storage rings that accumulated particles injected by the CERN Proton Synchrotron. This was the first hadron collider, as all of the earlier efforts had worked with electrons or with electrons and positrons.[NEWLINE][NEWLINE]The most high-energetic collider in the world (as of 2015) is the Large Hadron Collider at CERN. There are several particle collider projects currently under consideration.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

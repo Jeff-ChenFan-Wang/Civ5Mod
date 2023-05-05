@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 23-May-15 16:31:19 -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TECH_HELP">
+			<Text></Text>
+		</Row>
+		
+		<!-- Ancient Era -->
+		<Update>
+			<Where Tag="TXT_KEY_TECH_ANIMAL_HUSBANDRY_HELP"/>
+			<Set Text="Allows Workers to construct [COLOR_POSITIVE_TEXT]Pastures[ENDCOLOR] on [ICON_RES_COW] [COLOR_POSITIVE_TEXT]Cows[ENDCOLOR] and [ICON_RES_SHEEP] [COLOR_POSITIVE_TEXT]Sheep[ENDCOLOR]. Also reveals [ICON_RES_HORSE] Horses, which are used to build powerful mounted units."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_SAILING_HELP"/>
+			<Set Text="Allows land units to [COLOR_POSITIVE_TEXT]Embark[ENDCOLOR] onto water tiles and travel the ocean. Also allows you to build military and economic ships, useful for exploration and harvesting resources in the water like [ICON_RES_FISH] [COLOR_POSITIVE_TEXT]Fish[ENDCOLOR] and [ICON_RES_PEARLS] [COLOR_POSITIVE_TEXT]Pearls[ENDCOLOR]."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_TRAPPING_HELP"/>
+			<Set Text="Allows your Workers to construct [COLOR_POSITIVE_TEXT]Camps[ENDCOLOR] on sources of [ICON_RES_DEER] Deer, [ICON_RES_IVORY] Ivory and [ICON_RES_FUR] Fur."/>
+		</Update>
+		<Row Tag="TXT_KEY_TECH_REAL_HORSEBACK_RIDING_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Caravan[ENDCOLOR], used to establish Trade Routes.</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_HORSEBACK_RIDING_DESC"/>
+			<Set Text="Horseback riding was developed in the second millennium BC (possibly earlier), probably by the nomadic people of Central Asia. The horse had been domesticated for some time by then, but the original animal was too small. It wasn't until a large enough animal had been bred that horseback riding became practical. One early group of nomads, the Scythians, were particularly accomplished riders; they might have invented the first saddle and stirrup (although they may have used the stirrup only for mounting and dismounting the horse).[NEWLINE][NEWLINE]By about 1500 BC many people of the Fertile Crescent - the Hittites, the Assyrians and the Babylonians - were fighting from horseback, and at the same time horses were introduced into Egypt."/>
+		</Update>
+		<Row Tag="TXT_KEY_TECH_REAL_HORSEBACK_RIDING_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"A horse never runs so fast as when he has other horses to catch up and outpace."[NEWLINE][TAB][TAB]  - Ovid[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_LUMBERING_TITLE">
+			<Text>Lumbering</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_LUMBERING_HELP">
+			<Text>Allows Workers to construct [COLOR_POSITIVE_TEXT]Lumbermills[ENDCOLOR] on forested map tiles, increasing their [ICON_PRODUCTION] Production and to [COLOR_POSITIVE_TEXT]Chop Forests[ENDCOLOR], allowing the construction of other improvements. Also allows you to build the [COLOR_POSITIVE_TEXT]Lumber Yard[ENDCOLOR], which provides Hardwood and extra [ICON_PRODUCTION] Production from Lumber Mills.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_LUMBERING_DESC">
+			<Text>Lumbering is the act of cutting wood into lumber (sawn wood) for use in construction. It can be limited to a single tree or whole forests. Wood has been an important, easily available material for construction since humans started building shelters. Engineered wood products are available which bind the particles, fibres or veneers of wood together with adhesives to form composite materials. Plastics have taken over from wood for some traditional uses.[NEWLINE][NEWLINE]Wood is used in the construction of buildings, bridges, trackways, masts for boats, fencing, hurdles, scaffolding, pallets, carts, farm implements, boats, dugout canoes and in shipbuilding. It is used for making furniture, tool handles, boxes, ladders, musical instruments, bows, weapons, matches, clothes pegs, brooms, shoes, baskets, carving, toys, barrels, coffins, veneers, artificial limbs, oars, skis, wooden utensils, and sports equipment.[NEWLINE][NEWLINE]Wood is pulped for paper and nowdays is used in the manufacture of cardboard and made into engineered wood products for use in construction such as fibreboard, hardboard, chipboard and plywood.[NEWLINE][NEWLINE]Originally, "trees were felled from native forests using axes and hand-held cross-cut saws". This was a slow process involving manual labour. Nowadays, harvesting is done by a small team of contractors, who are aided by various pieces of machinery. Sawmills were traditionally located within forests, so logs had to be transported over long distances and rough terrain to reach their destination. Soon, waterways were used to transport the logs. Later on, logs were transported via tramlines, "first by steam-powered log haulers then by steam-powered locomotives, and finally diesel and petrol-powered locomotives". Even in the modern era, timber is dried in kilns. The first steam railway in Australia opened in Melbourne in 1854. This dramatically changed the nature of timber transportation and made it possible for the sawmilling industry to move inland away from the coast, due to transportation being made quicker and cheaper.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_LUMBERING_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"It is remarkable how closely the history of the apple tree is connected with that of man."[NEWLINE][TAB][TAB]  - Henry David Thoreau[NEWLINE][TAB]</Text>
+		</Row>
+
+		<!-- Classical Era -->
+		<Row Tag="TXT_KEY_TECH_CAVALRY_TACTICS_TITLE">
+			<Text>Cavalry Tactics</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_HORSEBACK_RIDING_HELP"/>
+			<Set Text="Cavalry Tactics help"/>
+		</Update>
+		<Row Tag="TXT_KEY_TECH_CAVALRY_TACTICS_DESC">
+			<Text>Some of the earliest examples of horses being ridden in warfare were horse-mounted archers or spear-throwers, dating to the reigns of the Assyrian rulers Ashurnasirpal II and Shalmaneser III. However, these riders sat far back on their horses, a precarious position for moving quickly, and the horses were held by a handler on the ground, keeping the archer free to use the bow. Thus, these archers were more a type of mounted infantry than true cavalry. The Assyrians developed cavalry in response to invasions by nomadic people from the north, such as the Cimmerians, who entered Asia Minor in the 8th century BC and took over parts of Urartu during the reign of Sargon II, approximately 721 BC. Mounted warriors such as the Scythians also had an influence on the region in the 7th century BC. By the reign of Ashurbanipal in 669 BC, the Assyrians had learned to sit forward on their horses in the classic riding position still seen today and could be said to be true light cavalry. The ancient Greeks used both light horse scouts and heavy cavalry, although not extensively, possibly due to the cost of keeping horses.[NEWLINE][NEWLINE]Heavy cavalry was believed to have been developed by the Ancient Persians, although others argue for the Sarmatians. By the time of Darius (558–486 BC), Persian military tactics required horses and riders that were completely armoured, and selectively bred a heavier, more muscled horse to carry the additional weight. The cataphract was a type of heavily armored cavalry with distinct tactics, armour, and weaponry used from the time of the Persians up until the Middle Ages.[NEWLINE][NEWLINE]In Ancient Greece, Phillip of Macedon is credited with developing tactics allowing massed cavalry charges. The most famous Greek heavy cavalry units were the companion cavalry of Alexander the Great. The Chinese of the 4th century BC during the Warring States period (403–221 BC) began to use cavalry against rival states. To fight nomadic raiders from the north and west, the Chinese of theHan Dynasty (202 BC – 220 AD) developed effective mounted units. Cavalry was not used extensively by the Romans during the Roman Republic period, but by the time of the Roman Empire, they made use of heavy cavalry. However, the backbone of the Roman army was the infantry.</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_OPTICS_HELP"/>
+			<Set Text=" Allows you to build the [COLOR_POSITIVE_TEXT]Cargo Ship[ENDCOLOR], used to establish lucrative sea-based Trade Routes. Also allows you to build the [COLOR_POSITIVE_TEXT]Lighthouse[ENDCOLOR] in coastal cities, improving [ICON_FOOD] Food output from water tiles, speeding their growth."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_CONSTRUCTION_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Arena[ENDCOLOR], which improves [ICON_HAPPINESS_1] Happiness in the empire, which in turn helps your city growth and makes [ICON_GOLDEN_AGE] Golden Ages more likely. Also allows Workers to construct [COLOR_POSITIVE_TEXT]Lumbermills[ENDCOLOR] on forested map tiles, increasing their [ICON_PRODUCTION] Production"/>
+		</Update>
+		<Row Tag="TXT_KEY_TECH_CODEX_TITLE">
+			<Text>Codex</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CODEX_HELP">
+			<Text>Codex help</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CODEX_DESC">
+			<Text>A codex (from the Latin caudex for "trunk of a tree" or block of wood, book; plural codices) is a book constructed of a number of sheets of paper, vellum, papyrus, or similar materials, with hand-written content. The book is usually bound by stacking the pages and fixing one edge, and using a cover thicker than the sheets. Some codices are continuously folded like a concertina. The alternative to paged codex format for a long document is the continuous scroll. Examples of folded codices include the Maya codices. Sometimes people use the term for a book-style format, including modern printed books but excluding folded books.[NEWLINE][NEWLINE]The Romans developed the form from wooden writing tablets. The codex's gradual replacement of the scroll—the dominant book form in the ancient world—has been called the most important advance in book making before the invention of printing. The codex transformed the shape of the book itself, and offered a form that lasted for centuries. The spread of the codex is often associated with the rise of Christianity, which adopted the format for use with the Bible early on. First described by the 1st-century AD Roman poet Martial, who praised its convenient use, the codex achieved numerical parity with the scroll around AD 300, and had completely replaced it throughout the now Christianised Greco-Roman world by the 6th century.[NEWLINE][NEWLINE]The Romans used precursors made of reusable wax-covered tablets of wood for taking notes and other informal writings. Two ancient polyptychs, a pentatych and octotych, excavated at Herculaneum used a unique connecting system that presages later sewing on of thongs or cords. Julius Caesar may have been the first Roman to reduce scrolls to bound pages in the form of a note-book, possibly even as a papyrus codex. At the turn of the 1st century AD, a kind of folded parchment notebook called pugillares membranei in Latin became commonly used for writing in the Roman Empire. This term was used by the Classical Latin poet, Martial. Martial used the term for gifts of literature that Romans exchanged during the festival of Saturnalia. According to T.C. Skeat, “…in at least three cases and probably in all, in the form of codices," and he theorized that this form of notebook was invented in Rome and then “…must have spread rapidly to the Near East…” In his discussion of one of the earliest parchment codices to survive from Oxyrhynchus in Egypt, Eric Turner seems to challenge Skeat’s notion when stating, “…its mere existence is evidence that this book form had a prehistory”, and that “early experiments with this book form may well have taken place outside of Egypt.” Early codices of parchment or papyrus appear to have been widely used as personal notebooks, for instance in recording copies of letters sent. The parchment notebook pages were commonly washed or scraped for re-use (called a palimpsest) and consequently, writings in a codex were often considered informal and impermanent.[NEWLINE][NEWLINE]As early as the early 2nd century, there is evidence that a codex—usually of papyrus—was the preferred format among Christians. In the library of the Villa of the Papyri, Herculaneum (buried in AD 79), all the texts (of Greek literature) are scrolls. However, in the Nag Hammadi library, hidden about AD 390, all texts (Gnostic Christian) are codices. Despite this comparison, a fragment of a non-Christian parchment codex of Demosthenes' De Falsa Legatione from Oxyrhynchus in Egypt demonstrates that the surviving evidence is insufficient to conclude whether Christians played a major or central role in the development of early codices—or if they simply adopted the format to distinguish themselves from Jews.[NEWLINE][NEWLINE]The earliest surviving fragments from codices come from Egypt, and are variously dated (always tentatively) towards the end of the 1st century or in the first half of the 2nd. This group includes the Rylands Library Papyrus P52, containing part of St John's Gospel, and perhaps dating from between 125 and 160.[NEWLINE][NEWLINE]In Western culture, the codex gradually replaced the scroll. Between the 4th century, when the codex gained wide acceptance, and the Carolingian Renaissance in the 8th century, many works that were not converted from scroll to codex were lost. The codex improved on the scroll in several ways. It could be opened flat at any page for easier reading, pages could be written on both front and back (recto and verso), and the protection of durable covers made it more compact and easier to transport.[NEWLINE][NEWLINE]The ancients stored codices with spines facing inward, and not always vertically. The spine could be used for the incipit, before the concept of a proper title developed in medieval times. Though most early codices were made of papyrus, papyrus was fragile and supplies from Egypt, the only place where papyrus grew and was made into paper, became scanty. The more durable parchment and vellumgained favor, despite the cost.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CODEX_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"A room without books is like a body without a soul."[NEWLINE][TAB][TAB]  - Marcus Tullius Cicero[NEWLINE][TAB]</Text>
+		</Row>
+
+		<!-- Renaissance Era -->
+		<Update>
+			<Where Tag="TXT_KEY_TECH_PRINTING_PRESS_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Bookstore[ENDCOLOR], a building which increases [ICON_HAPPINESS_1] Happiness in the empire and makes [ICON_GOLDEN_AGE] Golden Ages more likely. Also unlocks the ability to found the World Congress."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_BIOLOGY_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Hospital[ENDCOLOR], a building which increases the [ICON_FOOD] growth rate of Cities."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_BANKING_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Bank[ENDCOLOR], a building which increases the [ICON_GOLD] Gold produced by a city, as well as the [COLOR_POSITIVE_TEXT]Windmill[ENDCOLOR], increasing [ICON_PRODUCTION] Production."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_ECONOMICS_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Constabulary[ENDCOLOR], which hinders the ability of spies to steal your technology. Also improves gold yield from some improvements."/>
+		</Update>
+		<Row Tag="TXT_KEY_TECH_MIXED_FORMATIONS_TITLE">
+			<Text>Mixed Formations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_MIXED_FORMATIONS_HELP">
+			<Text>Mixed Formations help</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_MIXED_FORMATIONS_DESC">
+			<Text>In the aftermath of the Italian Wars, from the end of the 15th century to the late 16th century, most European armies adopted the use of the pike, often in conjunction with primitive firearms such as the arquebus and caliver to form large pike and shot formations.[NEWLINE][NEWLINE]The quintessential example of this development was the Spanish Tercio, which consisted of a large square of pikemen with small, mobile squadrons of arquebusiers moving along its perimeter, as well as traditional men-at-arms. These three elements formed a mutually supportive combination of tactical roles: the arquebusiers harried the enemy line, the pikemen protected the arquebusiers from enemy cavalry charges, and the men-at-arms, typically armed with swords and javelins, fought off enemy pikemen when two opposing squares made contact. The Tercio deployed smaller numbers of pikemen than the huge Swiss and Landsknecht columns, and their formation ultimately proved to be much more flexible on the battlefield.[NEWLINE][NEWLINE]Mixed formations of men quickly became the norm for European infantrymen, with many, but not all, seeking to imitate the Tercio; in England, a combination of billmen, longbowmen, and men-at-arms remained the norm, though this changed when the supply of yew on the island dwindled.[NEWLINE][NEWLINE]The percentage of men who were armed with firearms in Tercio-like formations steadily increased as firearms advanced in technology. This advance is believed to be the demise of cavalry when in fact it revived it. In the late sixteenth into the 17th century, smaller pike formations were used, invariably defending attached musketeers, often as a central block with two sub-units of shooters, called "sleeves of shot", on either side of the pikes. Although the cheaper and versatile infantry increasingly adopted firearms, cavalry's proportion in the army remained high.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_MIXED_FORMATIONS_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"No jewel caught the sun, no tawny chain[NEWLINE]Gleamed, as the prying halberds raked them o'er."[NEWLINE][TAB][TAB]  - Alan Seeger[NEWLINE][TAB]</Text>
+		</Row>
+
+		<!-- Industrial Era -->
+		<Update>
+			<Where Tag="TXT_KEY_TECH_ELECTRICITY_HELP"/>
+			<Set Text="Reveals [ICON_RES_ALUMINUM] Aluminum, a resource used for many late-game units. Allows you to build the [COLOR_POSITIVE_TEXT]Hydro Plant[ENDCOLOR], which increases [ICON_PRODUCTION] Production from tiles next to a River, and the [COLOR_POSITIVE_TEXT]Casino[ENDCOLOR], a building which boosts [ICON_GOLD] Gold."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_DYNAMITE_HELP"/>
+			<Set Text="Reveals [ICON_RES_OIL] [COLOR_POSITIVE_TEXT]Oil[ENDCOLOR], a vital late-game resource. Also allows you to build the [COLOR_POSITIVE_TEXT]Gatling Gun[ENDCOLOR], an Industrial-era ranged Infantry Unit, and the [COLOR_POSITIVE_TEXT]Rifled Cannon[ENDCOLOR], an Industrial-era siege unit."/>
+		</Update>
+
+		<!-- Modern Era -->
+		<Update>
+			<Where Tag="TXT_KEY_TECH_REFRIGERATION_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Circus[ENDCOLOR], which increases [ICON_HAPPINESS_1] Happiness within the City, and the [COLOR_POSITIVE_TEXT]Hotel[ENDCOLOR], which increases the [ICON_TOURISM] Tourism within a city. Also allows Work Boats to construct an Offshore Platform."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_COMBUSTION_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Landship[ENDCOLOR], an incredibly fast and powerful armored unit, and the [COLOR_POSITIVE_TEXT]Steel Foundry[ENDCOLOR], a building which greatly improves the [ICON_PRODUCTION] Production of a city."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_PENICILIN_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Research Lab[ENDCOLOR], a building which improves [ICON_RESEARCH] Science in a City, and the [COLOR_POSITIVE_TEXT]Race Track[ENDCOLOR], a building which inceases the [ICON_GOLD] Gold output of a city."/>
+		</Update>
+		<Row Tag="TXT_KEY_TECH_SONAR_TITLE">
+			<Text>Sonar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_SONAR_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Submarine[ENDCOLOR], a ship invisible to all units except Destroyers and other Submarines; the [COLOR_POSITIVE_TEXT]Destroyer[ENDCOLOR], a fast ship capable of hunting down Submarines; and the [COLOR_POSITIVE_TEXT]Artillery[ENDCOLOR], a deadly siege unit capable of shooting at a great distance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_SONAR_DESC">
+			<Text>Sonar (originally an acronym for SOund Navigation And Ranging) is a technique that uses sound propagation (usually underwater, as in submarine navigation) to navigate, communicate with or detect objects on or under the surface of the water, such as other vessels. Two types of technology share the name "sonar": passive sonar is essentially listening for the sound made by vessels; active sonar is emitting pulses of sounds and listening for echoes. Sonar may be used as a means of acoustic location and of measurement of the echo characteristics of "targets" in the water.[NEWLINE][NEWLINE]In 1906, American naval architect Lewis Nixon invented the first sonar-like listening device to detect icebergs. During World War I (1914-18), a need to detect submarines increased interest in sonar. French physicist Paul Langévin, working with a Russian immigrant electrical engineer, Constantin Chilowsky, constructed the first sonar set to detect submarines in 1915. At first, these sonar sets could only "listen" to returning signals. By 1918, Britain and the United States had built sonar sets that could send out, as well as receive, sound signals. The U.S. military began using the term "sonar" during World War II. As with radar, new military applications for sonar are constantly being developed. For example, in the early 2000's, the U.S. Navy introduced a sonar system to help clear military mines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_SONAR_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"I must confess that my imagination, in spite even of spurring, refuses to see any sort of submarine doing anything but suffocating its crew and floundering at sea."[NEWLINE][TAB][TAB]  - H.G. Wells[NEWLINE][TAB]</Text>
+		</Row>
+
+		<!-- Atomic Era -->
+		<Update>
+			<Where Tag="TXT_KEY_TECH_PLASTICS_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Marine[ENDCOLOR], a Unit that specializes in amphibious assaults, the [COLOR_POSITIVE_TEXT]Stadium[ENDCOLOR], which increases [ICON_HAPPINESS_1] Happiness within the City, the [COLOR_POSITIVE_TEXT]Medical Lab[ENDCOLOR], which speeds the [ICON_FOOD] growth of your Cities, and the [COLOR_POSITIVE_TEXT]Public Park[ENDCOLOR], which speeds the [ICON_GREAT_PEOPLE] Great People generation of your Cities."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_ATOMIC_THEORY_HELP"/>
+			<Set Text="Reveals [ICON_RES_URANIUM] [COLOR_POSITIVE_TEXT]Uranium[ENDCOLOR] and allows you to start working on the [COLOR_POSITIVE_TEXT]Manhattan Project[ENDCOLOR], required for the production of nuclear weapons. Allows you to build the [COLOR_POSITIVE_TEXT]Atomic Bomb[ENDCOLOR], the first nuclear weapon in the game."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_ROCKETRY_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Infantry[ENDCOLOR], a tough, but basic, Land Unit and the [COLOR_POSITIVE_TEXT]Ballistic Missile[ENDCOLOR], the first Missile Unit."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_COMBINED_ARMS_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Tank[ENDCOLOR], a fast and deadly armor Unit."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_ECOLOGY_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Recycling Center[ENDCOLOR], which provides bonus [ICON_RES_ALUMINUM] Aluminum. Also allows you to build the [COLOR_POSITIVE_TEXT]Biofuel Refinery[ENDCOLOR], which may only be built in a city with an improved [ICON_RES_WHEAT] Wheat and provides [ICON_RES_OIL] Oil."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_NUCLEAR_FISSION_TITLE"/>
+			<Set Text="Nuclear Power"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_NUCLEAR_FISSION_HELP"/>
+			<Set Text="Allows you to build [COLOR_POSITIVE_TEXT]Bazooka[ENDCOLOR], a powerful Ranged Unit and the [COLOR_POSITIVE_TEXT]Hydrogen Bomb[ENDCOLOR], an improved version of the Atomic Bomb. Also allows you to build the [COLOR_POSITIVE_TEXT]Nuclear Plant[ENDCOLOR], which greatly increases the [ICON_PRODUCTION] Production of a City."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_NUCLEAR_FISSION_DESC"/>
+			<Set Text="Nuclear power, or nuclear energy, is the use of exothermic nuclear processes, to generate useful heat and electricity. The term includes nuclear fission, nuclear decay and nuclear fusion. Presently the nuclear fission of elements in the actinide series of the periodic table produce the vast majority of nuclear energy in the direct service of humankind, with nuclear decay processes, primarily in the form of geothermal energy, and radioisotope thermoelectric generators, in niche uses making up the rest.[NEWLINE][NEWLINE]Nuclear power plant accidents include the Chernobyl disaster (1986), Fukushima Daiichi nuclear disaster (2011), and the Three Mile Island accident (1979). There have also been some nuclear submarine accidents. In terms of lives lost per unit of energy generated, analysis has determined that nuclear power has caused less fatalities per unit of energy generated than the other major sources of energy generation. Energy production from coal, petroleum, natural gas and hydropower has caused a greater number of fatalities per unit of energy generated due to air pollution and energy accident effects. However, the economic costs of nuclear power accidents is high, and meltdowns can render areas uninhabitable for very long periods. The human costs of evacuations of affected populations and lost livelihoods is also significant."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_NUCLEAR_FISSION_QUOTE"/>
+			<Set Text="[NEWLINE][TAB][TAB]&quot;A lifetime of working with nuclear power has left me with a healthy green glow...&quot;[NEWLINE][TAB][TAB]  - C. Montgomery Burns[NEWLINE][TAB]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_TELECOM_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Stock Exchange[ENDCOLOR], a building which boosts [ICON_GOLD] Gold production in the city."/>
+		</Update>
+		<Row Tag="TXT_KEY_TECH_SPACEFLIGHT_TITLE">
+			<Text>Spaceflight</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_SPACEFLIGHT_HELP">
+			<Text>An important technology, Spaceflight allows you to build the [COLOR_POSITIVE_TEXT]Apollo Program[ENDCOLOR], a project necessary to win a [COLOR_POSITIVE_TEXT]Science Victory[ENDCOLOR]. Also allows you to build the [COLOR_POSITIVE_TEXT]Rocket Artillery[ENDCOLOR], a deadly siege unit that doesn't require being set up first, and [COLOR_POSITIVE_TEXT]Mobile SAM[ENDCOLOR], a fast unit specialized in thwarting enemy aircraft.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_SPACEFLIGHT_DESC">
+			<Text>Spaceflight (also written space flight) is ballistic flight into or through outer space. Spaceflight can occur with spacecraft with or without humans on board. Examples of human spaceflight include the Russian Soyuz program, the U.S. Space shuttle program, as well as the ongoing International Space Station. Examples of unmanned spaceflight include space probes which leave Earth's orbit, as well as satellites in orbit around Earth, such as communication satellites. These operate either by telerobotic control or are fully autonomous.[NEWLINE][NEWLINE]Spaceflight is used in space exploration, and also in commercial activities like space tourism and satellite telecommunications. Additional non-commercial uses of spaceflight include space observatories, reconnaissance satellites and other earth observation satellites. A spaceflight typically begins with a rocket launch, which provides the initial thrust to overcome the force of gravity and propels the spacecraft from the surface of the Earth. Once in space, the motion of a spacecraft — both when unpropelled and when under propulsion — is covered by the area of study called astrodynamics. Some spacecraft remain in space indefinitely, some disintegrate during atmospheric reentry, and others reach a planetary or lunar surface for landing or impact.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_SPACEFLIGHT_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"That's one small step for a man, one giant leap for mankind."[NEWLINE][TAB][TAB]  - Neil A. Armstrong[NEWLINE][TAB]</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_COMPUTERS_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Helicopter Gunship[ENDCOLOR], a unit specialized in fighting enemy tanks and the [COLOR_POSITIVE_TEXT]Supercomputer[ENDCOLOR], which boosts [ICON_RESEARCH] Science within the City."/>
+		</Update>
+
+		<!-- Information Era -->
+		<Update>
+			<Where Tag="TXT_KEY_TECH_MOBILE_TACTICS_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Mechanized Infantry[ENDCOLOR], the fast Information-Era Infantry Unit and the [COLOR_POSITIVE_TEXT]Special Forces[ENDCOLOR], which replaces both the Marine and the Paratrooper, having the abilities of both. Also allows you to build the [COLOR_POSITIVE_TEXT]Electronics Store[ENDCOLOR], which increases [ICON_HAPPINESS_1] Happiness within the City."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_ADVANCED_BALLISTICS_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Nuclear ICBM[ENDCOLOR], a frightening weapon that requires [ICON_RES_URANIUM] Uranium, and is capable of destroying units and cities. Also allows you to build the [COLOR_POSITIVE_TEXT]Guided Missile[ENDCOLOR], an inexpensive single-use Unit that can damage enemy Units."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_SATELLITES_HELP"/>
+			<Set Text="Reveals the entire map."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_ROBOTICS_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Spaceship Factory[ENDCOLOR], a building which speeds the construction of Spaceship parts. Also allows you to build the [COLOR_POSITIVE_TEXT]Missile Cruiser[ENDCOLOR], which can carry 3 missiles, the [COLOR_POSITIVE_TEXT]Nuclear Submarine[ENDCOLOR], which can carry 1 missile, and the [COLOR_POSITIVE_TEXT]Fleet Carrier[ENDCOLOR], which is the carrier of the Information-Era."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_LASERS_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]Modern Armor[ENDCOLOR], an incredibly fast and powerful Armored Unit, the [COLOR_POSITIVE_TEXT]Jet Fighter[ENDCOLOR], the fighter unit of the Information-Era, and the [COLOR_POSITIVE_TEXT]Missile Destroyer[ENDCOLOR], a destroyer that can carry one missile."/>
+		</Update>		
+		<Row Tag="TXT_KEY_TECH_RENEWABLE_ENERGY_TITLE">
+			<Text>Renewable Energy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_RENEWABLE_ENERGY_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]SS Booster[ENDCOLOR], one of the Spaceship parts necessary to win a [COLOR_POSITIVE_TEXT]Science Victory[ENDCOLOR]. Also allows you to build the [COLOR_POSITIVE_TEXT]Solar Plant[ENDCOLOR], the safer and cleaner alternative to the Nuclear Plant, and the [COLOR_POSITIVE_TEXT]Wind Farm[ENDCOLOR], which increase a city's [ICON_PRODUCTION] Production. Also allows you to build the [COLOR_POSITIVE_TEXT]Hydroponic Farm[ENDCOLOR], a building which speeds the [ICON_FOOD] growth of your Cities, and the [COLOR_POSITIVE_TEXT]SS Booster[ENDCOLOR], one of the Spaceship parts required to win a [COLOR_POSITIVE_TEXT]Science Victory[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_RENEWABLE_ENERGY_DESC">
+			<Text>Renewable energy is generally defined as energy that comes from resources which are naturally replenished on a human timescale such as sunlight, wind, rain, tides, waves and geothermal heat. Renewable energy replaces conventional fuels in four distinct areas: electricity generation, hot water/space heating, motor fuels, and rural (off-grid) energy services.[NEWLINE][NEWLINE]Renewable energy resources exist over wide geographical areas, in contrast to other energy sources, which are concentrated in a limited number of countries. Rapid deployment of renewable energy and energy efficiency is resulting in significant energy security, climate change mitigation, and economic benefits. In international public opinion surveys there is strong support for promoting renewable sources such as solar power and wind power. At the national level, at least 30 nations around the world already have renewable energy contributing more than 20 percent of energy supply. National renewable energy markets are projected to continue to grow strongly in the coming decade and beyond. While many renewable energy projects are large-scale, renewable technologies are also suited to rural and remote areas and developing countries, where energy is often crucial in human development. United Nations' Secretary-General Ban Ki-moon has said that renewable energy has the ability to lift the poorest nations to new levels of prosperity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_RENEWABLE_ENERGY_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Do you know what my favorite renewable fuel is? An ecosystem for innovation."[NEWLINE][TAB][TAB]  - Thomas Friedman[NEWLINE][TAB]</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_GLOBALIZATION_HELP"/>
+			<Set Text="With Globalization, each Spy you send to another Civilization as a [ICON_DIPLOMAT] Diplomat will increase the number of Delegates you control in the World Congress, bringing you closer to [COLOR_POSITIVE_TEXT]Diplomatic Victory[ENDCOLOR]. Also allows you to build the [COLOR_POSITIVE_TEXT]SS Cockpit[ENDCOLOR], one of the Spaceship parts necessary to win a [COLOR_POSITIVE_TEXT]Science Victory[ENDCOLOR], the [COLOR_POSITIVE_TEXT]Rocket Launcher[ENDCOLOR], the ranged unit of the Information-Era, and the [COLOR_POSITIVE_TEXT]Modern SAM[ENDCOLOR], the anti-aircraft unit of the Information-Era."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_INTERNET_HELP"/>
+			<Set Text="With The Internet, your [ICON_TOURISM] Tourism output is doubled, bringing you closer to [COLOR_POSITIVE_TEXT]Culture Victory[ENDCOLOR]. Also allows you to build the [COLOR_POSITIVE_TEXT]Internet Cafe[ENDCOLOR], a building which boosts the [ICON_CULTURE] Culture output in the city, and the [COLOR_POSITIVE_TEXT]E-Commerce Business[ENDCOLOR], a building which inceases the [ICON_GOLD] Gold output of a city."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_PARTICLE_PHYSICS_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]SS Engine[ENDCOLOR], one of the Spaceship parts necessary to win a [COLOR_POSITIVE_TEXT]Science Victory[ENDCOLOR]. Also allows you to build the [COLOR_POSITIVE_TEXT]Supercarrier[ENDCOLOR], a more powerful carrier that can hold more planes, the [COLOR_POSITIVE_TEXT]Modern Artillery[ENDCOLOR], the siege unit of the Information-Era, and the [COLOR_POSITIVE_TEXT]Physics Lab[ENDCOLOR], a building which boosts [ICON_RESEARCH] Science within the City."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_STEALTH_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]SS Stasis Chamber[ENDCOLOR], one of the Spaceship parts necessary to win a [COLOR_POSITIVE_TEXT]Science Victory[ENDCOLOR]. Also allows you to build the [COLOR_POSITIVE_TEXT]Stealth Bomber[ENDCOLOR], the bomber unit of the Information-Era, the [COLOR_POSITIVE_TEXT]Jet Fighter[ENDCOLOR], the fighter unit of the Information-Era, and the [COLOR_POSITIVE_TEXT]Missile Destroyer[ENDCOLOR], a destroyer that can carry one missile."/>
+		</Update>
+
+		<!-- Future Era -->
+		<Update>
+			<Where Tag="TXT_KEY_TECH_FUTURE_TECH_QUOTE"/>
+			<Set Text="[NEWLINE][TAB][TAB]&quot;You cannot create new science unless you realize where the old science leaves off and new science begins, and science fiction forces us to confront this.&quot;[NEWLINE][TAB][TAB]  - Michio Kaku[NEWLINE][TAB]"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_TECH_NANOTECHNOLOGY_HELP"/>
+			<Set Text="Allows you to build the [COLOR_POSITIVE_TEXT]XCOM Squad[ENDCOLOR], a powerful futuristic infantry that can make very long range paradrops."/>
+		</Update>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/19/2023 10:08:54 AM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_TSUKIJI</Type>
+			<BuildingClass>BUILDINGCLASS_TSUKIJI</BuildingClass>
+			<Description>TXT_KEY_BUILDING_TSUKIJI</Description>
+			<Help>TXT_KEY_WONDER_TSUKIJI_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_TSUKIJI_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_TSUKIJI_QUOTE</Quote>
+			<Cost>1060</Cost>
+			<PrereqTech>TECH_REFRIGERATION</PrereqTech>
+			<MaxStartEra>ERA_ATOMIC</MaxStartEra>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<NukeImmune>true</NukeImmune>
+			<Water>true</Water>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>10</MinAreaSize>
+			<NeverCapture>1</NeverCapture>
+			<ConquestProb>0</ConquestProb>
+			<IconAtlas>BW_ATLAS_TSUKIJI</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>TSUKIJI_SPLASH.dds</WonderSplashImage>
+			<WonderSplashAnchor>L,B</WonderSplashAnchor>
+			<WonderSplashAudio>NONE</WonderSplashAudio>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_TSUKIJI</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_SeaPlotYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_TSUKIJI</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_SeaPlotYieldChanges>
+	<Building_SeaResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_TSUKIJI</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_SeaResourceYieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_TSUKIJI</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TSUKIJI</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TSUKIJI</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_TSUKIJI</Type>
+			<DefaultBuilding>BUILDING_TSUKIJI</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TSUKIJI</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TSUKIJI</BuildingClassType>
+			<BuildingType/>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TSUKIJI</BuildingClassType>
+			<BuildingType/>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<Language_en_US>
+		<!-- Description tags -->
+		<Row Tag="TXT_KEY_BUILDING_TSUKIJI">
+			<Text>Tsukiji Market</Text>
+		</Row>
+		<!-- Help tags -->
+		<Row Tag="TXT_KEY_WONDER_TSUKIJI_HELP">
+			<Text>+1 [ICON_FOOD] Food from Coast and Ocean tiles.[NEWLINE]+1 [ICON_GOLD] Gold from Sea Resources worked by this City.</Text>
+		</Row>
+		<!-- Quote tags -->
+		<Row Tag="TXT_KEY_WONDER_TSUKIJI_QUOTE">
+			<Text>
+				[NEWLINE]"Water is nothing if not ingemination, an encore to the tenacity of life. And life held in the sea is surface and depth, invisible and visible, violence and peace. We throw down a line, we cast a net, what emerges is religion in the form of fish."[NEWLINE] - Terry Tempest Williams [NEWLINE]
+			</Text>
+		</Row>
+		<!-- Pedia tags -->
+		<Row Tag="TXT_KEY_WONDER_TSUKIJI_PEDIA">
+			<Text>
+				Tsukiji Market is a major tourist attraction for both domestic and overseas visitors in Tokyo. The area contains retail markets, restaurants, and associated restaurant supply stores. Before 2018, it was the largest wholesale fish and seafood market in the world. The market opened on 11 February 1935 as a replacement for an older market that was destroyed in the 1923 Great Kantō earthquake.[NEWLINE] [NEWLINE]The Japanese fishing industry, both domestic and overseas, has long been centered on the Tsukiji fish market. In 2018, Japan produced 4.2 million tonnes of fish (including molluscs and crustaceans), with a value of nearly 13.78 billion US dollars.</Text>
+		</Row>
+	</Language_en_US>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>BW_ATLAS_TSUKIJI</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>TSUKIJI_ICON256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_TSUKIJI</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>TSUKIJI_ICON128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_TSUKIJI</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>TSUKIJI_ICON64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_TSUKIJI</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>TSUKIJI_ICON80.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BW_ATLAS_TSUKIJI</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>TSUKIJI_ICON45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+</GameData>

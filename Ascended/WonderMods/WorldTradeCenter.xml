@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/21/2019 12:01:04 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_WORLD_TRADE</Type>
+			<DefaultBuilding>BUILDING_WORLD_TRADE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_WORLD_TRADE</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_WORLD_TRADE</Type>
+			<BuildingClass>BUILDINGCLASS_WORLD_TRADE</BuildingClass>
+			<Cost>1250</Cost>
+			<NukeImmune>1</NukeImmune>
+			<NeverCapture>1</NeverCapture>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<SpecialistCount>3</SpecialistCount>
+			<PrereqTech>TECH_GLOBALIZATION</PrereqTech>
+			<Help>TXT_KEY_BUILDING_WORLD_TRADE_HELP</Help>
+			<Description>TXT_KEY_BUILDING_WORLD_TRADE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_WORLD_TRADE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_WORLD_TRADE_STRATEGY</Strategy>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<IconAtlas>WORLD_TRADE_ATLAS</IconAtlas>
+			<WonderSplashAnchor>R,T</WonderSplashAnchor>
+			<PortraitIndex>1</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_WORLD_TRADE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WORLD_TRADE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_GlobalYieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_WORLD_TRADE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_GlobalYieldModifiers>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_WORLD_TRADE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>WORLD_TRADE_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>CHINA_icon256.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WORLD_TRADE_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>CHINA_icon128.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WORLD_TRADE_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>CHINA_icon64.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WORLD_TRADE_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>CHINA_icon45.dds</Filename>
+			<IconsPerRow>5</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_WORLD_TRADE">
+			<Text>World Trade Center</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WORLD_TRADE_TEXT">
+			<Text>
+				The World Trade Center is a massive skyscraper housing offices, hotels, conference rooms, observation decks, and ground-floor shopping malls. Its massive size and attraction for international businesses makes it an economic centerpiece for the nation.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WORLD_TRADE_STRATEGY">
+			<Text>
+				The World Trade Center provides a valuable boost to the economy of a nation.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WORLD_TRADE_HELP">
+			<Text>
+				+10% [ICON_GOLD] Gold in all Cities.
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

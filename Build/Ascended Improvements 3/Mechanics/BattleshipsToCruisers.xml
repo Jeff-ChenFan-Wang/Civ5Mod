@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/11/2014 1:02:08 PM -->
+<GameData>
+	<Units>
+		<Update>
+			<Set ObsoleteTech="TECH_ROBOTICS"/>
+			<Where Type="UNIT_BATTLESHIP"/>
+		</Update>
+	</Units>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_BATTLESHIP</UnitType>
+			<UnitClassType>UNITCLASS_MISSILE_CRUISER</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+</GameData>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/13/2018 3:07:44 AM -->
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_MILITARY_ACADEMY</Type>
+			<Description>TXT_KEY_PROMOTION_MILITARY_ACADEMY</Description>
+			<Help>TXT_KEY_PROMOTION_MILITARY_ACADEMY_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<GreatGeneralCombatModifier>10</GreatGeneralCombatModifier>
+			<ExperiencePercent>15</ExperiencePercent>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>VALERY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_MELEE</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_COVER_2</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_GEN_BREACH</Type>
+			<Description>TXT_KEY_PROMOTION_GEN_BREACH</Description>
+			<Help>TXT_KEY_PROMOTION_GEN_BREACH_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<HeavyCharge>1</HeavyCharge>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>45</PortraitIndex>
+			<IconAtlas>VALERY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_MELEE</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_COVER_2</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_ARMORY</Type>
+			<Description>TXT_KEY_PROMOTION_ARMORY</Description>
+			<Help>TXT_KEY_PROMOTION_ARMORY_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CombatPercent>15</CombatPercent>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>62</PortraitIndex>
+			<IconAtlas>VALERY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_MELEE</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_COVER_1</PediaEntry>
+		</Row>
+
+	</UnitPromotions>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>VALERY_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>PromoIconAtlasx256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>VALERY_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>PromoIconAtlasx45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>VALERY_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>PromoIconAtlasx64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>VALERY_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>PromoIconAtlasx32.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+	<Language_en_US>
+
+		<Row Tag="TXT_KEY_PROMOTION_BARRACKS">
+			<Text>Barracks Buff</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARRACKS_HELP">
+			<Text>Unit always heals every turn</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_ARMORY">
+			<Text>Armory Buff</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ARMORY_HELP">
+			<Text>+10% [ICON_STRENGTH] Strength</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_MILITARY_ACADEMY">
+			<Text>Military Academy Buff</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MILITARY_ACADEMY_HELP">
+			<Text>+10% [ICON_STRENGTH] Strength if on same tile as Great General. Earns XP 15% faster. </Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_GEN_BREACH">
+			<Text>Decisive Charge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GEN_BREACH_HELP">
+			<Text>Great General leads unit to charge and force weaker enemies to retreat</Text>
+		</Row>
+	</Language_en_US>
+	<UnitPromotions_UnitCombats>
+
+		<!--UNITCOMBAT_MELEE: UNLOCK & EXP-->
+		<Row>
+			<PromotionType>PROMOTION_MILITARY_ACADEMY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_MILITARY_ACADEMY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_MILITARY_ACADEMY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_MILITARY_ACADEMY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_MILITARY_ACADEMY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_MILITARY_ACADEMY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_MILITARY_ACADEMY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_MILITARY_ACADEMY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_MECH</UnitType>
+			<PromotionType>PROMOTION_CARGO_II</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+</GameData>

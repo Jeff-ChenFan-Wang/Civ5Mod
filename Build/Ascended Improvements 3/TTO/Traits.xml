@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 04-Nov-14 14:34:32 -->
+<GameData>
+	<Traits>
+		<Update>
+			<Where Type="TRAIT_PHOENICIAN_HERITAGE" />
+			<Set FreeBuilding="BUILDING_LIGHTHOUSE" />
+		</Update>
+	</Traits>
+</GameData>

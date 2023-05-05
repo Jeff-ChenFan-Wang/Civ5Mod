@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/12/2016 8:46:27 PM -->
+<GameData>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_SANGHELI_TRIBUTE</Type>
+			<Description>TXT_KEY_BUILDING_SANGHELI_TRIBUTE_DESC</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SANGHELI_TRIBUTE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_SANGHELI_TRIBUTE_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_SANGHELI_TRIBUTE_HELP</Help>
+			<ThemingBonusHelp/>
+			<Quote/>
+			<GoldMaintenance>0</GoldMaintenance>
+			<MutuallyExclusiveGroup>-1</MutuallyExclusiveGroup>
+			<TeamShare>0</TeamShare>
+			<Water>0</Water>
+			<River>0</River>
+			<FreshWater>0</FreshWater>
+			<Mountain>0</Mountain>
+			<NearbyMountainRequired>0</NearbyMountainRequired>
+			<Hill>0</Hill>
+			<Flat>0</Flat>
+			<FoundsReligion>0</FoundsReligion>
+			<IsReligious>0</IsReligious>
+			<BorderObstacle>0</BorderObstacle>
+			<PlayerBorderObstacle>0</PlayerBorderObstacle>
+			<Capital>0</Capital>
+			<GoldenAge>0</GoldenAge>
+			<MapCentering>0</MapCentering>
+			<NeverCapture>0</NeverCapture>
+			<NukeImmune>0</NukeImmune>
+			<AllowsWaterRoutes>0</AllowsWaterRoutes>
+			<ExtraLuxuries>0</ExtraLuxuries>
+			<DiplomaticVoting>0</DiplomaticVoting>
+			<AffectSpiesNow>0</AffectSpiesNow>
+			<NullifyInfluenceModifier>0</NullifyInfluenceModifier>
+			<Cost>55</Cost>
+			<FaithCost>0</FaithCost>
+			<LeagueCost>0</LeagueCost>
+			<UnlockedByBelief>0</UnlockedByBelief>
+			<UnlockedByLeague>0</UnlockedByLeague>
+			<HolyCity>0</HolyCity>
+			<NumCityCostMod>0</NumCityCostMod>
+			<HurryCostModifier>25</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<CitiesPrereq>0</CitiesPrereq>
+			<LevelPrereq>0</LevelPrereq>
+			<CultureRateModifier>0</CultureRateModifier>
+			<GlobalCultureRateModifier>0</GlobalCultureRateModifier>
+			<GreatPeopleRateModifier>0</GreatPeopleRateModifier>
+			<GlobalGreatPeopleRateModifier>0</GlobalGreatPeopleRateModifier>
+			<GreatGeneralRateModifier>0</GreatGeneralRateModifier>
+			<GreatPersonExpendGold>0</GreatPersonExpendGold>
+			<GoldenAgeModifier>0</GoldenAgeModifier>
+			<UnitUpgradeCostMod>0</UnitUpgradeCostMod>
+			<Experience>0</Experience>
+			<GlobalExperience>0</GlobalExperience>
+			<FoodKept>0</FoodKept>
+			<Airlift>0</Airlift>
+			<AirModifier>0</AirModifier>
+			<NukeModifier>0</NukeModifier>
+			<NukeExplosionRand>0</NukeExplosionRand>
+			<HealRateChange>0</HealRateChange>
+			<Happiness>0</Happiness>
+			<UnmoddedHappiness>0</UnmoddedHappiness>
+			<UnhappinessModifier>0</UnhappinessModifier>
+			<HappinessPerCity>0</HappinessPerCity>
+			<HappinessPerXPolicies>0</HappinessPerXPolicies>
+			<CityCountUnhappinessMod>0</CityCountUnhappinessMod>
+			<NoOccupiedUnhappiness>0</NoOccupiedUnhappiness>
+			<WorkerSpeedModifier>0</WorkerSpeedModifier>
+			<MilitaryProductionModifier>0</MilitaryProductionModifier>
+			<SpaceProductionModifier>0</SpaceProductionModifier>
+			<GlobalSpaceProductionModifier>0</GlobalSpaceProductionModifier>
+			<BuildingProductionModifier>0</BuildingProductionModifier>
+			<WonderProductionModifier>0</WonderProductionModifier>
+			<CityConnectionTradeRouteModifier>0</CityConnectionTradeRouteModifier>
+			<CapturePlunderModifier>0</CapturePlunderModifier>
+			<PolicyCostModifier>0</PolicyCostModifier>
+			<PlotCultureCostModifier>0</PlotCultureCostModifier>
+			<GlobalPlotCultureCostModifier>0</GlobalPlotCultureCostModifier>
+			<PlotBuyCostModifier>0</PlotBuyCostModifier>
+			<GlobalPlotBuyCostModifier>0</GlobalPlotBuyCostModifier>
+			<GlobalPopulationChange>0</GlobalPopulationChange>
+			<TechShare>0</TechShare>
+			<FreeTechs>0</FreeTechs>
+			<FreePolicies>0</FreePolicies>
+			<FreeGreatPeople>0</FreeGreatPeople>
+			<MedianTechPercentChange>0</MedianTechPercentChange>
+			<Gold>0</Gold>
+			<AllowsRangeStrike>0</AllowsRangeStrike>
+			<Espionage>0</Espionage>
+			<AllowsFoodTradeRoutes>1</AllowsFoodTradeRoutes>
+			<AllowsProductionTradeRoutes>0</AllowsProductionTradeRoutes>
+			<Defense>0</Defense>
+			<ExtraCityHitPoints>0</ExtraCityHitPoints>
+			<GlobalDefenseMod>0</GlobalDefenseMod>
+			<MinorFriendshipChange>0</MinorFriendshipChange>
+			<VictoryPoints>0</VictoryPoints>
+			<ExtraMissionarySpreads>0</ExtraMissionarySpreads>
+			<ReligiousPressureModifier>0</ReligiousPressureModifier>
+			<EspionageModifier>0</EspionageModifier>
+			<GlobalEspionageModifier>0</GlobalEspionageModifier>
+			<ExtraSpies>0</ExtraSpies>
+			<SpyRankChange>0</SpyRankChange>
+			<InstantSpyRankChange>0</InstantSpyRankChange>
+			<TradeRouteRecipientBonus>0</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>0</TradeRouteTargetBonus>
+			<NumTradeRouteBonus>0</NumTradeRouteBonus>
+			<LandmarksTourismPercent>0</LandmarksTourismPercent>
+			<InstantMilitaryIncrease>0</InstantMilitaryIncrease>
+			<GreatWorksTourismModifier>0</GreatWorksTourismModifier>
+			<XBuiltTriggersIdeologyChoice>0</XBuiltTriggersIdeologyChoice>
+			<TradeRouteSeaDistanceModifier>0</TradeRouteSeaDistanceModifier>
+			<TradeRouteSeaGoldBonus>0</TradeRouteSeaGoldBonus>
+			<TradeRouteLandDistanceModifier>20</TradeRouteLandDistanceModifier>
+			<TradeRouteLandGoldBonus>0</TradeRouteLandGoldBonus>
+			<GreatScientistBeakerModifier>0</GreatScientistBeakerModifier>
+			<BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
+			<ArtDefineTag/>
+			<NearbyTerrainRequired/>
+			<ProhibitedCityTerrain/>
+			<VictoryPrereq/>
+			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
+			<MaxStartEra/>
+			<ObsoleteTech/>
+			<EnhancedYieldTech/>
+			<TechEnhancedTourism>0</TechEnhancedTourism>
+			<FreeBuilding/>
+			<FreeBuildingThisCity/>
+			<FreePromotion/>
+			<TrainedFreePromotion/>
+			<FreePromotionRemoved/>
+			<ReplacementBuildingClass/>
+			<PrereqTech>TECH_POTTERY</PrereqTech>
+			<PolicyBranchType/>
+			<SpecialistType/>
+			<SpecialistCount/>
+			<GreatWorkSlotType/>
+			<FreeGreatWork/>
+			<GreatWorkCount>0</GreatWorkCount>
+			<SpecialistExtraCulture>0</SpecialistExtraCulture>
+			<GreatPeopleRateChange>0</GreatPeopleRateChange>
+			<ExtraLeagueVotes>0</ExtraLeagueVotes>
+			<CityWall>0</CityWall>
+			<DisplayPosition>0</DisplayPosition>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage/>
+			<WonderSplashAnchor>R,T</WonderSplashAnchor>
+			<WonderSplashAudio/>
+			<IconAtlas>BUILDING_SKRYRE_LAB_ATLAS</IconAtlas>
+			<ArtInfoCulturalVariation>0</ArtInfoCulturalVariation>
+			<ArtInfoEraVariation>0</ArtInfoEraVariation>
+			<ArtInfoRandomVariation>0</ArtInfoRandomVariation>
+		</Row>
+	</Buildings>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>BUILDING_SKRYRE_LAB_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>ART/Zanbil_256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BUILDING_SKRYRE_LAB_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>ART/Zanbil_128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BUILDING_SKRYRE_LAB_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>ART/Zanbil_64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>BUILDING_SKRYRE_LAB_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>ART/Zanbil_45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+
+	<!-- Building_AreaYieldModifiers -->
+	<!-- Building_BuildingClassHappiness -->
+	<!-- Building_BuildingClassYieldChanges -->
+
+	<Building_ClassesNeededInCity/>
+
+
+	<!-- Building_DomainFreeExperiences -->
+	<!-- Building_DomainFreeExperiencePerGreatWork -->
+	<!-- Building_DomainProductionModifiers -->
+	<!-- Building_FreeSpecialistCounts -->
+
+	-<Building_Flavors>
+
+		-<Row>
+			<BuildingType>BUILDING_SANGHELI_TRIBUTE</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		-<Row>
+			<BuildingType>BUILDING_SANGHELI_TRIBUTE</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+
+
+	</Building_Flavors>
+
+	<!-- Building_GlobalYieldModifiers -->
+	<!-- Building_HurryModifiers -->
+	<!-- Building_LocalResourceAnds -->
+	<!-- Building_LocalResourceOrs -->
+	<!-- Building_LockedBuildingClasses -->
+	<!-- Building_PrereqBuildingClasses -->
+	<!-- Building_ResourceQuantity -->
+	<!-- Building_ResourceQuantityRequirements -->
+	<!-- Building_ResourceYieldModifiers -->
+	<!-- Building_ResourceCultureChanges -->
+	<!-- Building_ResourceFaithChanges -->
+	<!-- Building_RiverPlotYieldChanges -->
+	<!-- Building_SeaPlotYieldChanges -->
+	<!-- Building_LakePlotYieldChanges -->
+	<!-- Building_SeaResourceYieldChanges -->
+
+	<Building_ResourceYieldChanges>
+		-<Row>
+			<BuildingType>BUILDING_SANGHELI_TRIBUTE</BuildingType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		-<Row>
+			<BuildingType>BUILDING_SANGHELI_TRIBUTE</BuildingType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		-<Row>
+			<BuildingType>BUILDING_SANGHELI_TRIBUTE</BuildingType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SANGHELI_TRIBUTE</BuildingType>
+			<ResourceType>RESOURCE_BISON</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SANGHELI_TRIBUTE</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+
+	<!-- Building_FeatureYieldChanges -->
+	<!--Building_TerrainYieldChanges-->
+	<!-- Building_SpecialistYieldChanges -->
+	<!-- Building_UnitCombatFreeExperiences -->
+	<!-- Building_UnitCombatProductionModifiers -->
+	<!-- Building_TechAndPrereqs -->
+
+	-<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_SANGHELI_TRIBUTE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<!-- Building_YieldChangesPerPop -->
+	<!-- Building_YieldChangesPerReligion -->
+	<!-- Building_TechEnhancedYieldChanges -->
+
+	-<Building_YieldModifiers/>
+
+	<!-- Building_ThemingBonuses -->
+
+	-<Language_en_US>
+		-<Row Tag="TXT_KEY_BUILDING_SANGHELI_TRIBUTE_DESC">
+			<Text>Dienst Granary</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_BUILDING_SANGHELI_TRIBUTE_PEDIA">
+			-<Text>
+				Granary store of citizen mitas
+			</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_BUILDING_SANGHELI_TRIBUTE_STRATEGY">
+			<Text>
+				The Dienst Granary increases the [ICON_FOOD] Food intake of a city, speeding up the city's growth. It's useful when you want to create a large city, fast.
+			</Text>
+		</Row>
+		-<Row Tag="TXT_KEY_BUILDING_SANGHELI_TRIBUTE_HELP">
+			<Text>
+				[ICON_RES_BANANA] Banana, [ICON_RES_DEER] Deer, [ICON_RES_BISON]Bison, [ICON_RES_COW]Cow, and [ICON_RES_WHEAT] wheat worked gets +1 [ICON_FOOD].
+				[NEWLINE][NEWLINE]Allows [ICON_FOOD] Food to be moved from this city along trade routes inside your civilization.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

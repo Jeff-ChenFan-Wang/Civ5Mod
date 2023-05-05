@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/13/2018 11:31:29 PM -->
+<GameData>
+	<BuildingClasses>
+		<Update>
+			<!--
+			<Where Type="BUILDINGCLASS_XXX"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+
+			
+			-->
+			<!--Example with Alhambra-->
+			<Where Type="BUILDINGCLASS_ALHAMBRA"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_ANGKOR_WAT"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_BIG_BEN"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_BOROBUDUR"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_BRANDENBURG_GATE"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_BROADWAY"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_CHICHEN_ITZA"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_CN_TOWER"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_COLOSSUS"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_CRISTO_REDENTOR"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_EIFFEL_TOWER"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_FORBIDDEN_PALACE"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_GLOBE_THEATER"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_GREAT_FIREWALL"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_GREAT_LIBRARY"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_GREAT_LIGHTHOUSE"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_GREAT_WALL"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_HAGIA_SOPHIA"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_HANGING_GARDEN"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_HIMEJI_CASTLE"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_HUBBLE"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_LEANING_TOWER"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_LOUVRE"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_MACHU_PICHU"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_MAUSOLEUM_HALICARNASSUS"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_NEUSCHWANSTEIN"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_NOTRE_DAME"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_ORACLE"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_PARTHENON"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_PENTAGON"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_PETRA"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_PORCELAIN_TOWER"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_PYRAMID"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_RED_FORT"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_SISTINE_CHAPEL"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_STATUE_ZEUS"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_STONEHENGE"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_SYDNEY_OPERA_HOUSE"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_TAJ_MAHAL"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_TEMPLE_ARTEMIS"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_TERRACOTTA_ARMY"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDINGCLASS_UFFIZI"/>
+			<Set MaxGlobalInstances="-1" MaxPlayerInstances="1"/>
+		</Update>
+	</BuildingClasses>
+	<Buildings>
+		<!--
+		<Where Type="BUILDING_XXX"/>
+
+		<Set NeverCapture="1" ConquestProb="0"/>
+
+		-->
+		<Update>
+			<!--Example with Alhambra-->
+			<Where Type="BUILDING_ALHAMBRA"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>		
+			<Where Type="BUILDING_ANGKOR_WAT"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_BIG_BEN"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_BOROBUDUR"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_BRANDENBURG_GATE"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_BROADWAY"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_CHICHEN_ITZA"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_CN_TOWER"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_COLOSSUS"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_CRISTO_REDENTOR"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_EIFFEL_TOWER"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_FORBIDDEN_PALACE"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_GLOBE_THEATER"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_GREAT_FIREWALL"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_GREAT_LIBRARY"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_GREAT_LIGHTHOUSE"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_GREAT_WALL"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_HAGIA_SOPHIA"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_HANGING_GARDEN"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_HIMEJI_CASTLE"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_HUBBLE"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_LEANING_TOWER"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_LOUVRE"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_MACHU_PICHU"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_MAUSOLEUM_HALICARNASSUS"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_NEUSCHWANSTEIN"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_NOTRE_DAME"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_ORACLE"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_PARTHENON"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_PENTAGON"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_PETRA"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_PORCELAIN_TOWER"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_PYRAMID"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_RED_FORT"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_SISTINE_CHAPEL"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_STATUE_ZEUS"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_STONEHENGE"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_SYDNEY_OPERA_HOUSE"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_TAJ_MAHAL"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_TEMPLE_ARTEMIS"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_TERRACOTTA_ARMY"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_UFFIZI"/>
+			<Set NeverCapture="1" ConquestProb="0"/>
+		</Update>
+	</Buildings>
+</GameData>

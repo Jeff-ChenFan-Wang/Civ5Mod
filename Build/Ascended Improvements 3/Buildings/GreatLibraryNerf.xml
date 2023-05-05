@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/14/2018 1:31:20 PM -->
+<GameData>
+	<Building_YieldChanges>
+		<Update>
+			<Where BuildingType="BUILDING_GREAT_LIBRARY" YieldType="YIELD_SCIENCE"/>
+			<Set Yield="2"/>
+		</Update>
+	</Building_YieldChanges>
+</GameData>

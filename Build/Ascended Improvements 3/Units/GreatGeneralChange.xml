@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/16/2018 12:04:05 PM -->
+<GameData>
+	<Units>
+		<!-- plus one movement to great generals.-->
+		<Update>
+			<Where Type="UNIT_GREAT_GENERAL"/>
+			<Set Moves="3"/>
+		</Update>
+		<Update>
+			<Where Type="UNIT_MERCHANT"/>
+			<Set BaseHurry="300" HurryMultiplier="30"/>
+		</Update>
+	</Units>
+</GameData>
