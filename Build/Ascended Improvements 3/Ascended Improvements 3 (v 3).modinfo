@@ -406,26 +406,29 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
     <File md5="3ED565AEDAB579092E266EFF5E2217AE" import="0">Mechanics/BLD - Upgrades.xml</File>
     <File md5="904FED29E6F5CC1D2E620EF25CC7FBFB" import="0">Mechanics/BuildFeatures.xml</File>
     <File md5="84FA1A682C26D39460FA5C9315181D90" import="0">Mechanics/COP - mint.xml</File>
-    <File md5="98989AC43C42AFFB114E27C48DE77651" import="0">Mechanics/ExtraAutocracy.xml</File>
+    <File md5="109257150ED45172F78C8E4FA100B186" import="0">Mechanics/ExtraAutocracy.xml</File>
+    <File md5="37594BA034463D27C36D0CC3DC6D1E28" import="0">Mechanics/BoostedFutureTech.xml</File>
     <File md5="BCA6DF1FD6742AF3E9C0DE757510556C" import="0">Mechanics/GlobalCityWorkingDistance.xml</File>
     <File md5="309721F51752D8899BD3057B7C24B649" import="0">Mechanics/GlobalPassableForts.xml</File>
     <File md5="AA5DF8E7031DCF30B47183FE56DF9BA3" import="0">Mechanics/Hap2CultureInc.xml</File>
-    <File md5="B0104ECAE5889B8F1CD0326DD59B9FB8" import="0">Mechanics/ImprovementOverseaClaim.xml</File>
+    <File md5="0FAD6E7EB2D8DEB276B08066D549B500" import="0">Mechanics/ImprovementOverseaClaim.xml</File>
     <File md5="E2A021EAE325AE9B87652054EE47E56E" import="0">Mechanics/KrakFix.xml</File>
     <File md5="2EE633A94027A6D83728EC64C4B3AB24" import="0">Mechanics/LumberMillsInJg.xml</File>
     <File md5="EE79CF764E0061CCACD4DD9FD540D005" import="0">Mechanics/MoarBuildingTweaks.xml</File>
     <File md5="0742B196EBFE340E4EEC262B6065CE62" import="0">Mechanics/PARC - Data.xml</File>
     <File md5="6D8C71F60ECF0463150F57554E816E45" import="0">Mechanics/PEP - INIT.xml</File>
-    <File md5="09FA15E11B05681DBB61C5ADE28C8F28" import="0">Mechanics/ProductionToFood.xml</File>
+    <File md5="1C6E7E2931E9AFA785AE30D50E5C57FD" import="0">Mechanics/ProductionToFood.xml</File>
     <File md5="3A42F4970662EE36EEAD52AC7ED35EC2" import="0">Mechanics/PTT - Terrains.xml</File>
     <File md5="8A958768C88499D44973B0E658000550" import="0">Mechanics/ResourceMultiplierBuildings.xml</File>
     <File md5="4712C3FBAC741F6B93D745CCD24F7A20" import="0">Mechanics/BisonCowGranary.xml</File>
     <File md5="818C688F199C55E92B58DAD5611E9AA3" import="0">Mechanics/SpeedyStartingSettler.xml</File>
+    <File md5="45225FBE612B846A825F9D99340C23B0" import="0">Mechanics/ZZTesterBuilding.xml</File>
     <File md5="32BE6DC264EAFF261CB23B300F358DBC" import="0">Mechanics/TKE - Data.xml</File>
     <File md5="5A787A2D51808BC7056523162ED6F9C0" import="0">Mechanics/TPB - Data.xml</File>
     <File md5="F3610A94189D5DD93EB2B33D7D12C9FF" import="0">Mechanics/WAR - CapCity.xml</File>
     <File md5="4778BF649A9A645B44D0C8C3254DE2C7" import="0">Mechanics/WorkableMountains.xml</File>
     <File md5="76362D58EAEA105DB8CDA06C0B476FDE" import="1">SQL/FasterAircraftAnimations.sql</File>
+    <File md5="33B5A21DE3A44BBBEC1CFCE088F73960" import="0">SQL/GAIA_FutureTech.sql</File>
     <File md5="B868C9184682BA72B4E3C4A71CFEFAD8" import="0">SQL/PromotionsAllSiegeUnitsIndirectFire.sql</File>
     <File md5="99D12CF798F50685A7C60BB8FB9B50AB" import="0">SQL/Techtree Shifter.sql</File>
     <File md5="B51A82481D5E00A3615B2528252A6CEB" import="0">Text/Buildings.xml</File>
@@ -435,30 +438,32 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
     <File md5="B0DAFF8FD51DC59F3C9B57B2F05BFB9A" import="0">Text/Technologies.xml</File>
     <File md5="7937ABF4A29A3CB47A0EFB519CD7E0FE" import="0">Text/Units.xml</File>
     <File md5="E4431F18DDB18A705A85687AC74CF00D" import="0">TTO/Art.xml</File>
+    <File md5="EEA853B69FD9B09E7F5540C4906FC4B1" import="0">TTO/artificialIntelligenceText.xml</File>
     <File md5="77162074A5197066687587B3A8F467CA" import="0">TTO/Buildings.xml</File>
     <File md5="1D780A6FE1EC34131CA5827CDA177028" import="0">TTO/Eras.xml</File>
     <File md5="A6B276D59EF28CFCF7D6D77428F6B623" import="0">TTO/Improvements.xml</File>
-    <File md5="FE7FBE55D3F7A6509E6CC916C2097277" import="0">TTO/Policies.xml</File>
+    <File md5="7B08BB4F956BB35A4106B2CDE0A1BCBF" import="0">TTO/Policies.xml</File>
     <File md5="7B7D2740E8C7083B65E6C21944D6E903" import="0">TTO/Projects.xml</File>
     <File md5="37A515645135EA93BC8B930455EEE51B" import="0">TTO/Promotions.xml</File>
     <File md5="128A269D7F06AA1119D938E35D38C034" import="0">TTO/Resources.xml</File>
-    <File md5="FFFDA43CC7BAF24114B37D18E6DAF264" import="0">TTO/Technologies.xml</File>
+    <File md5="9397BEB1E311BD534674A18631FC3871" import="0">TTO/Technologies.xml</File>
     <File md5="C151E78015A5D42993FBECB882C96A0A" import="0">TTO/Traits.xml</File>
     <File md5="6A4453A407ED20712270A3851975CA75" import="0">TTO/Units.xml</File>
     <File md5="A58837B9C760BEB0371BBDB89EB42854" import="0">Units/BorderFort.xml</File>
-    <File md5="6026D428841A6101F3A299FE4A3C8AAE" import="0">Units/Colonists.xml</File>
+    <File md5="427310EABAF995B3A99A0220EE17974F" import="0">Units/Colonists.xml</File>
     <File md5="7A0223D539174B5B88FF1863D5D523B8" import="0">Units/GreatGeneralChange.xml</File>
     <File md5="DD4E5A0614EC6EAF7B70F21C68D9FF4A" import="0">Units/NewPromotions.xml</File>
     <File md5="3A5FD2159FE38BC9E33F9B02F5F18F75" import="0">Units/Zealots.xml</File>
+    <File md5="EEA743C20F5E9FC9F832899277267D3D" import="0">WonderMods/CenterDiseaseControl.xml</File>
     <File md5="DD8B61FC94A9CED4AF1D56FE4FEF2EEA" import="0">WonderMods/CentralBank.xml</File>
     <File md5="328040793A53338970E02FF21EFE35B1" import="0">WonderMods/FLHC.xml</File>
-    <File md5="AB019A1A2003AC81F42C5ACD191F596B" import="0">WonderMods/Motherland.xml</File>
+    <File md5="4F30E8EC9A3977A5C565B3608A8015E9" import="0">WonderMods/Motherland.xml</File>
     <File md5="F65E6DA57197830DABDD188C457A518F" import="0">WonderMods/Smithsonian.xml</File>
     <File md5="DFB185C7A998E4B4D35DE104DA479D6E" import="0">WonderMods/ThreeGorges.xml</File>
     <File md5="1802E0AD7C6638DD542534FA7FD4AAE2" import="0">WonderMods/GoldenTemple.xml</File>
     <File md5="4CC891DDCB83836C9D42227EE0B032DF" import="0">WonderMods/MultipleWonders.xml</File>
     <File md5="2FAB2F826A796C692FCEB7CA5912302D" import="0">WonderMods/Tsukiji.xml</File>
-    <File md5="F40A6634ED9165C646F13FB98682B548" import="0">WonderMods/WonderTweaks.xml</File>
+    <File md5="857D8C6F81720EEDEC019D6EA2FA3065" import="0">WonderMods/WonderTweaks.xml</File>
     <File md5="88512E81257C05A5B8EDB118A4A023E9" import="0">WonderMods/WorldTradeCenter.xml</File>
   </Files>
   <Actions>
@@ -550,6 +555,11 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
       <UpdateDatabase>Mechanics/BisonCowGranary.xml</UpdateDatabase>
       <UpdateDatabase>Mechanics/Hap2CultureInc.xml</UpdateDatabase>
       <UpdateDatabase>Mechanics/ProductionToFood.xml</UpdateDatabase>
+      <UpdateDatabase>TTO/artificialIntelligenceText.xml</UpdateDatabase>
+      <UpdateDatabase>Mechanics/ZZTesterBuilding.xml</UpdateDatabase>
+      <UpdateDatabase>WonderMods/CenterDiseaseControl.xml</UpdateDatabase>
+      <UpdateDatabase>Mechanics/BoostedFutureTech.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/GAIA_FutureTech.sql</UpdateDatabase>
     </OnModActivated>
   </Actions>
   <EntryPoints>

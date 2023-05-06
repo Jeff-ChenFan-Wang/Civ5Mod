@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/19/2014 10:52:41 AM -->
+<!--Machiavelli-->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_CENTER_FOR_DISEASE_CONTROL</Type>
+			<DefaultBuilding>BUILDING_CENTER_FOR_DISEASE_CONTROL</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CENTER_FOR_DISEASE_CONTROL</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_CENTER_FOR_DISEASE_CONTROL</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<!--<Building_PrereqBuildingClasses>
+		<Row>
+			<BuildingType>BUILDING_CENTER_FOR_DISEASE_CONTROL</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MEDICAL_LAB</BuildingClassType>
+			<NumBuildingNeeded>1</NumBuildingNeeded>
+		</Row>
+	</Building_PrereqBuildingClasses>-->
+	<Buildings>
+		<Row>
+			<Type>BUILDING_CENTER_FOR_DISEASE_CONTROL</Type>
+			<BuildingClass>BUILDINGCLASS_CENTER_FOR_DISEASE_CONTROL</BuildingClass>
+			<Cost>750</Cost>
+			<PrereqTech>TECH_PENICILIN</PrereqTech>
+			<Help>TXT_KEY_BUILDING_CENTER_FOR_DISEASE_CONTROL_HELP</Help>
+			<Description>TXT_KEY_BUILDING_CENTER_FOR_DISEASE_CONTROL</Description>
+			<NukeImmune>true</NukeImmune>			
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>RFEMOD_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>35</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_SpecialistYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_CENTER_FOR_DISEASE_CONTROL</BuildingType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_SpecialistYieldChanges>
+
+	<Building_GlobalYieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_GOLDEN_TEMPLE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Building_GlobalYieldModifiers>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_CENTER_FOR_DISEASE_CONTROL</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CENTER_FOR_DISEASE_CONTROL</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CENTER_FOR_DISEASE_CONTROL</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_CENTER_FOR_DISEASE_CONTROL">
+			<Text>Center for Disease Control</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CENTER_FOR_DISEASE_CONTROL_HELP">
+			<Text>+1 [ICON_FOOD] Food from all Scientist Specialists, and +5% [ICON_FOOD] Growth in all Cities. City must have a Hospital built. </Text>
+		</Row>
+	</Language_en_US>
+</GameData>

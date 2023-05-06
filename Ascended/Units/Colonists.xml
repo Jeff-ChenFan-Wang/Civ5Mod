@@ -168,7 +168,7 @@
 		<Row>
 			<UnitType>UNIT_COLONIST</UnitType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>0</Flavor>
+			<Flavor>5</Flavor>
 		</Row>
 	</Unit_Flavors>
 	<!-- Unit_GreatPersons -->
@@ -197,10 +197,10 @@
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_COLONIST_STRATEGY">
-			<Text>This unit can build forts in tiles adjacent to friendly terrotory to expand borders.</Text>
+			<Text>This unit can build forts in tiles adjacent to friendly terrirtory to expand borders. Otherwise, it can build on a resource next to any coast to claim terrirtory.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_COLONIST">
-			<Text>This unit can build forts in tiles adjacent to friendly terrotory to expand borders.</Text>
+			<Text>This unit can build forts in tiles adjacent to friendly terrirtory to expand borders. Otherwise, it can build on a resource next to any coast to claim terrirtory.</Text>
 		</Row>
 	</Language_en_US>
 	<UnitClasses>

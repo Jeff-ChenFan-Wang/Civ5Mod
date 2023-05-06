@@ -2,6 +2,7 @@
 <!-- Created by ModBuddy on 13-Nov-14 1:28:48 -->
 <GameData>
 	<Policies>
+		<!--changed from 10 to 5-->
 		<Update>
 			<Where Type="POLICY_ARISTOCRACY"/>
 			<Set HappinessPerXPopulation="5"/>

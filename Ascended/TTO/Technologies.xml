@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 21-Oct-14 11:28:15 -->
+<!--TofuSojo-->
 <GameData>
 	<Technologies>
 		<!-- Ancient Era-->
@@ -431,14 +432,14 @@
 		<!-- Future Era -->
 		<Row>
 			<Type>TECH_ARTIFICIAL_INTELLIGENCE</Type>
-			<Cost>11638</Cost>
+			<Cost>10100</Cost>
 			<Description>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE</Description>
 			<Civilopedia>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_TEXT</Civilopedia>
 			<Help>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_HELP</Help>
 			<Era>ERA_REAL_FUTURE</Era>
 			<Trade>true</Trade>
 			<GridX>17</GridX>
-			<GridY>7</GridY>
+			<GridY>6</GridY>
 			<Quote>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_QUOTE</Quote>
 			<PortraitIndex>9</PortraitIndex>
 			<IconAtlas>RFEMOD_ICON_ATLAS</IconAtlas>
@@ -449,7 +450,7 @@
 		</Update>
 		<Update>
 			<Where Type="TECH_NUCLEAR_FUSION"/>
-			<Set Cost="10100" GridX="17" GridY="9" Era="ERA_REAL_FUTURE"/>
+			<Set Cost="10100" GridX="17" GridY="8" Era="ERA_REAL_FUTURE"/>
 		</Update>
 		<Update>
 			<Where Type="TECH_FUTURE_TECH"/>
@@ -1286,14 +1287,6 @@
 		<!-- Future Era-->
 		<Delete TechType="TECH_NANOTECHNOLOGY"/>
 		<Row>
-			<TechType>TECH_ARTIFICIAL_INTELLIGENCE</TechType>
-			<PrereqTech>TECH_INTERNET</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_ARTIFICIAL_INTELLIGENCE</TechType>
-			<PrereqTech>TECH_STEALTH</PrereqTech>
-		</Row>
-		<Row>
 			<TechType>TECH_NANOTECHNOLOGY</TechType>
 			<PrereqTech>TECH_GLOBALIZATION</PrereqTech>
 		</Row>
@@ -1302,6 +1295,14 @@
 			<PrereqTech>TECH_RENEWABLE_ENERGY</PrereqTech>
 		</Row>
 		<Delete TechType="TECH_NUCLEAR_FUSION"/>
+		<Row>
+			<TechType>TECH_ARTIFICIAL_INTELLIGENCE</TechType>
+			<PrereqTech>TECH_INTERNET</PrereqTech>
+		</Row>
+		<Row>
+			<TechType>TECH_ARTIFICIAL_INTELLIGENCE</TechType>
+			<PrereqTech>TECH_STEALTH</PrereqTech>
+		</Row>
 		<Row>
 			<TechType>TECH_NUCLEAR_FUSION</TechType>
 			<PrereqTech>TECH_INTERNET</PrereqTech>
@@ -1317,11 +1318,11 @@
 		</Row>
 		<Row>
 			<TechType>TECH_FUTURE_TECH</TechType>
-			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
+			<PrereqTech>TECH_ARTIFICIAL_INTELLIGENCE</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_FUTURE_TECH</TechType>
-			<PrereqTech>TECH_ARTIFICIAL_INTELLIGENCE</PrereqTech>
+			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
 		</Row>
 	</Technology_PrereqTechs>
 

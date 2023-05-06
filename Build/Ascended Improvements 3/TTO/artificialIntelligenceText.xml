@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/5/2023 11:39:39 AM -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE">
+			<Text>Artificial Intelligence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_HELP">
+			<Text></Text>
+		</Row>
+		<!-- Allows you to build the [COLOR_POSITIVE_TEXT]SS Cockpit[ENDCOLOR], one of the Spaceship parts necessary to win a [COLOR_POSITIVE_TEXT]Science Victory[ENDCOLOR]. Also allows you to build the [COLOR_POSITIVE_TEXT]Hovercraft[ENDCOLOR], the [COLOR_POSITIVE_TEXT]Drone Bomber[ENDCOLOR], and the [COLOR_POSITIVE_TEXT]Drone Supercarrier[ENDCOLOR], which are the Helicopter, Bomber, and Supercarrier Units of the Future-Era. -->
+		<Row Tag="TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_TEXT">
+			<Text>Artificial intelligence (AI) is the intelligence exhibited by machines or software. It is also the name of the academic field of study which studies how to create computers and computer software that are capable of intelligent behavior. Major AI researchers and textbooks define this field as "the study and design of intelligent agents", in which anintelligent agent is a system that perceives its environment and takes actions that maximize its chances of success. John McCarthy, who coined the term in 1955, defines it as "the science and engineering of making intelligent machines".[NEWLINE][NEWLINE]AI research is highly technical and specialized, and is deeply divided into subfields that often fail to communicate with each other. Some of the division is due to social and cultural factors: subfields have grown up around particular institutions and the work of individual researchers. AI research is also divided by several technical issues. Some subfields focus on the solution of specific problems. Others focus on one of several possible approaches or on the use of a particular tool or towards the accomplishment of particular applications.[NEWLINE][NEWLINE]The central problems (or goals) of AI research include reasoning, knowledge, planning, learning, natural language processing (communication), perception and the ability to move and manipulate objects.[6] General intelligence is still among the field's long-term goals. Currently popular approaches include statistical methods, computational intelligence andtraditional symbolic AI. There are a large number of tools used in AI, including versions of search and mathematical optimization, logic, methods based on probability and economics, and many others. The AI field is interdisciplinary, in which a number of sciences and professions converge, including computer science, mathematics, psychology,linguistics, philosophy and neuroscience, as well as other specialized fields such as artificial psychology.[NEWLINE][NEWLINE]The field was founded on the claim that a central property of humans, human intelligence—the sapience of Homo sapiens sapiens—"can be so precisely described that a machine can be made to simulate it." This raises philosophical arguments about the nature of the mind and the ethics of creating artificial beings endowed with human-like intelligence, issues which have been explored by myth, fiction and philosophy since antiquity. Artificial intelligence has been the subject of tremendous optimism but has also suffered stunning setbacks. Today it has become an essential part of the technology industry, providing the heavy lifting for many of the most challenging problems in computer science.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Forget artificial intelligence - in the brave new world of big data, it's artificial idiocy we should be looking out for."[NEWLINE][TAB][TAB]  - Tom Chatfield[NEWLINE][TAB][TAB][TAB]</Text>
+		</Row>
+	</Language_en_US>
+  
+</GameData>

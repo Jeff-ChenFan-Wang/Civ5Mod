@@ -29,12 +29,12 @@
 			<Where Type="BUILDING_NOTRE_DAME"/>
 			<Set SpecialistType="SPECIALIST_ENGINEER"/>
 		</Update>
-<!--pentagon is espionage reducer as well-->
+		<!--pentagon is espionage reducer as well-->
 		<Update>
 			<Where Type="BUILDING_PENTAGON"/>
 			<Set Espionage="1" EspionageModifier="-25"/>
 		</Update>
-<!--Terracotta arnmy no longer gives isntant army, but increases unit buidling speed by 33%-->
+		<!--Terracotta arnmy no longer gives isntant army, but increases unit buidling speed by 33%-->
 		<Update>
 			<Where Type="BUILDING_TERRACOTTA_ARMY"/>
 			<Set InstantMilitaryIncrease="0"/>
@@ -92,12 +92,6 @@
 			<Where BuildingType="BUILDING_TERRACOTTA_ARMY" YieldType="YIELD_CULTURE"/>
 			<Set Yield="2"/>
 		</Update>
-		<!--Artemis gives more food instead of archery unit prod mod-->
-		<Row>
-			<BuildingType>BUILDING_TEMPLE_ARTEMIS</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
 	</Building_YieldChanges>
 
 	<Building_ClassesNeededInCity>
@@ -116,7 +110,7 @@
 		<Row>
 			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>15</Yield>
+			<Yield>20</Yield>
 		</Row>
 	</Building_YieldModifiers>
 	<Building_DomainProductionModifiers>
@@ -142,10 +136,10 @@
 			<Where BuildingType="BUILDING_TEMPLE_ARTEMIS" FlavorType="FLAVOR_GROWTH"/>
 			<Set Flavor="50"/>
 		</Update>
-		<Update>
+		<!--<Update>
 			<Where BuildingType="BUILDING_TEMPLE_ARTEMIS" FlavorType="FLAVOR_RANGED"/>
 			<Set Flavor="0"/>
-		</Update>
+		</Update>-->
 
 		<Update>
 			<Where BuildingType="BUILDING_PYRAMID" FlavorType="FLAVOR_TILE_IMPROVEMENT"/>
@@ -180,10 +174,10 @@
 			<Where Tag="TXT_KEY_BUILDING_HEROIC_EPIC_HELP"/>
 			<Set Text ="All newly-trained non-air Units in this City receive the [COLOR_POSITIVE_TEXT]Morale[ENDCOLOR] Promotion, improving [ICON_STRENGTH] combat strength by 15%. Contains 1 slot for a Great Work of Writing."/>
 		</Update>
-		<Update>
+		<!--<Update>
 			<Where Tag="TXT_KEY_WONDER_TEMPLE_ARTEMIS_HELP"/>
 			<Set Text="+10% [ICON_FOOD] Growth in all cities."/>
-		</Update>
+		</Update>-->
 		<Update>
 			<Where Tag="TXT_KEY_WONDER_TERRA_COTTA_ARMY_HELP"/>
 			<Set Text="Increases all unit [ICON_PRODUCTION] production by +33%"/>

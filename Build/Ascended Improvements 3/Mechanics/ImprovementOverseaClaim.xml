@@ -15,7 +15,7 @@
 			<DestroyedWhenPillaged>0</DestroyedWhenPillaged>
 			<NoTwoAdjacent>true</NoTwoAdjacent>
 			<OutsideBorders>1</OutsideBorders>
-			<PillageGold>200</PillageGold>
+			<PillageGold>250</PillageGold>
 			<GoldMaintenance>8</GoldMaintenance>
 			<CultureBombRadius>1</CultureBombRadius>
 			<RequiresXAdjacentLand>-1</RequiresXAdjacentLand>
@@ -32,9 +32,10 @@
 			<Description>TXT_KEY_BUILD_IMPROVEMENT_OVERSEASCLAIM</Description>
 			<Help>TXT_KEY_BUILD_IMPROVEMENT_OVERSEASCLAIM_HELP</Help>
 			<Recommendation>TXT_KEY_BUILD_IMPROVEMENT_OVERSEASCLAIM_REC</Recommendation>
-			<Time>100</Time>
+			<Kill>true</Kill>
 			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
 			<HotKey>KB_C</HotKey>
+			<Time>600</Time>
 			<OrderPriority>96</OrderPriority>
 			<CtrlDown>1</CtrlDown>
 			<IconIndex>51</IconIndex>
@@ -144,7 +145,7 @@
 			<DestroyedWhenPillaged>0</DestroyedWhenPillaged>
 			<NoTwoAdjacent>true</NoTwoAdjacent>
 			<OutsideBorders>1</OutsideBorders>
-			<PillageGold>150</PillageGold>
+			<PillageGold>200</PillageGold>
 			<GoldMaintenance>5</GoldMaintenance>
 			<CultureBombRadius>1</CultureBombRadius>
 			<RequiresXAdjacentLand>-1</RequiresXAdjacentLand>
@@ -162,6 +163,7 @@
 			<Help>TXT_KEY_BUILD_IMPROVEMENT_ARDL_ISLANDCLAIM_HELP</Help>
 			<Recommendation>TXT_KEY_BUILD_IMPROVEMENT_ARDL_ISLANDCLAIM_REC</Recommendation>
 			<Time>600</Time>
+			<Kill>true</Kill>
 			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
 			<HotKey>KB_C</HotKey>
 			<OrderPriority>96</OrderPriority>
@@ -174,7 +176,7 @@
 	
 	<Unit_Builds>
 		<Row>
-			<UnitType>UNIT_WORKER</UnitType>
+			<UnitType>UNIT_COLONIST</UnitType>
 			<BuildType>BUILD_ARDL_ISLANDCLAIM</BuildType>
 		</Row>
 	</Unit_Builds>

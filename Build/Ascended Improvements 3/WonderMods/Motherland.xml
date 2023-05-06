@@ -12,9 +12,6 @@
 			<Cost>1250</Cost>
 			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
-			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<GreatPeopleRateChange>1</GreatPeopleRateChange>
-			<SpecialistExtraCulture>1</SpecialistExtraCulture>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -68,6 +65,40 @@
 			<BuildingType/>
 		</Row>
 	</Civilization_BuildingClassOverrides>
+	
+	<Building_SpecialistYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_MOTHERLAND</BuildingType>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOTHERLAND</BuildingType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOTHERLAND</BuildingType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOTHERLAND</BuildingType>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOTHERLAND</BuildingType>
+			<SpecialistType>SPECIALIST_CITIZEN</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_SpecialistYieldChanges>
+	
 	<Language_en_US>
 		<!-- Description tags -->
 		<Row Tag="TXT_KEY_BUILDING_MOTHERLAND1">

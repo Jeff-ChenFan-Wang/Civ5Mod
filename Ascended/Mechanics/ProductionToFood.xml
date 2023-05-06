@@ -17,7 +17,7 @@
 		<Row>
 			<ProcessType>PROCESS_FOOD</ProcessType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>900</Yield>
+			<Yield>25</Yield>
 		</Row>
 	</Process_ProductionYields>
 

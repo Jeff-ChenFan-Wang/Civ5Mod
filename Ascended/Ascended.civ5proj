@@ -518,6 +518,31 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
         <Type>UpdateDatabase</Type>
         <FileName>Mechanics/ProductionToFood.xml</FileName>
       </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>TTO/artificialIntelligenceText.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Mechanics/ZZTesterBuilding.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>WonderMods/CenterDiseaseControl.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Mechanics/BoostedFutureTech.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>SQL/GAIA_FutureTech.sql</FileName>
+      </Action>
     </ModActions>
     <ModDependencies>
       <Association xmlns="">
@@ -1915,6 +1940,10 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
+    <Content Include="Mechanics\BoostedFutureTech.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
     <Content Include="Mechanics\GlobalCityWorkingDistance.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
@@ -1971,6 +2000,10 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
+    <Content Include="Mechanics\ZZTesterBuilding.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
     <Content Include="Mechanics\TKE - Data.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
@@ -1990,6 +2023,10 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
     <Content Include="SQL\FasterAircraftAnimations.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="SQL\GAIA_FutureTech.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="SQL\PromotionsAllSiegeUnitsIndirectFire.sql">
       <SubType>Lua</SubType>
@@ -2024,6 +2061,10 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="TTO\Art.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="TTO\artificialIntelligenceText.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
@@ -2084,6 +2125,10 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="Units\Zealots.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="WonderMods\CenterDiseaseControl.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
