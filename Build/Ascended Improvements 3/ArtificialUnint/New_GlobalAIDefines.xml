@@ -89,12 +89,14 @@
 		</Update>
 		<Update>
 			<!-- Was 50% before, making the AI miss out on possible good city spots, especially for colonization -->
-			<Set Value="80" />
+			<!--Jeff dropped it from 80 to 70-->
+			<Set Value="70" />
 			<Where Name="AI_STRATEGY_AREA_IS_FULL_PERCENT" />
 		</Update>
 		<Update>
 			<!-- Was 25 before, making the AI miss out on possible good city spots just because there might be cities nearby -->
-			<Set Value="19" />
+			<!--Jeff upped it from 19 to 22-->
+			<Set Value="22" />
 			<Where Name="AI_STRATEGY_EARLY_EXPANSION_NUM_UNOWNED_TILES_REQUIRED" />
 		</Update>
 		<Update>
@@ -112,7 +114,8 @@
 		</Update>
 		<Update>
 			<!-- AI will more readily buy plots -->
-			<Set Value="500" />
+			<!--Jeff dropped it from 500 to 480-->
+			<Set Value="480" />
 			<Where Name="AI_GOLD_BALANCE_TO_HALVE_PLOT_BUY_MINIMUM" />
 		</Update>
 		<!-- AI is more likely to spend money to upgrade now -->
@@ -128,7 +131,8 @@
 		<Update>
 			<!-- No idea why this was so high by default, spending gold on defensive buildings seems like a waste unless
 				it's an emergency -->
-			<Set Value="250" />
+			<!--Jeff dropped it from 250 to 225-->
+			<Set Value="225" />
 			<Where Name="AI_GOLD_PRIORITY_DEFENSIVE_BUILDING" />
 		</Update>
 		
@@ -183,8 +187,10 @@
 			<Set Value="-25" />
 			<Where Name="AI_CITY_SPECIALIZATION_FOOD_WEIGHT_NUM_CITIES" />
 		</Update>
+		
+		<!--Jeff buffed from 1 to 5 since all wonders are national now-->
 		<Update>
-			<Set Value="1" />
+			<Set Value="10" />
 			<Where Name="AI_CITY_SPECIALIZATION_PRODUCTION_WEIGHT_NEXT_WONDER" />
 		</Update>
 		<Update>
@@ -197,17 +203,22 @@
 		</Update>
 		
 		<!-- AI City Strategy Stuff -->
+		
+		<!--Jeff upped it from 6 to 10-->
 		<Update>
-			<Set Value="6" />
+			<Set Value="10" />
 			<Where Name="AI_CITYSTRATEGY_MEDIUM_CITY_POP_THRESHOLD" />
 		</Update>
+		
+		<!--Jeff upped it from 15 to 20-->
 		<Update>
-			<Set Value="15" />
+			<Set Value="20" />
 			<Where Name="AI_CITYSTRATEGY_LARGE_CITY_POP_THRESHOLD" />
 		</Update>
 		<Update>
 			<!-- This was 0 by default, often resulting in perpetual bankruptcy -->
-			<Set Value="0.5" />
+			<!-- Jeff upped it from 0.5 to 0.6-->
+			<Set Value="0.6" />
 			<Where Name="AI_CITYSTRATEGY_YIELD_DEFICIENT_GOLD" />
 		</Update>
 		

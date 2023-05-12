@@ -54,10 +54,7 @@
 			<Where Tag="TXT_KEY_POLICY_MERITOCRACY_HELP"/>
 			<Set Text="+2 [ICON_HAPPINESS_1] Happiness for each City you own connected to the [ICON_CAPITAL] Capital and -10% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Citizens in non-occupied Cities."/>
 		</Update>
-		<Update>
-			<Where Tag="TXT_KEY_POLICY_CULT_PERSONALITY_HELP"/>
-			<Set Text="+50% [ICON_TOURISM] Tourism to Civilizations fighting a common enemy. Also halves [ICON_HAPPINESS_4] Unhappiness from specialists."/>
-		</Update>
+		<!--Cult of personality mentioned in policy tweaks-->
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_MONARCHY_HELP"/>
 			<Set Text="	+1 [ICON_GOLD] Gold and -1 [ICON_HAPPINESS_4] Unhappiness for every [ICON_CITIZEN] Citizens in the [ICON_CAPITAL] Capital."/>

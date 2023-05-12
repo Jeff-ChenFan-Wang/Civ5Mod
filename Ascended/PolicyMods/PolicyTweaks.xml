@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 9/17/2019 4:17:39 PM -->
+<GameData>
+	<Policies>
+		<Update>
+			<Where Type="POLICY_PARTY_LEADERSHIP"/>
+			<Set StrategicResourceMod="200"/>
+		</Update>
+		<Update>
+			<Where Type="POLICY_ARSENAL_DEMOCRACY"/>
+			<Set StrategicResourceMod="200"/>
+		</Update>
+		
+
+
+		<!--eXPLORATION-->
+		<Update>
+			<Where Type="POLICY_TREASURE_FLEETS"/>
+			<Set SeaTradeRouteGoldChange="1" NewCityExtraPopulation="1"/>
+		</Update>
+		<Update>
+			<Where Type="POLICY_NAVIGATION_SCHOOL"/>
+			<Set GreatAdmiralRateModifier="0" EmbarkedExtraMoves="1"/>
+		</Update>
+
+		<!--Aesthetics-->
+		<!--50% happiness to culture from fine arts policy to 75%-->
+		<Update>
+			<Where Type="POLICY_FINE_ARTS"/>
+			<Set>
+				<HappinessToCulture>80</HappinessToCulture>
+			</Set>
+		</Update>
+
+		<Update>
+			<Where Type="POLICY_AESTHETICS_FINISHER"/>
+			<Set>
+				<PolicyCostModifier>-15</PolicyCostModifier>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="POLICY_FLOURISHING_OF_ARTS"/>
+			<Set>
+				<CultureWonderMultiplier>25</CultureWonderMultiplier>
+			</Set>
+		</Update>
+		
+		
+		<!--COmmerce-->
+		<!--Merc army policy (bnw updated from trade unions)-->
+		<Update>
+			<Where Type="POLICY_TRADE_UNIONS"/>
+			<Set>
+				<UnitPurchaseCostModifier>-17</UnitPurchaseCostModifier>
+			</Set>
+		</Update>
+
+		<!--Honor-->
+		<Update>
+			<Where Type="POLICY_PROFESSIONAL_ARMY"/>
+			<Set>
+				<UnitGoldMaintenanceMod>-10</UnitGoldMaintenanceMod>
+			</Set>
+		</Update>
+
+
+		<!--Tradition-->
+		<Update>
+			<Where Type="POLICY_LANDED_ELITE"/>
+			<Set>
+				<CapitalGrowthMod>15</CapitalGrowthMod>
+			</Set>
+		</Update>
+		
+	</Policies>
+	
+	<Policy_PrereqPolicies>
+		<Row>
+			<PolicyType>POLICY_SCIENTIFIC_REVOLUTION</PolicyType>
+			<PrereqPolicy>POLICY_FREE_THOUGHT</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PROFESSIONAL_ARMY</PolicyType>
+			<PrereqPolicy>POLICY_MILITARY_TRADITION</PrereqPolicy>
+		</Row>
+	</Policy_PrereqPolicies>
+	
+	<Policy_Flavors>
+		<Row>
+			<PolicyType>POLICY_TREASURE_FLEETS</PolicyType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ARTISTIC_GENIUS</PolicyType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_THIRD_ALTERNATIVE</PolicyType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_THIRD_ALTERNATIVE</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Policy_Flavors>
+	
+	<Policy_CapitalYieldChanges>
+		<Update>
+			<Where PolicyType="POLICY_LANDED_ELITE" YieldType="YIELD_FOOD"/>
+			<Set Yield="4"/>
+		</Update>
+
+		<!--IDeologies-->
+		<Update>
+			<Where PolicyType="POLICY_SKYSCRAPERS" YieldType="YIELD_FOOD"/>
+			<Set Yield="2"/>
+		</Update>
+
+		<Row>
+			<PolicyType>POLICY_THIRD_ALTERNATIVE</PolicyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_THIRD_ALTERNATIVE</PolicyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Policy_CapitalYieldChanges>
+	
+	<Policy_BuildingClassYieldModifiers>
+		
+		<!-- Rationalism-->
+		<Row>
+			<PolicyType>POLICY_SCIENTIFIC_REVOLUTION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PUBLIC_SCHOOL</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>10</YieldMod>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_HUMANISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PUBLIC_SCHOOL</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldMod>5</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_HUMANISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PUBLIC_SCHOOL</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldMod>5</YieldMod>
+		</Row>
+		
+		<!-- Exploration-->
+		<Row>
+			<PolicyType>POLICY_TREASURE_FLEETS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldMod>5</YieldMod>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_NAVIGATION_SCHOOL</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldMod>5</YieldMod>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NAVIGATION_SCHOOL</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldMod>5</YieldMod>
+		</Row>
+
+		<!-- COmmerce-->
+		<Row>
+			<PolicyType>POLICY_ENTREPRENEURSHIP</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_STOCK_EXCHANGE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldMod>10</YieldMod>
+		</Row>
+		<!--Aesthetics-->
+		<Row>
+			<PolicyType>POLICY_FLOURISHING_OF_ARTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PUBLIC_SCHOOL</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldMod>10</YieldMod>
+		</Row>
+		
+	</Policy_BuildingClassYieldModifiers>
+	
+	<Policy_BuildingClassProductionModifiers>
+		
+		<!--Exploration-->
+		<Row>
+			<PolicyType>POLICY_MARITIME_INFRASTRUCTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MARITIME_INFRASTRUCTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SEAPORT</BuildingClassType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MARITIME_INFRASTRUCTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+		
+		<!--Tradition-->
+		<Row>
+			<PolicyType>POLICY_OLIGARCHY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+			<ProductionModifier>40</ProductionModifier>
+		</Row>
+	</Policy_BuildingClassProductionModifiers>
+	
+	<Policy_GreatWorkYieldChanges>
+		<Row>
+			<PolicyType>POLICY_ARTISTIC_GENIUS</PolicyType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ETHICS</PolicyType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_GreatWorkYieldChanges>
+	
+	
+	
+	
+	
+	<Language_en_US>
+		<!--IDeologies-->
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_PARTY_LEADERSHIP_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Party Leadership[ENDCOLOR][NEWLINE]Strategic Resources provide double quantity. +1 [ICON_CULTURE] Culture, [ICON_FOOD] Food, [ICON_GOLD] Gold, [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science per City. "/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_SKYSCRAPERS_HELP"/>
+			<Set>
+				<Text>[COLOR_POSITIVE_TEXT]Skyscrapers[ENDCOLOR][NEWLINE][ICON_GOLD] Gold cost of purchasing buildings reduced by 33%. +2 [ICON_FOOD] Food in the Capital.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE_HELP"/>
+			<Set>
+				<Text>[COLOR_POSITIVE_TEXT]Third Alternative[ENDCOLOR][NEWLINE]Strategic Resrouces provide double quantity. +5 [ICON_FOOD] Food, [ICON_GOLD] Gold, [ICON_PRODUCTION] Production, and [ICON_RESEARCH] Science in the Capital. </Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_HELP"/>
+			<Set>
+				<Text>[COLOR_POSITIVE_TEXT]Arsenal of Democracy[ENDCOLOR][NEWLINE]Strategic Resrouces provide double quantity. +15% [ICON_PRODUCTION] Production towards Military Units. Gain 15 Influence from each Military Unit gift to CIty-States.</Text>
+			</Set>
+		</Update>
+
+		<!-- COlonialism replaces treasure fleet -->
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_TREASURE_FLEETS"/>
+			<Set Text="Colonialism"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_TREASURE_FLEETS_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Colonialism[ENDCOLOR][NEWLINE][ICON_BULLET] +1 [ICON_GOLD] Gold from all your Sea Trade Routes. [NEWLINE][ICON_BULLET] New Cities start with an extra 1 [ICON_CITIZEN] Population, +5% [ICON_FOOD] Food from Harbors."/>
+		</Update>
+		
+		
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_NAVIGATION_SCHOOL_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Navigation School[ENDCOLOR][NEWLINE][ICON_BULLET] A Great Admiral appears. [NEWLINE][ICON_BULLET] +2 [ICON_MOVES] Movement for all Great Admirals and +1 for embarked units. [NEWLINE][ICON_BULLET] +5% [ICON_FOOD] Food and [ICON_GOLD] Gold from Seaports."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Maritime Infrastructure[ENDCOLOR][NEWLINE][ICON_BULLET] +3 [ICON_PRODUCTION] Production in all coastal Cities.[NEWLINE][ICON_BULLET] +25% [ICON_PRODUCTION] Production when constructing Lighthouses, Harbors, and Seaports."/>
+		</Update>
+		
+		<!--Rationalism-->
+		
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Scientific Revolution[ENDCOLOR][NEWLINE][ICON_BULLET] Boosts [ICON_RESEARCH] Science gained from research agreements by 50%.[NEWLINE][ICON_BULLET] +10% [ICON_RESEARCH] Science from Public Schools."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_HUMANISM_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Humanism[ENDCOLOR][NEWLINE][ICON_BULLET] Great Scientists are earned 25% faster. [NEWLINE][ICON_BULLET] Cities with Public Schools gain +5% [ICON_PRODUCTION] Production and [ICON_CULTURE] Culture."/>
+		</Update>
+		<!--Aesthetics-->
+		<!--added stuff from aza dynamic towns-->
+		<Replace Tag="TXT_KEY_POLICY_ARTISTIC_GENIUS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Artistic Genius[ENDCOLOR][NEWLINE][ICON_BULLET] A Great Artist appears. [NEWLINE][ICON_BULLET] +2 [ICON_CULTURE] Culture from Large Towns.[NEWLINE][ICON_BULLET] +1 [ICON_RESEARCH] Science from Artifacts and [ICON_GREAT_WORK] Great Works.</Text>
+		</Replace>
+
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_FINE_ARTS_HELP"/>
+			<Set>
+				<Text>[COLOR_POSITIVE_TEXT]FINE ARTS[ENDCOLOR][NEWLINE]80% of excess [ICON_HAPPINESS_1] Happiness added each turn to the amount of [ICON_CULTURE] Culture that may be spent on Social Policies.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_ETHICS_HELP"/>
+			<Set>
+				<Text>[COLOR_POSITIVE_TEXT]Cultural Exchange[ENDCOLOR][NEWLINE][ICON_BULLET]Increases the [ICON_TOURISM] Tourism modifier for Shared Religion, Trade Routes, and Open Borders by 15% each.[NEWLINE][ICON_BULLET] +1 [ICON_CULTURE] Culture from Artifacts and [ICON_GREAT_WORK] Great Works.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_FLOURISHING_OF_ARTS_HELP"/>
+			<Set>
+				<Text>[COLOR_POSITIVE_TEXT]Flourishing of the Arts[ENDCOLOR][NEWLINE][ICON_BULLET] [ICON_CULTURE] Culture increased by 25% in all Cities which have built a World Wonder.[NEWLINE][ICON_BULLET] +10% [ICON_CULTURE] Culture from Public Schools.[NEWLINE][ICON_BULLET] Starts a [ICON_GOLDEN_AGE] Golden Age.</Text>
+			</Set>
+		</Update>
+		<!--HOnor-->
+		<!--Mercenary Army -->
+		<Replace Tag="TXT_KEY_POLICY_TRADE_UNIONS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Mercenary Army[ENDCOLOR][NEWLINE][ICON_BULLET] Allows the purchasing of [COLOR_YELLOW]Landsknechts[ENDCOLOR][NEWLINE][ICON_BULLET][ICON_GOLD] Gold cost of purchasing units reduced by 17%.</Text>
+		</Replace>
+
+		<!--Professional Army -->
+		<Replace Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP">
+				<Text>[COLOR_POSITIVE_TEXT]Professional Army[ENDCOLOR][NEWLINE][ICON_BULLET] Barracks, Armories, and Military Academies are constructed 50% faster.[NEWLINE][ICON_BULLET] Unit Maintenance cost reduced by 10%.</Text>
+		</Replace>
+		
+		<!--COmmerce-->
+
+		<Replace Tag="TXT_KEY_POLICY_ENTREPRENEURSHIP_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Entrepreneurship[ENDCOLOR][NEWLINE][ICON_BULLET] Great Merchants are earned 25% faster. [NEWLINE][ICON_BULLET] Receive double [ICON_GOLD] Gold from Great Merchant trade missions.[NEWLINE][ICON_BULLET] +10% [ICON_GOLD] Gold from Stock Exchange.</Text>
+		</Replace>
+
+		<Replace Tag="TXT_KEY_POLICY_ENTREPRENEURSHIP_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Entrepreneurship[ENDCOLOR][NEWLINE][ICON_BULLET] Great Merchants are earned 25% faster. [NEWLINE][ICON_BULLET] Receive double [ICON_GOLD] Gold from Great Merchant trade missions.[NEWLINE][ICON_BULLET] +10% [ICON_GOLD] Gold from Stock Exchange.</Text>
+		</Replace>
+		
+		<!--Aesthetics-->
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Aesthetics[ENDCOLOR] improves the civilization's ability to generate [ICON_CULTURE] Culture.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Adopting Aesthetics grants:[ENDCOLOR][NEWLINE][ICON_BULLET] Earn Great Writers, Artists and Musicians 25% faster.[NEWLINE][ICON_BULLET] Allows you to build Guilds in half the usual time.[NEWLINE][ICON_BULLET] Unlocks the [COLOR_WATER_TEXT]Uffizi[ENDCOLOR].[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Adopting all policies in Aesthetics grants:[ENDCOLOR][NEWLINE][ICON_BULLET] Allows you to see Hidden Antiquity Sites.[NEWLINE][ICON_BULLET] Doubles the theming bonus you receive from Museums and Wonders.[NEWLINE][ICON_BULLET] Allows the purchase of [ICON_GREAT_WRITER] Great Writers, [ICON_GREAT_ARTIST] Artists, or [ICON_GREAT_MUSICIAN] Musicians with [ICON_PEACE] Faith starting in the Industrial Era.[NEWLINE][ICON_BULLET] Reduces the [ICON_CULTURE] Culture cost of future Policies by 15%.</Text>
+		</Replace>
+		
+		<!--Tradition-->
+		<Replace Tag="TXT_KEY_POLICY_OLIGARCHY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Oligarchy[ENDCOLOR][NEWLINE][ICON_BULLET] Cities with a garrison gain +50% [ICON_RANGE_STRENGTH] Ranged Combat Strength.[NEWLINE][ICON_BULLET] Garrisoned units cost no maintenance.[NEWLINE][ICON_BULLET] +40% [ICON_PRODUCTION] Production when building Walls.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_LANDED_ELITE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Landed Elite[ENDCOLOR][NEWLINE][ICON_BULLET] +15% [ICON_FOOD] Growth and +4 [ICON_FOOD] Food in the [ICON_CAPITAL] Capital.</Text>
+		</Replace>
+		
+	</Language_en_US>
+</GameData>
+

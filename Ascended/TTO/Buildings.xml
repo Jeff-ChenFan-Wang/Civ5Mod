@@ -96,11 +96,6 @@
 			<Description>TXT_KEY_BUILDING_INTERNET_CAFE</Description>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_ECOMMERCE</Type>
-			<DefaultBuilding>BUILDING_ECOMMERCE</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_ECOMMERCE</Description>
-		</Row>
-		<Row>
 			<Type>BUILDINGCLASS_PHYSICS_LAB</Type>
 			<DefaultBuilding>BUILDING_PHYSICS_LAB</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_PHYSICS_LAB</Description>
@@ -419,8 +414,8 @@
 		<Row>
 			<Type>BUILDING_CASINO</Type>
 			<BuildingClass>BUILDINGCLASS_CASINO</BuildingClass>
-			<Cost>360</Cost>
-			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
+			<Cost>700</Cost>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_CASINO_HELP</Help>
 			<Description>TXT_KEY_BUILDING_CASINO</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CASINO_TEXT</Civilopedia>
@@ -455,6 +450,8 @@
 			<BuildingClass>BUILDINGCLASS_STEEL_FOUNDRY</BuildingClass>
 			<Cost>500</Cost>
 			<GoldMaintenance>3</GoldMaintenance>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
 			<PrereqTech>TECH_RAILROAD</PrereqTech>
 			<Description>TXT_KEY_BUILDING_STEEL_FOUNDRY</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_STEEL_FOUNDRY_TEXT</Civilopedia>
@@ -499,7 +496,7 @@
 		</Update>
 		<Update>
 			<Where Type="BUILDING_MEDICAL_LAB"/>
-			<Set PrereqTech="TECH_PLASTIC" Cost="660" GoldMaintenance="4" FoodKept="20"/>
+			<Set Cost="600" GoldMaintenance="4" FoodKept="25"/>
 		</Update>
 		<Row>
 			<Type>BUILDING_PUBLIC_PARK</Type>
@@ -575,7 +572,7 @@
 		</Update>
 		<Update>
 			<Where Type="BUILDING_STOCK_EXCHANGE"/>
-			<Set PrereqTech="TECH_COMPUTERS" Cost="760" TradeRouteRecipientBonus="1" TradeRouteTargetBonus="1"/>
+			<Set Cost="400" TradeRouteRecipientBonus="1" TradeRouteTargetBonus="1"/>
 		</Update>
 		<Row>
 			<Type>BUILDING_SUPERCOMPUTER</Type>
@@ -651,7 +648,7 @@
 			<Strategy>TXT_KEY_BUILDING_HYDROPONIC_FARM_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_HOSPITAL</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>66</ConquestProb>
+			<ConquestProb>33</ConquestProb>
 			<HurryCostModifier>0</HurryCostModifier>
 			<IconAtlas>TTOMOD_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>38</PortraitIndex>
@@ -666,6 +663,8 @@
 			<BuildingClass>BUILDINGCLASS_WIND_FARM</BuildingClass>
 			<Cost>988</Cost>
 			<GoldMaintenance>5</GoldMaintenance>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
 			<PrereqTech>TECH_RENEWABLE_ENERGY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_WIND_FARM</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_WIND_FARM_TEXT</Civilopedia>
@@ -685,40 +684,18 @@
 		<Row>
 			<Type>BUILDING_INTERNET_CAFE</Type>
 			<BuildingClass>BUILDINGCLASS_INTERNET_CAFE</BuildingClass>
-			<Cost>988</Cost>
-			<GoldMaintenance>4</GoldMaintenance>
+			<Cost>998</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
 			<PrereqTech>TECH_INTERNET</PrereqTech>
 			<Description>TXT_KEY_BUILDING_INTERNET_CAFE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_INTERNET_CAFE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_INTERNET_CAFE_STRATEGY</Strategy>
 			<ArtDefineTag>MUSEUM</ArtDefineTag>
-			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
-			<GreatWorkCount>2</GreatWorkCount>
 			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>66</ConquestProb>
-			<HurryCostModifier>10</HurryCostModifier>
-			<IconAtlas>TTOMOD_ICON_ATLAS</IconAtlas>
-			<PortraitIndex>40</PortraitIndex>
-		</Row>
-		<Row>
-			<Type>BUILDING_ECOMMERCE</Type>
-			<BuildingClass>BUILDINGCLASS_ECOMMERCE</BuildingClass>
-			<Cost>988</Cost>
-			<PrereqTech>TECH_INTERNET</PrereqTech>
-			<Help>TXT_KEY_BUILDING_ECOMMERCE_HELP</Help>
-			<Description>TXT_KEY_BUILDING_ECOMMERCE</Description>
-			<Civilopedia>TXT_KEY_BUILDING_ECOMMERCE_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_ECOMMERCE_STRATEGY</Strategy>
-			<ArtDefineTag>ART_DEF_BUILDING_STOCK_EXCHANGE</ArtDefineTag>
-			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
-			<SpecialistCount>2</SpecialistCount>
-			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>66</ConquestProb>
-			<TradeRouteRecipientBonus>1</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>1</TradeRouteTargetBonus>
-			<HurryCostModifier>15</HurryCostModifier>
-			<IconAtlas>TTOMOD_ICON_ATLAS</IconAtlas>
-			<PortraitIndex>41</PortraitIndex>
+			<ConquestProb>50</ConquestProb>
+			<HurryCostModifier>50</HurryCostModifier>
+			<IconAtlas>RFEMOD_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>28</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_PHYSICS_LAB</Type>
@@ -818,10 +795,6 @@
 			<Where BuildingType="BUILDING_NUCLEAR_PLANT"/>
 			<Set BuildingClassType="BUILDINGCLASS_STEEL_FOUNDRY"/>
 		</Update>
-		<Update>
-			<Where BuildingType="BUILDING_STOCK_EXCHANGE"/>
-			<Set BuildingClassType="BUILDINGCLASS_CASINO"/>
-		</Update>
 		<Row>
 			<BuildingType>BUILDING_SUPERCOMPUTER</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
@@ -851,10 +824,6 @@
 		<Row>
 			<BuildingType>BUILDING_INTERNET_CAFE</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_ECOMMERCE</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_STOCK_EXCHANGE</BuildingClassType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PHYSICS_LAB</BuildingType>
@@ -888,17 +857,17 @@
 		<Row>
 			<BuildingType>BUILDING_BREWERY</BuildingType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>5</Flavor>
+			<Flavor>8</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BREWERY</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>3</Flavor>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BREWERY</BuildingType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>75</Flavor>
 		</Row>		
 		
 		<!-- Classical Era -->
@@ -910,7 +879,7 @@
 		<Row>
 			<BuildingType>BUILDING_COLOSSEUM</BuildingType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>55</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COLOSSEUM</BuildingType>
@@ -927,17 +896,17 @@
 		<Row>
 			<BuildingType>BUILDING_TAVERN</BuildingType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>5</Flavor>
+			<Flavor>8</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_TAVERN</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>3</Flavor>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_TAVERN</BuildingType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>65</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CIRCULAR_HARBOR</BuildingType>
@@ -974,14 +943,14 @@
 		<Row>
 			<BuildingType>BUILDING_BOOKSTORE</BuildingType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>55</Flavor>
 		</Row>
 
 		<!-- Industrial Era -->
 		<Row>
 			<BuildingType>BUILDING_CASINO</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>20</Flavor>
+			<Flavor>25</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CASINO</BuildingType>
@@ -1003,7 +972,7 @@
 		<Row>
 			<BuildingType>BUILDING_STEEL_FOUNDRY</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>4</Flavor>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_STEEL_FOUNDRY</BuildingType>
@@ -1013,7 +982,7 @@
 		<Row>
 			<BuildingType>BUILDING_RACE_TRACK</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>20</Flavor>
+			<Flavor>25</Flavor>
 		</Row>
 
 		<!-- Atomic Era -->
@@ -1066,7 +1035,7 @@
 		<Row>
 			<BuildingType>BUILDING_ELECTRONICS_STORE</BuildingType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>55</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_WIND_FARM</BuildingType>
@@ -1081,33 +1050,19 @@
 		<Row>
 			<BuildingType>BUILDING_HYDROPONIC_FARM</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>35</Flavor>
+			<Flavor>40</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_INTERNET_CAFE</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>75</Flavor>
+			<Flavor>70</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_ECOMMERCE</BuildingType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>20</Flavor>
+			<BuildingType>BUILDING_INTERNET_CAFE</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>70</Flavor>
 		</Row>
-		<Row>
-			<BuildingType>BUILDING_ECOMMERCE</BuildingType>
-			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_ECOMMERCE</BuildingType>
-			<FlavorType>FLAVOR_I_TRADE_DESTINATION</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_ECOMMERCE</BuildingType>
-			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_PHYSICS_LAB</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
@@ -1233,10 +1188,6 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>-1</Yield>
 		</Row>
-		<Update>
-			<Where BuildingType="BUILDING_STOCK_EXCHANGE"/>
-			<Set Yield="4"/>
-		</Update>
 		<Row>
 			<BuildingType>BUILDING_SUPERCOMPUTER</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
@@ -1254,18 +1205,19 @@
 		<Row>
 			<BuildingType>BUILDING_HYDROPONIC_FARM</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>5</Yield>
+			<Yield>6</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_INTERNET_CAFE</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>3</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_ECOMMERCE</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>5</Yield>
+			<BuildingType>BUILDING_INTERNET_CAFE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_PHYSICS_LAB</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
@@ -1292,7 +1244,7 @@
 		<Row>
 			<BuildingType>BUILDING_CASINO</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>25</Yield>
+			<Yield>10</Yield>
 		</Row>
 		<Update>
 			<Where BuildingType="BUILDING_LABORATORY"/>
@@ -1322,10 +1274,11 @@
 			<Yield>15</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_ECOMMERCE</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>25</Yield>
+			<BuildingType>BUILDING_INTERNET_CAFE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>15</Yield>
 		</Row>
+
 		<Row>
 			<BuildingType>BUILDING_PHYSICS_LAB</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
@@ -1353,5 +1306,18 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_HYDROPONIC_FARM</BuildingType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
 	</Building_TerrainYieldChanges>
+	<Building_YieldChangesPerPop>
+		<Row>
+			<BuildingType>BUILDING_INTERNET_CAFE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>20</Yield>
+		</Row>
+	</Building_YieldChangesPerPop>
 </GameData>

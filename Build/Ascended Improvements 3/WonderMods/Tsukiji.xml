@@ -11,7 +11,6 @@
 			<Quote>TXT_KEY_WONDER_TSUKIJI_QUOTE</Quote>
 			<Cost>1060</Cost>
 			<PrereqTech>TECH_REFRIGERATION</PrereqTech>
-			<MaxStartEra>ERA_ATOMIC</MaxStartEra>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<GreatPeopleRateChange>1</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>

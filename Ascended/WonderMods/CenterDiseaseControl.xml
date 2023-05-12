@@ -13,7 +13,7 @@
 	<Building_ClassesNeededInCity>
 		<Row>
 			<BuildingType>BUILDING_CENTER_FOR_DISEASE_CONTROL</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_MEDICAL_LAB</BuildingClassType>
 		</Row>
 	</Building_ClassesNeededInCity>
 	<!--<Building_PrereqBuildingClasses>
@@ -27,14 +27,15 @@
 		<Row>
 			<Type>BUILDING_CENTER_FOR_DISEASE_CONTROL</Type>
 			<BuildingClass>BUILDINGCLASS_CENTER_FOR_DISEASE_CONTROL</BuildingClass>
-			<Cost>750</Cost>
-			<PrereqTech>TECH_PENICILIN</PrereqTech>
+			<Cost>1090</Cost>
+			<PrereqTech>TECH_PLASTIC</PrereqTech>
 			<Help>TXT_KEY_BUILDING_CENTER_FOR_DISEASE_CONTROL_HELP</Help>
 			<Description>TXT_KEY_BUILDING_CENTER_FOR_DISEASE_CONTROL</Description>
 			<NukeImmune>true</NukeImmune>			
 			<HurryCostModifier>-1</HurryCostModifier>
+			<FreeBuilding>BUILDINGCLASS_HOSPITAL</FreeBuilding>
 			<MinAreaSize>-1</MinAreaSize>
-			<NeverCapture>true</NeverCapture>
+			<NeverCapture>1</NeverCapture>
 			<IconAtlas>RFEMOD_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>35</PortraitIndex>
 		</Row>
@@ -48,13 +49,13 @@
 		</Row>
 	</Building_SpecialistYieldChanges>
 
-	<Building_GlobalYieldModifiers>
+	<!--<Building_GlobalYieldModifiers>
 		<Row>
-			<BuildingType>BUILDING_GOLDEN_TEMPLE</BuildingType>
+			<BuildingType>BUILDING_CENTER_FOR_DISEASE_CONTROL</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>5</Yield>
 		</Row>
-	</Building_GlobalYieldModifiers>
+	</Building_GlobalYieldModifiers>-->
 	<Building_Flavors>
 		<Row>
 			<BuildingType>BUILDING_CENTER_FOR_DISEASE_CONTROL</BuildingType>
@@ -78,7 +79,7 @@
 			<Text>Center for Disease Control</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CENTER_FOR_DISEASE_CONTROL_HELP">
-			<Text>+1 [ICON_FOOD] Food from all Scientist Specialists, and +5% [ICON_FOOD] Growth in all Cities. City must have a Hospital built. </Text>
+			<Text>+1 [ICON_FOOD] Food from all Scientist Specialists, and provides a free Hospital in every city. City must have a Medical Lab built. </Text>
 		</Row>
 	</Language_en_US>
 </GameData>

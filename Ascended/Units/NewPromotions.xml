@@ -8,7 +8,7 @@
 			<Help>TXT_KEY_PROMOTION_MILITARY_ACADEMY_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<GreatGeneralCombatModifier>10</GreatGeneralCombatModifier>
-			<ExperiencePercent>15</ExperiencePercent>
+			<!--<ExperiencePercent>15</ExperiencePercent>-->
 			<CannotBeChosen>true</CannotBeChosen>
 			<PortraitIndex>11</PortraitIndex>
 			<IconAtlas>VALERY_ATLAS</IconAtlas>
@@ -39,7 +39,21 @@
 			<PediaType>PEDIA_MELEE</PediaType>
 			<PediaEntry>TXT_KEY_PROMOTION_COVER_1</PediaEntry>
 		</Row>
-
+		<Row>
+			<Type>PROMOTION_VULT_IMP</Type>
+			<Description>TXT_KEY_PROMOTION_VULT_IMP</Description>
+			<Help>TXT_KEY_PROMOTION_VULT_IMP_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<EnemyHealChange>10</EnemyHealChange>
+			<NeutralHealChange>10</NeutralHealChange>
+			<FriendlyHealChange>10</FriendlyHealChange>
+			<AttackMod>10</AttackMod>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_VULT_IMP_HELP</PediaEntry>
+		</Row>
 	</UnitPromotions>
 
 	<IconTextureAtlases>
@@ -75,12 +89,6 @@
 
 	<Language_en_US>
 
-		<Row Tag="TXT_KEY_PROMOTION_BARRACKS">
-			<Text>Barracks Buff</Text>
-		</Row>
-		<Row Tag="TXT_KEY_PROMOTION_BARRACKS_HELP">
-			<Text>Unit always heals every turn</Text>
-		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_ARMORY">
 			<Text>Armory Buff</Text>
@@ -93,7 +101,7 @@
 			<Text>Military Academy Buff</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_MILITARY_ACADEMY_HELP">
-			<Text>+10% [ICON_STRENGTH] Strength if on same tile as Great General. Earns XP 15% faster. </Text>
+			<Text>+10% [ICON_STRENGTH] Strength if on same tile as Great General. </Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_GEN_BREACH">
@@ -101,6 +109,13 @@
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_GEN_BREACH_HELP">
 			<Text>Great General leads unit to charge and force weaker enemies to retreat</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROMOTION_VULT_IMP">
+			<Text>Vult Imperii</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_VULT_IMP_HELP">
+			<Text>Unit gains +10% combat bonus when attacking and +10 HP to healing rate.</Text>
 		</Row>
 	</Language_en_US>
 	<UnitPromotions_UnitCombats>

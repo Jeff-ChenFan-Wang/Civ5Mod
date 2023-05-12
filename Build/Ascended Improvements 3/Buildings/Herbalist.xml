@@ -32,12 +32,17 @@
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_HERBALIST</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
 	</Building_Flavors>
 	<Building_YieldChanges>
 		<Row>
 			<BuildingType>BUILDING_HERBALIST</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 	</Building_YieldChanges>
 
@@ -46,11 +51,6 @@
 		<Row>
 			<BuildingType>BUILDING_HERBALIST</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>5</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_HERBALIST</BuildingType>
-			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>5</Yield>
 		</Row>
 	
@@ -71,7 +71,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HERBALIST_HELP">
 			<Text>
-				+5% [ICON_FOOD] Food and +5% [ICON_RESEARCH] Science in this city.
+				+5% [ICON_RESEARCH] Science in this city.
 			</Text>
 		</Row>
 	</Language_en_US>

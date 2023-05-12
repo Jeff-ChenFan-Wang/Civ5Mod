@@ -7,7 +7,7 @@
 			<Type>TRAIT_GIFTS</Type>
 			<Description>TXT_KEY_TRAIT_GIFTS</Description>
 			<ShortDescription>TXT_KEY_TRAIT_GIFTS_SHORT</ShortDescription>
-			<LevelExperienceModifier>-25</LevelExperienceModifier>
+			<!--<LevelExperienceModifier>-15</LevelExperienceModifier>-->
 			<GreatPeopleRateModifier>0</GreatPeopleRateModifier>
 			<GreatScientistRateModifier>0</GreatScientistRateModifier>
 			<GreatGeneralRateModifier>0</GreatGeneralRateModifier>
@@ -24,8 +24,8 @@
 			<LandBarbarianConversionPercent>0</LandBarbarianConversionPercent>
 			<LandBarbarianConversionExtraUnits>0</LandBarbarianConversionExtraUnits>
 			<SeaBarbarianConversionPercent>0</SeaBarbarianConversionPercent>
-			<LandUnitMaintenanceModifier>-20</LandUnitMaintenanceModifier>
-			<NavalUnitMaintenanceModifier>-20</NavalUnitMaintenanceModifier>
+			<LandUnitMaintenanceModifier>0</LandUnitMaintenanceModifier>
+			<NavalUnitMaintenanceModifier>0</NavalUnitMaintenanceModifier>
 			<CapitalBuildingModifier>0</CapitalBuildingModifier>
 			<PlotBuyCostModifier>0</PlotBuyCostModifier>
 			<PlotCultureCostModifier>0</PlotCultureCostModifier>
@@ -34,7 +34,7 @@
 			<CapitalThemingBonusModifier>0</CapitalThemingBonusModifier>
 			<PolicyCostModifier>0</PolicyCostModifier>
 			<CityConnectionTradeRouteChange>0</CityConnectionTradeRouteChange>
-			<WonderProductionModifier>5</WonderProductionModifier>
+			<WonderProductionModifier>0</WonderProductionModifier>
 			<PlunderModifier>0</PlunderModifier>
 			<ImprovementMaintenanceModifier>0</ImprovementMaintenanceModifier>
 			<GoldenAgeDurationModifier>0</GoldenAgeDurationModifier>
@@ -54,7 +54,7 @@
 			<CultureBuildingYieldChange>0</CultureBuildingYieldChange>
 			<CombatBonusVsHigherTech>0</CombatBonusVsHigherTech>
 			<CombatBonusVsLargerCiv>0</CombatBonusVsLargerCiv>
-			<RazeSpeedModifier>50</RazeSpeedModifier>
+			<!--<RazeSpeedModifier>50</RazeSpeedModifier>-->
 			<DOFGreatPersonModifier>0</DOFGreatPersonModifier>
 			<LuxuryHappinessRetention>0</LuxuryHappinessRetention>
 			<ExtraSpies>0</ExtraSpies>
@@ -106,7 +106,44 @@
 	<!-- Trait_YieldChangesIncomingTradeRoute -->
 	<!-- Trait_YieldModifiers -->
 	<!-- Trait_FreePromotions -->
-	
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_GIFTS</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_VULT_IMP</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_GIFTS</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_VULT_IMP</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_GIFTS</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_VULT_IMP</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_GIFTS</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_VULT_IMP</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_GIFTS</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_VULT_IMP</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_GIFTS</TraitType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+			<PromotionType>PROMOTION_VULT_IMP</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_GIFTS</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_VULT_IMP</PromotionType>
+		</Row>
+		
+	</Trait_FreePromotionUnitCombats>
 	<!-- Trait_MovesChangeUnitCombats -->
 	<!-- Trait_MaintenanceModifierUnitCombats -->
 	<!-- Trait_Terrains -->
@@ -118,7 +155,7 @@
 	<!-- Trait_NoTrain -->
 	-<Language_en_US>
 		-<Row Tag="TXT_KEY_TRAIT_GIFTS">
-			<Text>-20%[ICON_GOLD]non-air unit maintenance cost, +50% Raze speed. Military Units require 25% less experience to acquire a new promotion</Text>
+			<Text>All melee land units gain a +10% combat bonus when attacking and +10 HP to healing rate.</Text>
 		</Row>
 		-<Row Tag="TXT_KEY_TRAIT_GIFTS_SHORT">
 			<Text>Vult Imperii</Text>

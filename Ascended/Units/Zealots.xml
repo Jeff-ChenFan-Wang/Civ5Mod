@@ -1,7 +1,7 @@
-<!--<?xml version="1.0" encoding="utf-8"?>
---><!-- Created by ModBuddy on 3/13/2016 6:33:48 AM --><!--
+<?xml version="1.0" encoding="utf-8"?>
+ <!--Created by ModBuddy on 3/13/2016 6:33:48 AM--> 
 <GameData>
-	<Units>
+	<!--<Units>
 		<Row>
 			<Type>UNIT_ZEALOT</Type>
 			<Description>TXT_KEY_UNIT_ZEALOT</Description>
@@ -154,10 +154,10 @@
 			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
 		</Row>
 	</Unit_AITypes>
-	--><!-- Unit_Buildings --><!--
-	--><!-- Unit_BuildingClassRequireds --><!--
-	--><!-- Unit_ProductionModifierBuildings --><!--
-	--><!-- Unit_Builds --><!--
+	 Unit_Buildings 
+	 Unit_BuildingClassRequireds 
+	 Unit_ProductionModifierBuildings 
+	 Unit_Builds 
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_ZEALOT</UnitType>
@@ -179,7 +179,7 @@
 			<Flavor>8</Flavor>
 		</Row>
 	</Unit_Flavors>
-	--><!-- Unit_GreatPersons --><!--
+	 Unit_GreatPersons 
 	<Unit_ResourceQuantityRequirements>
 		<Row>
 			<UnitType>UNIT_ZEALOT</UnitType>
@@ -187,12 +187,12 @@
 			<Cost>1</Cost>
 		</Row>
 	</Unit_ResourceQuantityRequirements>
-	--><!-- Unit_UniqueNames --><!--
-	--><!-- Unit_YieldFromKills --><!--
-	--><!-- Unit_NotAITypes --><!--
-	--><!-- Unit_ProductionTraits --><!--
-	--><!-- Unit_TechTypes --><!--
-	--><!-- UnitPromotions_CivilianUnitType --><!--
+	 Unit_UniqueNames 
+	 Unit_YieldFromKills 
+	 Unit_NotAITypes 
+	 Unit_ProductionTraits 
+	 Unit_TechTypes 
+	 UnitPromotions_CivilianUnitType 
 	<UnitGameplay2DScripts>
 		<Row>
 			<UnitType>UNIT_ZEALOT</UnitType>
@@ -258,6 +258,6 @@
 			<PediaType>PEDIA_MELEE</PediaType>
 			<PediaEntry>TXT_KEY_PROMOTION_COVER_1</PediaEntry>
 		</Row>
-	</UnitPromotions>
+	</UnitPromotions>-->
   
-</GameData>-->
+</GameData>

@@ -19,11 +19,22 @@
 			<Set WorkerSpeedModifier="20"/>
 		</Update>
 
-		<!--added specialist engineers-->
+		<!--added specialist SLOTS FOR key national wonders-->
 		<Update>
 			<Where Type="BUILDING_IRONWORKS"/>
-			<Set SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="2"/>
+			<Set SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="3"/>
 		</Update>
+
+		<Update>
+			<Where Type="BUILDING_NATIONAL_TREASURY"/>
+			<Set SpecialistType="SPECIALIST_MERCHANT" SpecialistCount="3"/>
+		</Update>
+
+		<Update>
+			<Where Type="BUILDING_NATIONAL_COLLEGE"/>
+			<Set SpecialistType="SPECIALIST_SCIENTIST" SpecialistCount="3"/>
+		</Update>
+		
 
 		<Update>
 			<Where Type="BUILDING_NOTRE_DAME"/>
@@ -38,6 +49,15 @@
 		<Update>
 			<Where Type="BUILDING_TERRACOTTA_ARMY"/>
 			<Set InstantMilitaryIncrease="0"/>
+		</Update>
+		<!-- Alhambra Nerf-->
+		<Update>
+			<Where Type="BUILDING_ALHAMBRA"/>
+			<Set TrainedFreePromotion="" FreePromotion="PROMOTION_DRILL_1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_ALHAMBRA"/>
+			<Set cost="300"/>
 		</Update>
 		
 		<!--Mountain wonders mod-->
@@ -65,6 +85,28 @@
 			<Where Type="BUILDING_CRISTO_REDENTOR"/>
 			<Set PolicyCostModifier="-15"/>
 		</Update>
+
+		<Update>
+			<Where Type="BUILDING_PETRA"/>
+			<Set FreeBuildingThisCity="BUILDINGCLASS_CISTERN"/>
+		</Update>
+		
+		
+		<!--More artists from 2 to 3--><!--
+		<Update>
+			<Where Type="BUILDING_ARTISTS_GUILD"/>
+			<Set SpecialistCount="3"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_WRITERS_GUILD"/>
+			<Set SpecialistCount="3"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_MUSICIANS_GUILD"/>
+			<Set SpecialistCount="3"/>
+		</Update>-->
+		
+		
 	</Buildings>
 	<Building_FreeUnits>
 		<!--Pyramid workers tweak-->
@@ -92,6 +134,13 @@
 			<Where BuildingType="BUILDING_TERRACOTTA_ARMY" YieldType="YIELD_CULTURE"/>
 			<Set Yield="2"/>
 		</Update>
+		<!--BUffed SISTINE CHAPEL culture from 1 to 3-->
+		<Update>
+			<Where BuildingType="BUILDING_SISTINE_CHAPEL" YieldType="YIELD_CULTURE"/>
+			<Set Yield="3"/>
+		</Update>
+
+		
 	</Building_YieldChanges>
 
 	<Building_ClassesNeededInCity>
@@ -103,9 +152,9 @@
 		<Delete BuildingType="BUILDING_HEROIC_EPIC"/>
 	</Building_PrereqBuildingClasses>
 	
-	<Building_UnitCombatProductionModifiers>
+	<!--<Building_UnitCombatProductionModifiers>
 		<Delete BuildingType ="BUILDING_TEMPLE_ARTEMIS"/>
-	</Building_UnitCombatProductionModifiers>
+	</Building_UnitCombatProductionModifiers>-->
 	<Building_YieldModifiers>
 		<Row>
 			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
@@ -129,7 +178,40 @@
 			<DomainType>DOMAIN_AIR</DomainType>
 			<Modifier>33</Modifier>
 		</Row>
+
+		
+		<!--<Update>
+			<Where BuildingType="BUILDING_ALHAMBRA" DomainType="DOMAIN_LAND"/>
+			<Set Modifier="50"/>
+		</Update>-->
+	
 	</Building_DomainProductionModifiers>
+	<Building_TerrainYieldChanges>
+		<!--Nerf petra cuz of poor terrain tweaks PTT already gives +1 to desert tiles-->
+		<Delete BuildingType="BUILDING_PETRA" TerrainType="TERRAIN_DESERT" YieldType="YIELD_FOOD"/>
+	</Building_TerrainYieldChanges>
+	
+	
+	<Building_SpecialistYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_UFFIZI</BuildingType>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UFFIZI</BuildingType>
+			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UFFIZI</BuildingType>
+			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_SpecialistYieldChanges>
 	
 	<Building_Flavors>
 		<Update>
@@ -174,6 +256,10 @@
 			<Where Tag="TXT_KEY_BUILDING_HEROIC_EPIC_HELP"/>
 			<Set Text ="All newly-trained non-air Units in this City receive the [COLOR_POSITIVE_TEXT]Morale[ENDCOLOR] Promotion, improving [ICON_STRENGTH] combat strength by 15%. Contains 1 slot for a Great Work of Writing."/>
 		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_ALHAMBRA_HELP"/>
+			<Set Text="All non-air Units receive the [COLOR_POSITIVE_TEXT]Drill I[ENDCOLOR] Promotion, improving [ICON_STRENGTH] combat strength when fighting in [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] Terrain. Provides a free Castle in the city in which it is built. Boosts city [ICON_CULTURE] Culture output by 20%."/>
+		</Update>
 		<!--<Update>
 			<Where Tag="TXT_KEY_WONDER_TEMPLE_ARTEMIS_HELP"/>
 			<Set Text="+10% [ICON_FOOD] Growth in all cities."/>
@@ -194,6 +280,16 @@
 		<Update>
 			<Where Tag="TXT_KEY_WONDER_ANGKOR_WAT_HELP"/>
 			<Set Text="[ICON_CULTURE] Culture cost of acquiring new tiles reduced by 50% and [ICON_GOLD] Gold cost by 33% in all cities."/>
+		</Update>
+
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_PETRA_HELP"/>
+			<Set Text="+1 [ICON_PRODUCTION] Production for all desert tiles worked by this city (except Flood Plains). Gains an additional trade route slot and a Caravan appears in the city. +6 [ICON_CULTURE] Culture once Archaeology is discovered. Provides a free Cistern in the city in which it is built. City must be built on or next to Desert."/>
+		</Update>
+
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_UFFIZI_HELP"/>
+			<Set Text="Requires Aesthetics. 1 free Great Artist appears near the City where the Wonder was built. +1 [ICON_CULTURE] Culture from Artist, Musician, and Writer specialists in each City. Contains 3 slots for Great Works of Art."/>
 		</Update>
 	</Language_en_US>
 </GameData>

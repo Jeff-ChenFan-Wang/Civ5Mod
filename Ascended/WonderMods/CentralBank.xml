@@ -17,7 +17,7 @@
 			<NukeImmune>1</NukeImmune>
 			<NeverCapture>1</NeverCapture>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
-			<SpecialistCount>2</SpecialistCount>
+			<SpecialistCount>3</SpecialistCount>
 			<PrereqTech>TECH_BANKING</PrereqTech>
 			<Help>TXT_KEY_BUILDING_CENTRAL_BANK_HELP</Help>
 			<Description>TXT_KEY_BUILDING_CENTRAL_BANK</Description>
@@ -27,7 +27,6 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>0</ConquestProb>
 			<IconAtlas>CENTRAL_BANK_ATLAS</IconAtlas>
-			<WonderSplashAnchor>R,T</WonderSplashAnchor>
 			<PortraitIndex>2</PortraitIndex>
 		</Row>
 	</Buildings>

@@ -985,11 +985,11 @@
 		</Update>
 		<Update>
 			<Where Type="UNIT_BOMBER"/>
-			<Set Cost="430" ObsoleteTech="TECH_STEALTH"/>
+			<Set Cost="430"/>
 		</Update>
 		<Update>
 			<Where Type="UNIT_AMERICAN_B17"/>
-			<Set Cost="430" ObsoleteTech="TECH_STEALTH"/>
+			<Set Cost="430"/>
 		</Update>
 		<Update>
 			<Where Type="UNIT_PARATROOPER"/>
@@ -2379,48 +2379,24 @@
 			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_MODERN_ARTILLERY</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
 			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FLEET_CARRIER</UnitType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_FLEET_CARRIER</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
 			<UnitType>UNIT_SUPERCARRIER</UnitType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_SUPERCARRIER</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
 			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>
-		<Row>
 			<UnitType>UNIT_MISSILE_DESTROYER</UnitType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MISSILE_DESTROYER</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MODERN_ARMOR</UnitType>
@@ -2432,25 +2408,29 @@
 			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
 		<Row>
+			<UnitType>UNIT_JET_FIGHTER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
 			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
 		<Row>
+			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
 			<UnitType>UNIT_MODERN_HELICOPTER</UnitType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
-		</Row><!-- Until there is more aluminum in game
+		</Row>
 		<Row>
 			<UnitType>UNIT_MODERN_HELICOPTER</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>-->
-		<Row>
-			<UnitType>UNIT_MECH</UnitType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
 		</Row>
-		<Row>
+		<!--<Row>
 			<UnitType>UNIT_XCOM_SQUAD</UnitType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
-		</Row>
+		</Row>-->
 		
 		<!-- For Testing 
 		<Delete />-->

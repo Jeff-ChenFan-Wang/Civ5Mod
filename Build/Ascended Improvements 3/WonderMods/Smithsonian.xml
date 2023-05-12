@@ -18,6 +18,7 @@
 			<NeverCapture>1</NeverCapture>
 			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
 			<GreatWorkCount>4</GreatWorkCount>
+			<ThemingBonusHelp>TXT_KEY_SMITHSONIAN_THEMING_BONUS_HELP</ThemingBonusHelp>
 			<PrereqTech>TECH_BIOLOGY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_SMITHSONIAN_HELP</Help>
 			<Description>TXT_KEY_BUILDING_SMITHSONIAN</Description>
@@ -35,7 +36,7 @@
 		<Row>
 			<BuildingType>BUILDING_SMITHSONIAN</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>25</Flavor>
+			<Flavor>30</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SMITHSONIAN</BuildingType>
@@ -49,18 +50,20 @@
 			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
 		</Row>
 	</Building_ClassesNeededInCity>
-	<Building_YieldModifiers>
+	
+	<!--<Building_YieldModifiers>
 		<Row>
 			<BuildingType>BUILDING_SMITHSONIAN</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>10</Yield>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>15</Yield>
 		</Row>
-	</Building_YieldModifiers>
+	</Building_YieldModifiers>-->
+
 	<Building_YieldChanges>
 		<Row>
 			<BuildingType>BUILDING_SMITHSONIAN</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>5</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SMITHSONIAN</BuildingType>
@@ -68,6 +71,55 @@
 			<Yield>3</Yield>
 		</Row>
 	</Building_YieldChanges>
+	<Building_SpecialistYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_SMITHSONIAN</BuildingType>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMITHSONIAN</BuildingType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMITHSONIAN</BuildingType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMITHSONIAN</BuildingType>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SMITHSONIAN</BuildingType>
+			<SpecialistType>SPECIALIST_CITIZEN</SpecialistType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_SpecialistYieldChanges>
+	<Building_ThemingBonuses>
+		<Row>
+			<BuildingType>BUILDING_SMITHSONIAN</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_SMITHSONIAN</Description>
+			<Bonus>2</Bonus>
+			<SameEra></SameEra>
+			<UniqueEras></UniqueEras>
+			<MustBeArt></MustBeArt>
+			<MustBeArtifact></MustBeArtifact>
+			<MustBeEqualArtArtifact></MustBeEqualArtArtifact>
+			<RequiresOwner></RequiresOwner>
+			<RequiresAnyButOwner></RequiresAnyButOwner>
+			<RequiresSamePlayer></RequiresSamePlayer>
+			<RequiresUniquePlayers></RequiresUniquePlayers>
+			<AIPriority>1</AIPriority>
+		</Row>
+	</Building_ThemingBonuses>
 
 	<IconTextureAtlases>
 		<Row>
@@ -115,8 +167,15 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_SMITHSONIAN_HELP">
 			<Text>
-				City must have a Museum to be built.
+				+1 [ICON_CULTURE] Culture from Specialists in every city.
 			</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_THEMING_BONUS_SMITHSONIAN">
+			<Text>Stunning Collection</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SMITHSONIAN_THEMING_BONUS_HELP">
+			<Text>Simply complete the collection to receive the bonus.</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

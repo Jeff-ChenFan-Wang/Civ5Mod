@@ -12,7 +12,7 @@
 			<Quote/>
 			<GoldMaintenance>0</GoldMaintenance>
 			<MutuallyExclusiveGroup>-1</MutuallyExclusiveGroup>
-			<TeamShare>0</TeamShare>
+			<!--<TeamShare>0</TeamShare>
 			<Water>0</Water>
 			<River>0</River>
 			<FreshWater>0</FreshWater>
@@ -33,8 +33,8 @@
 			<ExtraLuxuries>0</ExtraLuxuries>
 			<DiplomaticVoting>0</DiplomaticVoting>
 			<AffectSpiesNow>0</AffectSpiesNow>
-			<NullifyInfluenceModifier>0</NullifyInfluenceModifier>
-			<Cost>55</Cost>
+			<NullifyInfluenceModifier>0</NullifyInfluenceModifier>-->
+			<Cost>60</Cost>
 			<FaithCost>0</FaithCost>
 			<LeagueCost>0</LeagueCost>
 			<UnlockedByBelief>0</UnlockedByBelief>
@@ -43,8 +43,8 @@
 			<NumCityCostMod>0</NumCityCostMod>
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>66</ConquestProb>
-			<CitiesPrereq>0</CitiesPrereq>
+			<ConquestProb>0</ConquestProb>
+			<!--<CitiesPrereq>0</CitiesPrereq>
 			<LevelPrereq>0</LevelPrereq>
 			<CultureRateModifier>0</CultureRateModifier>
 			<GlobalCultureRateModifier>0</GlobalCultureRateModifier>
@@ -55,9 +55,9 @@
 			<GoldenAgeModifier>0</GoldenAgeModifier>
 			<UnitUpgradeCostMod>0</UnitUpgradeCostMod>
 			<Experience>0</Experience>
-			<GlobalExperience>0</GlobalExperience>
-			<FoodKept>0</FoodKept>
-			<Airlift>0</Airlift>
+			<GlobalExperience>0</GlobalExperience>-->
+			<FoodKept>10</FoodKept>
+			<!--<Airlift>0</Airlift>
 			<AirModifier>0</AirModifier>
 			<NukeModifier>0</NukeModifier>
 			<NukeExplosionRand>0</NukeExplosionRand>
@@ -90,9 +90,9 @@
 			<MedianTechPercentChange>0</MedianTechPercentChange>
 			<Gold>0</Gold>
 			<AllowsRangeStrike>0</AllowsRangeStrike>
-			<Espionage>0</Espionage>
+			<Espionage>0</Espionage>-->
 			<AllowsFoodTradeRoutes>1</AllowsFoodTradeRoutes>
-			<AllowsProductionTradeRoutes>0</AllowsProductionTradeRoutes>
+			<!--<AllowsProductionTradeRoutes>0</AllowsProductionTradeRoutes>
 			<Defense>0</Defense>
 			<ExtraCityHitPoints>0</ExtraCityHitPoints>
 			<GlobalDefenseMod>0</GlobalDefenseMod>
@@ -114,9 +114,9 @@
 			<XBuiltTriggersIdeologyChoice>0</XBuiltTriggersIdeologyChoice>
 			<TradeRouteSeaDistanceModifier>0</TradeRouteSeaDistanceModifier>
 			<TradeRouteSeaGoldBonus>0</TradeRouteSeaGoldBonus>
-			<TradeRouteLandDistanceModifier>20</TradeRouteLandDistanceModifier>
+			<TradeRouteLandDistanceModifier>0</TradeRouteLandDistanceModifier>
 			<TradeRouteLandGoldBonus>0</TradeRouteLandGoldBonus>
-			<GreatScientistBeakerModifier>0</GreatScientistBeakerModifier>
+			<GreatScientistBeakerModifier>0</GreatScientistBeakerModifier>-->
 			<BuildingClass>BUILDINGCLASS_GRANARY</BuildingClass>
 			<ArtDefineTag/>
 			<NearbyTerrainRequired/>
@@ -196,6 +196,13 @@
 	<!-- Building_DomainFreeExperiences -->
 	<!-- Building_DomainFreeExperiencePerGreatWork -->
 	<!-- Building_DomainProductionModifiers -->
+	<!--<Building_DomainProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_SANGHELI_TRIBUTE</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Modifier>20</Modifier>
+		</Row>
+	</Building_DomainProductionModifiers>-->
 	<!-- Building_FreeSpecialistCounts -->
 
 	-<Building_Flavors>
@@ -278,7 +285,13 @@
 		</Row>
 	</Building_YieldChanges>
 
-	<!-- Building_YieldChangesPerPop -->
+	<!--<Building_YieldChangesPerPop>
+		<Row>
+			<BuildingType>BUILDING_SANGHELI_TRIBUTE</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>20</Yield>
+		</Row>
+	</Building_YieldChangesPerPop>-->
 	<!-- Building_YieldChangesPerReligion -->
 	<!-- Building_TechEnhancedYieldChanges -->
 
@@ -303,7 +316,10 @@
 		-<Row Tag="TXT_KEY_BUILDING_SANGHELI_TRIBUTE_HELP">
 			<Text>
 				[ICON_RES_BANANA] Banana, [ICON_RES_DEER] Deer, [ICON_RES_BISON]Bison, [ICON_RES_COW]Cow, and [ICON_RES_WHEAT] wheat worked gets +1 [ICON_FOOD].
-				[NEWLINE][NEWLINE]Allows [ICON_FOOD] Food to be moved from this city along trade routes inside your civilization.</Text>
+				[NEWLINE][NEWLINE]Allows [ICON_FOOD] Food to be moved from this city along trade routes inside your civilization.
+				[NEWLINE][NEWLINE]10% [ICON_FOOD] Food is carried over after a new citizen is born, this effect stacks with Aqueducts later on. 
+			</Text>
 		</Row>
+		<!--gives +1 more food than granary, and 10% compared to 40% from aqueduct at 25% from medical lab-->
 	</Language_en_US>
 </GameData>

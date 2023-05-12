@@ -12,7 +12,7 @@
 			<Quote/>
 			<GoldMaintenance>1</GoldMaintenance>
 			<MutuallyExclusiveGroup>-1</MutuallyExclusiveGroup>
-			<TeamShare>0</TeamShare>
+			<!--<TeamShare>0</TeamShare>
 			<Water>0</Water>
 			<River>0</River>
 			<FreshWater>0</FreshWater>
@@ -33,18 +33,18 @@
 			<ExtraLuxuries>0</ExtraLuxuries>
 			<DiplomaticVoting>0</DiplomaticVoting>
 			<AffectSpiesNow>0</AffectSpiesNow>
-			<NullifyInfluenceModifier>0</NullifyInfluenceModifier>
+			<NullifyInfluenceModifier>0</NullifyInfluenceModifier>-->
 			<Cost>40</Cost>
-			<FaithCost>0</FaithCost>
+			<!--<FaithCost>0</FaithCost>
 			<LeagueCost>0</LeagueCost>
 			<UnlockedByBelief>0</UnlockedByBelief>
 			<UnlockedByLeague>0</UnlockedByLeague>
 			<HolyCity>0</HolyCity>
-			<NumCityCostMod>0</NumCityCostMod>
+			<NumCityCostMod>0</NumCityCostMod>-->
 			<HurryCostModifier>25</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>66</ConquestProb>
-			<CitiesPrereq>0</CitiesPrereq>
+			<ConquestProb>0</ConquestProb>
+			<!--<CitiesPrereq>0</CitiesPrereq>
 			<LevelPrereq>0</LevelPrereq>
 			<CultureRateModifier>0</CultureRateModifier>
 			<GlobalCultureRateModifier>0</GlobalCultureRateModifier>
@@ -77,9 +77,9 @@
 			<WonderProductionModifier>0</WonderProductionModifier>
 			<CityConnectionTradeRouteModifier>0</CityConnectionTradeRouteModifier>
 			<CapturePlunderModifier>0</CapturePlunderModifier>
-			<PolicyCostModifier>0</PolicyCostModifier>
-			<PlotCultureCostModifier>0</PlotCultureCostModifier>
-			<GlobalPlotCultureCostModifier>0</GlobalPlotCultureCostModifier>
+			<PolicyCostModifier>0</PolicyCostModifier>-->
+			<PlotCultureCostModifier>-15</PlotCultureCostModifier>
+			<!--<GlobalPlotCultureCostModifier>0</GlobalPlotCultureCostModifier>
 			<PlotBuyCostModifier>0</PlotBuyCostModifier>
 			<GlobalPlotBuyCostModifier>0</GlobalPlotBuyCostModifier>
 			<GlobalPopulationChange>0</GlobalPopulationChange>
@@ -98,9 +98,9 @@
 			<GlobalDefenseMod>0</GlobalDefenseMod>
 			<MinorFriendshipChange>0</MinorFriendshipChange>
 			<VictoryPoints>0</VictoryPoints>
-			<ExtraMissionarySpreads>0</ExtraMissionarySpreads>
-			<ReligiousPressureModifier>50</ReligiousPressureModifier>
-			<!--EspionageModifier>0</EspionageModifier-->
+			<ExtraMissionarySpreads>0</ExtraMissionarySpreads>-->
+			<!--<ReligiousPressureModifier>0</ReligiousPressureModifier>-->
+			<!--<EspionageModifier>0</EspionageModifier>
 			<GlobalEspionageModifier>0</GlobalEspionageModifier>
 			<ExtraSpies>0</ExtraSpies>
 			<SpyRankChange>0</SpyRankChange>
@@ -116,9 +116,9 @@
 			<TradeRouteSeaGoldBonus>0</TradeRouteSeaGoldBonus>
 			<TradeRouteLandDistanceModifier>0</TradeRouteLandDistanceModifier>
 			<TradeRouteLandGoldBonus>0</TradeRouteLandGoldBonus>
-			<GreatScientistBeakerModifier>0</GreatScientistBeakerModifier>
+			<GreatScientistBeakerModifier>0</GreatScientistBeakerModifier>-->
 			<BuildingClass>BUILDINGCLASS_MONUMENT</BuildingClass>
-			<ArtDefineTag/>
+			<!--<ArtDefineTag/>
 			<NearbyTerrainRequired/>
 			<ProhibitedCityTerrain/>
 			<VictoryPrereq/>
@@ -132,7 +132,7 @@
 			<FreePromotion/>
 			<TrainedFreePromotion/>
 			<FreePromotionRemoved/>
-			<ReplacementBuildingClass/>
+			<ReplacementBuildingClass/>-->
 			<PrereqTech>TECH_AGRICULTURE</PrereqTech>
 			<PolicyBranchType/>
 			<SpecialistType/>
@@ -146,9 +146,9 @@
 			<CityWall>0</CityWall>
 			<DisplayPosition>0</DisplayPosition>
 			<PortraitIndex>4</PortraitIndex>
-			<WonderSplashImage/>
+			<!--<WonderSplashImage/>
 			<WonderSplashAnchor>R,T</WonderSplashAnchor>
-			<WonderSplashAudio/>
+			<WonderSplashAudio/>-->
 			<IconAtlas>BUILDING_MAW_PIT_ATLAS</IconAtlas>
 			<ArtInfoCulturalVariation>0</ArtInfoCulturalVariation>
 			<ArtInfoEraVariation>0</ArtInfoEraVariation>
@@ -195,7 +195,13 @@
 	<!-- Building_FreeUnits -->
 	<!-- Building_DomainFreeExperiences -->
 	<!-- Building_DomainFreeExperiencePerGreatWork -->
-	<!-- Building_DomainProductionModifiers -->
+	<!--<Building_DomainProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_ARBITER_SHRINE</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Modifier>15</Modifier>
+		</Row>
+	</Building_DomainProductionModifiers>-->
 	<!-- Building_FreeSpecialistCounts -->
 
 	-<Building_Flavors>
@@ -212,7 +218,12 @@
 		</Row>
 		-<Row>
 			<BuildingType>BUILDING_ARBITER_SHRINE</BuildingType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARBITER_SHRINE</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
 	</Building_Flavors>
@@ -234,13 +245,19 @@
 	<!-- Building_SeaResourceYieldChanges -->
 
 
-	<Building_ResourceYieldChanges/>
+	<!--<Building_ResourceYieldChanges/>-->
 
 	<!-- Building_FeatureYieldChanges -->
 	<!-- Building_TerrainYieldChanges -->
 	<!-- Building_SpecialistYieldChanges -->
 	<!-- Building_UnitCombatFreeExperiences -->
-	<!-- Building_UnitCombatProductionModifiers -->
+	<!--<Building_UnitCombatProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_ARBITER_SHRINE</BuildingType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<Modifier>15</Modifier>
+		</Row>
+	</Building_UnitCombatProductionModifiers>-->
 	<!-- Building_TechAndPrereqs -->
 
 	-<Building_YieldChanges>
@@ -257,19 +274,13 @@
 	</Building_YieldChanges>
 	<!-- Building_YieldChangesPerReligion -->
 	<!-- Building_TechEnhancedYieldChanges -->
-	-<Building_YieldModifiers>
-		<Row>
-			<BuildingType>BUILDING_ARBITER_SHRINE</BuildingType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>15</Yield>
-		</Row>
-	</Building_YieldModifiers>
+	<!--<Building_YieldModifiers>-->
 
 	<!-- Building_ThemingBonuses -->
 
 	-<Language_en_US>
 		-<Row Tag="TXT_KEY_BUILDING_ARBITER_SHRINE_DESC">
-			<Text>Allfire Forum</Text>
+			<Text>Forum of the God King</Text>
 		</Row>
 		-<Row Tag="TXT_KEY_BUILDING_ARBITER_SHRINE_PEDIA">
 			-<Text>
@@ -278,12 +289,12 @@
 		</Row>
 		-<Row Tag="TXT_KEY_BUILDING_ARBITER_SHRINE_STRATEGY">
 			<Text>
-				The Deep Mine represents the Dwarfs' excellence and ambition in mining into the deepest reaches of their mountain homes.  A Medieval-era building, it provides a boost to your city's [ICON_PRODUCTION] Production, and replaces the Forge.  If your city is working [ICON_RES_GOLD] Gold or [ICON_RES_SILVER] Silver resources, they will yield additional [ICON_GOLD] Gold.  The Deep Mine requires a Workshop, and that your city be adjacent to a Mountain.
+				The additional [ICON_FAITH] Faith lets your city become religious faster, or allows you to focus on other buildings. The reduced culture costs of acquiring tiles also allows it to expand faster natrually. 
 			</Text>
 		</Row>
 		-<Row Tag="TXT_KEY_BUILDING_ARBITER_SHRINE_HELP">
 			<Text>
-				+15% [ICON_CULTURE] Culture.
+				[ICON_CULTURE] Culture costs of acquiring new tiles reduced by 15% in this city.
 			</Text>
 		</Row>
 	</Language_en_US>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/21/2019 12:01:04 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_AI_LAB</Type>
+			<DefaultBuilding>BUILDING_AI_LAB</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_AI_LAB</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_AI_LAB</Type>
+			<BuildingClass>BUILDINGCLASS_AI_LAB</BuildingClass>
+			<Cost>2500</Cost>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<SpecialistCount>3</SpecialistCount>
+			<PrereqTech>TECH_ARTIFICIAL_INTELLIGENCE</PrereqTech>
+			<Help>TXT_KEY_BUILDING_AI_LAB_HELP</Help>
+			<Description>TXT_KEY_BUILDING_AI_LAB</Description>
+			<Civilopedia>TXT_KEY_BUILDING_AI_LAB_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_AI_LAB_STRATEGY</Strategy>
+			<MinAreaSize>-1</MinAreaSize>
+			<NukeImmune>1</NukeImmune>
+			<NeverCapture>1</NeverCapture>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<IconAtlas>RFEMOD_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>33</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_AI_LAB</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AI_LAB</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AI_LAB</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_AI_LAB</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Building_GlobalYieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_AI_LAB</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>33</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AI_LAB</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AI_LAB</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Building_GlobalYieldModifiers>
+	<Building_SpecialistYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_AI_LAB</BuildingType>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AI_LAB</BuildingType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AI_LAB</BuildingType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_SpecialistYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_AI_LAB">
+			<Text>National AI Hub</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AI_LAB_TEXT">
+			<Text>
+				National research center dedicated to creating advanced ai solutions to a variety of domains
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AI_LAB_STRATEGY">
+			<Text>
+				The national manufactury primarily boosts the empire's science output, but also yields small boosts in production and growth
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AI_LAB_HELP">
+			<Text>
+				+33% [ICON_RESEARCH] Science, +10% [ICON_PRODUCTION] Production, and +5% [ICON_FOOD] Growth in the empire. Certain Specialists gain increased yields, Engineers gain +1 [ICON_PRODUCTION] Production, Merchants gain +1 [ICON_GOLD] Gold, and Scientists gain +1 [ICON_RESEARCH] Science.
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

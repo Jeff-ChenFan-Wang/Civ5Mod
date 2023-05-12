@@ -134,6 +134,7 @@
 			<Recommendation>TXT_KEY_CIV5_IMPROVEMENTS_BORDER_FORT_REC</Recommendation>
 			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
 			<HotKey>KB_L</HotKey>
+			<Time>600</Time>
 			<OrderPriority>96</OrderPriority>
 			<CtrlDown>1</CtrlDown>
 			<IconIndex>51</IconIndex>

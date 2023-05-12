@@ -28,7 +28,6 @@
 			<UnitArtInfoCulturalVariation>true</UnitArtInfoCulturalVariation>
 			<PortraitIndex>0</PortraitIndex>
 			<IconAtlas>UNIT_ATLAS_1</IconAtlas>
-			<PrereqTech>TECH_FUTURE_TECH</PrereqTech>
 		</Row>
 
 	</Units>

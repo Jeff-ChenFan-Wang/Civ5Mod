@@ -2,15 +2,8 @@
 <!-- Created by ModBuddy on 5/14/2018 1:48:26 PM -->
 <GameData>
 	<Buildings>
-		<!-- Alhambra Nerf-->
-		<Update>
-			<Where Type="BUILDING_ALHAMBRA"/>
-			<Set TrainedFreePromotion=""/>
-		</Update>
-		<Update>
-			<Where Type="BUILDING_ALHAMBRA"/>
-			<Set cost="300"/>
-		</Update>
+
+
 		<!-- Military academy buff -->
 
 		<Update>
@@ -62,32 +55,22 @@
 		</Update>
 
 	</Building_DomainFreeExperiences>
-	<Building_DomainProductionModifiers>
-		<Update>
-			<Where BuildingType="BUILDING_ALHAMBRA" DomainType="DOMAIN_LAND"/>
-			<Set Modifier="50"/>
-		</Update>
-	</Building_DomainProductionModifiers>
+	
 	<Language_en_US>
-		<!-- Alhambra Nerf-->
-		<Update>
-			<Where Tag="TXT_KEY_WONDER_ALHAMBRA_HELP"/>
-			<Set Text="Increases land unit [ICON_PRODUCTION] production speed by 50%"/>
-		</Update>
 		<!-- Armory buff -->
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_ARMORY_HELP"/>
-			<Set Text="+20 XP for units trained in this city. +15% Combat strength for Land Units within 2 tiles of this city.[NEWLINE][NEWLINE]City must have a Barracks or Krepost."/>
+			<Set Text="+20 XP for units trained in this city. If a unit has less than 20xp, +5xp every turn spent in city.[NEWLINE][NEWLINE]City must have a Barracks or Krepost."/>
 		</Update>
-		<!-- Barracks buff-->
+		<!-- Barracks buff--><!--+15% Combat strength for Land Units within 2 tiles of this city.-->
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_BARRACKS_HELP"/>
-			<Set Text="+20 XP for units trained in this city. Land units within a tile of the city built heal even if action was taken. If a unit has less than 120xp, +5xp every turn spent in city."/>
+			<Set Text="+20 XP for units trained in this city. Land units within a tile of the city built heal even if action was taken."/>
 		</Update>
 		<!-- Military academy buff-->
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_MILITARY_ACADEMY_HELP"/>
-			<Set Text="+20 XP, +10% Great General Stack [ICON_STRENGTH]Strength and earn promotions 15% faster for units trained in this city. If a unit has less than 120xp, +5xp every turn spent in city. [NEWLINE][NEWLINE]City must have a Barracks or Krepost, and Armory."/>
+			<Set Text="+20 XP, +10% Great General Stack [ICON_STRENGTH] Strength for units trained in this city. If a unit has less than 120xp, +10xp every turn spent in city. [NEWLINE][NEWLINE]City must have a Barracks or Krepost, and Armory."/>
 		</Update>
 	</Language_en_US>
 </GameData>

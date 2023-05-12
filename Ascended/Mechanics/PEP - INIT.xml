@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 7/23/2012 6:55:19 PM -->
+<!--Promotion Expansion Pack by BlouBlou-->
+<!--
+There is now a 'Promotion Level' concept. A new generic skill with 3 level has been assigned to every unit. This skill is the 'Unlocker' of higher level promotion.
+All the 'basic promotion' has been converted into 'Level 1 promotions', All former Vanilla Promotion have been distributed in different Promotion level and many custom promotions were added and distributed as well.
+Now, every time you level you can buy a promotion of the skill level youre at, or you can buy the Unlocker to raise your promotion level and expand your promotion list choices.
+So, available for your first level up is: the unlocker and the former 2 'Basic promotion' of the unit (you start at promotion level 1).
+
+The unlocker skill is a generic, useful to all unit, promotion that slightly increase attack and def (stackable) and raise your %EXP GAIN, making leveling a little less exponential in term of cost and allow a more interesting end game play.
+
+
+-->
 <GameData>
 	
 	<UnitPromotions>

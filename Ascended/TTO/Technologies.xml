@@ -380,31 +380,31 @@
 		<!-- Information Era-->
 		<Update>
 			<Where Type="TECH_ROBOTICS"/>
-			<Set GridY="0"/>
+			<Set GridY="0" Cost="8000"/>
 		</Update>
 		<Update>
 			<Where Type="TECH_ADVANCED_BALLISTICS"/>
-			<Set GridY="2"/>
+			<Set GridY="2" Cost="8000"/>
 		</Update>
 		<Update>
 			<Where Type="TECH_MOBILE_TACTICS"/>
-			<Set GridY="4"/>
+			<Set GridY="4" Cost="8000"/>
 		</Update>
 		<Update>
 			<Where Type="TECH_SATELLITES"/>
-			<Set GridY="6"/>
+			<Set GridY="6" Cost="8000"/>
 		</Update>
 		<Update>
 			<Where Type="TECH_LASERS"/>
-			<Set GridY="8"/>
+			<Set GridY="8" Cost="8000"/>
 		</Update>
 		<Update>
 			<Where Type="TECH_GLOBALIZATION"/>
-			<Set GridY="1" InternationalTradeRoutesChange="1"/>
+			<Set GridY="1" InternationalTradeRoutesChange="1" Cost="9600"/>
 		</Update>
 		<Row>
 			<Type>TECH_RENEWABLE_ENERGY</Type>
-			<Cost>8800</Cost>
+			<Cost>9600</Cost>
 			<Description>TXT_KEY_TECH_RENEWABLE_ENERGY_TITLE</Description>
 			<Civilopedia>TXT_KEY_TECH_RENEWABLE_ENERGY_DESC</Civilopedia>
 			<Help>TXT_KEY_TECH_RENEWABLE_ENERGY_HELP</Help>
@@ -418,21 +418,21 @@
 		</Row>
 		<Update>
 			<Where Type="TECH_STEALTH"/>
-			<Set GridY="5" EmbarkedMoveChange="1"/>
+			<Set GridY="5" EmbarkedMoveChange="1" Cost="9600"/>
 		</Update>
 		<Update>
 			<Where Type="TECH_INTERNET"/>
-			<Set GridY="7"/>
+			<Set GridY="7" Cost="9600"/>
 		</Update>
 		<Update>
 			<Where Type="TECH_PARTICLE_PHYSICS"/>
-			<Set GridY="9"/>
+			<Set GridY="9" Cost="9600"/>
 		</Update>
 
 		<!-- Future Era -->
 		<Row>
 			<Type>TECH_ARTIFICIAL_INTELLIGENCE</Type>
-			<Cost>10100</Cost>
+			<Cost>12500</Cost>
 			<Description>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE</Description>
 			<Civilopedia>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_TEXT</Civilopedia>
 			<Help>TXT_KEY_TECH_ARTIFICIAL_INTELLIGENCE_HELP</Help>
@@ -446,15 +446,15 @@
 		</Row>
 		<Update>
 			<Where Type="TECH_NANOTECHNOLOGY"/>
-			<Set Cost="10100" GridX="17" GridY="2" Era="ERA_REAL_FUTURE"/>
+			<Set Cost="12500" GridX="17" GridY="2" Era="ERA_REAL_FUTURE"/>
 		</Update>
 		<Update>
 			<Where Type="TECH_NUCLEAR_FUSION"/>
-			<Set Cost="10100" GridX="17" GridY="8" Era="ERA_REAL_FUTURE"/>
+			<Set Cost="12500" GridX="17" GridY="8" Era="ERA_REAL_FUTURE"/>
 		</Update>
 		<Update>
 			<Where Type="TECH_FUTURE_TECH"/>
-			<Set Cost="11600" GridX="18" Era="ERA_REAL_FUTURE" AudioIntro="NULL"/>
+			<Set Cost="18600" GridX="18" Era="ERA_REAL_FUTURE" AudioIntro="NULL"/>
 		</Update>
 		
 		<!-- For speedy testing 
@@ -806,23 +806,8 @@
 		</Row>
 		<Row>
 			<TechType>TECH_ARTIFICIAL_INTELLIGENCE</TechType>
-			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ARTIFICIAL_INTELLIGENCE</TechType>
-			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ARTIFICIAL_INTELLIGENCE</TechType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>15</Flavor>
-		</Row>
-		<Row>
-			<TechType>TECH_ARTIFICIAL_INTELLIGENCE</TechType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>5</Flavor>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>55</Flavor>
 		</Row>
 	</Technology_Flavors>
 		

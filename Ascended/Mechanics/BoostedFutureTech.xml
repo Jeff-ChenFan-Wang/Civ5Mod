@@ -5,12 +5,12 @@
 		<Replace Tag="TXT_KEY_TECH_FUTURE_TECH_HELP">
 			<Text>
 				Each time it is researched it will increase your score and grant:
-				[NEWLINE]+4 [ICON_FOOD] Food from Palace,
-				[NEWLINE]+4 [ICON_PRODUCTION] Production from Ironworks,
-				[NEWLINE]+4 [ICON_GOLD] Gold from East India Company,
-				[NEWLINE]+4 [ICON_PEACE] Faith from Grand Temple,
-				[NEWLINE]+4 [ICON_CULTURE] Culture from Hermitage,
-				[NEWLINE]+4 [ICON_RESEARCH] Science from National College.
+				[NEWLINE]+10 [ICON_FOOD] Food from Palace,
+				[NEWLINE]+10 [ICON_PRODUCTION] Production from Ironworks,
+				[NEWLINE]+10 [ICON_GOLD] Gold from East India Company,
+				[NEWLINE]+10 [ICON_PEACE] Faith from Grand Temple,
+				[NEWLINE]+10 [ICON_CULTURE] Culture from Hermitage,
+				[NEWLINE]+10 [ICON_RESEARCH] Science from National College.
 			</Text>
 		</Replace>
 		<!--Techtree Tooltip-->

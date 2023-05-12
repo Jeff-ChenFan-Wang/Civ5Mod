@@ -13,7 +13,7 @@
 			<Type>BUILDING_CISTERN</Type>
 			<BuildingClass>BUILDINGCLASS_CISTERN</BuildingClass>
 			<Cost>80</Cost>
-			<GoldMaintenance>1</GoldMaintenance>
+			<GoldMaintenance>2</GoldMaintenance>
 			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
 			<Help>TXT_KEY_BUILDING_CISTERN_HELP</Help>
 			<Description>TXT_KEY_BUILDING_CISTERN</Description>
@@ -102,18 +102,17 @@
 		</Row>
 	</IconTextureAtlases>
 	<Language_en_US>
-		<!--iron refinery-->
 		<Row Tag="TXT_KEY_BUILDING_CISTERN">
 			<Text>Cisterns</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CISTERN_TEXT">
 			<Text>
-				Small cisterns providing more stable and clean water sources for the city
+				Small cisterns providing more stable and clean water sources for the city.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CISTERN_STRATEGY">
 			<Text>
-				Small cisterns providing more stable and clean water sources for the city
+				Small cisterns providing more stable and clean water sources for the city.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CISTERN_HELP">

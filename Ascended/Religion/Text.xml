@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 12/8/2013 11:32:02 AM -->
+<GameData>
+	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_GOD_CRAFTSMEN"/>
+			<Set Text="+2 [ICON_PRODUCTION] Production in cities with population of 3+"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_GOD_WAR"/>
+			<Set Text="Gain [ICON_PEACE] Faith if you win a battle within 10 tiles of your city"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_SACRED_WATERS"/>
+			<Set Text="+2 [ICON_HAPPINESS_1] Happiness from cities on rivers"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_GODDESS_LOVE"/>
+			<Set Text="+2 [ICON_HAPPINESS_1] Happiness from cities with population of 6+"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS"/>
+			<Set Text="+35% faster border growth"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_ANCESTOR_WORSHIP"/>
+			<Set Text="+2 [ICON_CULTURE] Culture from Shrines"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_RELIQUARY"/>
+			<Set Text="Gain 250 [ICON_PEACE] Faith each time a Great Person is expended"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_PEACE_LOVING"/>
+			<Set Text="+1 [ICON_HAPPINESS_1] Global Happiness for every 4 followers of this religion in non-enemy foreign cities"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_CHURCH_PROPERTY"/>
+			<Set Text="+3 [ICON_GOLD] Gold for each city following this religion"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_INITIATION_RITES"/>
+			<Set Text="Gain 200 [ICON_GOLD] Gold each time a city is converted"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_MISSIONARY_ZEAL"/>
+			<Set Text="Missionary conversion strength +50%"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_DANCE_AURORA"/>
+			<Set Text="+2 [ICON_PEACE] Faith from Tundra tiles without Forest"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_CEREMONIAL_BURIAL"/>
+			<Set Text="+1 [ICON_HAPPINESS_1] Global Happiness for every city following this religion"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_INTERFAITH_DIALOGUE"/>
+			<Set Text="When Missionary or Prophet converts city of other religion, gains 25 [ICON_RESEARCH] science boost for each believer of other religion converted"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_CHORAL_MUSIC"/>
+			<Set Text="Temples provide +3 [ICON_CULTURE] Culture in cities with 5 followers"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_LITURGICAL_DRAMA"/>
+			<Set Text="Ampitheaters provide +2 [ICON_PEACE] Faith in cities with 3 followers"/>
+		</Update>
+	</Language_en_US>
+	<Language_PL_PL>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_GOD_CRAFTSMEN"/>
+			<Set Text="+2 [ICON_PRODUCTION] produkcji w mieście z populacją co najmniej 3"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_GOD_WAR"/>
+			<Set Text="+ do[ICON_PEACE] wiary, jeśli wygrasz bitwę w odl. do 8 pól od miasta "/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_SACRED_WATERS"/>
+			<Set Text="+2 [ICON_HAPPINESS_1] do zadowolenia z miast nad rzekami"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_GODDESS_LOVE"/>
+			<Set Text="+2 do [ICON_HAPPINESS_1] zadowolenia z miast z populacją powyżej 6"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS"/>
+			<Set Text="+35% szybsze powiększanie granic"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_ANCESTOR_WORSHIP"/>
+			<Set Text="+2 [ICON_CULTURE] kultury z kaplic"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_RELIQUARY"/>
+			<Set Text="+250 do [ICON_PEACE] wiary za każdą poświęconą wielką osobę"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_PEACE_LOVING"/>
+			<Set Text=">+1 do [ICON_HAPPINESS_1] za każdych 4 wyznawców w miastach nie nal. do wroga"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_CHURCH_PROPERTY"/>
+			<Set Text="+3 do [ICON_GOLD] złota za każde miasto wyznające tę religię"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_INITIATION_RITES"/>
+			<Set Text="+200 [ICON_GOLD] złota, gdy każde z miast po raz pierwszy nawróci się na tę religię"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_MISSIONARY_ZEAL"/>
+			<Set Text="+50% do siły nawracania misjonarzy"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_DANCE_AURORA"/>
+			<Set Text=">+2 do [ICON_PEACE] wiary dzięki tundrze bez lasu"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_CEREMONIAL_BURIAL"/>
+			<Set Text="+1 do [ICON_HAPPINESS_1] zadowolenia za każde miasto wyznające daną religię"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_INTERFAITH_DIALOGUE"/>
+			<Set Text="Gdy misjonarz lub prorok nawraca miasto innej religii, +25 punktów [ICON_RESEARCH] nauki za każdego nawróconego obywatela"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_CHORAL_MUSIC"/>
+			<Set Text="+3 do [ICON_CULTURE] ze świątyń w miastach z 5 wyznawcami"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_LITURGICAL_DRAMA"/>
+			<Set Text="Amfiteatry dają +2 do [ICON_PEACE] wiary w miastach z 3 wyznawcami"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_PILGRIMAGE"/>
+			<Set Text="Każde miasto nawrócone na tą religię daje +4 [ICON_PEACE] wiary"/>
+		</Update>
+	</Language_PL_PL>
+</GameData>

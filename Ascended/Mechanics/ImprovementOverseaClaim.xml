@@ -38,7 +38,7 @@
 			<Time>600</Time>
 			<OrderPriority>96</OrderPriority>
 			<CtrlDown>1</CtrlDown>
-			<IconIndex>51</IconIndex>
+			<IconIndex>34</IconIndex>
 			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
 		</Row>
 	</Builds>
@@ -149,8 +149,8 @@
 			<GoldMaintenance>5</GoldMaintenance>
 			<CultureBombRadius>1</CultureBombRadius>
 			<RequiresXAdjacentLand>-1</RequiresXAdjacentLand>
-			<PortraitIndex>27</PortraitIndex>
-			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+			<IconAtlas>TERRAIN_IMPROVEMENT_ICON_ATLAS_EXP2</IconAtlas>
 		</Row>
 	</Improvements>
 
@@ -168,8 +168,8 @@
 			<HotKey>KB_C</HotKey>
 			<OrderPriority>96</OrderPriority>
 			<CtrlDown>1</CtrlDown>
-			<IconIndex>52</IconIndex>
-			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+			<IconIndex>2</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS_EXP2</IconAtlas>
 		</Row>
 	</Builds>
 

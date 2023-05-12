@@ -140,7 +140,7 @@
 		<!-- Industrial Era -->
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_FACTORY_HELP"/>
-			<Set Text="Requires 1 [ICON_RES_COAL] Coal.[NEWLINE][NEWLINE]City must have a Windmill."/>
+			<Set Text="Requires 1 [ICON_RES_COAL] Coal.[NEWLINE][NEWLINE]City must have a Workshop."/>
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_FACTORY_STRATEGY"/>
@@ -184,7 +184,7 @@
 			<Text>Steel Foundry</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STEEL_FOUNDRY_HELP">
-			<Text>Requires 1 [ICON_RES_IRON] Iron.[NEWLINE][NEWLINE]City must have a Windmill.</Text>
+			<Text>Requires 1 [ICON_RES_IRON] Iron.[NEWLINE][NEWLINE]City must have a Factory.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_STEEL_FOUNDRY_STRATEGY">
 			<Text>The Steel Foundry is a Modern Era building which greatly inscreases a city's [ICON_PRODUCTION] Production. The city must already possess a Windmill. 1 [ICON_RES_IRON] Iron are consumed when a Steel Foundry is created.</Text>
@@ -208,11 +208,11 @@
 		<!-- Atomic Era -->
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_MEDICAL_LAB_HELP"/>
-			<Set Text="20% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born (effect stacks with Aqueduct).[NEWLINE][NEWLINE]City must have a Hospital."/>
+			<Set Text="25% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born (effect stacks with Aqueduct).[NEWLINE][NEWLINE]City must have a Hospital."/>
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_MEDICAL_LAB_STRATEGY"/>
-			<Set Text="The Medical Lab is a late-game building which decreases the amount of [ICON_FOOD] Food a city needs to increase in size by 20%. The city needs to have a Hospital in order to construct the Medical Lab."/>
+			<Set Text="The Medical Lab is a late-game building which decreases the amount of [ICON_FOOD] Food a city needs to increase in size by 25%. The city needs to have a Hospital in order to construct the Medical Lab."/>
 		</Update>
 		<Row Tag="TXT_KEY_BUILDING_PUBLIC_PARK">
 			<Text>Public Park</Text>
@@ -261,14 +261,6 @@
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_NUCLEAR_PLANT_STRATEGY"/>
 			<Set Text="The Nuclear Plant significantly increases the productivity in a city. A Nuclear Plant requires one [ICON_RES_URANIUM] Uranium resource to be constructed. The city must possess a Steel Foundry before it can be constructed. Mutually exclusive with Solar Plant."/>
-		</Update>
-		<Update>
-			<Where Tag="TXT_KEY_CIV5_BUILDINGS_STOCK_EXCHANGE_STRATEGY"/>
-			<Set Text="The Stock Exchange is an Atomic-era building which increases the output of [ICON_GOLD] Gold in a city. The city must possess a Casino before the Stock Exchange can be constructed. Trade routes other players make to a city with a Stock Exchange will generate an extra 1 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 1 [ICON_GOLD] Gold for the trade route."/>
-		</Update>
-		<Update>
-			<Where Tag="TXT_KEY_BUILDING_STOCK_EXCHANGE_HELP"/>
-			<Set Text="City must have a Casino."/>
 		</Update>
 		<Row Tag="TXT_KEY_BUILDING_SUPERCOMPUTER">
 			<Text>Supercomputer</Text>
@@ -328,7 +320,7 @@
 			<Text>Hydroponic Farm</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HYDROPONIC_FARM_HELP">
-			<Text>+1 [ICON_FOOD] to all mountain, snow, and tundra tiles worked. City must have a Medical Lab.</Text>
+			<Text>+1 [ICON_FOOD] to all mountain, snow, desert, and tundra tiles worked. City must have a Medical Lab.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HYDROPONIC_FARM_STRATEGY">
 			<Text>A Hydroponic Farm is a late-game building which increases [ICON_FOOD] Food in a city, more so on mountain tiles. The city must possess a Medical Lab before it can be constructed.</Text>
@@ -337,28 +329,16 @@
 			<Text>Hydroponics is a subset of hydroculture and is a method of growing plants using mineral nutrient solutions, in water, without soil. Hydroponics saves water; it uses as little as 1⁄20 the amount as a regular farm to produce the same amount of food. The water table can be impacted by the water use and run-off of chemicals from farms, but hydroponics may minimize impact as well as having the advantage that water use and water returns are easier to measure. This can save the farmer money by allowing reduced water use and the ability to measure consequences to the land around a farm.[NEWLINE][NEWLINE]The environment in a hydroponics greenhouse is tightly controlled for maximum efficiency. With this growers can make ultra-premium foods anywhere in the world, regardless of temperature and growing seasons. Growers monitor the temperature, humidity, and pH level constantly. With pest problems reduced, and nutrients constantly fed to the roots, productivity in hydroponics is high, although plant growth can be limited by the low levels of carbon dioxide in the atmosphere, or limited light exposure. To increase yield further, some sealed greenhouses inject carbon dioxide into their environment to help growth, add lights to lengthen the day, or control vegetative growth, etc.[NEWLINE][NEWLINE]The earliest published work on growing terrestrial plants without soil was the 1627 book Sylva Sylvarum by Francis Bacon, printed a year after his death. Water culture became a popular research technique after that. In 1699, John Woodward published his water culture experiments with spearmint. He found that plants in less-pure water sources grew better than plants in distilled water. By 1842, a list of nine elements believed to be essential to plant growth had been compiled, and the discoveries of the German botanists Julius von Sachs and Wilhelm Knop, in the years 1859-65, resulted in a development of the technique of soilless cultivation. Growth of terrestrial plants without soil in mineral nutrient solutions was called solution culture. It quickly became a standard research and teaching technique and is still widely used today. Solution culture is now considered a type of hydroponics where there is no inert medium.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_INTERNET_CAFE">
-			<Text>Internet Cafe</Text>
+			<Text>Fiber Optics</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_INTERNET_CAFE_HELP">
-			<Text>City must have a Broadcast Tower.</Text>
+			<Text>+1 [ICON_CULTURE] Culture for every 5 [ICON_CITIZEN] Citizens in this City. [NEWLINE]City must have a Broadcast Tower.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_INTERNET_CAFE_STRATEGY">
-			<Text>The Internet Cafe is a late-game building that increases [ICON_CULTURE] Culture output of the city. The city must possess a Broadcast Tower before the Internet Cafe can be constructed.</Text>
+			<Text>Fiber Optics are late-game building that increases [ICON_CULTURE] Culture and [ICON_SCIENCE] output of the city. The city must possess a Broadcast Tower before fiber optics can be constructed.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_INTERNET_CAFE_TEXT">
-			<Text>An Internet café also known as Coffee net or Café net is a place which provides Internet access to the public, usually for a fee. These businesses usually provide snacks and drinks, hence the café in the name. The fee for using a computer is usually charged as a time-based rate.[NEWLINE][NEWLINE]The first online café in South Korea called Electronic Café opened in front of Hongik University in March 1988 in Seoul. It had two 16bit computers connected to Online service networks through telephone lines. Online service users’ offline meetings were held in the Electronic Café, which served as a place that connected online and offline activities.[NEWLINE][NEWLINE]Internet cafés are located worldwide, and many people use them when traveling to access webmail and instant messaging services to keep in touch with family and friends. Apart from travelers, in many developing countries Internet cafés are the primary form of Internet access for citizens as a shared-access model is more affordable than personal ownership of equipment and/or software. A variation on the Internet café business model is the LAN gaming center, used for multiplayer gaming. These cafés have several computer stations connected to a LAN. The connected computers are custom-assembled for gameplay, supporting popular multiplayer games. This is reducing the need for video arcades and arcade games, many of which are being closed down or merged into Internet cafés. The use of Internet cafés for multiplayer gaming is particularly popular in certain areas of Asia like India, China, Taiwan, Hong Kong, South Korea and thePhilippines. In some countries, since practically all LAN gaming centers also offer Internet access, the terms net cafe and LAN gaming center have become interchangeable. Again, this shared-access model is more affordable than personal ownership of equipment and/or software, especially since games often require high end and expensive PCs.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_ECOMMERCE">
-			<Text>E-Commerce Business</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_ECOMMERCE_HELP">
-			<Text>City must have a Stock Exchange.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_ECOMMERCE_STRATEGY">
-			<Text>An E-Commerce Business is an Information-era building which increases the city's output of [ICON_GOLD] Gold. A city must possess a Stock Exchange before an E-Commerce Business may be constructed. Trade routes other players make to a city with an E-Commerce Business will generate an extra 1 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 1 [ICON_GOLD] Gold for the trade route.</Text>
-		</Row>
-		<Row Tag="TXT_KEY_BUILDING_ECOMMERCE_TEXT">
-			<Text>Electronic commerce, commonly written as e-commerce, is the trading or facilitation of trading in products or services using computer networks, such as the Internet. Electronic commerce draws on technologies such as mobile commerce, electronic funds transfer, supply chain management, Internet marketing, online transaction processing, electronic data interchange, inventory management systems, and automated data collection systems. Modern electronic commerce typically uses the World Wide Web for at least one part of the transaction's life cycle, although it may also use other technologies such as e-mail.[NEWLINE][NEWLINE]In 2010, the United Kingdom had the biggest e-commerce market in the world when measured by the amount spent per capita. As of 2013, the Czech Republic was the European country where ecommerce delivers the biggest contribution to the enterprises´ total revenue. Almost a quarter (24%) of the country’s total turnover is generated via the online channel.[NEWLINE][NEWLINE]Among emerging economies, China's e-commerce presence continues to expand every year. With 384 million internet users, China's online shopping sales rose to $36.6 billion in 2009 and one of the reasons behind the huge growth had been the improved trust level for shoppers. The Chinese retailers have been able to help consumers feel more comfortable shopping online. E-commerce transactions between China and other countries increased 32% to $375.8 billion in 2012 and accounted for 9.6% of China's total international trade  In 2013, Alibaba had an e-commerce market share of 80% in China.[NEWLINE][NEWLINE]For traditional businesses, one research stated that information technology and cross-border e-commerce is a good opportunity for the rapid development and growth of enterprises. Many companies have invested enormous volume of investment in mobile applications. There is no limit of time and space, there are more opportunities to reach out to customers around the world, and to cut down unnecessary intermediate links, thereby reducing the cost price, and can benefit from one on one large customer data analysis, to achieve a high degree of personal customization strategic plan, in order to fully enhance the core competitiveness of the products in company.</Text>
+			<Text>Fiber optics are essenetial to setting up proper high speed internet connections.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_PHYSICS_LAB">
 			<Text>Physics Lab</Text>

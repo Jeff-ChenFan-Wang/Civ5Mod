@@ -15,8 +15,9 @@
 			<Set Flavor="10" />
 			<Where AIGrandStrategyType="AIGRANDSTRATEGY_UNITED_NATIONS" />
 		</Update>
+		<!--jeff nerfed from 16 to 10-->
 		<Update>
-			<Set Flavor="16" />
+			<Set Flavor="10" />
 			<Where AIGrandStrategyType="AIGRANDSTRATEGY_SPACESHIP" />
 		</Update>
 	</AIGrandStrategy_Flavors>

@@ -9,12 +9,13 @@
 	</AIEconomicStrategies>
 	<AIEconomicStrategy_Player_Flavors>
 	<!-- Old value of 10 isn't exactly "like crazy". Now 75, that's more like it! -->
+		<!--nerfed down to 70-->
 		<Update>
-			<Set Flavor="75" />
+			<Set Flavor="70" />
 			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_EXPAND_LIKE_CRAZY" />
 		</Update>
 		<Update>
-			<Set Flavor="75" />
+			<Set Flavor="70" />
 			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_GROW_LIKE_CRAZY" />
 		</Update>
 		<!-- AI more likely to create escort for their first settler -->
@@ -57,7 +58,7 @@
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_CONQUEST</AIEconomicStrategyType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>5</Flavor>
+			<Flavor>7</Flavor>
 		</Row>
 		<!-- Population = Science -->
 		<Row>
@@ -89,12 +90,13 @@
 	</AIEconomicStrategy_Player_Flavors>
 	<AIEconomicStrategy_City_Flavors>
 	<!-- Old value of 10 isn't exactly "like crazy". Now 75, that's more like it! -->
+		<!--nerfed down to 70-->
 		<Update>
-			<Set Flavor="75" />
+			<Set Flavor="70" />
 			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_EXPAND_LIKE_CRAZY" />
 		</Update>
 		<Update>
-			<Set Flavor="75" />
+			<Set Flavor="70" />
 			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_GROW_LIKE_CRAZY" />
 		</Update>
 		<!-- AI more likely to create escort for their first settler -->

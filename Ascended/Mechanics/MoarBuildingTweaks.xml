@@ -2,6 +2,8 @@
 <!-- Created by ModBuddy on 8/18/2019 9:52:49 PM -->
 <GameData>
 	<Buildings>
+		<!--Boost specialist slots for production-->
+		<!--2 TO 1-->
 		<Update>
 			<Where Type="BUILDING_FORGE"/>
 			<Set SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="2"/>
@@ -10,7 +12,27 @@
 			<Where Type="BUILDING_WORKSHOP"/>
 			<Set SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="2"/>
 		</Update>
+		<Update>
+			<Where Type="BUILDING_LONGHOUSE"/>
+			<Set SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="2"/>
+		</Update>
 		
+		<!--2 TO 3 (max is 3)-->
+		<Update>
+			<Where Type="BUILDING_FACTORY"/>
+			<Set SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="3"/>
+		</Update>
+
+
+		<Update>
+			<Where Type="BUILDING_NUCLEAR_PLANT"/>
+			<Set SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="1"/>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_SOLAR_PLANT"/>
+			<Set SpecialistType="SPECIALIST_ENGINEER" SpecialistCount="1"/>
+		</Update>
+
 		<!-- change bank and market specialist slots to 2-->
 		
 		<Update>
@@ -58,6 +80,12 @@
 			<Where Type="BUILDING_COURTHOUSE"/>
 			<Set GoldMaintenance="3"/>
 		</Update>
+		
+		<!-- Food kept changes-->
+		<Update>
+			<Where BuildingType="BUILDING_AQUEDUCT"/>
+			<Set FoodKept="33"/>
+		</Update>
 	</Buildings>
 	
 	<Building_YieldChanges>
@@ -71,33 +99,30 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
-	</Building_YieldChanges>
 
-	<Building_ResourceYieldChanges>
+		<!-- Production -->
+
+		<!--normal factory nerfed from 4 to 2, but given 1prod/4pop-->
+		<Update>
+			<Where BuildingType="BUILDING_FACTORY" YieldType="YIELD_PRODUCTION"/>
+			<Set Yield="2"/>
+		</Update>
+	</Building_YieldChanges>
+	
+	<!--Already done in bison cow granary file-->
+	<!--<Building_ResourceYieldChanges>
 		<Row>
 			<BuildingType>BUILDING_GRANARY</BuildingType>
 			<ResourceType>RESOURCE_COW</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
-	</Building_ResourceYieldChanges>
+	</Building_ResourceYieldChanges>-->
 	
 	<Building_ResourceQuantityRequirements>
 		<Delete BuildingType="BUILDING_HYDRO_PLANT"/>
 	</Building_ResourceQuantityRequirements>
-	<Building_YieldChangesPerPop>
-		<Row>
-			<BuildingType>BUILDING_MARKET</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>15</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_BAZAAR</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>15</Yield>
-		</Row>
-		
-	</Building_YieldChangesPerPop>
+
 	<Building_YieldModifiers>
 		<Row>
 			<BuildingType>BUILDING_HOTEL</BuildingType>
@@ -109,9 +134,45 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>5</Yield>
 		</Row>
+
+		<!-- PRODUCTION -->
+		<!--Factory % buffed from 10 to 15-->
+		<Update>
+			<Where BuildingType="BUILDING_FACTORY" YieldType="YIELD_PRODUCTION"/>
+			<Set Yield="15"/>
+		</Update>
+
+
+		<!-- GOLD -->
+
+		<!--MARKET Nerfed from 25% to 20%-->
+		<Update>
+			<Where BuildingType="BUILDING_MARKET" YieldType="YIELD_GOLD"/>
+			<Set Yield="20"/>
+		</Update>
+
+		<Update>
+			<Where BuildingType="BUILDING_BAZAAR" YieldType="YIELD_GOLD"/>
+			<Set Yield="20"/>
+		</Update>
 	</Building_YieldModifiers>
 	
+	<Building_YieldChangesPerPop>
+		<!--normal factory nerfed from 4 to 2, but given 1prod/4pop-->
+		<Row>
+			<BuildingType>BUILDING_FACTORY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>25</Yield>
+		</Row>
+
+	</Building_YieldChangesPerPop>
+	
 	<Language_en_US>
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_AQUEDUCT_HELP"/>
+			<Set Text="33% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born."/>
+		</Update>
+		
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_CONSTABLE_HELP"/>
 			<Set Text="Reduces enemy spy stealing rate by 33%."/>
@@ -120,15 +181,15 @@
 			<Where Tag="TXT_KEY_BUILDING_POLICE_STATION_HELP"/>
 			<Set Text="Reduces enemy spy stealing rate by 33%.[NEWLINE][NEWLINE]City must have a Constabulary."/>
 		</Update>
-
-		<Update>
+		
+		<!--<Update>
 			<Where Tag="TXT_KEY_BUILDING_MARKET_STRATEGY"/>
-			<Set Text="Trade routes other players make to a city with a market will generate an extra 1 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 1 [ICON_GOLD] Gold for the trade route. +2 [ICON_GOLD] Gold per 10 [ICON_CITIZEN] Citizens. "/>
+			<Set Text="Trade routes other players make to a city with a market will generate an extra 1 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 1 [ICON_GOLD] Gold for the trade route."/>
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_BAZAAR_HELP"/>
-			<Set Text="Provides 1 extra copy of each improved luxury resource near this City.  Each source of [ICON_RES_OIL] Oil and each Oasis provides +2 [ICON_GOLD] Gold. Trade routes other players make to a city with a Bazaar will generate an extra 1 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 1 [ICON_GOLD] Gold for the trade route. +2 [ICON_GOLD] Gold per 10 [ICON_CITIZEN] Citizens. "/>
-		</Update>
+			<Set Text="Provides 1 extra copy of each improved luxury resource near this City.  Each source of [ICON_RES_OIL] Oil and each Oasis provides +2 [ICON_GOLD] Gold. Trade routes other players make to a city with a Bazaar will generate an extra 1 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 1 [ICON_GOLD] Gold for the trade route. "/>
+		</Update>-->
 
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_HYDRO_PLANT_HELP"/>
@@ -137,6 +198,11 @@
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_HYDRO_PLANT_STRATEGY"/>
 			<Set Text="The Hydro Plant is a mid-game building which can only be constructed in a city which is adjacent to a river. The Hydro Plant increases the [ICON_PRODUCTION] Production output of every tile the city works which is also adjacent to the river."/>
+		</Update>
+
+		<Update>
+			<Where Tag="TXT_KEY_BUILDING_FACTORY_HELP"/>
+			<Set Text="Requires 1 [ICON_RES_COAL] Coal. +1 [ICON_PRODUCTION] Production for every 4 [ICON_CITIZEN] Citizens in this city."/>
 		</Update>
 
 		<Update>

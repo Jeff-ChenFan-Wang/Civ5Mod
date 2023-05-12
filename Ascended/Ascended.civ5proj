@@ -206,11 +206,6 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>Mechanics/BLD - Upgrades.xml</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
         <FileName>Mechanics/COP - mint.xml</FileName>
       </Action>
       <Action>
@@ -441,11 +436,6 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>Mechanics/ExtraAutocracy.xml</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
         <FileName>WonderMods/GoldenTemple.xml</FileName>
       </Action>
       <Action>
@@ -511,11 +501,6 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>Mechanics/Hap2CultureInc.xml</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
         <FileName>Mechanics/ProductionToFood.xml</FileName>
       </Action>
       <Action>
@@ -542,6 +527,46 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
         <FileName>SQL/GAIA_FutureTech.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>WonderMods/AiLab.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>WonderMods/ChipFactory.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>PolicyMods/PolicyTweaks.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Religion/Beliefs.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Religion/Text.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>WonderMods/WonderUpgrades.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Buildings/Building__Upgrades.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Buildings/AI_Booster.xml</FileName>
       </Action>
     </ModActions>
     <ModDependencies>
@@ -603,6 +628,12 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
         <Description>GrowingTowns</Description>
         <FileName>Lua/Aza_Towns.lua</FileName>
       </Content>
+      <Content>
+        <Type>InGameUIAddin</Type>
+        <Name>AI_Boost</Name>
+        <Description>AI_Boost</Description>
+        <FileName>Lua/AI_Boost.lua</FileName>
+      </Content>
     </ModContent>
     <ReloadUnitSystem>true</ReloadUnitSystem>
     <ReloadLandmarkSystem>true</ReloadLandmarkSystem>
@@ -645,6 +676,8 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
     <Folder Include="Mechanics" />
     <Folder Include="Civ" />
     <Folder Include="ArtificialUnint" />
+    <Folder Include="Religion" />
+    <Folder Include="PolicyMods" />
     <Folder Include="WonderMods" />
     <Folder Include="TTO" />
     <Folder Include="SQL\" />
@@ -1268,22 +1301,6 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\IlluminaryAtlas128.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Art\IlluminaryAtlas256.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Art\IlluminaryAtlas45.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Art\IlluminaryAtlas64.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
     <Content Include="Art\ArchaonAtlas128.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -1464,22 +1481,6 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\MawPitAtlas128.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Art\MawPitAtlas256.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Art\MawPitAtlas45.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Art\MawPitAtlas64.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
     <Content Include="Art\Modern_Helicopter_Model\Tiger_diff%28german%29.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
@@ -1613,22 +1614,6 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Art\PromoIconAtlasx64.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Art\Skryre_LabAtlas128.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Art\Skryre_LabAtlas256.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Art\Skryre_LabAtlas45.dds">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>True</ImportIntoVFS>
-    </Content>
-    <Content Include="Art\Skryre_LabAtlas64.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -1804,7 +1789,15 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
+    <Content Include="Buildings\AI_Booster.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
     <Content Include="Buildings\ArbiterShrine.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Buildings\Building__Upgrades.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
@@ -1868,6 +1861,10 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
+    <Content Include="Lua\AI_Boost.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
     <Content Include="Lua\ArmoryPromotion.lua">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
@@ -1924,19 +1921,11 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="Mechanics\BLD - Upgrades.xml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
     <Content Include="Mechanics\BuildFeatures.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="Mechanics\COP - mint.xml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="Mechanics\ExtraAutocracy.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
@@ -1949,10 +1938,6 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="Mechanics\GlobalPassableForts.xml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="Mechanics\Hap2CultureInc.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
@@ -2017,6 +2002,18 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="Mechanics\WorkableMountains.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="PolicyMods\PolicyTweaks.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Religion\Beliefs.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Religion\Text.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
@@ -2128,11 +2125,19 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
+    <Content Include="WonderMods\AiLab.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
     <Content Include="WonderMods\CenterDiseaseControl.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="WonderMods\CentralBank.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="WonderMods\ChipFactory.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
@@ -2165,6 +2170,10 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="WonderMods\WonderTweaks.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="WonderMods\WonderUpgrades.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>

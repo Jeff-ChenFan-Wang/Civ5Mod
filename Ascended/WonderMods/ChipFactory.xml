@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/21/2019 12:01:04 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_CHIP_FACTORY</Type>
+			<DefaultBuilding>BUILDING_CHIP_FACTORY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CHIP_FACTORY</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_CHIP_FACTORY</Type>
+			<BuildingClass>BUILDINGCLASS_CHIP_FACTORY</BuildingClass>
+			<Cost>1400</Cost>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>3</SpecialistCount>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+			<Help>TXT_KEY_BUILDING_CHIP_FACTORY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_CHIP_FACTORY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_CHIP_FACTORY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_CHIP_FACTORY_STRATEGY</Strategy>
+			<MinAreaSize>-1</MinAreaSize>
+			<NukeImmune>1</NukeImmune>
+			<NeverCapture>1</NeverCapture>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<IconAtlas>RFEMOD_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_CHIP_FACTORY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHIP_FACTORY</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_CHIP_FACTORY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_CHIP_FACTORY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
+	
+	<Building_GlobalYieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_CHIP_FACTORY</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHIP_FACTORY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Building_GlobalYieldModifiers>
+	
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_CHIP_FACTORY">
+			<Text>National Semiconductor Fab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CHIP_FACTORY_TEXT">
+			<Text>
+				Manufacturies dedicated to fabricating advanced semiconductors microchips for use in computers, boosting the nation's research and production of advanced tools.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CHIP_FACTORY_STRATEGY">
+			<Text>
+				The national manufactury yields useful boosts to the empire's science and production.  
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CHIP_FACTORY_HELP">
+			<Text>
+				+1 [ICON_PRODUCTION] Production from each factory. +5% [ICON_RESEARCH] Science and [ICON_PRODUCTION] Production in the empire.
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
