@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/12/2023 4:32:22 PM -->
+<GameData>
+	<!--Emperor and Immortal don't get free techs-->
+		<!--otherwise they basically immediately start choosing faith options-->
+	<HandicapInfo_AIFreeTechs>
+		<Delete HandicapType="HANDICAP_KING"/>
+		<Delete HandicapType="HANDICAP_EMPEROR"/>
+		<Delete HandicapType="HANDICAP_IMMORTAL"/>
+	</HandicapInfo_AIFreeTechs>
+
+	<HandicapInfos>
+		<!--nO FREE UNITS-->
+		<Update>
+			<Set AIStartingDefenseUnits="0"/>
+			<Where Type="HANDICAP_EMPEROR"/>
+		</Update>
+		<Update>
+			<Set AIStartingWorkerUnits="0"/>
+			<Where Type="HANDICAP_EMPEROR"/>
+		</Update>
+		<Update>
+			<Set StartingExploreUnits="0"/>
+			<Where Type="HANDICAP_EMPEROR"/>
+		</Update>
+		
+		<!--FROM 50 to 20-->
+		<Update>
+			<Set AIWorkRateModifier="20"/>
+			<Where Type="HANDICAP_EMPEROR"/>
+		</Update>
+		<!--From 80 to 75-->
+		<Update>
+			<Set AIGrowthPercent="75"/>
+			<Where Type="HANDICAP_EMPEROR"/>
+		</Update>
+		
+		<!--From 80 to 90-->
+		<Update>
+			<Set AITrainPercent="90"/>
+			<Where Type="HANDICAP_EMPEROR"/>
+		</Update>
+		<Update>
+			<Set AIConstructPercent="90"/>
+			<Where Type="HANDICAP_EMPEROR"/>
+		</Update>
+		
+		<!--From 25 to 10-->
+		<Update>
+			<Set AIFreeXPPercent="10"/>
+			<Where Type="HANDICAP_EMPEROR"/>
+		</Update>
+	</HandicapInfos>
+
+</GameData>

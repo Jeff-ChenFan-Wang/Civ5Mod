@@ -320,7 +320,7 @@
 			<Text>Hydroponic Farm</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HYDROPONIC_FARM_HELP">
-			<Text>+1 [ICON_FOOD] to all mountain, snow, desert, and tundra tiles worked. City must have a Medical Lab.</Text>
+			<Text>+1 [ICON_FOOD] to all mountain, snow, desert, and tundra tiles worked. +1 [ICON_FOOD] Food per 5 [ICON_CITIZEN] Citizen in this City. City must have a Medical Lab.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HYDROPONIC_FARM_STRATEGY">
 			<Text>A Hydroponic Farm is a late-game building which increases [ICON_FOOD] Food in a city, more so on mountain tiles. The city must possess a Medical Lab before it can be constructed.</Text>

@@ -14,8 +14,9 @@
 			<Set Flavor="70" />
 			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_EXPAND_LIKE_CRAZY" />
 		</Update>
+		<!--Buffed slightly -->
 		<Update>
-			<Set Flavor="70" />
+			<Set Flavor="80" />
 			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_GROW_LIKE_CRAZY" />
 		</Update>
 		<!-- AI more likely to create escort for their first settler -->
@@ -55,11 +56,31 @@
 			<Flavor>5</Flavor>
 		</Row>
 		<!-- Helps with unit upkeep -->
+		<!--Jeff Buffed from 7 to 9-->
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_CONQUEST</AIEconomicStrategyType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>7</Flavor>
+			<Flavor>9</Flavor>
 		</Row>
+		<Update>
+			<Set Flavor="30" />
+			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_GS_CONQUEST" FlavorType="FLAVOR_PRODUCTION" />
+		</Update>
+		
+		<!--Jeff's additions-->
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_CONQUEST</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_CONQUEST</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+
+
 		<!-- Population = Science -->
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_SPACESHIP</AIEconomicStrategyType>
@@ -95,8 +116,10 @@
 			<Set Flavor="70" />
 			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_EXPAND_LIKE_CRAZY" />
 		</Update>
+		
+		<!--Jeff upped from 75 to 85-->
 		<Update>
-			<Set Flavor="70" />
+			<Set Flavor="85" />
 			<Where AIEconomicStrategyType="ECONOMICAISTRATEGY_GROW_LIKE_CRAZY" />
 		</Update>
 		<!-- AI more likely to create escort for their first settler -->

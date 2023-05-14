@@ -1319,5 +1319,10 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>20</Yield>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_HYDROPONIC_FARM</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>20</Yield>
+		</Row>
 	</Building_YieldChangesPerPop>
 </GameData>

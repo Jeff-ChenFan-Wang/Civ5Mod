@@ -40,6 +40,11 @@
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>15</Flavor>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHIP_FACTORY</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
 	</Building_Flavors>
 	<Building_YieldChanges>
 		<Row>

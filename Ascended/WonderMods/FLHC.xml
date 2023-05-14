@@ -18,7 +18,7 @@
 			<NeverCapture>1</NeverCapture>
 			<ConquestProb>0</ConquestProb>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<SpecialistCount>2</SpecialistCount>
+			<SpecialistCount>3</SpecialistCount>
 			<IconAtlas>BW_ATLAS_FLHC</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 			<WonderSplashImage>FLHC_SPLASH.dds</WonderSplashImage>
@@ -87,7 +87,7 @@
 		<Row>
 			<BuildingType>BUILDING_FLHC</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>20</Flavor>
+			<Flavor>25</Flavor>
 		</Row>
 	</Building_Flavors>
 	<BuildingClasses>

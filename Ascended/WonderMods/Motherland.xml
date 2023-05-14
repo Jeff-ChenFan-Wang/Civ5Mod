@@ -71,7 +71,7 @@
 		<Row>
 			<BuildingType>BUILDING_MOTHERLAND</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>25</Yield>
+			<Yield>50</Yield>
 		</Row>
 	</Building_YieldChangesPerPop>
 	<Building_GlobalYieldModifiers>
@@ -88,7 +88,7 @@
 		</Row>
 		<!-- Help tags -->
 		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_HELP1">
-			<Text>+1 [ICON_CULTURE] Culture for every 4 [ICON_CITIZEN] Citizens in this city. +10% [ICON_CULTURE] Culture in all Cities. Contains 1 slot for a Great Work of Writing.</Text>
+			<Text>+1 [ICON_CULTURE] Culture for every 2 [ICON_CITIZEN] Citizens in this city. +10% [ICON_CULTURE] Culture in all Cities. Contains 1 slot for a Great Work of Writing.</Text>
 		</Row>
 		<!-- Quote tags -->
 		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_QUOTE1">

@@ -188,9 +188,14 @@
 			<Where Name="AI_CITY_SPECIALIZATION_FOOD_WEIGHT_NUM_CITIES" />
 		</Update>
 		
+		<!--Jeff buffed from 200 to 400 since all wonders are national now-->
+		<Update>
+			<Set Value="400" />
+			<Where Name="AI_CITY_SPECIALIZATION_PRODUCTION_WEIGHT_FLAVOR_WONDER" />
+		</Update>
 		<!--Jeff buffed from 1 to 5 since all wonders are national now-->
 		<Update>
-			<Set Value="10" />
+			<Set Value="5" />
 			<Where Name="AI_CITY_SPECIALIZATION_PRODUCTION_WEIGHT_NEXT_WONDER" />
 		</Update>
 		<Update>
@@ -203,16 +208,21 @@
 		</Update>
 		
 		<!-- AI City Strategy Stuff -->
-		
-		<!--Jeff upped it from 6 to 10-->
+		<!--Jeff upped it from 2 to 5-->
 		<Update>
-			<Set Value="10" />
+			<Set Value="5" />
+			<Where Name="AI_CITYSTRATEGY_SMALL_CITY_POP_THRESHOLD" />
+		</Update>
+
+		<!--Jeff upped it from 6 to 18-->
+		<Update>
+			<Set Value="18" />
 			<Where Name="AI_CITYSTRATEGY_MEDIUM_CITY_POP_THRESHOLD" />
 		</Update>
 		
-		<!--Jeff upped it from 15 to 20-->
+		<!--Jeff upped it from 15 to 35-->
 		<Update>
-			<Set Value="20" />
+			<Set Value="35" />
 			<Where Name="AI_CITYSTRATEGY_LARGE_CITY_POP_THRESHOLD" />
 		</Update>
 		<Update>

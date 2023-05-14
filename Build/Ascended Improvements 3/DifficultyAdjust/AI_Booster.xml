@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/12/2023 8:55:40 AM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_AI_BOOSTER</Type>
+			<DefaultBuilding>BUILDING_AI_BOOSTER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_AI_BOOSTER</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_AI_BOOSTER</Type>
+			<BuildingClass>BUILDINGCLASS_AI_BOOSTER</BuildingClass>
+			<Cost>-1</Cost>
+			<PrereqTech></PrereqTech>
+			<Help>TXT_KEY_BUILDING_AI_BOOSTER_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_AI_BOOSTER</Description>
+			<Civilopedia>TXT_KEY_BUILDING_AI_BOOSTER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_AI_BOOSTER_STRATEGY</Strategy>
+			<MinAreaSize>-1</MinAreaSize>
+			<NukeImmune>true</NukeImmune>
+			<NeverCapture>1</NeverCapture>
+			<Happiness>8</Happiness>
+			<UnmoddedHappiness>8</UnmoddedHappiness>
+			<IconAtlas>SHRINE_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_GlobalYieldModifiers>
+
+		<Row>
+			<BuildingType>BUILDING_AI_BOOSTER</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>33</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AI_BOOSTER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>33</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AI_BOOSTER</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>25</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AI_BOOSTER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>15</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AI_BOOSTER</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Building_GlobalYieldModifiers>
+			
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_AI_BOOSTER">
+			<Text>AI Booster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AI_BOOSTER_TEXT">
+			<Text>
+				Building for boosting AI stats
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AI_BOOSTER_STRATEGY">
+			<Text>
+				Building serves as a buff to significantly boost AI stats after the first Civ hits renaissance.
+				[NEWLINE][ICON_BULLET]AI +33% Gold, +33% Prod, +25% culture, +15% food, +5% science globally, and +8 local and global happiness
+				[NEWLINE][ICON_BULLET]Destroyed upon capital capture, but refreshes whenever a Civ reaches new era
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

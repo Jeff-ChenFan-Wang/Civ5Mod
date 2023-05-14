@@ -124,6 +124,22 @@
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>90</Flavor>
 		</Row>
+		
+		<Row>
+			<BuildingType>BUILDING_ARTISTS_GUILD_UP</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WRITERS_GUILD_UP</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MUSICIANS_GUILD_UP</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
 	</Building_Flavors>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_ARTISTS_GUILD_UP">

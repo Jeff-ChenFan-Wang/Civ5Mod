@@ -566,7 +566,17 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>Buildings/AI_Booster.xml</FileName>
+        <FileName>DifficultyAdjust/AI_Booster.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>DifficultyAdjust/DifficultyAdjustment.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Buildings/NanomatFactory.xml</FileName>
       </Action>
     </ModActions>
     <ModDependencies>
@@ -676,6 +686,7 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
     <Folder Include="Mechanics" />
     <Folder Include="Civ" />
     <Folder Include="ArtificialUnint" />
+    <Folder Include="DifficultyAdjust" />
     <Folder Include="Religion" />
     <Folder Include="PolicyMods" />
     <Folder Include="WonderMods" />
@@ -1789,10 +1800,6 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Buildings\AI_Booster.xml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
     <Content Include="Buildings\ArbiterShrine.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
@@ -1806,6 +1813,10 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="Buildings\Expressways.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Buildings\NanomatFactory.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
@@ -1854,6 +1865,14 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="Civ\Trait.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="DifficultyAdjust\AI_Booster.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="DifficultyAdjust\DifficultyAdjustment.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>

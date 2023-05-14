@@ -12,12 +12,27 @@
 			<IconAtlas>APPLE_ATLAS</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
+
+		<Row>
+			<Type>PROCESS_CULTURE</Type>
+			<Description>TXT_KEY_PROCESS_CULTURE</Description>
+			<Help>TXT_KEY_PROCESS_CULTURE_HELP</Help>
+			<Strategy>TXT_KEY_PROCESS_CULTURE_STRATEGY</Strategy>
+			<TechPrereq>TECH_TELECOM</TechPrereq>
+			<IconAtlas>CITIZEN_ATLAS</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+		</Row>
 	</Processes>
 	<Process_ProductionYields>
 		<Row>
 			<ProcessType>PROCESS_FOOD</ProcessType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>25</Yield>
+		</Row>
+		<Row>
+			<ProcessType>PROCESS_CULTURE</ProcessType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
 		</Row>
 	</Process_ProductionYields>
 
@@ -68,6 +83,16 @@
 		</Row>
 		<Row Tag="TXT_KEY_PROCESS_FOOD_STRATEGY">
 			<Text>Growth</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_PROCESS_CULTURE">
+			<Text>Culture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_CULTURE_HELP">
+			<Text>Allows a city to convert 5% of [ICON_PRODUCTION] Production into [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_CULTURE_STRATEGY">
+			<Text>Culture</Text>
 		</Row>
 	</Language_en_US>
 </GameData>
