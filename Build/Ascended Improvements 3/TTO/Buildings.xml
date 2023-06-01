@@ -59,11 +59,11 @@
 			<DefaultBuilding>BUILDING_PUBLIC_PARK</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_PUBLIC_PARK</Description>
 		</Row>
-		<Row>
+		<!--<Row>
 			<Type>BUILDINGCLASS_BIOFUEL_REFINERY</Type>
 			<DefaultBuilding>BUILDING_BIOFUEL_REFINERY</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_BIOFUEL_REFINERY</Description>
-		</Row>
+		</Row>-->
 		<Update>
 			<Where Type="BUILDINGCLASS_RECYCLING_CENTER"/>
 			<Set MaxPlayerInstances="10"/>
@@ -541,7 +541,7 @@
 			<Where Type="BUILDING_RECYCLING_CENTER"/>
 			<Set Cost="760" GoldMaintenance="4"/>
 		</Update>
-		<Row>
+		<!--<Row>
 			<Type>BUILDING_BIOFUEL_REFINERY</Type>
 			<BuildingClass>BUILDINGCLASS_BIOFUEL_REFINERY</BuildingClass>
 			<Cost>760</Cost>
@@ -557,7 +557,7 @@
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>TTOMOD_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>35</PortraitIndex>
-		</Row>
+		</Row>-->
 		<Update>
 			<Where Type="BUILDING_NUCLEAR_PLANT"/>
 			<Set Cost="760" GoldMaintenance="5"/>
@@ -1000,7 +1000,7 @@
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>30</Flavor>
 		</Row>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_BIOFUEL_REFINERY</BuildingType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>25</Flavor>
@@ -1009,7 +1009,7 @@
 			<BuildingType>BUILDING_BIOFUEL_REFINERY</BuildingType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>25</Flavor>
-		</Row>
+		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_SUPERCOMPUTER</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
@@ -1087,11 +1087,11 @@
 
 	<Building_LocalResourceOrs>
 		<Delete BuildingType="BUILDING_CIRCUS"/>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_BIOFUEL_REFINERY</BuildingType>
 			<ResourceType>RESOURCE_WHEAT</ResourceType>
-		</Row>
-		<Row>
+		</Row>-->
+		<!--<Row>
 			<BuildingType>BUILDING_BIOFUEL_REFINERY</BuildingType>
 			<ResourceType>RESOURCE_SUGAR</ResourceType>
 		</Row>
@@ -1102,7 +1102,7 @@
 		<Row>
 			<BuildingType>BUILDING_BIOFUEL_REFINERY</BuildingType>
 			<ResourceType>RESOURCE_CITRUS</ResourceType>
-		</Row>
+		</Row>-->
 	</Building_LocalResourceOrs>
 	<!--
 	<Building_LocalResourceAnds>
@@ -1139,11 +1139,15 @@
 	</Building_ResourceQuantityRequirements>
 
 	<Building_ResourceQuantity>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_BIOFUEL_REFINERY</BuildingType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
 			<Quantity>1</Quantity>
-		</Row>
+		</Row>-->
+		<Update>
+			<Where BuildingType="BUILDING_RECYCLING_CENTER" ResourceType="RESOURCE_ALUMINUM"/>
+			<Set Quantity="3"/>
+		</Update>
 	</Building_ResourceQuantity>
 
 	<Building_SeaResourceYieldChanges>
@@ -1183,11 +1187,11 @@
 			<Where BuildingType="BUILDING_NUCLEAR_PLANT"/>
 			<Set Yield="6"/>
 		</Update>
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_BIOFUEL_REFINERY</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>-1</Yield>
-		</Row>
+		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_SUPERCOMPUTER</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>

@@ -9,7 +9,7 @@
 			<Help>TXT_KEY_WONDER_FLHC_HELP1</Help>
 			<Civilopedia>TXT_KEY_WONDER_FLHC_PEDIA1</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FLHC_QUOTE1</Quote>
-			<Cost>1500</Cost>
+			<Cost>2200</Cost>
 			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
 			<MaxStartEra>ERA_FUTURE</MaxStartEra>
 			<NukeImmune>true</NukeImmune>
@@ -29,12 +29,7 @@
 		<Row>
 			<BuildingType>BUILDING_FLHC</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>33</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_FLHC</BuildingType>
-			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>10</Yield>
+			<Yield>25</Yield>
 		</Row>
 	</Building_GlobalYieldModifiers>
 	<Building_YieldChanges>
@@ -49,7 +44,33 @@
 			<Yield>1</Yield>
 		</Row>
 	</Building_YieldChanges>
-
+	<Building_ResourceQuantity>
+		<Row>
+			<BuildingType>BUILDING_FLHC</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Quantity>3</Quantity>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FLHC</BuildingType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<Quantity>3</Quantity>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FLHC</BuildingType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Quantity>3</Quantity>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FLHC</BuildingType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<Quantity>3</Quantity>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FLHC</BuildingType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<Quantity>3</Quantity>
+		</Row>
+	</Building_ResourceQuantity>
 	<!--<Building_FreeUnits>
 		<Row>
 			<BuildingType>BUILDING_FLHC</BuildingType>
@@ -65,7 +86,7 @@
 		</Row>
 		<!-- Help tags -->
 		<Row Tag="TXT_KEY_WONDER_FLHC_HELP1">
-			<Text>+33% [ICON_PRODUCTION] Production and +10% [ICON_RESEARCH] Science in all Cities.</Text>
+			<Text>+25% [ICON_PRODUCTION] Production in all Cities. Provides +3 [ICON_RES_IRON] Iron, [ICON_RES_COAL] Coal, [ICON_RES_OIL] Oil, [ICON_RES_ALUMINUM] Aluminum, and [ICON_RES_URANIUM] Uranium to the empire.</Text>
 		</Row>
 		<!-- Quote tags -->
 		<Row Tag="TXT_KEY_WONDER_FLHC_QUOTE1">
@@ -82,7 +103,7 @@
 		<Row>
 			<BuildingType>BUILDING_FLHC</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>55</Flavor>
+			<Flavor>100</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_FLHC</BuildingType>

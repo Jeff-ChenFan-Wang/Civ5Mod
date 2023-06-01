@@ -38,5 +38,24 @@
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
+		
+
+		<!--Boost growth flavor in all fronts-->
+			<!--10 to 20-->
+		<Update>
+			<Set Flavor="20" />
+			<Where AICityStrategyType="AICITYSTRATEGY_TINY_CITY" FlavorType="FLAVOR_GROWTH" />
+		</Update>
+			<!--Small city still sees some growth-->
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_SMALL_CITY</AICityStrategyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<!--from 25 to 30-->
+		<Update>
+			<Set Flavor="30" />
+			<Where AICityStrategyType="AICITYSTRATEGY_MEDIUM_CITY" FlavorType="FLAVOR_GROWTH" />
+		</Update>
 	</AICityStrategy_Flavors>
 </GameData>

@@ -226,7 +226,7 @@
 		<Row Tag="TXT_KEY_BUILDING_PUBLIC_PARK_TEXT">
 			<Text>A public park is an open grassy area, often with trees and ponds, where people may relax and enjoy a little nature without having to leave the city. They may also include a variety of decorative plants and some contain, or are connected to, botanical gardens. All sorts of events may be held here, such as music or art festivals, weddings, trade shows, sporting activities, etc. They are also famous spots for writers to hone their craft. Public parks have inspired and moved people for centuries.[NEWLINE][NEWLINE]The earliest purpose built public park, although financed privately, was Princes Park in the Liverpool suburb of Toxteth. This was laid out to the designs of Joseph Paxton from 1842 and opened in 1843. The land on which the park was built was purchased by Richard Vaughan Yates, an iron merchant and philanthropist, in 1841 for £50,000. The creation of Princes Park showed great foresight and introduced a number of highly influential ideas. First and foremost was the provision of open space for the benefit of townspeople and local residents within an area that was being rapidly built up. Secondly it took the concept of the designed landscape as a setting for the suburban domicile, an idea pioneered by John Nash at Regent's Park, and re-fashioned it for the provincial town in a most original way. Nash's remodelling of St James's Park from 1827 and the sequence of processional routes he created to link The Mall with Regent's Park completely transformed the appearance of London's West End. With the establishment of Princes Park in 1842, Joseph Paxton did something similar for the benefit of a provincial town, albeit one of international stature by virtue of its flourishing mercantile contingent. Liverpool had a burgeoning presence on the scene of global maritime trade before 1800 and during the Victorian era its wealth rivalled that of London itself.[NEWLINE][NEWLINE]The form and layout of Paxton's ornamental grounds, structured about an informal lake within the confines of a serpentine carriageway, put in place the essential elements of his much imitated design for Birkenhead Park. The latter was commenced in 1843 with the help of public finance and deployed the ideas he pioneered at Princes Park on a more expansive scale. Frederick Law Olmsted visited Birkenhead Park in 1850 and praised its qualities. Indeed Paxton is widely credited as having been one of the principal influences on Olmsted and Calvert's design for New York's Central Park of 1857.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_BIOFUEL_REFINERY">
+		<!--<Row Tag="TXT_KEY_BUILDING_BIOFUEL_REFINERY">
 			<Text>Biofuel Refinery</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BIOFUEL_REFINERY_HELP">
@@ -237,14 +237,14 @@
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_BUILDINGS_BIOFUEL_REFINERY_TEXT">
 			<Text>A biofuel refinery, or biorefinery, is a facility that integrates biomass conversion processes and equipment to produce fuels, power, heat, and value-added chemicals from biomass. The biorefinery concept is analogous to today's petroleum refinery, which produce multiple fuels and products from petroleum. Biorefining is defined as the sustainable processing of biomass into a spectrum of bio-based products (food, feed, chemicals, materials) and bioenergy (biofuels, power and/or heat). By producing multiple products, a biorefinery takes advantage of the various components in biomass and their intermediates therefore maximizing the value derived from the biomass feedstock. A biorefinery could, for example, produce one or several low-volume, but high-value, chemical or nutraceutical products and a low-value, but high-volume liquid transportation fuel such as biodiesel or bioethanol (see also alcohol fuel). Future biorefineries may play a major role in producing chemicals and materials that are traditionally produced from petroleum.</Text>
-		</Row>
+		</Row>-->
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_RECYCLING_CENTER_HELP"/>
 			<Set Text="Provides 2 [ICON_RES_ALUMINUM] Aluminum. Maximum of 10 of these buildings in your empire."/>
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_RECYCLING_CENTER_STRATEGY"/>
-			<Set Text="Each Recycling Center provides 2 [ICON_RES_ALUMINUM] Aluminum. You may only have a maximum of 10 of these buildings in your empire."/>
+			<Set Text="Each Recycling Center provides 3 [ICON_RES_ALUMINUM] Aluminum. You may only have a maximum of 10 of these buildings in your empire."/>
 		</Update><!--
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_RECYCLING_CENTER_HELP"/>

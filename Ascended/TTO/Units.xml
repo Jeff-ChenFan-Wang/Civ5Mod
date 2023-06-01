@@ -934,7 +934,7 @@
 		</Update>
 		<Update>
 			<Where Type="UNIT_ATOMIC_BOMB"/>
-			<Set PrereqTech="TECH_ATOMIC_THEORY" Cost="860" ObsoleteTech="TECH_NUCLEAR_FISSION"/>
+			<Set PrereqTech="TECH_NUCLEAR_FISSION" Cost="860" ObsoleteTech="TECH_ADVANCED_BALLISTICS"/>
 		</Update>
 		<Row>
 			<Class>UNITCLASS_BALLISTIC_MISSILE</Class>
@@ -1010,7 +1010,7 @@
 		<Row>
 			<Class>UNITCLASS_HYDROGEN_BOMB</Class>
 			<Type>UNIT_HYDROGEN_BOMB</Type>
-			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
+			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
 			<Cost>990</Cost>
 			<Moves>2</Moves>
 			<Immobile>true</Immobile>
@@ -2300,18 +2300,8 @@
 			<UnitType>UNIT_MOUNTED_CROSSBOWMAN</UnitType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 		</Row>
-		<Row>
-			<UnitType>UNIT_PRIVATEER</UnitType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_DUTCH_SEA_BEGGAR</UnitType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_CANNON</UnitType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
-		</Row>
+
+
 		<Row>
 			<UnitType>UNIT_IRONCLAD</UnitType>
 			<ResourceType>RESOURCE_IRON</ResourceType>

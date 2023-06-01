@@ -57,6 +57,13 @@
 			<Text>Improve the existing Hospital with a +2 [ICON_FOOD] Food but increase the building maintenance by +2 [ICON_GOLD] Gold</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_BUILDING_HYDROPONIC_FARM_UP">
+			<Text>Upgrade - Hydroponic Farm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HYDROPONIC_FARM_UP_STRATEGY">
+			<Text>Improve the existing Hydroponic Farm with +5 [ICON_FOOD] Food but increase the building maintenance by +4 [ICON_GOLD] Gold</Text>
+		</Row>
+		
 
 		<!--  Military  -->
 		<Row Tag="TXT_KEY_BUILDING_BARRACKS_UP">
@@ -335,6 +342,23 @@
 			<HurryCostModifier>0</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>45</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_HYDROPONIC_FARM_UP</Type>
+			<BuildingClass>BUILDINGCLASS_HYDROPONIC_FARM_UP</BuildingClass>
+			<Cost>500</Cost>
+			<GoldMaintenance>4</GoldMaintenance>
+			<PrereqTech>NULL</PrereqTech>
+			<Help>TXT_KEY_BUILDING_HYDROPONIC_FARM_UP_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_HYDROPONIC_FARM_UP</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HYDROPONIC_FARM_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_HYDROPONIC_FARM_UP_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_HOSPITAL</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<HurryCostModifier>0</HurryCostModifier>
+			<IconAtlas>TTOMOD_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>38</PortraitIndex>
 		</Row>
 
 
@@ -718,6 +742,11 @@
 			<DefaultBuilding>BUILDING_HOSPITAL_UP</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_HOSPITAL_UP</Description>
 		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_HYDROPONIC_FARM_UP</Type>
+			<DefaultBuilding>BUILDING_HYDROPONIC_FARM_UP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_HYDROPONIC_FARM_UP</Description>
+		</Row>
 
 		<!--  Military  -->
 		<Row>
@@ -858,7 +887,7 @@
 		<Row>
 			<BuildingType>BUILDING_AQUEDUCT_UP</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>40</Flavor>
+			<Flavor>45</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AQUEDUCT_UP</BuildingType>
@@ -867,6 +896,11 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HOSPITAL_UP</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HYDROPONIC_FARM_UP</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>35</Flavor>
 		</Row>
@@ -923,17 +957,17 @@
 		<Row>
 			<BuildingType>BUILDING_LIBRARY_UP</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>35</Flavor>
+			<Flavor>40</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LIBRARY_UP</BuildingType>
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
-			<Flavor>5</Flavor>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_UNIVERSITY_UP</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>35</Flavor>
+			<Flavor>40</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PUBLIC_SCHOOL_UP</BuildingType>
@@ -951,13 +985,13 @@
 		<Row>
 			<BuildingType>BUILDING_WORKSHOP_UP</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>35</Flavor>
+			<Flavor>40</Flavor>
 		</Row>
 
 		<Row>
 			<BuildingType>BUILDING_FACTORY_UP</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>55</Flavor>
+			<Flavor>100</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_EXPRESSWAY_UP</BuildingType>
@@ -968,19 +1002,19 @@
 		<Row>
 			<BuildingType>BUILDING_NANOMAT_FACTORY_UP</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>55</Flavor>
 		</Row>
 		
 		<!--Gold-->
 		<Row>
 			<BuildingType>BUILDING_MARKET_UP</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>15</Flavor>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_STOCK_EXCHANGE_UP</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>20</Flavor>
+			<Flavor>25</Flavor>
 		</Row>
 
 	</Building_Flavors>
@@ -1022,7 +1056,10 @@
 			<BuildingType>BUILDING_HOSPITAL_UP</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
 		</Row>
-
+		<Row>
+			<BuildingType>BUILDING_HYDROPONIC_FARM_UP</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_HYDROPONIC_FARM</BuildingClassType>
+		</Row>
 
 		<!--  Military  -->
 		<Row>
@@ -1189,6 +1226,11 @@
 			<BuildingType>BUILDING_HOSPITAL_UP</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HYDROPONIC_FARM_UP</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>5</Yield>
 		</Row>
 
 		<!--  Faith  -->

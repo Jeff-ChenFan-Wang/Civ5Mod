@@ -33,7 +33,7 @@
 		<Row>
 			<BuildingType>BUILDING_GOLDEN_TEMPLE</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>25</Flavor>
+			<Flavor>55</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GOLDEN_TEMPLE</BuildingType>
@@ -49,18 +49,18 @@
 			<YieldChange>1</YieldChange>
 		</Row>
 	</Building_BuildingClassYieldChanges>
-	<Building_GlobalYieldModifiers>
+	<!--<Building_GlobalYieldModifiers>
 		<Row>
 			<BuildingType>BUILDING_GOLDEN_TEMPLE</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>5</Yield>
 		</Row>
-	</Building_GlobalYieldModifiers>
+	</Building_GlobalYieldModifiers>-->
 	<Building_YieldChanges>
 		<Row>
 			<BuildingType>BUILDING_GOLDEN_TEMPLE</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 	</Building_YieldChanges>
 
@@ -94,6 +94,14 @@
 			<IconsPerColumn>1</IconsPerColumn>
 		</Row>
 	</IconTextureAtlases>
+	<Building_SpecialistYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_GOLDEN_TEMPLE</BuildingType>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_SpecialistYieldChanges>
 	<Language_en_US>
 		<Row Tag="TXT_KEY_BUILDING_GOLDEN_TEMPLE">
 			<Text>Golden Temple</Text>
@@ -110,7 +118,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_GOLDEN_TEMPLE_HELP">
 			<Text>
-				+5% [ICON_FOOD] Growth in all Cities, and +1 [ICON_FOOD] food from each granary.
+				+1 [ICON_FOOD] food from each granary, and +1 [ICON_FOOD] food from each Engineer specialist in the empire.
 			</Text>
 		</Row>
 	</Language_en_US>

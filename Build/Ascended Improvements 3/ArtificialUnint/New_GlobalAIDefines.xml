@@ -131,15 +131,16 @@
 		<Update>
 			<!-- No idea why this was so high by default, spending gold on defensive buildings seems like a waste unless
 				it's an emergency -->
-			<!--Jeff dropped it from 250 to 225-->
-			<Set Value="225" />
+			<!--Jeff dropped it from 250 to 200-->
+			<Set Value="200" />
 			<Where Name="AI_GOLD_PRIORITY_DEFENSIVE_BUILDING" />
 		</Update>
 		
 		<!-- Builder Tasking Stuff -->
 		<!-- Values were increased for more granularity, and also to stop the AI from overvaluing cultural improvements -->
 		<Update>
-			<Set Value="6" />
+			<!--Jeff upped from 6 to 7-->
+			<Set Value="7" />
 			<Where Name="BUILDER_TASKING_PLOT_EVAL_MULTIPLIER_FOOD" />
 		</Update>
 		<Update>
@@ -188,14 +189,14 @@
 			<Where Name="AI_CITY_SPECIALIZATION_FOOD_WEIGHT_NUM_CITIES" />
 		</Update>
 		
-		<!--Jeff buffed from 200 to 400 since all wonders are national now-->
 		<Update>
-			<Set Value="400" />
+			<!--Jeff tones it back down from 200 to 100-->
+			<Set Value="100" />
 			<Where Name="AI_CITY_SPECIALIZATION_PRODUCTION_WEIGHT_FLAVOR_WONDER" />
 		</Update>
-		<!--Jeff buffed from 1 to 5 since all wonders are national now-->
 		<Update>
-			<Set Value="5" />
+			<!--originally 0.2, tuned to 1, then back down to 0.8 by jeff-->
+			<Set Value="0.8" />
 			<Where Name="AI_CITY_SPECIALIZATION_PRODUCTION_WEIGHT_NEXT_WONDER" />
 		</Update>
 		<Update>
@@ -208,9 +209,9 @@
 		</Update>
 		
 		<!-- AI City Strategy Stuff -->
-		<!--Jeff upped it from 2 to 5-->
+		<!--Jeff upped it from 2 to 7-->
 		<Update>
-			<Set Value="5" />
+			<Set Value="7" />
 			<Where Name="AI_CITYSTRATEGY_SMALL_CITY_POP_THRESHOLD" />
 		</Update>
 
@@ -220,9 +221,9 @@
 			<Where Name="AI_CITYSTRATEGY_MEDIUM_CITY_POP_THRESHOLD" />
 		</Update>
 		
-		<!--Jeff upped it from 15 to 35-->
+		<!--Jeff upped it from 15 to 32-->
 		<Update>
-			<Set Value="35" />
+			<Set Value="32" />
 			<Where Name="AI_CITYSTRATEGY_LARGE_CITY_POP_THRESHOLD" />
 		</Update>
 		<Update>
@@ -234,8 +235,9 @@
 		
 		<!-- Citizen Management Stuff -->
 		<!-- Updated yields to for better citizen automation -->
+		<!--Jeff upped from 16 to 22-->
 		<Update>
-			<Set Value="16" /> <!-- Note: Excess food gets reduced by half to 8 if city is not growth focus -->
+			<Set Value="22" /> <!-- Note: Excess food gets reduced by half to 8 if city is not growth focus -->
 			<Where Name="AI_CITIZEN_VALUE_FOOD" /> 
 		</Update>
 		<Update>

@@ -47,6 +47,12 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_CENTER_FOR_DISEASE_CONTROL</BuildingType>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
 	</Building_SpecialistYieldChanges>
 
 	<!--<Building_GlobalYieldModifiers>
@@ -79,7 +85,7 @@
 			<Text>Center for Disease Control</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CENTER_FOR_DISEASE_CONTROL_HELP">
-			<Text>+1 [ICON_FOOD] Food from all Scientist Specialists, and provides a free Hospital in every city. City must have a Medical Lab built. </Text>
+			<Text>+1 [ICON_FOOD] Food from all Scientist and Engineer Specialists, and provides a free Hospital in every city. City must have a Medical Lab built. </Text>
 		</Row>
 	</Language_en_US>
 </GameData>

@@ -10,13 +10,13 @@
 	</HandicapInfo_AIFreeTechs>
 
 	<HandicapInfos>
-		<!--nO FREE UNITS-->
+		<!--nO FREE UNITS other than worker-->
 		<Update>
 			<Set AIStartingDefenseUnits="0"/>
 			<Where Type="HANDICAP_EMPEROR"/>
 		</Update>
 		<Update>
-			<Set AIStartingWorkerUnits="0"/>
+			<Set AIStartingWorkerUnits="2"/>
 			<Where Type="HANDICAP_EMPEROR"/>
 		</Update>
 		<Update>
@@ -24,14 +24,14 @@
 			<Where Type="HANDICAP_EMPEROR"/>
 		</Update>
 		
-		<!--FROM 50 to 20-->
+		<!--FROM 50 to 25-->
 		<Update>
-			<Set AIWorkRateModifier="20"/>
+			<Set AIWorkRateModifier="25"/>
 			<Where Type="HANDICAP_EMPEROR"/>
 		</Update>
-		<!--From 80 to 75-->
+		<!--From 80 to 70-->
 		<Update>
-			<Set AIGrowthPercent="75"/>
+			<Set AIGrowthPercent="70"/>
 			<Where Type="HANDICAP_EMPEROR"/>
 		</Update>
 		

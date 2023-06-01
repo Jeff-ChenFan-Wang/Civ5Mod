@@ -13,7 +13,7 @@
 		<Row>
 			<Type>BUILDING_AI_LAB</Type>
 			<BuildingClass>BUILDINGCLASS_AI_LAB</BuildingClass>
-			<Cost>2500</Cost>
+			<Cost>2800</Cost>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<SpecialistCount>3</SpecialistCount>
 			<PrereqTech>TECH_ARTIFICIAL_INTELLIGENCE</PrereqTech>
@@ -25,7 +25,6 @@
 			<NukeImmune>1</NukeImmune>
 			<NeverCapture>1</NeverCapture>
 			<PolicyCostModifier>-25</PolicyCostModifier>
-			<UnmoddedHappiness>3</UnmoddedHappiness>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>RFEMOD_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>33</PortraitIndex>
@@ -40,7 +39,7 @@
 		<Row>
 			<BuildingType>BUILDING_AI_LAB</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>20</Flavor>
+			<Flavor>55</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AI_LAB</BuildingType>
@@ -66,17 +65,17 @@
 		<Row>
 			<BuildingType>BUILDING_AI_LAB</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>33</Yield>
+			<Yield>25</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AI_LAB</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>10</Yield>
+			<Yield>15</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AI_LAB</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>5</Yield>
+			<Yield>10</Yield>
 		</Row>
 	</Building_GlobalYieldModifiers>
 	<Building_SpecialistYieldChanges>
@@ -84,13 +83,13 @@
 			<BuildingType>BUILDING_AI_LAB</BuildingType>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AI_LAB</BuildingType>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AI_LAB</BuildingType>
@@ -116,7 +115,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_AI_LAB_HELP">
 			<Text>
-				[ICON_BULLET]+33% [ICON_RESEARCH] Science, +10% [ICON_PRODUCTION] Production, and +5% [ICON_FOOD] Growth in the empire. [NEWLINE][ICON_BULLET]Certain Specialists gain increased yields, Engineers gain +1 [ICON_PRODUCTION] Production, Merchants gain +1 [ICON_GOLD] Gold, and Scientists gain +1 [ICON_RESEARCH] Science.[NEWLINE][ICON_BULLET][ICON_CULTURE] Culture cost of adopting new Policies reduced by 25%.
+				[ICON_BULLET]+25% [ICON_RESEARCH] Science, +15% [ICON_PRODUCTION] Production, and +10% [ICON_FOOD] Growth in the empire. [NEWLINE][ICON_BULLET]Certain Specialists gain increased yields, Engineers gain +2 [ICON_PRODUCTION] Production, Scientists gain +2 [ICON_RESEARCH] Science, and Merchants gain +1 [ICON_GOLD] Gold.[NEWLINE][ICON_BULLET][ICON_CULTURE] Culture cost of adopting new Policies reduced by 25%.
 			</Text>
 		</Row>
 	</Language_en_US>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/16/2023 12:06:43 AM -->
+<GameData>
+	<Building_Flavors>
+		
+		<!--Production-->
+		<Update>
+			<!--Upped from 20 to 25-->
+			<Set Flavor="25"/>
+			<Where BuildingType="BUILDING_STONE_WORKS" FlavorType="FLAVOR_PRODUCTION"/>
+		</Update>
+		<Update>
+			<!--Upped from 35 to 35-->
+			<Set Flavor="35"/>
+			<Where BuildingType="BUILDING_WORKSHOP" FlavorType="FLAVOR_PRODUCTION"/>
+		</Update>
+		<Update>
+			<!--Upped from 20 to 25-->
+			<Set Flavor="25"/>
+			<Where BuildingType="BUILDING_WATERMILL" FlavorType="FLAVOR_PRODUCTION"/>
+		</Update>
+		<Update>
+			<!--Upped from 20 to 25-->
+			<Set Flavor="25"/>
+			<Where BuildingType="BUILDING_FLOATING_GARDENS" FlavorType="FLAVOR_PRODUCTION"/>
+		</Update>
+		<Update>
+			<!--Upped from 5 to 10 since auto get wheat-->
+			<Set Flavor="10"/>
+			<Where BuildingType="BUILDING_GRANARY" FlavorType="FLAVOR_PRODUCTION"/>
+		</Update>
+		
+		
+		<!--food-->
+		<Update>
+			<!--Upped from 20 to 25-->
+			<Set Flavor="25"/>
+			<Where BuildingType="BUILDING_WATERMILL" FlavorType="FLAVOR_GROWTH"/>
+		</Update>
+		<Update>
+			<!--Upped from 30 to 35-->
+			<Set Flavor="35"/>
+			<Where BuildingType="BUILDING_FLOATING_GARDENS" FlavorType="FLAVOR_GROWTH"/>
+		</Update>
+		<Update>
+			<!--Upped from 40 to 45-->
+			<Set Flavor="45"/>
+			<Where BuildingType="BUILDING_AQUEDUCT" FlavorType="FLAVOR_GROWTH"/>
+		</Update>
+		<Update>
+			<!--Upped from 18 to 55 since auto get wheat-->
+			<Set Flavor="55"/>
+			<Where BuildingType="BUILDING_GRANARY" FlavorType="FLAVOR_GROWTH"/>
+		</Update>
+		
+		<!--GOld-->
+		<Update>
+			<!--Upped from 25 to 35-->
+			<Set Flavor="35"/>
+			<Where BuildingType="BUILDING_MARKET" FlavorType="FLAVOR_GOLD"/>
+		</Update>
+
+		<!--Science-->
+		<Update>
+			<!--Upped from 40 to 45-->
+			<Set Flavor="45"/>
+			<Where BuildingType="BUILDING_LIBRARY" FlavorType="FLAVOR_SCIENCE"/>
+		</Update>
+		<Update>
+			<!--Upped from 5 to 10 since auto get wheat-->
+			<Set Flavor="10"/>
+			<Where BuildingType="BUILDING_GRANARY" FlavorType="FLAVOR_SCIENCE"/>
+		</Update>
+
+
+
+
+
+
+
+
+	</Building_Flavors>
+  
+</GameData>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Row>
+			<Type>UNIT_ENGINEER_TEAM</Type>
+			<Description>TXT_KEY_UNIT_ENGINEER_TEAM</Description>
+			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_COLONIST_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ENGINEER_TEAM_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_ENGINEER_TEAM_STRATEGY</Help>
+			<Requirements></Requirements>
+			<Combat>0</Combat>
+			<RangedCombat>0</RangedCombat>
+			<Cost>150</Cost>
+			<Moves>2</Moves>
+			<BaseSightRange>2</BaseSightRange>
+			<Class>UNITCLASS_ENGINEER_TEAM</Class>
+			<Capture>UNITCLASS_WORKER</Capture>
+			<CombatClass></CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_LOW</CivilianAttackPriority>
+			<DefaultUnitAI>UNITAI_ENGINEER</DefaultUnitAI>
+			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
+			<AdvancedStartCost>20</AdvancedStartCost>
+			<MinAreaSize>-1</MinAreaSize>
+			<WorkRate>1</WorkRate>
+			<BaseHurry>30</BaseHurry>
+			<HurryMultiplier>3</HurryMultiplier>
+			<UnitArtInfo>ART_DEF_UNIT__WORKER</UnitArtInfo>
+			<ShowInPedia>1</ShowInPedia>
+			<MoveRate>BIPED</MoveRate>
+			<UnitFlagAtlas>ENLIGHTENMENT_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>3</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>47</PortraitIndex>
+		</Row>
+	</Units>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_ENGINEER_TEAM</UnitType>
+			<UnitAIType>UNITAI_ENGINEER</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+	<!-- Unit_Buildings -->
+	<!-- Unit_BuildingClassRequireds -->
+	<!-- Unit_ProductionModifierBuildings -->
+	<!-- Unit_ClassUpgrades -->
+	<!-- Unit_FreePromotions -->
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_ENGINEER_TEAM</UnitType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>1</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<!-- Unit_GreatPersons -->
+	<!-- Unit_ResourceQuantityRequirements -->
+	<!-- Unit_UniqueNames -->
+	<!-- Unit_YieldFromKills -->
+	<!-- Unit_NotAITypes -->
+	<!-- Unit_ProductionTraits -->
+	<!-- Unit_TechTypes -->
+	<!-- UnitPromotions_CivilianUnitType -->
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_ENGINEER_TEAM</UnitType>
+			<SelectionSound>AS2D_SELECT_WORKER</SelectionSound>
+			<FirstSelectionSound>AS2D_SELECT_WORKER</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_ENGINEER_TEAM">
+			<Text>Engineering Team</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_ANTIQUITY_ENGINEER_TEAM_TEXT">
+			<Text>
+				<!-- Add Civilopedia text here -->
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ENGINEER_TEAM_STRATEGY">
+			<Text>The Engineering Team can hurry production of a unit, building or Wonder in a city by adding a small boost to the City. The Engineering Team is expended when used in this way.</Text>
+		</Row>
+	</Language_en_US>
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_ENGINEER_TEAM</Type>
+			<Description>TXT_KEY_UNIT_ENGINEER_TEAM</Description>
+			<DefaultUnit>UNIT_ENGINEER_TEAM</DefaultUnit>
+		</Row>
+	</UnitClasses>
+</GameData>

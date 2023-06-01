@@ -11,7 +11,7 @@
 		<!--HALF RATE FROM ENGINEERS-->
 		<Update>
 			<Where Type="UNIT_MERCHANT"/>
-			<Set BaseHurry="150" HurryMultiplier="15"/>
+			<Set BaseHurry="100" HurryMultiplier="10"/>
 		</Update>
 	</Units>
 </GameData>

@@ -16,7 +16,17 @@
 		<!--Pyramid worker modifier tweak-->
 		<Update>
 			<Where Type="BUILDING_PYRAMID"/>
-			<Set WorkerSpeedModifier="20"/>
+			<Set WorkerSpeedModifier="20" Help="TXT_KEY_WONDER_PYRAMIDS_HELP"/>
+		</Update>
+		<Update>
+			<!--chitzen itza uses taj mahal help for some reason-->
+			<Where Type="BUILDING_CHICHEN_ITZA"/>
+			<Set Help="TXT_KEY_WONDER_CHICHEN_ITZA_HELP"/>
+		</Update>
+		<Update>
+			<!--taj mahal uses pyramid help for some reason-->
+			<Where Type="BUILDING_TAJ_MAHAL"/>
+			<Set Help="TXT_KEY_WONDER_TAJ_MAHAL_HELP"/>
 		</Update>
 
 		<!--added specialist SLOTS FOR key national wonders-->
@@ -248,10 +258,22 @@
 			<Where Tag="TXT_KEY_WONDER_MAUSOLEUM_HALICARNASSUS_HELP"/>
 			<Set Text="Gain 50 [ICON_GOLD] Gold each time a Great Person is expended. Each source of [ICON_RES_MARBLE] Marble or [ICON_RES_STONE] Stone worked by this City produces +2 [ICON_GOLD] Gold."/>
 		</Update>
+		
 		<Update>
 			<Where Tag="TXT_KEY_WONDER_PYRAMIDS_HELP"/>
 			<Set Text="Requires Liberty. Tile improvement construction speed increased by 20% and a Worker appear near the City."/>
 		</Update>
+		<Update>
+			<!--Fix taj mahal txt-->
+			<Where Tag="TXT_KEY_WONDER_TAJ_MAHAL_HELP"/>
+			<Set Text="The empire enters a [ICON_GOLDEN_AGE] Golden Age."/>
+		</Update>
+		<Update>
+			<!--fix chichen itza txt-->
+			<Where Tag="TXT_KEY_WONDER_CHICHEN_ITZA_HELP"/>
+			<Set Text="Length of [ICON_GOLDEN_AGE] Golden Ages increased by 50%."/>
+		</Update>
+
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_HEROIC_EPIC_HELP"/>
 			<Set Text ="All newly-trained non-air Units in this City receive the [COLOR_POSITIVE_TEXT]Morale[ENDCOLOR] Promotion, improving [ICON_STRENGTH] combat strength by 15%. Contains 1 slot for a Great Work of Writing."/>

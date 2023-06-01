@@ -97,6 +97,11 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_OPSTART</BuildingType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Quantity>22</Quantity>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OPSTART</BuildingType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 			<Quantity>22</Quantity>
 		</Row>

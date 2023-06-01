@@ -102,10 +102,10 @@
 
 		<!-- Production -->
 
-		<!--normal factory nerfed from 4 to 2, but given 1prod/4pop-->
+		<!--normal factory nerfed from 4 to 3, but given 1prod/4pop-->
 		<Update>
 			<Where BuildingType="BUILDING_FACTORY" YieldType="YIELD_PRODUCTION"/>
-			<Set Yield="2"/>
+			<Set Yield="3"/>
 		</Update>
 	</Building_YieldChanges>
 	
@@ -158,11 +158,11 @@
 	</Building_YieldModifiers>
 	
 	<Building_YieldChangesPerPop>
-		<!--normal factory nerfed from 4 to 2, but given 1prod/4pop-->
+		<!--normal factory nerfed from 4 to 3, but given 1prod/5pop-->
 		<Row>
 			<BuildingType>BUILDING_FACTORY</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>25</Yield>
+			<Yield>20</Yield>
 		</Row>
 
 	</Building_YieldChangesPerPop>
@@ -202,7 +202,7 @@
 
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_FACTORY_HELP"/>
-			<Set Text="Requires 1 [ICON_RES_COAL] Coal. +1 [ICON_PRODUCTION] Production for every 4 [ICON_CITIZEN] Citizens in this city."/>
+			<Set Text="+1 [ICON_PRODUCTION] Production for every 5 [ICON_CITIZEN] Citizens in this City. Requires 1 [ICON_RES_COAL] Coal."/>
 		</Update>
 
 		<Update>

@@ -3,8 +3,9 @@
 <GameData>
 	<AIGrandStrategy_Flavors>
 		<!-- Remember: this is flavor's influence on GS weight during GS reroll, not the GS' influence on flavor -->
+			<!--Changed from 9 to 10-->
 		<Update>
-			<Set Flavor="9" />
+			<Set Flavor="10" />
 			<Where AIGrandStrategyType="AIGRANDSTRATEGY_CONQUEST" />
 		</Update>
 		<Update>
@@ -28,6 +29,12 @@
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>50</Yield>
 		</Row>
+		<!--jef added something to conquest to gib more food-->
+		<Row>
+			<AIGrandStrategyType>AIGRANDSTRATEGY_CONQUEST</AIGrandStrategyType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>20</Yield>
+		</Row>
 		<Row>
 			<AIGrandStrategyType>AIGRANDSTRATEGY_UNITED_NATIONS</AIGrandStrategyType>
 			<YieldType>YIELD_SCIENCE</YieldType>
@@ -38,10 +45,11 @@
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>50</Yield>
 		</Row>
+		<!--jeff changed from 50 to 60-->
 		<Row>
 			<AIGrandStrategyType>AIGRANDSTRATEGY_SPACESHIP</AIGrandStrategyType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>50</Yield>
+			<Yield>60</Yield>
 		</Row>
 	</AIGrandStrategy_Yields>
 	<AIGrandStrategy_FlavorMods>
@@ -87,6 +95,12 @@
 			<AIGrandStrategyType>AIGRANDSTRATEGY_CONQUEST</AIGrandStrategyType>
 			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
 			<Flavor>3</Flavor>
+		</Row>
+		<!--JEFF ADDS a lil growth to conquest-->
+		<Row>
+			<AIGrandStrategyType>AIGRANDSTRATEGY_CONQUEST</AIGrandStrategyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>1</Flavor>
 		</Row>
 
 		<!-- GS has slightly higher influence on flavors now -->

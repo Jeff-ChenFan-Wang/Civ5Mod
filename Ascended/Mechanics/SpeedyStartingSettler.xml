@@ -12,6 +12,7 @@
 		<Row>
 			<Class>UNITCLASS_SUPERSETTLER</Class>
 			<Type>UNIT_SUPERSETTLER</Type>
+			<Cost>-1</Cost>
 			<Moves>4</Moves>
 			<Capture>UNITCLASS_WORKER</Capture>
 			<HurryCostModifier>20</HurryCostModifier>
