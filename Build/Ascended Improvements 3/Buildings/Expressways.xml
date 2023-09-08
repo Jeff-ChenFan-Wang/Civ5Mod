@@ -12,8 +12,8 @@
 		<Row>
 			<Type>BUILDING_EXPRESSWAY</Type>
 			<BuildingClass>BUILDINGCLASS_EXPRESSWAY</BuildingClass>
-			<Cost>850</Cost>
-			<GoldMaintenance>2</GoldMaintenance>
+			<Cost>700</Cost>
+			<GoldMaintenance>3</GoldMaintenance>
 			<PrereqTech>TECH_COMBUSTION</PrereqTech>
 			<Help>TXT_KEY_BUILDING_EXPRESSWAY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_EXPRESSWAY</Description>
@@ -21,8 +21,8 @@
 			<Strategy>TXT_KEY_BUILDING_EXPRESSWAY_STRATEGY</Strategy>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>0</ConquestProb>
-			<Happiness>1</Happiness>
-			<HurryCostModifier>-1</HurryCostModifier>
+			<Happiness>2</Happiness>
+			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>EXPRESSWAY_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
@@ -68,7 +68,7 @@
 		<Row>
 			<BuildingType>BUILDING_EXPRESSWAY</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>20</Yield>
+			<Yield>25</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_EXPRESSWAY</BuildingType>

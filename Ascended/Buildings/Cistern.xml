@@ -117,7 +117,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_CISTERN_HELP">
 			<Text>
-				+2 [ICON_FOOD] food and +1 [ICON_PRODUCTION] production for lake tiles worked by this city, +2 [ICON_FOOD] food for oasis worked by this city. +1 [ICON_FOOD] Food for desert tiles worked by this city.
+				+2 [ICON_FOOD] food and +1 [ICON_PRODUCTION] production for lake tiles worked by this city, +1 [ICON_FOOD] food for oasis worked by this city. +1 [ICON_FOOD] Food for desert tiles worked by this city.
 			</Text>
 		</Row>
 	</Language_en_US>

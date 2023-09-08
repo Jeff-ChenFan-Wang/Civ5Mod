@@ -369,7 +369,11 @@
 		</Row>
 		<Update>
 			<Where Type="BUILDING_WINDMILL"/>
-			<Set PrereqTech="TECH_PHYSICS" Cost="200" FreeStartEra="ERA_MODERN"/>
+			<Set PrereqTech="TECH_PHYSICS" FreeStartEra="ERA_MODERN" />
+		</Update>
+		<Update>
+			<Where Type="BUILDING_COFFEE_HOUSE"/>
+			<Set PrereqTech="TECH_PHYSICS" FreeStartEra="ERA_MODERN" />
 		</Update>
 		<Update>
 			<Where Type="BUILDING_CONSTABLE"/>
@@ -1219,7 +1223,7 @@
 		<Row>
 			<BuildingType>BUILDING_INTERNET_CAFE</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 
 		<Row>
@@ -1322,6 +1326,11 @@
 			<BuildingType>BUILDING_INTERNET_CAFE</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>20</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INTERNET_CAFE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HYDROPONIC_FARM</BuildingType>

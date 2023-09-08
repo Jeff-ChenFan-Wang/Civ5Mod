@@ -369,7 +369,11 @@
 		</Row>
 		<Update>
 			<Where Type="BUILDING_WINDMILL"/>
-			<Set PrereqTech="TECH_PHYSICS" Cost="200" FreeStartEra="ERA_MODERN"/>
+			<Set PrereqTech="TECH_PHYSICS" FreeStartEra="ERA_MODERN" />
+		</Update>
+		<Update>
+			<Where Type="BUILDING_COFFEE_HOUSE"/>
+			<Set PrereqTech="TECH_PHYSICS" FreeStartEra="ERA_MODERN" />
 		</Update>
 		<Update>
 			<Where Type="BUILDING_CONSTABLE"/>
@@ -639,8 +643,8 @@
 		<Row>
 			<Type>BUILDING_HYDROPONIC_FARM</Type>
 			<BuildingClass>BUILDINGCLASS_HYDROPONIC_FARM</BuildingClass>
-			<Cost>988</Cost>
-			<GoldMaintenance>4</GoldMaintenance>
+			<Cost>1050</Cost>
+			<GoldMaintenance>5</GoldMaintenance>
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_HYDROPONIC_FARM_HELP</Help>
 			<Description>TXT_KEY_BUILDING_HYDROPONIC_FARM</Description>
@@ -1050,7 +1054,7 @@
 		<Row>
 			<BuildingType>BUILDING_HYDROPONIC_FARM</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>40</Flavor>
+			<Flavor>50</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_INTERNET_CAFE</BuildingType>
@@ -1209,7 +1213,7 @@
 		<Row>
 			<BuildingType>BUILDING_HYDROPONIC_FARM</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>6</Yield>
+			<Yield>7</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_INTERNET_CAFE</BuildingType>
@@ -1219,7 +1223,7 @@
 		<Row>
 			<BuildingType>BUILDING_INTERNET_CAFE</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
+			<Yield>3</Yield>
 		</Row>
 
 		<Row>
@@ -1322,6 +1326,11 @@
 			<BuildingType>BUILDING_INTERNET_CAFE</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>20</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_INTERNET_CAFE</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>10</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HYDROPONIC_FARM</BuildingType>

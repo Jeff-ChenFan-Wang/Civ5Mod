@@ -16,7 +16,7 @@
 			<Where Type="HANDICAP_EMPEROR"/>
 		</Update>
 		<Update>
-			<Set AIStartingWorkerUnits="2"/>
+			<Set AIStartingWorkerUnits="1"/>
 			<Where Type="HANDICAP_EMPEROR"/>
 		</Update>
 		<Update>

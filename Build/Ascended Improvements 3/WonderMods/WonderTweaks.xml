@@ -138,7 +138,7 @@
 		</Update>
 		<Update>
 			<Where BuildingType="BUILDING_HANGING_GARDEN" YieldType="YIELD_FOOD"/>
-			<Set Yield="5"/>
+			<Set Yield="6"/>
 		</Update>
 		<Update>
 			<Where BuildingType="BUILDING_TERRACOTTA_ARMY" YieldType="YIELD_CULTURE"/>
@@ -201,6 +201,14 @@
 		<Delete BuildingType="BUILDING_PETRA" TerrainType="TERRAIN_DESERT" YieldType="YIELD_FOOD"/>
 	</Building_TerrainYieldChanges>
 	
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_PENTAGON</BuildingType>
+			<BuildingClassType>BUILDING_MILITARY_BASE</BuildingClassType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
 	
 	<Building_SpecialistYieldChanges>
 		<Row>
@@ -312,6 +320,11 @@
 		<Update>
 			<Where Tag="TXT_KEY_WONDER_UFFIZI_HELP"/>
 			<Set Text="Requires Aesthetics. 1 free Great Artist appears near the City where the Wonder was built. +1 [ICON_CULTURE] Culture from Artist, Musician, and Writer specialists in each City. Contains 3 slots for Great Works of Art."/>
+		</Update>
+
+		<Update>
+			<Where Tag="TXT_KEY_WONDER_PENTAGON_HELP"/>
+			<Set Text="[ICON_GOLD] Gold cost of upgrading military units reduced by 33%. +1 [ICON_PRODUCTION] Production for every Military Base."/>
 		</Update>
 	</Language_en_US>
 </GameData>

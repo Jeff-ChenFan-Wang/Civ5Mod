@@ -2,6 +2,7 @@
 <!-- Created by ModBuddy on 9/17/2019 4:17:39 PM -->
 <GameData>
 	<Policies>
+		<!--Ideologies-->
 		<Update>
 			<Where Type="POLICY_PARTY_LEADERSHIP"/>
 			<Set StrategicResourceMod="200"/>
@@ -10,8 +11,11 @@
 			<Where Type="POLICY_ARSENAL_DEMOCRACY"/>
 			<Set StrategicResourceMod="200"/>
 		</Update>
+		<Update>
+			<Where Type="POLICY_UNIVERSAL_SUFFRAGE"/>
+			<Set HalfSpecialistUnhappiness="0" GoldenAgeDurationMod="75" UnhappinessMod="-15"/>
+		</Update>
 		
-
 
 		<!--eXPLORATION-->
 		<Update>
@@ -70,6 +74,24 @@
 			<Set>
 				<CapitalGrowthMod>15</CapitalGrowthMod>
 			</Set>
+		</Update>
+		<Update>
+			<Where Type="POLICY_ARISTOCRACY"/>
+			<Set HappinessPerXPopulation="5"/>
+		</Update>
+		<Update>
+			<Where Type="POLICY_MONARCHY"/>
+			<Set CapitalUnhappinessMod="-100"/>
+		</Update>
+		
+		<!--Liberty-->
+		<Update>
+			<Where Type="POLICY_MERITOCRACY"/>
+			<Set UnhappinessMod="-10" HappinessPerTradeRoute="200" HalfSpecialistUnhappiness="true"/>
+		</Update>
+		<Update>
+			<Where Type="POLICY_REPRESENTATION"/>
+			<Set NumCitiesPolicyCostDiscount="-40"/>
 		</Update>
 		
 	</Policies>
@@ -220,6 +242,13 @@
 			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
 			<ProductionModifier>40</ProductionModifier>
 		</Row>
+		
+		<!--Ideology-->
+		<Row>
+			<PolicyType>POLICY_WORKERS_FACULTIES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_STEEL_FOUNDRY</BuildingClassType>
+			<ProductionModifier>100</ProductionModifier>
+		</Row>
 	</Policy_BuildingClassProductionModifiers>
 	
 	<Policy_GreatWorkYieldChanges>
@@ -234,13 +263,77 @@
 			<Yield>1</Yield>
 		</Row>
 	</Policy_GreatWorkYieldChanges>
-	
-	
-	
-	
-	
+
+	<Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_MERCANTILISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CASINO</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<!--
+		<Row>
+			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_INTERNET_CAFE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>-->
+	</Policy_BuildingClassYieldChanges>
+	<Policy_BuildingClassHappiness>
+		<Row>
+			<PolicyType>POLICY_CAPITALISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CASINO</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_YOUNG_PIONEERS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_STEEL_FOUNDRY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MILITARY_CASTE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HEROIC_EPIC</BuildingClassType>
+			<Happiness>3</Happiness>
+		</Row>
+		<!--
+		<Row>
+			<PolicyType>POLICY_URBANIZATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HYDROPONIC_FARM</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ACADEMY_SCIENCES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_SUPERCOMPUTER</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ACADEMY_SCIENCES</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PHYSICS_LAB</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>-->
+	</Policy_BuildingClassHappiness>
+
+
+
 	<Language_en_US>
 		<!--IDeologies-->
+		<!-- Order -->
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_YOUNG_PIONEERS_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Young Pioneers[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Local Happiness from every Workshop, Factory, Hydro Plant, Steel Foundry, Nuclear Plant, and Solar Plant."/>
+		</Update>
+		<Delete Tag="TXT_KEY_POLICY_WORKERS_FACULTIES_HELP"/>
+		<Row Tag="TXT_KEY_POLICY_WORKERS_FACULTIES_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Workers' Faculties[ENDCOLOR][NEWLINE]Factories increase a City's [ICON_RESEARCH] Science output by 25%. Build Factories and Steel Foundries in half the usual time.</Text>
+		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_PEACE_GARDENS"/>
+			<Set Text="Botanical Gardens provide +2 [ICON_HAPPINESS_1] Happiness in city"/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_BELIEF_LITURGICAL_DRAMA"/>
+			<Set Text="Theatres provide +1 [ICON_PEACE] Faith in cities with 3 followers"/>
+		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_PARTY_LEADERSHIP_HELP"/>
 			<Set Text="[COLOR_POSITIVE_TEXT]Party Leadership[ENDCOLOR][NEWLINE]Strategic Resources provide double quantity. +1 [ICON_CULTURE] Culture, [ICON_FOOD] Food, [ICON_GOLD] Gold, [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science per City. "/>
@@ -262,6 +355,31 @@
 			<Set>
 				<Text>[COLOR_POSITIVE_TEXT]Arsenal of Democracy[ENDCOLOR][NEWLINE]Strategic Resrouces provide double quantity. +15% [ICON_PRODUCTION] Production towards Military Units. Gain 15 Influence from each Military Unit gift to CIty-States.</Text>
 			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MERCANTILISM_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Mercantilism[ENDCOLOR][NEWLINE]Purchasing items in Cities requires 25% less [ICON_GOLD] Gold. +1 [ICON_RESEARCH] Science from every Mint, Market, Bank, Casino, and Stock Exchange."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_CAPITALISM_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Capitalism[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Local Happiness from every Mint, Bank, Casino, and Stock Exchange."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_UNIVERSAL_SUFFRAGE_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Universal Suffrage[ENDCOLOR][NEWLINE][ICON_GOLDEN_AGE] Golden Ages last 75% longer. -15% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Citizens in non-occupied Cities."/>
+		</Update>
+
+
+
+
+		<!--Liberty-->
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MERITOCRACY_HELP"/>
+			<Set Text="+2 [ICON_HAPPINESS_1] Happiness for each City you own connected to the [ICON_CAPITAL] Capital and -10% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Citizens in non-occupied Cities. Specialists in Cities produce half the normal amount of [ICON_HAPPINESS_4] Unhappiness."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_REPRESENTATION_HELP"/>
+			<Set Text="Each city you found will increase the [ICON_CULTURE] Culture cost of policies by 40% less than normal. Also starts a [ICON_GOLDEN_AGE] Golden Age (if one is already in progress, it is extended)."/>
 		</Update>
 
 		<!-- COlonialism replaces treasure fleet -->
@@ -328,7 +446,12 @@
 		<Replace Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP">
 				<Text>[COLOR_POSITIVE_TEXT]Professional Army[ENDCOLOR][NEWLINE][ICON_BULLET] Barracks, Armories, and Military Academies are constructed 50% faster.[NEWLINE][ICON_BULLET] Unit Maintenance cost reduced by 10%.</Text>
 		</Replace>
+
+		<Replace Tag="TXT_KEY_POLICY_MILITARY_CASTE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Military Caste[ENDCOLOR][NEWLINE][ICON_BULLET]Each City with a garrison increases empire [ICON_HAPPINESS_1] Happiness by 1 and [ICON_CULTURE] Culture by 2. [NEWLINE][ICON_BULLET] Gain +3 [ICON_HAPPINESS_1] Happiness from the Heroic Epic.</Text>
+		</Replace>
 		
+
 		<!--COmmerce-->
 
 		<Replace Tag="TXT_KEY_POLICY_ENTREPRENEURSHIP_HELP">
@@ -351,6 +474,14 @@
 		<Replace Tag="TXT_KEY_POLICY_LANDED_ELITE_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Landed Elite[ENDCOLOR][NEWLINE][ICON_BULLET] +15% [ICON_FOOD] Growth and +4 [ICON_FOOD] Food in the [ICON_CAPITAL] Capital.</Text>
 		</Replace>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_ARISTOCRACY_HELP"/>
+			<Set Text="+15% [ICON_PRODUCTION] Production when building Wonders (any Era) and +1 [ICON_HAPPINESS_1] Happiness for every 5 [ICON_CITIZEN] Citizens in a City."/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MONARCHY_HELP"/>
+			<Set Text="	+1 [ICON_GOLD] Gold and -1 [ICON_HAPPINESS_4] Unhappiness for every [ICON_CITIZEN] Citizens in the [ICON_CAPITAL] Capital."/>
+		</Update>
 		
 	</Language_en_US>
 </GameData>

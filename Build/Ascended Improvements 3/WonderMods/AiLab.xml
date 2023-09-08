@@ -24,6 +24,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<NukeImmune>1</NukeImmune>
 			<NeverCapture>1</NeverCapture>
+			<UnhappinessModifier>-10</UnhappinessModifier>
 			<PolicyCostModifier>-25</PolicyCostModifier>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<IconAtlas>RFEMOD_ICON_ATLAS</IconAtlas>
@@ -35,6 +36,11 @@
 			<BuildingType>BUILDING_AI_LAB</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FORBIDDEN_PALACE</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>15</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AI_LAB</BuildingType>
@@ -115,7 +121,7 @@
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_AI_LAB_HELP">
 			<Text>
-				[ICON_BULLET]+25% [ICON_RESEARCH] Science, +15% [ICON_PRODUCTION] Production, and +10% [ICON_FOOD] Growth in the empire. [NEWLINE][ICON_BULLET]Certain Specialists gain increased yields, Engineers gain +2 [ICON_PRODUCTION] Production, Scientists gain +2 [ICON_RESEARCH] Science, and Merchants gain +1 [ICON_GOLD] Gold.[NEWLINE][ICON_BULLET][ICON_CULTURE] Culture cost of adopting new Policies reduced by 25%.
+				[ICON_BULLET]+25% [ICON_RESEARCH] Science, +15% [ICON_PRODUCTION] Production, and +10% [ICON_FOOD] Growth in the empire. [NEWLINE][ICON_BULLET]-10% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Citizens in non-occupied Cities.[NEWLINE][ICON_BULLET]Certain Specialists gain increased yields, Engineers gain +2 [ICON_PRODUCTION] Production, Scientists gain +2 [ICON_RESEARCH] Science, and Merchants gain +1 [ICON_GOLD] Gold.[NEWLINE][ICON_BULLET][ICON_CULTURE] Culture cost of adopting new Policies reduced by 25%.
 			</Text>
 		</Row>
 	</Language_en_US>

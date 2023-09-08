@@ -21,8 +21,8 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<NukeImmune>true</NukeImmune>
 			<NeverCapture>1</NeverCapture>
-			<Happiness>9</Happiness>
-			<UnmoddedHappiness>9</UnmoddedHappiness>
+			<Happiness>3</Happiness>
+			<UnmoddedHappiness>3</UnmoddedHappiness>
 			<IconAtlas>SHRINE_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>2</PortraitIndex>
 		</Row>
@@ -32,22 +32,22 @@
 		<Row>
 			<BuildingType>BUILDING_AI_BOOSTER</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>33</Yield>
+			<Yield>20</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AI_BOOSTER</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>33</Yield>
+			<Yield>20</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AI_BOOSTER</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>25</Yield>
+			<Yield>10</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AI_BOOSTER</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>20</Yield>
+			<Yield>10</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_AI_BOOSTER</BuildingType>
@@ -69,7 +69,7 @@
 		<Row Tag="TXT_KEY_BUILDING_AI_BOOSTER_STRATEGY">
 			<Text>
 				Building serves as a buff to significantly boost AI stats after the first Civ hits renaissance.
-				[NEWLINE][ICON_BULLET]AI +33% Gold, +33% Prod, +25% culture, +20% food, +5% science globally, and +9 local, +9 global happiness
+				[NEWLINE][ICON_BULLET]AI +20% Gold, +20% Prod, +10% culture, +10% food, +5% science globally, and +3 local, +3 global happiness
 				[NEWLINE][ICON_BULLET]Destroyed upon capital capture, but rebuilt in new capital whenever ANY Civ reaches new era
 			</Text>
 		</Row>

@@ -13,7 +13,7 @@
 		<Row>
 			<Type>BUILDING_THREE_GORGES</Type>
 			<BuildingClass>BUILDINGCLASS_THREE_GORGES</BuildingClass>
-			<Cost>1150</Cost>
+			<Cost>1000</Cost>
 			<NukeImmune>1</NukeImmune>
 			<NeverCapture>1</NeverCapture>
 			<PrereqTech>TECH_ELECTRICITY</PrereqTech>

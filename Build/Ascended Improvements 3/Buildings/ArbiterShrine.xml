@@ -79,9 +79,9 @@
 			<CapturePlunderModifier>0</CapturePlunderModifier>
 			<PolicyCostModifier>0</PolicyCostModifier>-->
 			<PlotCultureCostModifier>-15</PlotCultureCostModifier>
-			<!--<GlobalPlotCultureCostModifier>0</GlobalPlotCultureCostModifier>
-			<PlotBuyCostModifier>0</PlotBuyCostModifier>
-			<GlobalPlotBuyCostModifier>0</GlobalPlotBuyCostModifier>
+			<!--<GlobalPlotCultureCostModifier>0</GlobalPlotCultureCostModifier>-->
+			<PlotBuyCostModifier>-15</PlotBuyCostModifier>
+			<!--<GlobalPlotBuyCostModifier>0</GlobalPlotBuyCostModifier>
 			<GlobalPopulationChange>0</GlobalPopulationChange>
 			<TechShare>0</TechShare>
 			<FreeTechs>0</FreeTechs>
@@ -294,7 +294,7 @@
 		</Row>
 		-<Row Tag="TXT_KEY_BUILDING_ARBITER_SHRINE_HELP">
 			<Text>
-				[ICON_CULTURE] Culture costs of acquiring new tiles reduced by 15% in this city.
+				[ICON_CULTURE] Culture and [ICON_GOLD] Gold costs of acquiring new tiles reduced by 15% in this city.
 			</Text>
 		</Row>
 	</Language_en_US>

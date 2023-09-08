@@ -37,7 +37,7 @@ FROM Buildings WHERE BuildingClass = 'BUILDINGCLASS_HERMITAGE';
 
 INSERT INTO Building_TechEnhancedYieldChanges
 		(BuildingType,	YieldType,			Yield)
-SELECT	Type,			'YIELD_SCIENCE',	8
+SELECT	Type,			'YIELD_SCIENCE',	10
 FROM Buildings WHERE BuildingClass = 'BUILDINGCLASS_NATIONAL_COLLEGE';
 
 --==========================================================================================================================
@@ -84,32 +84,32 @@ AND EXISTS (Select * FROM Automates WHERE Type = 'AUTOMATE_MISSIONARY');
 --==========================================================================================================================
 INSERT INTO Improvement_TechYieldChanges
 		(ImprovementType,						TechType,				YieldType,			Yield)
-SELECT	'IMPROVEMENT_PALACE_DUMMY',				'TECH_FUTURE_TECH',		'YIELD_FOOD',		8
+SELECT	'IMPROVEMENT_PALACE_DUMMY',				'TECH_FUTURE_TECH',		'YIELD_FOOD',		10
 WHERE EXISTS (Select * FROM Automates WHERE Type = 'AUTOMATE_MISSIONARY');
 
 INSERT INTO Improvement_TechYieldChanges
 		(ImprovementType,						TechType,				YieldType,			Yield)
-SELECT	'IMPROVEMENT_IRONWORKS_DUMMY',			'TECH_FUTURE_TECH',		'YIELD_PRODUCTION',	8
+SELECT	'IMPROVEMENT_IRONWORKS_DUMMY',			'TECH_FUTURE_TECH',		'YIELD_PRODUCTION',	10
 WHERE EXISTS (Select * FROM Automates WHERE Type = 'AUTOMATE_MISSIONARY');
 			
 INSERT INTO Improvement_TechYieldChanges
 		(ImprovementType,						TechType,				YieldType,			Yield)
-SELECT	'IMPROVEMENT_NATIONAL_TREASURY_DUMMY',	'TECH_FUTURE_TECH',		'YIELD_GOLD',		8
+SELECT	'IMPROVEMENT_NATIONAL_TREASURY_DUMMY',	'TECH_FUTURE_TECH',		'YIELD_GOLD',		10
 WHERE EXISTS (Select * FROM Automates WHERE Type = 'AUTOMATE_MISSIONARY');
 
 INSERT INTO Improvement_TechYieldChanges
 		(ImprovementType,						TechType,				YieldType,			Yield)
-SELECT	'IMPROVEMENT_GRAND_TEMPLE_DUMMY',		'TECH_FUTURE_TECH',		'YIELD_FAITH',		8
+SELECT	'IMPROVEMENT_GRAND_TEMPLE_DUMMY',		'TECH_FUTURE_TECH',		'YIELD_FAITH',		10
 WHERE EXISTS (Select * FROM Automates WHERE Type = 'AUTOMATE_MISSIONARY');
 
 INSERT INTO Improvement_TechYieldChanges
 		(ImprovementType,						TechType,				YieldType,			Yield)
-SELECT	'IMPROVEMENT_HERMITAGE_DUMMY',			'TECH_FUTURE_TECH',		'YIELD_CULTURE',	8
+SELECT	'IMPROVEMENT_HERMITAGE_DUMMY',			'TECH_FUTURE_TECH',		'YIELD_CULTURE',	10
 WHERE EXISTS (Select * FROM Automates WHERE Type = 'AUTOMATE_MISSIONARY');
 
 INSERT INTO Improvement_TechYieldChanges
 		(ImprovementType,						TechType,				YieldType,			Yield)
-SELECT	'IMPROVEMENT_NATIONAL_COLLEGE_DUMMY',	'TECH_FUTURE_TECH',		'YIELD_SCIENCE',	8
+SELECT	'IMPROVEMENT_NATIONAL_COLLEGE_DUMMY',	'TECH_FUTURE_TECH',		'YIELD_SCIENCE',	10
 WHERE EXISTS (Select * FROM Automates WHERE Type = 'AUTOMATE_MISSIONARY');
 
 --==========================================================================================================================

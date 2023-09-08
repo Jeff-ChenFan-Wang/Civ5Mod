@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/20/2019 2:35:47 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_IRON_REFINERY</Type>
+			<DefaultBuilding>BUILDING_IRON_REFINERY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_IRON_REFINERY</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_COAL_REFINERY</Type>
+			<DefaultBuilding>BUILDING_COAL_REFINERY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_COAL_REFINERY</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_OIL_REFINERY</Type>
+			<DefaultBuilding>BUILDING_OIL_REFINERY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_OIL_REFINERY</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_HORSE_RANCH</Type>
+			<DefaultBuilding>BUILDING_HORSE_RANCH</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_HORSE_RANCH</Description>
+		</Row>
+	</BuildingClasses>
+
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_IRON_REFINERY</Type>
+			<BuildingClass>BUILDINGCLASS_IRON_REFINERY</BuildingClass>
+			<Cost>450</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<Help>TXT_KEY_BUILDING_IRON_REFINERY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_IRON_REFINERY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_IRON_REFINERY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_IRON_REFINERY_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>25</ConquestProb>
+			<Happiness>0</Happiness>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>AMERICA_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_COAL_REFINERY</Type>
+			<BuildingClass>BUILDINGCLASS_COAL_REFINERY</BuildingClass>
+			<Cost>450</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<Help>TXT_KEY_BUILDING_COAL_REFINERY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_COAL_REFINERY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_COAL_REFINERY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_COAL_REFINERY_STRATEGY</Strategy>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>25</ConquestProb>
+			<Happiness>0</Happiness>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>AMERICA_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_OIL_REFINERY</Type>
+			<BuildingClass>BUILDINGCLASS_OIL_REFINERY</BuildingClass>
+			<Cost>450</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_COMBUSTION</PrereqTech>
+			<Help>TXT_KEY_BUILDING_OIL_REFINERY_HELP</Help>
+			<Description>TXT_KEY_BUILDING_OIL_REFINERY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_OIL_REFINERY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_OIL_REFINERY_HELP</Strategy>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>25</ConquestProb>
+			<Happiness>0</Happiness>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>AMERICA_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_HORSE_RANCH</Type>
+			<BuildingClass>BUILDINGCLASS_HORSE_RANCH</BuildingClass>
+			<Cost>80</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
+			<Help>TXT_KEY_BUILDING_HORSE_RANCH_HELP</Help>
+			<Description>TXT_KEY_BUILDING_HORSE_RANCH</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HORSE_RANCH_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_HORSE_RANCH_STRATEGY</Strategy>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>50</ConquestProb>
+			<Happiness>0</Happiness>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>AMERICA_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_IRON_REFINERY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COAL_REFINERY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_IRON_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IRON_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IRON_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_COAL_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COAL_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_IRON_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>16</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_HORSE_RANCH</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>17</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_LocalResourceAnds>
+		<Row>
+			<BuildingType>BUILDING_IRON_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COAL_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HORSE_RANCH</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+	</Building_LocalResourceAnds>
+	<Building_ResourceQuantity>
+		<Row>
+			<BuildingType>BUILDING_IRON_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Quantity>3</Quantity>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COAL_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<Quantity>3</Quantity>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<Quantity>3</Quantity>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HORSE_RANCH</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<Quantity>3</Quantity>
+		</Row>
+	</Building_ResourceQuantity>
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_IRON_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COAL_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OIL_REFINERY</BuildingType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HORSE_RANCH</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>AMERICA_ICON_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>JFD_AmericaRooseveltAtlas_256.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>AMERICA_ICON_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>JFD_AmericaRooseveltAtlas_128.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>AMERICA_ICON_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>JFD_AmericaRooseveltAtlas_64.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>AMERICA_ICON_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>JFD_AmericaRooseveltAtlas_45.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+	<Language_en_US>
+		<!--iron refinery-->
+		<Row Tag="TXT_KEY_BUILDING_IRON_REFINERY">
+			<Text>Iron Ore Refinery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_IRON_REFINERY_TEXT">
+			-<Text>
+				The Iron refinery can increase the efficiency transforming raw iron ore into workable materials.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_IRON_REFINERY_STRATEGY">
+			<Text>
+				Provides +3 [ICON_RES_IRON] Iron by increasing usable ore, and +1 [ICON_PRODUCTION] for each source of [ICON_RES_IRON] iron worked by this city.[NEWLINE][NEWLINE]City must have a Factory.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_IRON_REFINERY_HELP">
+			<Text>
+				Provides +3 [ICON_RES_IRON] Iron by increasing usable ore, and +1 [ICON_PRODUCTION] for each source of [ICON_RES_IRON] iron worked by this city.[NEWLINE][NEWLINE]City must have a Factory.
+			</Text>
+		</Row>
+
+		<!--coal refinery-->
+		<Row Tag="TXT_KEY_BUILDING_COAL_REFINERY">
+			<Text>Coal Ore Refinery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COAL_REFINERY_TEXT">
+			-<Text>
+				The coal refinery can increase the efficiency transforming raw coal ore into workable materials.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COAL_REFINERY_STRATEGY">
+			<Text>
+				Provides +3 [ICON_RES_COAL] coal by increasing usable ore, and +1 [ICON_PRODUCTION] for each source of [ICON_RES_COAL] coal worked by this city.[NEWLINE][NEWLINE]City must have a Factory.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COAL_REFINERY_HELP">
+			<Text>
+				Provides +3 [ICON_RES_COAL] coal by increasing usable ore, and +1 [ICON_PRODUCTION] for each source of [ICON_RES_COAL] coal worked by this city.[NEWLINE][NEWLINE]City must have a Factory.
+			</Text>
+		</Row>
+
+		<!--OIL refinery-->
+		<Row Tag="TXT_KEY_BUILDING_OIL_REFINERY">
+			<Text>Oil Refinery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OIL_REFINERY_TEXT">
+			-<Text>
+				The oil refinery can increase the efficiency transforming oil into more workable form.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OIL_REFINERY_HELP">
+			<Text>
+				Provides +3 [ICON_RES_OIL] Oil by increasing usable oil, and +1 [ICON_PRODUCTION] for each source of [ICON_RES_OIL] Oil worked by this city.[NEWLINE][NEWLINE]City must have a Factory.
+			</Text>
+		</Row>
+
+		<!--horse ranch-->
+		<Row Tag="TXT_KEY_BUILDING_HORSE_RANCH">
+			<Text>Horse Ranch</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HORSE_RANCH_TEXT">
+			-<Text>
+				The horse ranch breeds and maintains extra horse populations.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HORSE_RANCH_STRATEGY">
+			<Text>
+				Provides +3 [ICON_RES_HORSE] horse by breeding and maintaining horse populations, and +1 [ICON_PRODUCTION] for each source of [ICON_RES_HORSE] coal worked by this city.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HORSE_RANCH_HELP">
+			<Text>
+				Provides +3 [ICON_RES_HORSE] horse by breeding and maintaining horse populations, and +1 [ICON_PRODUCTION] for each source of [ICON_RES_HORSE] coal worked by this city.
+			</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

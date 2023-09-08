@@ -144,7 +144,7 @@
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_FACTORY_STRATEGY"/>
-			<Set Text="The Factory is an Industrial-era building which greatly increases a city's [ICON_PRODUCTION] Production. The city must already possess a Windmill. 1 [ICON_RES_COAL] Coal is consumed when a Factory is created."/>
+			<Set Text="The Factory is an Industrial-era building which greatly increases a city's [ICON_PRODUCTION] Production. 1 [ICON_RES_COAL] Coal is consumed when a Factory is created."/>
 		</Update>
 		<Row Tag="TXT_KEY_BUILDING_ZOO">
 			<Text>Zoo</Text>
@@ -332,10 +332,10 @@
 			<Text>Fiber Optics</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_INTERNET_CAFE_HELP">
-			<Text>+1 [ICON_CULTURE] Culture for every 5 [ICON_CITIZEN] Citizens in this City. [NEWLINE]City must have a Broadcast Tower.</Text>
+			<Text>+1 [ICON_CULTURE] Culture for every 5 [ICON_CITIZEN] Citizens and +1 [ICON_RESEARCH] Science for every 10 [ICON_CITIZEN] Citizens in this City. [NEWLINE]City must have a Broadcast Tower.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_INTERNET_CAFE_STRATEGY">
-			<Text>Fiber Optics are late-game building that increases [ICON_CULTURE] Culture and [ICON_SCIENCE] output of the city. The city must possess a Broadcast Tower before fiber optics can be constructed.</Text>
+			<Text>Fiber Optics are late-game building that increases [ICON_CULTURE] Culture and [ICON_RESEARCH] output of the city. The city must possess a Broadcast Tower before fiber optics can be constructed.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_INTERNET_CAFE_TEXT">
 			<Text>Fiber optics are essenetial to setting up proper high speed internet connections.</Text>

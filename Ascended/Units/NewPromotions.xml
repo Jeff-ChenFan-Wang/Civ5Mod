@@ -60,7 +60,7 @@
 			<Help>TXT_KEY_PROMOTION_STEALTH_FIGHTER_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CannotBeChosen>true</CannotBeChosen>
-			<EvasionChange>75</EvasionChange>
+			<EvasionChange>66</EvasionChange>
 			<PortraitIndex>23</PortraitIndex>
 			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
 			<PediaType>PEDIA_AIR</PediaType>
@@ -139,7 +139,7 @@
 			<Text>Stealthed Fighter</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_STEALTH_FIGHTER_HELP">
-			<Text>Reduces chance of Interceptions by 75%</Text>
+			<Text>Reduces chance of Interceptions by 66%</Text>
 		</Row>
 	</Language_en_US>
 	<UnitPromotions_UnitCombats>

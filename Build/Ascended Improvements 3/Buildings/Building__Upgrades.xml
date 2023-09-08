@@ -73,6 +73,13 @@
 			<Text>Improve the existing Barracks with a +10 XP but increase the building maintenance by +1 [ICON_GOLD] Gold</Text>
 		</Row>
 
+		<Row Tag="TXT_KEY_BUILDING_ARMORY_UP">
+			<Text>Upgrade - Armory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARMORY_UP_STRATEGY">
+			<Text>Improve the existing Armory with a +10 XP but increase the building maintenance by +1 [ICON_GOLD] Gold</Text>
+		</Row>
+
 		<Row Tag="TXT_KEY_BUILDING_MILITARY_ACADEMY_UP">
 			<Text>Upgrade - Military Academy</Text>
 		</Row>
@@ -91,16 +98,16 @@
 			<Text>Upgrade - Temple</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_TEMPLE_UP_STRATEGY">
-			<Text>Improve the existing Temple with a +1 [ICON_PEACE] Faith but increase the building maintenance by +2 [ICON_GOLD] Gold</Text>
+			<Text>Improve the existing Temple with a +1 [ICON_PEACE] Faith for every 5 [ICON_CITIZEN] Citizens in this City but increase the building maintenance by +2 [ICON_GOLD] Gold</Text>
 		</Row>
 
 		<!--  City Def  -->
-		<Row Tag="TXT_KEY_BUILDING_WALLS_UP">
+		<!--<Row Tag="TXT_KEY_BUILDING_WALLS_UP">
 			<Text>Upgrade - Walls</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WALLS_UP_STRATEGY">
 			<Text>Improve the existing Walls with a +2.5 [ICON_STRENGTH] and +25 HP</Text>
-		</Row>
+		</Row>-->
 		<!--<Row Tag="TXT_KEY_BUILDING_CASTLE_UP">
 			<Text>Upgrade - Castle</Text>
 		</Row>
@@ -146,14 +153,14 @@
 			<Text>Upgrade - Workshop</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_WORKSHOP_UP_STRATEGY">
-			<Text>Improve the existing Workshop with a +10% [ICON_PRODUCTION] Production and +1 [ICON_GREAT_PEOPLE] Engineer Slot but increase the building maintenance by +2 [ICON_GOLD] Gold</Text>
+			<Text>Improve the existing Workshop with a +10% [ICON_PRODUCTION] Production and +1 [ICON_GREAT_PEOPLE] Engineer Slot but increase the building maintenance by +1 [ICON_GOLD] Gold</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_FACTORY_UP">
 			<Text>Upgrade - Factories</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILDING_FACTORY_UP_STRATEGY">
-			<Text>Improve the existing Factory with a +10% [ICON_PRODUCTION] Production and +2 [ICON_GREAT_PEOPLE] Engineer Slot but increase the building maintenance by +1 [ICON_GOLD] Gold</Text>
+			<Text>Improve the existing Factory with +1 [ICON_PRODUCTION] Production, +10% [ICON_PRODUCTION] Production, +3 [ICON_GREAT_PEOPLE] Engineer Slot, and +1 [ICON_PRODUCTION] for every 5 [ICON_CITIZEN] Citizens in this City, but increase the building maintenance by +3 [ICON_GOLD] Gold</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_BUILDING_EXPRESSWAY_UP">
@@ -382,6 +389,24 @@
 			<PortraitIndex>5</PortraitIndex>
 		</Row>
 		<Row>
+			<Type>BUILDING_ARMORY_UP</Type>
+			<BuildingClass>BUILDINGCLASS_ARMORY_UP</BuildingClass>
+			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<Cost>150</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>NULL</PrereqTech>
+			<Help>TXT_KEY_BUILDING_ARMORY_UP_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_ARMORY_UP</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_ARMORY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_ARMORY_UP_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_BARRACKS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>6</PortraitIndex>
+		</Row>
+		<Row>
 			<Type>BUILDING_MILITARY_ACADEMY_UP</Type>
 			<BuildingClass>BUILDINGCLASS_MILITARY_ACADEMY_UP</BuildingClass>
 			<Cost>300</Cost>
@@ -439,7 +464,7 @@
 		</Row>
 
 		<!--  City Def  -->
-		<Row>
+		<!--<Row>
 			<Type>BUILDING_WALLS_UP</Type>
 			<BuildingClass>BUILDINGCLASS_WALLS_UP</BuildingClass>
 			<Cost>65</Cost>
@@ -458,7 +483,7 @@
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>32</PortraitIndex>
-		</Row>
+		</Row>-->
 		<!--<Row>
 			<Type>BUILDING_CASTLE_UP</Type>
 			<BuildingClass>BUILDINGCLASS_CASTLE_UP</BuildingClass>
@@ -624,8 +649,8 @@
 		<Row>
 			<Type>BUILDING_EXPRESSWAY_UP</Type>
 			<BuildingClass>BUILDINGCLASS_EXPRESSWAY_UP</BuildingClass>
-			<Cost>600</Cost>
-			<GoldMaintenance>1</GoldMaintenance>
+			<Cost>575</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
 			<PrereqTech>NULL</PrereqTech>
 			<Help>TXT_KEY_BUILDING_EXPRESSWAY_UP_STRATEGY</Help>
 			<Description>TXT_KEY_BUILDING_EXPRESSWAY_UP</Description>
@@ -633,6 +658,7 @@
 			<Strategy>TXT_KEY_BUILDING_EXPRESSWAY_UP_STRATEGY</Strategy>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>0</ConquestProb>
+			<Happiness>1</Happiness>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>EXPRESSWAY_ICON_ATLAS</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
@@ -755,6 +781,11 @@
 			<Description>TXT_KEY_BUILDING_BARRACKS_UP</Description>
 		</Row>
 		<Row>
+			<Type>BUILDINGCLASS_ARMORY_UP</Type>
+			<DefaultBuilding>BUILDING_ARMORY_UP</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ARMORY_UP</Description>
+		</Row>
+		<Row>
 			<Type>BUILDINGCLASS_MILITARY_ACADEMY_UP</Type>
 			<DefaultBuilding>BUILDING_MILITARY_ACADEMY_UP</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_MILITARY_ACADEMY_UP</Description>
@@ -773,11 +804,11 @@
 		</Row>
 
 		<!--  City Def  -->
-		<Row>
+		<!--<Row>
 			<Type>BUILDINGCLASS_WALLS_UP</Type>
 			<DefaultBuilding>BUILDING_WALLS_UP</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_WALLS_UP</Description>
-		</Row>
+		</Row>-->
 		<!--<Row>
 			<Type>BUILDINGCLASS_CASTLE_UP</Type>
 			<DefaultBuilding>BUILDING_CASTLE_UP</DefaultBuilding>
@@ -914,6 +945,11 @@
 			<Flavor>20</Flavor>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_ARMORY_UP</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_MILITARY_ACADEMY_UP</BuildingType>
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>20</Flavor>
@@ -932,11 +968,11 @@
 		</Row>
 
 		<!--  City Def  -->
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_WALLS_UP</BuildingType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
 			<Flavor>15</Flavor>
-		</Row>
+		</Row>-->
 		<!--<Row>
 			<BuildingType>BUILDING_CASTLE_UP</BuildingType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
@@ -1067,6 +1103,10 @@
 			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_ARMORY_UP</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_ARMORY</BuildingClassType>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_MILITARY_ACADEMY_UP</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
 		</Row>
@@ -1084,10 +1124,10 @@
 		</Row>
 
 		<!--  City Def  -->
-		<Row>
+		<!--<Row>
 			<BuildingType>BUILDING_WALLS_UP</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
-		</Row>
+		</Row>-->
 		<!--<Row>
 			<BuildingType>BUILDING_CASTLE_UP</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
@@ -1185,6 +1225,13 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>5</Yield>
 		</Row>
+		
+		<!--Gold-->
+		<Row>
+			<BuildingType>BUILDING_EXPRESSWAY_UP</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>5</Yield>
+		</Row>
 	</Building_YieldModifiers>
 
 
@@ -1239,11 +1286,6 @@
 			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>1</Yield>
 		</Row>
-		<Row>
-			<BuildingType>BUILDING_TEMPLE_UP</BuildingType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
-		</Row>
 
 		<!--  Science  -->
 
@@ -1261,11 +1303,10 @@
 			<Yield>1</Yield>
 		</Row>
 		
-		<!--Factory up buffed from 1 to 2 to compensate base version nerfed from 4 to 3-->
 		<Row>
 			<BuildingType>BUILDING_FACTORY_UP</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		
 		<Row>
@@ -1297,6 +1338,23 @@
 			<DomainType>DOMAIN_AIR</DomainType>
 			<Experience>10</Experience>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_ARMORY_UP</BuildingType>
+			<DomainType>DOMAIN_LAND</DomainType>
+			<Experience>10</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARMORY_UP</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Experience>10</Experience>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARMORY_UP</BuildingType>
+			<DomainType>DOMAIN_AIR</DomainType>
+			<Experience>10</Experience>
+		</Row>
+
 
 
 		<Row>
@@ -1344,6 +1402,19 @@
 			<Yield>20</Yield>
 		</Row>
 
+		<!--Faith-->
+		<Row>
+			<BuildingType>BUILDING_TEMPLE_UP</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>20</Yield>
+		</Row>
+		
+		<!--Prod-->
+		<Row>
+			<BuildingType>BUILDING_FACTORY_UP</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>20</Yield>
+		</Row>
 	</Building_YieldChangesPerPop>
 
 

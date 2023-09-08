@@ -12,7 +12,7 @@
 		<Row>
 			<Type>UNIT_MULTIROLE_FIGHTER</Type>
 			<Class>UNITCLASS_MULTIROLE_FIGHTER</Class>
-			<PrereqTech>TECH_STEALTH</PrereqTech>
+			<PrereqTech>TECH_INTERNET</PrereqTech>
 			<Description>TXT_KEY_UNIT_MULTIROLE_FIGHTER</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MODERN_STEALTHBOMBER_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_MULTIROLE_FIGHTER_STRATEGY</Strategy>
@@ -145,6 +145,19 @@
 			<UnitType>UNIT_MULTIROLE_FIGHTER</UnitType>
 			<PromotionType>PROMOTION_DOGFIGHTING_1</PromotionType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_MULTIROLE_FIGHTER</UnitType>
+			<PromotionType>PROMOTION_AMBUSH_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MULTIROLE_FIGHTER</UnitType>
+			<PromotionType>PROMOTION_AIR_TARGETING_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MULTIROLE_FIGHTER</UnitType>
+			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
+		</Row>
+		
 	</Unit_FreePromotions>
 	<Unit_ResourceQuantityRequirements>
 		<Row>
