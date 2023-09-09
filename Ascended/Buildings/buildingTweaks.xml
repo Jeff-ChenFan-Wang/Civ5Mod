@@ -102,11 +102,6 @@
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
-		<Row>
-			<BuildingType>BUILDING_CARAVANSARY</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
 
 		<!-- Production -->
 
@@ -233,7 +228,7 @@
 		<Update>
 			<Where Tag="TXT_KEY_BUILDING_CARAVANSARY_HELP"/>
 			<Set>
-				<Text>Land trade routes originating from this city have a 50% increase in range and produce an additional 2 [ICON_GOLD] Gold when connecting to another civilization. Trade routes other players make to a city with a Caravansary will generate an extra 1 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 1 [ICON_GOLD] Gold for the trade route.[NEWLINE][NEWLINE] All Desert tiles near this city gain +1 [ICON_GOLD] Gold (except Flood Plains).</Text>
+				<Text>[NEWLINE][ICON_BULLET]Land trade routes originating from this city have a 50% increase in range and produce an additional 2 [ICON_GOLD] Gold when connecting to another civilization. [NEWLINE][ICON_BULLET]Trade routes other players make to a city with a Caravansary will generate an extra 1 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 1 [ICON_GOLD] Gold for the trade route.</Text>
 			</Set>
 		</Update>
 

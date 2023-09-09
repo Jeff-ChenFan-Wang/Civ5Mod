@@ -371,8 +371,8 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
     <File md5="0689C736E24C5A7CA0DE689F611292B9" import="1">Art/Zanbil_80.dds</File>
     <File md5="3BAC51C76CCAC04641DA887B25318315" import="0">Buildings/ArbiterShrine.xml</File>
     <File md5="2F259931F5FE51C69445A3EA5746941B" import="0">Buildings/Buildings__RscMultiplier.xml</File>
-    <File md5="8A3BE63FEA5D090D3803777D6553F152" import="0">Buildings/buildingTweaks.xml</File>
-    <File md5="00B1CEFF50244C86B8D9C6A51801076F" import="0">Buildings/Building__Upgrades.xml</File>
+    <File md5="346DC87D3C0F708ACF9B75F575BDC32F" import="0">Buildings/buildingTweaks.xml</File>
+    <File md5="72BF9D12B2A6F237A1EE1AA8A8D06894" import="0">Buildings/Building__Upgrades.xml</File>
     <File md5="CB52499BEEDA9E859BEB8C21401114E1" import="0">Buildings/Cistern.xml</File>
     <File md5="82C1BF4465A3A6A3D43BED4A031B8411" import="0">Buildings/Expressways.xml</File>
     <File md5="7D69FCE5CAF92986F91730A4639798D7" import="0">Buildings/NanomatFactory.xml</File>
@@ -427,7 +427,7 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
     <File md5="0C2B2CE592F43C12FC8259DC57545823" import="0">Mechanics/TPB - Data.xml</File>
     <File md5="F3610A94189D5DD93EB2B33D7D12C9FF" import="0">Mechanics/WAR - CapCity.xml</File>
     <File md5="4778BF649A9A645B44D0C8C3254DE2C7" import="0">Mechanics/WorkableMountains.xml</File>
-    <File md5="B279E18516F707C4D1FEB8F5B623CBAA" import="0">PolicyMods/PolicyTweaks.xml</File>
+    <File md5="5DEB21332B655254A6F1B6F9A0FC0FCF" import="0">PolicyMods/PolicyTweaks.xml</File>
     <File md5="316F198449746463780EC31F9D2EF4B9" import="0">Religion/Beliefs.xml</File>
     <File md5="EAFBBC0CE742C7EEC84EA1F08F44DFE9" import="0">Religion/Text.xml</File>
     <File md5="76362D58EAEA105DB8CDA06C0B476FDE" import="1">SQL/FasterAircraftAnimations.sql</File>
@@ -441,7 +441,7 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
     <File md5="7937ABF4A29A3CB47A0EFB519CD7E0FE" import="0">Text/Units.xml</File>
     <File md5="E4431F18DDB18A705A85687AC74CF00D" import="0">TTO/Art.xml</File>
     <File md5="EEA853B69FD9B09E7F5540C4906FC4B1" import="0">TTO/artificialIntelligenceText.xml</File>
-    <File md5="7F3A4317D00FE8B8723F35DCA472632E" import="0">TTO/Buildings.xml</File>
+    <File md5="F87ECB1F0D730918EC83D7264A7A8E87" import="0">TTO/Buildings.xml</File>
     <File md5="1D780A6FE1EC34131CA5827CDA177028" import="0">TTO/Eras.xml</File>
     <File md5="A6B276D59EF28CFCF7D6D77428F6B623" import="0">TTO/Improvements.xml</File>
     <File md5="36748E0F7F715209C35742679B3BA4BA" import="0">TTO/Projects.xml</File>
@@ -468,7 +468,7 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
     <File md5="FE3971BB92259D85FF1ED559A4EFF9C9" import="0">WonderMods/GoldenTemple.xml</File>
     <File md5="4CC891DDCB83836C9D42227EE0B032DF" import="0">WonderMods/MultipleWonders.xml</File>
     <File md5="AE6146DCA42005AD091EC5D88E5CFB7A" import="0">WonderMods/Tsukiji.xml</File>
-    <File md5="127769C71EFA21877E28E98C55A2926B" import="0">WonderMods/WonderTweaks.xml</File>
+    <File md5="B04D90919D57FE89331A93E1D8F2F2BB" import="0">WonderMods/WonderTweaks.xml</File>
     <File md5="A169FBFA5BF82B3820FF7FA78414D772" import="0">WonderMods/WonderUpgrades.xml</File>
     <File md5="88512E81257C05A5B8EDB118A4A023E9" import="0">WonderMods/WorldTradeCenter.xml</File>
   </Files>

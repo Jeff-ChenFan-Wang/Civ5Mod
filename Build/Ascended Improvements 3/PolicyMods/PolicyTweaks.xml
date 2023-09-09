@@ -32,14 +32,14 @@
 		<Update>
 			<Where Type="POLICY_FINE_ARTS"/>
 			<Set>
-				<HappinessToCulture>80</HappinessToCulture>
+				<HappinessToCulture>100</HappinessToCulture>
 			</Set>
 		</Update>
 
 		<Update>
 			<Where Type="POLICY_AESTHETICS_FINISHER"/>
 			<Set>
-				<PolicyCostModifier>-15</PolicyCostModifier>
+				<PolicyCostModifier>-20</PolicyCostModifier>
 			</Set>
 		</Update>
 		<Update>
@@ -55,7 +55,7 @@
 		<Update>
 			<Where Type="POLICY_TRADE_UNIONS"/>
 			<Set>
-				<UnitPurchaseCostModifier>-17</UnitPurchaseCostModifier>
+				<UnitPurchaseCostModifier>-15</UnitPurchaseCostModifier>
 			</Set>
 		</Update>
 
@@ -72,7 +72,7 @@
 		<Update>
 			<Where Type="POLICY_LANDED_ELITE"/>
 			<Set>
-				<CapitalGrowthMod>15</CapitalGrowthMod>
+				<CapitalGrowthMod>20</CapitalGrowthMod>
 			</Set>
 		</Update>
 		<Update>
@@ -83,6 +83,11 @@
 			<Where Type="POLICY_MONARCHY"/>
 			<Set CapitalUnhappinessMod="-100"/>
 		</Update>
+		<Update>
+			<Where Type="POLICY_TRADITION_FINISHER"/>
+			<Set CapitalUnhappinessMod="-100"/>
+		</Update>
+		
 		
 		<!--Liberty-->
 		<Update>
@@ -92,6 +97,20 @@
 		<Update>
 			<Where Type="POLICY_REPRESENTATION"/>
 			<Set NumCitiesPolicyCostDiscount="-40"/>
+		</Update>
+
+
+
+		<!--Rationalism-->
+		<Update>
+			<Where Type="POLICY_SCIENTIFIC_REVOLUTION"/>
+			<Set PolicyCostModifier="-5"/>
+		</Update>
+		
+		<!--Religion-->
+		<Update>
+			<Where Type="POLICY_REFORMATION"/>
+			<Set PolicyCostModifier="-10"/>
 		</Update>
 		
 	</Policies>
@@ -134,7 +153,7 @@
 	<Policy_CapitalYieldChanges>
 		<Update>
 			<Where PolicyType="POLICY_LANDED_ELITE" YieldType="YIELD_FOOD"/>
-			<Set Yield="4"/>
+			<Set Yield="5"/>
 		</Update>
 
 		<!--IDeologies-->
@@ -215,6 +234,13 @@
 			<YieldMod>10</YieldMod>
 		</Row>
 		
+		<!--Patronage-->
+		<Row>
+			<PolicyType>POLICY_SCHOLASTICISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CARAVANSARY</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>10</YieldMod>
+		</Row>
 	</Policy_BuildingClassYieldModifiers>
 	
 	<Policy_BuildingClassProductionModifiers>
@@ -265,20 +291,37 @@
 	</Policy_GreatWorkYieldChanges>
 
 	<Policy_BuildingClassYieldChanges>
+		
 		<Row>
 			<PolicyType>POLICY_MERCANTILISM</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_CASINO</BuildingClassType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
-		<!--
+
 		<Row>
-			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_INTERNET_CAFE</BuildingClassType>
+			<PolicyType>POLICY_OLIGARCHY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>1</YieldChange>
-		</Row>-->
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_CULTURAL_DIPLOMACY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CARAVANSARY</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_MERCHANT_CONFEDERACY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CARAVANSARY</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
 	</Policy_BuildingClassYieldChanges>
+	
+	
 	<Policy_BuildingClassHappiness>
 		<Row>
 			<PolicyType>POLICY_CAPITALISM</PolicyType>
@@ -295,22 +338,22 @@
 			<BuildingClassType>BUILDINGCLASS_HEROIC_EPIC</BuildingClassType>
 			<Happiness>3</Happiness>
 		</Row>
+
+		<Row>
+			<PolicyType>POLICY_MANDATE_OF_HEAVEN</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		
+		
 		<!--
 		<Row>
 			<PolicyType>POLICY_URBANIZATION</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_HYDROPONIC_FARM</BuildingClassType>
 			<Happiness>1</Happiness>
 		</Row>
-		<Row>
-			<PolicyType>POLICY_ACADEMY_SCIENCES</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_SUPERCOMPUTER</BuildingClassType>
-			<Happiness>1</Happiness>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_ACADEMY_SCIENCES</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_PHYSICS_LAB</BuildingClassType>
-			<Happiness>1</Happiness>
-		</Row>-->
+
+>-->
 	</Policy_BuildingClassHappiness>
 
 
@@ -391,8 +434,8 @@
 			<Where Tag="TXT_KEY_POLICY_TREASURE_FLEETS_HELP"/>
 			<Set Text="[COLOR_POSITIVE_TEXT]Colonialism[ENDCOLOR][NEWLINE][ICON_BULLET] +1 [ICON_GOLD] Gold from all your Sea Trade Routes. [NEWLINE][ICON_BULLET] New Cities start with an extra 1 [ICON_CITIZEN] Population, +5% [ICON_FOOD] Food from Harbors."/>
 		</Update>
-		
-		
+
+
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_NAVIGATION_SCHOOL_HELP"/>
 			<Set Text="[COLOR_POSITIVE_TEXT]Navigation School[ENDCOLOR][NEWLINE][ICON_BULLET] A Great Admiral appears. [NEWLINE][ICON_BULLET] +2 [ICON_MOVES] Movement for all Great Admirals and +1 for embarked units. [NEWLINE][ICON_BULLET] +5% [ICON_FOOD] Food and [ICON_GOLD] Gold from Seaports."/>
@@ -401,27 +444,29 @@
 			<Where Tag="TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE_HELP"/>
 			<Set Text="[COLOR_POSITIVE_TEXT]Maritime Infrastructure[ENDCOLOR][NEWLINE][ICON_BULLET] +3 [ICON_PRODUCTION] Production in all coastal Cities.[NEWLINE][ICON_BULLET] +25% [ICON_PRODUCTION] Production when constructing Lighthouses, Harbors, and Seaports."/>
 		</Update>
-		
+
 		<!--Rationalism-->
-		
+
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION_HELP"/>
-			<Set Text="[COLOR_POSITIVE_TEXT]Scientific Revolution[ENDCOLOR][NEWLINE][ICON_BULLET] Boosts [ICON_RESEARCH] Science gained from research agreements by 50%.[NEWLINE][ICON_BULLET] +10% [ICON_RESEARCH] Science from Public Schools."/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Scientific Revolution[ENDCOLOR][NEWLINE][ICON_BULLET] Boosts [ICON_RESEARCH] Science gained from research agreements by 50%.[NEWLINE][ICON_BULLET] +10% [ICON_RESEARCH] Science from Public Schools.[NEWLINE][ICON_BULLET] Reduces the [ICON_CULTURE] Culture cost of future Policies by 5%."/>
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_HUMANISM_HELP"/>
 			<Set Text="[COLOR_POSITIVE_TEXT]Humanism[ENDCOLOR][NEWLINE][ICON_BULLET] Great Scientists are earned 25% faster. [NEWLINE][ICON_BULLET] Cities with Public Schools gain +5% [ICON_PRODUCTION] Production and [ICON_CULTURE] Culture."/>
 		</Update>
+		
+		
 		<!--Aesthetics-->
 		<!--added stuff from aza dynamic towns-->
 		<Replace Tag="TXT_KEY_POLICY_ARTISTIC_GENIUS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Artistic Genius[ENDCOLOR][NEWLINE][ICON_BULLET] A Great Artist appears. [NEWLINE][ICON_BULLET] +2 [ICON_CULTURE] Culture from Large Towns.[NEWLINE][ICON_BULLET] +1 [ICON_RESEARCH] Science from Artifacts and [ICON_GREAT_WORK] Great Works.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Artistic Genius[ENDCOLOR][NEWLINE][ICON_BULLET] A Great Artist appears. [NEWLINE][ICON_BULLET] +2 [ICON_CULTURE] Culture from Large Towns.[NEWLINE][ICON_BULLET] +1 [ICON_RESEARnce from Artifacts and [ICON_GREAT_WORK] Great Works.</Text>
 		</Replace>
 
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_FINE_ARTS_HELP"/>
 			<Set>
-				<Text>[COLOR_POSITIVE_TEXT]FINE ARTS[ENDCOLOR][NEWLINE]80% of excess [ICON_HAPPINESS_1] Happiness added each turn to the amount of [ICON_CULTURE] Culture that may be spent on Social Policies.</Text>
+				<Text>[COLOR_POSITIVE_TEXT]FINE ARTS[ENDCOLOR][NEWLINE]100% of excess [ICON_HAPPINESS_1] Happiness added each turn to the amount of [ICON_CULTURE] Culture that may be spent on Social Policies.</Text>
 			</Set>
 		</Update>
 		<Update>
@@ -436,6 +481,11 @@
 				<Text>[COLOR_POSITIVE_TEXT]Flourishing of the Arts[ENDCOLOR][NEWLINE][ICON_BULLET] [ICON_CULTURE] Culture increased by 25% in all Cities which have built a World Wonder.[NEWLINE][ICON_BULLET] +10% [ICON_CULTURE] Culture from Public Schools.[NEWLINE][ICON_BULLET] Starts a [ICON_GOLDEN_AGE] Golden Age.</Text>
 			</Set>
 		</Update>
+
+		<Replace Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Aesthetics[ENDCOLOR] improves the civilization's ability to generate [ICON_CULTURE] Culture.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Adopting Aesthetics grants:[ENDCOLOR][NEWLINE][ICON_BULLET] Earn Great Writers, Artists and Musicians 25% faster.[NEWLINE][ICON_BULLET] Allows you to build Guilds in half the usual time.[NEWLINE][ICON_BULLET] Unlocks the [COLOR_WATER_TEXT]Uffizi[ENDCOLOR].[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Adopting all policies in Aesthetics grants:[ENDCOLOR][NEWLINE][ICON_BULLET] Allows you to see Hidden Antiquity Sites.[NEWLINE][ICON_BULLET] Doubles the theming bonus you receive from Museums and Wonders.[NEWLINE][ICON_BULLET] Allows the purchase of [ICON_GREAT_WRITER] Great Writers, [ICON_GREAT_ARTIST] Artists, or [ICON_GREAT_MUSICIAN] Musicians with [ICON_PEACE] Faith starting in the Industrial Era.[NEWLINE][ICON_BULLET] Reduces the [ICON_CULTURE] Culture cost of future Policies by 20%.</Text>
+		</Replace>
+		
 		<!--HOnor-->
 		<!--Mercenary Army -->
 		<Replace Tag="TXT_KEY_POLICY_TRADE_UNIONS_HELP">
@@ -444,35 +494,60 @@
 
 		<!--Professional Army -->
 		<Replace Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP">
-				<Text>[COLOR_POSITIVE_TEXT]Professional Army[ENDCOLOR][NEWLINE][ICON_BULLET] Barracks, Armories, and Military Academies are constructed 50% faster.[NEWLINE][ICON_BULLET] Unit Maintenance cost reduced by 10%.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Professional Army[ENDCOLOR][NEWLINE][ICON_BULLET] Barracks, Armories, and Military Academies are constructed 50% faster.[NEWLINE][ICON_BULLET] Unit Maintenance cost reduced by 10%.</Text>
 		</Replace>
 
 		<Replace Tag="TXT_KEY_POLICY_MILITARY_CASTE_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Military Caste[ENDCOLOR][NEWLINE][ICON_BULLET]Each City with a garrison increases empire [ICON_HAPPINESS_1] Happiness by 1 and [ICON_CULTURE] Culture by 2. [NEWLINE][ICON_BULLET] Gain +3 [ICON_HAPPINESS_1] Happiness from the Heroic Epic.</Text>
 		</Replace>
 		
+		<!--RELIGION-->
+		<Replace Tag="TXT_KEY_POLICY_REFORMATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Reformation[ENDCOLOR][NEWLINE][ICON_BULLET]If you founded a religion, gain a bonus Reformation belief.[NEWLINE][ICON_BULLET]Reduces the [ICON_CULTURE] Culture cost of future Policies by 10%.</Text>
+		</Replace>
+		<Replace Tag="TXT_KEY_POLICY_MANDATE_OF_HEAVEN_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Mandate of Heaven[ENDCOLOR][NEWLINE][ICON_BULLET]20% discount on all purchases of religious units and buildings with [ICON_PEACE] Faith.[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] Happiness for every Temple.</Text>
+		</Replace>
 
+		<!--PATRONAGE-->
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY_HELP"/>
+			<Set>
+				<Text>[COLOR_POSITIVE_TEXT]Merchant Confederacy[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_GOLD] Gold for trade routes with City-States.[NEWLINE][ICON_BULLET]+1 [ICON_GOLD] Gold for every Caravansary.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_CULTURAL_DIPLOMACY_HELP"/>
+			<Set>
+				<Text>[COLOR_POSITIVE_TEXT]Cultural Diplomacy[ENDCOLOR][NEWLINE][ICON_BULLET]Quantity of Resources gifted by City-States increased by 100%. [ICON_HAPPINESS_1] Happiness from gifted Luxuries increased by 50%.[NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] Culture for every Caravansary.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_SCHOLASTICISM_HELP"/>
+			<Set>
+				<Text>[COLOR_POSITIVE_TEXT]Scholasticism[ENDCOLOR][NEWLINE][ICON_BULLET]All City-States which are [COLOR_POSITIVE_TEXT]Allies[ENDCOLOR] provide a [ICON_RESEARCH] Science bonus equal to 25% of what they produce for themselves.[NEWLINE][ICON_BULLET]+10% [ICON_SCIENCE] Science from Caravansaries.</Text>
+			</Set>
+		</Update>
+		
 		<!--COmmerce-->
 
 		<Replace Tag="TXT_KEY_POLICY_ENTREPRENEURSHIP_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Entrepreneurship[ENDCOLOR][NEWLINE][ICON_BULLET] Great Merchants are earned 25% faster. [NEWLINE][ICON_BULLET] Receive double [ICON_GOLD] Gold from Great Merchant trade missions.[NEWLINE][ICON_BULLET] +10% [ICON_GOLD] Gold from Stock Exchange.</Text>
 		</Replace>
 
-		<Replace Tag="TXT_KEY_POLICY_ENTREPRENEURSHIP_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Entrepreneurship[ENDCOLOR][NEWLINE][ICON_BULLET] Great Merchants are earned 25% faster. [NEWLINE][ICON_BULLET] Receive double [ICON_GOLD] Gold from Great Merchant trade missions.[NEWLINE][ICON_BULLET] +10% [ICON_GOLD] Gold from Stock Exchange.</Text>
+		<Replace Tag="TXT_KEY_POLICY_TRADE_UNIONS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT][NEWLINE][ICON_BULLET]Mercenary Army[ENDCOLOR][NEWLINE]Allows the purchasing of Landsknechts.[NEWLINE][ICON_BULLET]Reduce unit purchase cost by 15%.</Text>
 		</Replace>
-		
-		<!--Aesthetics-->
-		<Replace Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Aesthetics[ENDCOLOR] improves the civilization's ability to generate [ICON_CULTURE] Culture.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Adopting Aesthetics grants:[ENDCOLOR][NEWLINE][ICON_BULLET] Earn Great Writers, Artists and Musicians 25% faster.[NEWLINE][ICON_BULLET] Allows you to build Guilds in half the usual time.[NEWLINE][ICON_BULLET] Unlocks the [COLOR_WATER_TEXT]Uffizi[ENDCOLOR].[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Adopting all policies in Aesthetics grants:[ENDCOLOR][NEWLINE][ICON_BULLET] Allows you to see Hidden Antiquity Sites.[NEWLINE][ICON_BULLET] Doubles the theming bonus you receive from Museums and Wonders.[NEWLINE][ICON_BULLET] Allows the purchase of [ICON_GREAT_WRITER] Great Writers, [ICON_GREAT_ARTIST] Artists, or [ICON_GREAT_MUSICIAN] Musicians with [ICON_PEACE] Faith starting in the Industrial Era.[NEWLINE][ICON_BULLET] Reduces the [ICON_CULTURE] Culture cost of future Policies by 15%.</Text>
-		</Replace>
-		
+
+	
+
+
 		<!--Tradition-->
 		<Replace Tag="TXT_KEY_POLICY_OLIGARCHY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Oligarchy[ENDCOLOR][NEWLINE][ICON_BULLET] Cities with a garrison gain +50% [ICON_RANGE_STRENGTH] Ranged Combat Strength.[NEWLINE][ICON_BULLET] Garrisoned units cost no maintenance.[NEWLINE][ICON_BULLET] +40% [ICON_PRODUCTION] Production when building Walls.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Oligarchy[ENDCOLOR][NEWLINE][ICON_BULLET] Cities with a garrison gain +50% [ICON_RANGE_STRENGTH] Ranged Combat Strength.[NEWLINE][ICON_BULLET] Garrisoned units cost no maintenance.[NEWLINE][ICON_BULLET] +40% [ICON_PRODUCTION] Production when building Walls, and +1 [ICON_CULTURE] from Castles.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_LANDED_ELITE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Landed Elite[ENDCOLOR][NEWLINE][ICON_BULLET] +15% [ICON_FOOD] Growth and +4 [ICON_FOOD] Food in the [ICON_CAPITAL] Capital.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Landed Elite[ENDCOLOR][NEWLINE][ICON_BULLET] +18% [ICON_FOOD] Growth and +5 [ICON_FOOD] Food in the [ICON_CAPITAL] Capital.</Text>
 		</Replace>
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_ARISTOCRACY_HELP"/>
@@ -480,7 +555,11 @@
 		</Update>
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_MONARCHY_HELP"/>
-			<Set Text="	+1 [ICON_GOLD] Gold and -1 [ICON_HAPPINESS_4] Unhappiness for every [ICON_CITIZEN] Citizens in the [ICON_CAPITAL] Capital."/>
+			<Set Text="+1 [ICON_GOLD] Gold and -1 [ICON_HAPPINESS_4] Unhappiness for every [ICON_CITIZEN] Citizens in the [ICON_CAPITAL] Capital. "/>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_BRANCH_TRADITION_HELP"/>
+			<Set Text="[COLOR_POSITIVE_TEXT]Tradition[ENDCOLOR] is best for small empires.[NEWLINE][NEWLINE]Adopting Tradition greatly increases the rate of border expansion in cities and also grants 3 [ICON_CULTURE] Culture in the [ICON_CAPITAL] Capital. Unlocks building the Hanging Gardens.[NEWLINE][NEWLINE]Adopting all Policies in the Tradition tree will grant [NEWLINE][ICON_BULLET]+15% [ICON_FOOD] Growth and a free Aqueduct in your first 4 cities.[NEWLINE][ICON_BULLET] Allows the purchase of Great Engineers with [ICON_PEACE] Faith starting in the Industrial Era.[NEWLINE][ICON_BULLET]-1 [ICON_HAPPINESS_4] Unhappiness for every [ICON_CITIZEN] Citizens in the [ICON_CAPITAL] Capital."/>
 		</Update>
 		
 	</Language_en_US>

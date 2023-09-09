@@ -234,6 +234,13 @@
 			<YieldMod>10</YieldMod>
 		</Row>
 		
+		<!--Patronage-->
+		<Row>
+			<PolicyType>POLICY_SCHOLASTICISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CARAVANSARY</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>10</YieldMod>
+		</Row>
 	</Policy_BuildingClassYieldModifiers>
 	
 	<Policy_BuildingClassProductionModifiers>
@@ -284,6 +291,7 @@
 	</Policy_GreatWorkYieldChanges>
 
 	<Policy_BuildingClassYieldChanges>
+		
 		<Row>
 			<PolicyType>POLICY_MERCANTILISM</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_CASINO</BuildingClassType>
@@ -297,14 +305,23 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
-		<!--
+
 		<Row>
-			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_INTERNET_CAFE</BuildingClassType>
+			<PolicyType>POLICY_CULTURAL_DIPLOMACY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CARAVANSARY</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>1</YieldChange>
-		</Row>-->
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_MERCHANT_CONFEDERACY</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CARAVANSARY</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
 	</Policy_BuildingClassYieldChanges>
+	
+	
 	<Policy_BuildingClassHappiness>
 		<Row>
 			<PolicyType>POLICY_CAPITALISM</PolicyType>
@@ -489,9 +506,29 @@
 			<Text>[COLOR_POSITIVE_TEXT]Reformation[ENDCOLOR][NEWLINE][ICON_BULLET]If you founded a religion, gain a bonus Reformation belief.[NEWLINE][ICON_BULLET]Reduces the [ICON_CULTURE] Culture cost of future Policies by 10%.</Text>
 		</Replace>
 		<Replace Tag="TXT_KEY_POLICY_MANDATE_OF_HEAVEN_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Mandate of Heaven[ENDCOLOR][NEWLINE][ICON_BULLET]20% discount on all purchases of religious units and buildings with [ICON_PEACE] Faith.[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] Happiness from Temples.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Mandate of Heaven[ENDCOLOR][NEWLINE][ICON_BULLET]20% discount on all purchases of religious units and buildings with [ICON_PEACE] Faith.[NEWLINE][ICON_BULLET]+1 [ICON_HAPPINESS_1] Happiness for every Temple.</Text>
 		</Replace>
 
+		<!--PATRONAGE-->
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY_HELP"/>
+			<Set>
+				<Text>[COLOR_POSITIVE_TEXT]Merchant Confederacy[ENDCOLOR][NEWLINE][ICON_BULLET]+2 [ICON_GOLD] Gold for trade routes with City-States.[NEWLINE][ICON_BULLET]+1 [ICON_GOLD] Gold for every Caravansary.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_CULTURAL_DIPLOMACY_HELP"/>
+			<Set>
+				<Text>[COLOR_POSITIVE_TEXT]Cultural Diplomacy[ENDCOLOR][NEWLINE][ICON_BULLET]Quantity of Resources gifted by City-States increased by 100%. [ICON_HAPPINESS_1] Happiness from gifted Luxuries increased by 50%.[NEWLINE][ICON_BULLET]+1 [ICON_CULTURE] Culture for every Caravansary.</Text>
+			</Set>
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_POLICY_SCHOLASTICISM_HELP"/>
+			<Set>
+				<Text>[COLOR_POSITIVE_TEXT]Scholasticism[ENDCOLOR][NEWLINE][ICON_BULLET]All City-States which are [COLOR_POSITIVE_TEXT]Allies[ENDCOLOR] provide a [ICON_RESEARCH] Science bonus equal to 25% of what they produce for themselves.[NEWLINE][ICON_BULLET]+10% [ICON_SCIENCE] Science from Caravansaries.</Text>
+			</Set>
+		</Update>
+		
 		<!--COmmerce-->
 
 		<Replace Tag="TXT_KEY_POLICY_ENTREPRENEURSHIP_HELP">

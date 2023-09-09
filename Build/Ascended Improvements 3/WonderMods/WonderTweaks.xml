@@ -204,7 +204,7 @@
 	<Building_BuildingClassYieldChanges>
 		<Row>
 			<BuildingType>BUILDING_PENTAGON</BuildingType>
-			<BuildingClassType>BUILDING_MILITARY_BASE</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_MILITARY_BASE</BuildingClassType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
