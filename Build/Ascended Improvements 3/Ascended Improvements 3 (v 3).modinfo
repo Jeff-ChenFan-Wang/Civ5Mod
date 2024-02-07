@@ -369,9 +369,9 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
     <File md5="3821E5FF27D33C5D3B4E611010AE945A" import="1">Art/Zanbil_45.dds</File>
     <File md5="82EB815D87E4CC1F408EF430C1C8EFB6" import="1">Art/Zanbil_64.dds</File>
     <File md5="0689C736E24C5A7CA0DE689F611292B9" import="1">Art/Zanbil_80.dds</File>
-    <File md5="3BAC51C76CCAC04641DA887B25318315" import="0">Buildings/ArbiterShrine.xml</File>
+    <File md5="F38CC28539B258603D84E82B8DAA6544" import="0">Buildings/ArbiterShrine.xml</File>
     <File md5="2F259931F5FE51C69445A3EA5746941B" import="0">Buildings/Buildings__RscMultiplier.xml</File>
-    <File md5="346DC87D3C0F708ACF9B75F575BDC32F" import="0">Buildings/buildingTweaks.xml</File>
+    <File md5="E3BBA92AF73C83F8123D0B81DCD21F48" import="0">Buildings/buildingTweaks.xml</File>
     <File md5="72BF9D12B2A6F237A1EE1AA8A8D06894" import="0">Buildings/Building__Upgrades.xml</File>
     <File md5="CB52499BEEDA9E859BEB8C21401114E1" import="0">Buildings/Cistern.xml</File>
     <File md5="82C1BF4465A3A6A3D43BED4A031B8411" import="0">Buildings/Expressways.xml</File>
@@ -389,8 +389,8 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
     <File md5="F1F72DAAD8964F594599925CD6D00583" import="0">Civ/Archaon_Scene.xml</File>
     <File md5="5F5C77105853BD39D7FCC0B4978E6FE7" import="0">Civ/Civ5Leader_Archaon.xml</File>
     <File md5="F725CDFF9D2874A2C00E85D482D4ECCA" import="0">Civ/Civ_ChaosWarriors.xml</File>
-    <File md5="325C75EDC179E65B359AA9CEA8929CA4" import="0">Civ/Trait.xml</File>
-    <File md5="208C5A1807942AE47C488FD5B693D43B" import="0">DifficultyAdjust/AI_Booster.xml</File>
+    <File md5="DD2DC8964D68E6B8443778FADBD2C856" import="0">Civ/Trait.xml</File>
+    <File md5="00A65A33EB6A81A7393FBCFEDBA3FD8B" import="0">DifficultyAdjust/AI_Booster.xml</File>
     <File md5="0A2FB6763655A049809C877A1A853004" import="0">DifficultyAdjust/DifficultyAdjustment.xml</File>
     <File md5="B98F8D4435F3E3BF8E7A4F1691A9BC78" import="0">Lua/ActivateCustomDLLPlotEvents.xml</File>
     <File md5="1336B7189BBF77CAD13F693B9EB92A5A" import="0">Lua/AI_Boost.lua</File>
@@ -427,7 +427,7 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
     <File md5="0C2B2CE592F43C12FC8259DC57545823" import="0">Mechanics/TPB - Data.xml</File>
     <File md5="F3610A94189D5DD93EB2B33D7D12C9FF" import="0">Mechanics/WAR - CapCity.xml</File>
     <File md5="4778BF649A9A645B44D0C8C3254DE2C7" import="0">Mechanics/WorkableMountains.xml</File>
-    <File md5="5DEB21332B655254A6F1B6F9A0FC0FCF" import="0">PolicyMods/PolicyTweaks.xml</File>
+    <File md5="EEEE6A888BC9C3D33C22F2105994F9C3" import="0">PolicyMods/PolicyTweaks.xml</File>
     <File md5="316F198449746463780EC31F9D2EF4B9" import="0">Religion/Beliefs.xml</File>
     <File md5="EAFBBC0CE742C7EEC84EA1F08F44DFE9" import="0">Religion/Text.xml</File>
     <File md5="76362D58EAEA105DB8CDA06C0B476FDE" import="1">SQL/FasterAircraftAnimations.sql</File>
@@ -455,7 +455,7 @@ Maceman, Battering Ram, Spearman, Cavalry, Horse Archer, Mounted Crossbowman, an
     <File md5="84B264C0B82482F42B30FDF2540FF4A6" import="0">Units/EngineerTeam.xml</File>
     <File md5="AEC487D35CA8DD123BD8E24AC3CA8F93" import="0">Units/GreatGeneralChange.xml</File>
     <File md5="2294C05E396D7AD14C1B122F13C0F945" import="0">Units/MultiroleFighter.xml</File>
-    <File md5="4220CA5DA11F15DAE8F13ADF938B9513" import="0">Units/NewPromotions.xml</File>
+    <File md5="C8B21D28FCAA0A66E898490E76E1774A" import="0">Units/NewPromotions.xml</File>
     <File md5="8C5B464A04F8F5694B048515583E5BAF" import="0">Units/Zealots.xml</File>
     <File md5="A616A9D465615B409D23F42A843A42EE" import="0">WonderMods/AiLab.xml</File>
     <File md5="9AC5FA9934C632EB09BF2A2779536970" import="0">WonderMods/CenterDiseaseControl.xml</File>

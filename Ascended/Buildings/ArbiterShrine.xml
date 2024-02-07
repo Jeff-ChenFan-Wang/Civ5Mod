@@ -195,13 +195,18 @@
 	<!-- Building_FreeUnits -->
 	<!-- Building_DomainFreeExperiences -->
 	<!-- Building_DomainFreeExperiencePerGreatWork -->
-	<!--<Building_DomainProductionModifiers>
+	<Building_DomainProductionModifiers>
 		<Row>
-			<BuildingType>BUILDING_ARBITER_SHRINE</BuildingType>
+			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
 			<DomainType>DOMAIN_LAND</DomainType>
-			<Modifier>15</Modifier>
+			<Modifier>12</Modifier>
 		</Row>
-	</Building_DomainProductionModifiers>-->
+		<Row>
+			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Modifier>12</Modifier>
+		</Row>
+	</Building_DomainProductionModifiers>
 	<!-- Building_FreeSpecialistCounts -->
 
 	-<Building_Flavors>
@@ -266,11 +271,6 @@
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>2</Yield>
 		</Row>
-		<Row>
-			<BuildingType>BUILDING_ARBITER_SHRINE</BuildingType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
-		</Row>
 	</Building_YieldChanges>
 	<!-- Building_YieldChangesPerReligion -->
 	<!-- Building_TechEnhancedYieldChanges -->
@@ -284,17 +284,17 @@
 		</Row>
 		-<Row Tag="TXT_KEY_BUILDING_ARBITER_SHRINE_PEDIA">
 			-<Text>
-				Forum where all gather to converse, worship great people, and the old gods.
+				Forum where citizens gather to praise the king and rally to his cause.
 			</Text>
 		</Row>
 		-<Row Tag="TXT_KEY_BUILDING_ARBITER_SHRINE_STRATEGY">
 			<Text>
-				The additional [ICON_FAITH] Faith lets your city become religious faster, or allows you to focus on other buildings. The reduced culture costs of acquiring tiles also allows it to expand faster natrually. 
+				The reduced culture costs of acquiring tiles also allows the city to expand faster natrually, while the increased military production allows for faster increase in defense. 
 			</Text>
 		</Row>
 		-<Row Tag="TXT_KEY_BUILDING_ARBITER_SHRINE_HELP">
 			<Text>
-				[ICON_CULTURE] Culture and [ICON_GOLD] Gold costs of acquiring new tiles reduced by 15% in this city.
+				[ICON_CULTURE] Culture and [ICON_GOLD] Gold costs of acquiring new tiles reduced by 15% in this city. Increases all non-air unit [ICON_PRODUCTION] production by +12%.
 			</Text>
 		</Row>
 	</Language_en_US>

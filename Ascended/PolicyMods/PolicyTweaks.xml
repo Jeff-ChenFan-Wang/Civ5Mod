@@ -525,7 +525,7 @@
 		<Update>
 			<Where Tag="TXT_KEY_POLICY_SCHOLASTICISM_HELP"/>
 			<Set>
-				<Text>[COLOR_POSITIVE_TEXT]Scholasticism[ENDCOLOR][NEWLINE][ICON_BULLET]All City-States which are [COLOR_POSITIVE_TEXT]Allies[ENDCOLOR] provide a [ICON_RESEARCH] Science bonus equal to 25% of what they produce for themselves.[NEWLINE][ICON_BULLET]+10% [ICON_SCIENCE] Science from Caravansaries.</Text>
+				<Text>[COLOR_POSITIVE_TEXT]Scholasticism[ENDCOLOR][NEWLINE][ICON_BULLET]All City-States which are [COLOR_POSITIVE_TEXT]Allies[ENDCOLOR] provide a [ICON_RESEARCH] Science bonus equal to 25% of what they produce for themselves.[NEWLINE][ICON_BULLET]+10% [ICON_RESEARCH] Science from Caravansaries.</Text>
 			</Set>
 		</Update>
 		

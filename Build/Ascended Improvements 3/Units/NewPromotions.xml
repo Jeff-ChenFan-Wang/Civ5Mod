@@ -45,9 +45,9 @@
 			<Help>TXT_KEY_PROMOTION_VULT_IMP_HELP</Help>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<CannotBeChosen>true</CannotBeChosen>
-			<EnemyHealChange>10</EnemyHealChange>
-			<NeutralHealChange>10</NeutralHealChange>
-			<FriendlyHealChange>10</FriendlyHealChange>
+			<EnemyHealChange>15</EnemyHealChange>
+			<NeutralHealChange>15</NeutralHealChange>
+			<FriendlyHealChange>15</FriendlyHealChange>
 			<AttackMod>10</AttackMod>
 			<PortraitIndex>59</PortraitIndex>
 			<IconAtlas>ABILITY_ATLAS</IconAtlas>
@@ -132,7 +132,7 @@
 			<Text>Vult Imperii</Text>
 		</Row>
 		<Row Tag="TXT_KEY_PROMOTION_VULT_IMP_HELP">
-			<Text>Unit gains +10% combat bonus when attacking and +10 HP to healing rate.</Text>
+			<Text>Unit gains +10% combat bonus when attacking and +15 HP to healing rate.</Text>
 		</Row>
 
 		<Row Tag="TXT_KEY_PROMOTION_STEALTH_FIGHTER">

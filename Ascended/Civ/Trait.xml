@@ -155,7 +155,7 @@
 	<!-- Trait_NoTrain -->
 	-<Language_en_US>
 		-<Row Tag="TXT_KEY_TRAIT_GIFTS">
-			<Text>All melee land units gain a +10% combat bonus when attacking and +10 HP to healing rate.</Text>
+			<Text>All melee land units gain a +10% combat bonus when attacking and +15 HP to healing rate.</Text>
 		</Row>
 		-<Row Tag="TXT_KEY_TRAIT_GIFTS_SHORT">
 			<Text>Vult Imperii</Text>
